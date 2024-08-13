@@ -1,0 +1,155 @@
+{
+    "title": "C2 SCORM Reporting",
+    "oid": "60784498f05fe5002d8bfe9a",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "E2AE1-6296-4B",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": 128,
+                                        "defaultWidth": 128,
+                                        "widgetid": "607844a4f05fe5002d8bfe9d"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "container": {}
+    },
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Boost Model",
+        "id": "live:Boost Model",
+        "live": true,
+        "title": "Boost Model"
+    },
+    "filters": [],
+    "editing": true,
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "lastPublish": "2021-04-15T13:51:23.291Z",
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "60784498f05fe5002d8bfe9a"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-04-15",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "widgets": [
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "subtype": "richtexteditor",
+            "oid": "607844a4f05fe5002d8bfe9d",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model",
+                "id": "live:Boost Model",
+                "live": true,
+                "title": "Boost Model"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": []
+            },
+            "type": "richtexteditor",
+            "style": {
+                "content": {
+                    "html": "<font size=\"5\">Hello, World!</font>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "FE61F-AD73-0B",
+            "widgetTimingLoged": false,
+            "drawing": true,
+            "realTimeRefreshing": false,
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "60784498f05fe5002d8bfe9a",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

@@ -1,0 +1,393 @@
+{
+    "title": "Snowflake Model - Exams",
+    "oid": "60bf9425a9880d002d65f3b5",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "AF781-1B93-AC",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 384,
+                                        "defaultWidth": 512,
+                                        "widgetid": "60bf946da9880d002d65f3b7"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "container": {}
+    },
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Snowflake Model",
+        "id": "live:Snowflake Model",
+        "live": true,
+        "title": "Snowflake Model"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "EXAM_RESULTS",
+                "column": "CONTENT_PACKAGE_ID",
+                "dim": "[EXAM_RESULTS.CONTENT_PACKAGE_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "filter": {
+                    "equals": "3510"
+                },
+                "title": "CONTENT_PACKAGE_ID",
+                "datasource": {
+                    "fullname": "live:Snowflake Model",
+                    "id": "live:Snowflake Model",
+                    "live": true,
+                    "title": "Snowflake Model"
+                },
+                "collapsed": false
+            },
+            "instanceid": "76500-A5AB-C6",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "EXAM_RESULTS",
+                "column": "STATE",
+                "dim": "[EXAM_RESULTS.STATE]",
+                "datatype": "text",
+                "merged": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "exclude": {
+                        "members": [
+                            "started",
+                            "paused"
+                        ]
+                    }
+                },
+                "collapsed": true,
+                "title": "STATE",
+                "datasource": {
+                    "fullname": "live:Snowflake Model",
+                    "id": "live:Snowflake Model",
+                    "live": true,
+                    "title": "Snowflake Model"
+                }
+            },
+            "instanceid": "0D21A-3313-F0",
+            "isCascading": false
+        }
+    ],
+    "editing": true,
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "filterToDatasourceMapping": {},
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "60bf9425a9880d002d65f3b5"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-06-17",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "widgets": [
+        {
+            "title": "",
+            "subtype": "column/classic",
+            "oid": "60bf946da9880d002d65f3b7",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Snowflake Model",
+                "id": "live:Snowflake Model",
+                "live": true,
+                "title": "Snowflake Model"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "EXAMS",
+                                    "column": "NAME",
+                                    "dim": "[EXAMS.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "field": {
+                                    "id": "[EXAMS.NAME]",
+                                    "index": 0
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "EXAM_RESULTS",
+                                    "column": "PERCENTAGE_CORRECT",
+                                    "dim": "[EXAM_RESULTS.PERCENTAGE_CORRECT]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "Average PERCENTAGE_CORRECT"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                },
+                                "field": {
+                                    "id": "[EXAM_RESULTS.PERCENTAGE_CORRECT]_avg",
+                                    "index": 2
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "ENROLLMENTS",
+                                    "column": "CREATED_AT",
+                                    "dim": "[ENROLLMENTS.CREATED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "years",
+                                    "title": "Years in CREATED_AT"
+                                },
+                                "field": {
+                                    "id": "[ENROLLMENTS.CREATED_AT (Calendar)]_years",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    },
+                                    "members": {
+                                        "2019": {
+                                            "color": "#117899",
+                                            "title": "2019",
+                                            "sortData": "2019-01-01T00:00:00",
+                                            "inResultset": true
+                                        },
+                                        "2020": {
+                                            "color": "#60B8CC",
+                                            "title": "2020",
+                                            "sortData": "2020-01-01T00:00:00",
+                                            "inResultset": true
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "type": "chart/column",
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true
+                },
+                "yAxis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                }
+            },
+            "instanceid": "B4E00-8AAD-AE",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 1,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 2
+                }
+            },
+            "dashboardid": "60bf9425a9880d002d65f3b5",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

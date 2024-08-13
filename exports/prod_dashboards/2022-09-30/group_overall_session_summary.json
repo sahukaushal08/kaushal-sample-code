@@ -1,0 +1,920 @@
+{
+    "title": "Group Overall Session Summary",
+    "oid": "61529c70de16de002dced1a5",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "3457D-649B-EA",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "756px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "61529cf4620043002de76042",
+                                        "autoHeight": "756px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1426,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 1143,
+                                        "defaultWidth": 512,
+                                        "widgetid": "61529f44de16de002dced1ac",
+                                        "autoHeight": "738px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1426,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1426,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1632900469828": {
+                "undefined": {
+                    "parentNode": [
+                        92.72756743887558,
+                        27,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Boost Model v1.1",
+        "id": "live:Boost Model v1.1",
+        "live": true,
+        "title": "Boost Model v1.1"
+    },
+    "filters": [],
+    "editing": true,
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "widgets": [
+        {
+            "title": "Group Overall Session Summary",
+            "subtype": "pivot2",
+            "oid": "61529cf4620043002de76042",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "INSTITUTION_CONTENT_PACKAGES",
+                                    "column": "ACTIVE_STUDENTS_COUNT",
+                                    "dim": "[INSTITUTION_CONTENT_PACKAGES.ACTIVE_STUDENTS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "Active Student"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[INSTITUTION_CONTENT_PACKAGES.ACTIVE_STUDENTS_COUNT]_countduplicates",
+                                    "index": 0
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "INSTITUTION_ACTWORKKEYS_SUMMARIES",
+                                    "column": "AVERAGE_EXAM_SCORE",
+                                    "dim": "[INSTITUTION_ACTWORKKEYS_SUMMARIES.AVERAGE_EXAM_SCORE]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "Average Exam"
+                                },
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[INSTITUTION_ACTWORKKEYS_SUMMARIES.AVERAGE_EXAM_SCORE]_avg",
+                                    "index": 2
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "EXAM_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[EXAM_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "panel": "columns",
+                                "field": {
+                                    "id": "[EXAM_SUMMARIES.NAME]",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "width": 142
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "EXAM_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[EXAM_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "Placement Quiz",
+                                            "Level 1 Quiz",
+                                            "Level 1 and 2 Quiz",
+                                            "Level 2 Quiz",
+                                            "Level 3 Quiz",
+                                            "Level 4 Quiz",
+                                            "Level 5 Quiz",
+                                            "Level 6 Quiz",
+                                            "Level 7 Quiz"
+                                        ]
+                                    },
+                                    "title": "NAME",
+                                    "datasource": {
+                                        "fullname": "live:Boost Model v1.1",
+                                        "id": "live:Boost Model v1.1",
+                                        "live": true,
+                                        "title": "Boost Model v1.1"
+                                    },
+                                    "collapsed": true
+                                },
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": "pivot2",
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "active_student",
+                            "title": "Active Student",
+                            "singular": "Active Student",
+                            "plural": "Active Student"
+                        },
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "AD447-C7A7-4C",
+            "queryStartTime": "2021-09-29T02:37:00",
+            "drawing": true,
+            "widgetTimingLoged": false,
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "61529c70de16de002dced1a5",
+            "canEditFilters": true,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "subtype": "BloX",
+            "oid": "61529f44de16de002dced1ac",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CONTENT_PACKAGE_LIST",
+                                    "column": "TITLE",
+                                    "dim": "[CONTENT_PACKAGE_LIST.TITLE]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "TITLE"
+                                },
+                                "field": {
+                                    "id": "[CONTENT_PACKAGE_LIST.TITLE]",
+                                    "index": 0
+                                },
+                                "panel": "rows",
+                                "format": {
+                                    "width": 350
+                                },
+                                "PanelName": "TITLE"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "INSTITUTION_CONTENT_PACKAGES",
+                                    "column": "ACTIVE_STUDENTS_COUNT",
+                                    "dim": "[INSTITUTION_CONTENT_PACKAGES.ACTIVE_STUDENTS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "# of total students"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[INSTITUTION_CONTENT_PACKAGES.ACTIVE_STUDENTS_COUNT]",
+                                    "index": 1
+                                },
+                                "PanelName": "# of total students"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_SUMMARIES",
+                                    "column": "ENROLLED_STUDENTS_COUNT",
+                                    "dim": "[GROUP_SUMMARIES.ENROLLED_STUDENTS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "# of active students"
+                                },
+                                "field": {
+                                    "id": "[GROUP_SUMMARIES.ENROLLED_STUDENTS_COUNT]_sum",
+                                    "index": 2
+                                },
+                                "panel": "rows",
+                                "disabled": false,
+                                "PanelName": "# of active students"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "EXAM_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[EXAM_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "panel": "columns",
+                                "field": {
+                                    "id": "[EXAM_SUMMARIES.NAME]",
+                                    "index": 3
+                                },
+                                "disabled": false,
+                                "PanelName": "NAME"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "INSTITUTION_ACTWORKKEYS_SUMMARIES",
+                                    "column": "AVERAGE_EXAM_SCORE",
+                                    "dim": "[INSTITUTION_ACTWORKKEYS_SUMMARIES.AVERAGE_EXAM_SCORE]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "Average AVERAGE_EXAM_SCORE"
+                                },
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[INSTITUTION_ACTWORKKEYS_SUMMARIES.AVERAGE_EXAM_SCORE]_avg",
+                                    "index": 4
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "PanelName": "Average AVERAGE_EXAM_SCORE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "EXAM_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[EXAM_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "Placement Quiz",
+                                            "Level 1 Quiz",
+                                            "Level 1 and 2 Quiz",
+                                            "Level 2 Quiz",
+                                            "Level 3 Quiz",
+                                            "Level 4 Quiz",
+                                            "Level 5 Quiz",
+                                            "Level 6 Quiz",
+                                            "Level 7 Quiz"
+                                        ]
+                                    },
+                                    "title": "NAME",
+                                    "datasource": {
+                                        "fullname": "live:Boost Model v1.1",
+                                        "id": "live:Boost Model v1.1",
+                                        "live": true,
+                                        "title": "Boost Model v1.1"
+                                    },
+                                    "collapsed": true
+                                },
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": false,
+                    "body": [
+                        {
+                            "type": "Container"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "separator": true,
+                            "spacing": "large",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "28px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": "Enrolled Courses:"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "70px",
+                                                "padding-left": "3px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": "<strong>{panel:TITLE}</strong>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "28px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": "# of total students: "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "70px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": "<strong>{panel:# of total students}</strong>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "28px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": "# of active students:>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "78px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": "<strong>{panel:# of total students}</strong>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "28px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": ": <strong>{panel:NAME}%</strong>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "color": "blue",
+                                            "style": {
+                                                "padding-top": "78px",
+                                                "fontSize": "medium"
+                                            },
+                                            "text": ": <strong>{panel:Average AVERAGE_EXAM_SCORE}%</strong>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "selectAction": {
+                                        "type": "",
+                                        "url": ""
+                                    },
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "",
+                                            "color": "grey",
+                                            "weight": "bold",
+                                            "style": {
+                                                "padding-left": "20px"
+                                            }
+                                        },
+                                        {
+                                            "type": "ActionSet",
+                                            "style": {
+                                                "padding-left": "25px",
+                                                "padding-top": "1px"
+                                            },
+                                            "actions": [
+                                                {
+                                                    "type": "JTD",
+                                                    "title": "Analyze",
+                                                    "data": {
+                                                        "dashboardId": "60a6b962f05fe5002d8c8fff",
+                                                        "panelsToInclude": [
+                                                            {
+                                                                "panel": "",
+                                                                "value": "{panel:TITLE}"
+                                                            }
+                                                        ],
+                                                        "args": {
+                                                            "displayDashboardsPane": false,
+                                                            "displayFilterPane": true,
+                                                            "drilledDashboardDisplayType": 3,
+                                                            "mergeTargetDashboardFilters": true,
+                                                            "includeFilterDims": [
+                                                                "[UNIQUE_CONTENT_PACKAGES_USERS.TITLE]",
+                                                                "[CACHED_USERS.NAME]",
+                                                                "[CACHED_USERS.USER_ID]",
+                                                                "[STUDENT_SUMMARIES.USER_ID]",
+                                                                "[CACHED_USERS.TENANT_ID]"
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": []
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#ffffff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#3a4356"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "blue": {
+                                    "normal": "#3E93A5"
+                                },
+                                "grey": {
+                                    "normal": "#9FC9D2"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "white",
+                        "backgroundColor": "",
+                        "maxActions": 5,
+                        "spacing": "small",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "left",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 2
+                    },
+                    "separator": {
+                        "lineThickness": 3,
+                        "lineColor": "#6BAEBA"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "height": 1143,
+                    "imageBaseUrl": ""
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "title",
+                            "title": "TITLE",
+                            "singular": "TITLE",
+                            "plural": "TITLE"
+                        },
+                        {
+                            "id": "#_of_total_students",
+                            "title": "# of total students",
+                            "singular": "# of total students",
+                            "plural": "# of total students"
+                        },
+                        {
+                            "id": "#_of_active_students",
+                            "title": "# of active students",
+                            "singular": "# of active students",
+                            "plural": "# of active students"
+                        },
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "24414-570E-A8",
+            "queryStartTime": "2021-09-29T03:28:21",
+            "drawing": true,
+            "disableSelctor": false,
+            "widgetTimingLoged": false,
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "hasExcessiveSeries": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [
+                    "[UNIQUE_CONTENT_PACKAGES_USERS.TITLE]",
+                    "[CACHED_USERS.NAME]",
+                    "[CACHED_USERS.USER_ID]",
+                    "[STUDENT_SUMMARIES.USER_ID]",
+                    "[CACHED_USERS.TENANT_ID]"
+                ],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "custom": true
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "60a6b962f05fe5002d8c8fff",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "61529c70de16de002dced1a5",
+            "viewState": {
+                "activeTab": "design"
+            },
+            "canEditFilters": true,
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "element": {},
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ]
+}

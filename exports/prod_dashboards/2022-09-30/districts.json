@@ -1,0 +1,743 @@
+{
+    "title": "Districts",
+    "oid": "606f7632a9880d002d650d41",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "7136A-1ADE-5B",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": "52px",
+                                        "defaultWidth": 128,
+                                        "widgetid": "606f76cda9880d002d650d47"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1064.02,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 916,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "60ad7902f05fe5002d8c9ef2",
+                                        "height": "693px",
+                                        "autoHeight": "693px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1064.02,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1064.02,
+                "index": 0
+            }
+        ],
+        "container": {}
+    },
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Boost Model v1.1",
+        "id": "live:Boost Model v1.1",
+        "live": true,
+        "title": "Boost Model v1.1"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "DISTRICT_SUMMARIES",
+                "column": "NAME",
+                "dim": "[DISTRICT_SUMMARIES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "District Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "7C169-3FCB-BD",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "TITLE",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Title",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9CEA9-DB66-82",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "NAME",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Institution Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9E71A-220C-BB",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "CONTENT_PACKAGE_ID",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Course ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "-1"
+                    ]
+                }
+            },
+            "instanceid": "0973D-179B-EF",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER_GROUP",
+                "column": "TENANT_ID",
+                "dim": "[DIM_USER_GROUP.TENANT_ID]",
+                "datatype": "numeric",
+                "title": "Tenant ID",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9B130-3A5E-A8",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "editing": true,
+    "parentFolder": "606f7588a9880d002d650d3e",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "filterToDatasourceMapping": {},
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "DISTRICT_SUMMARIES",
+                "column": "NAME",
+                "dim": "[DISTRICT_SUMMARIES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "District Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "7C169-3FCB-BD",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "TITLE",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Title",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9CEA9-DB66-82",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "NAME",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Institution Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9E71A-220C-BB",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "CONTENT_PACKAGE_ID",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Course ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "-1"
+                    ]
+                }
+            },
+            "instanceid": "0973D-179B-EF",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER_GROUP",
+                "column": "TENANT_ID",
+                "dim": "[DIM_USER_GROUP.TENANT_ID]",
+                "datatype": "numeric",
+                "title": "Tenant ID",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9B130-3A5E-A8",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "script": "var filterschanged =  function(d){    //Resets filters to default when dashboard is first loaded (or refreshed)   \n\tresetFilters(prism.activeDashboard); //Resets filters\n};\n\nwindow.resetFilters = function(d) { //Function to reset the dashboard filters to the default filters.  Takes parameter 'd' which is a reference to the dashboard\n\tdashboard.off('filterschanged', filterschanged)\n\t\n\td.filters.clear(); //Clears current filters\n\t\n\td.defaultFilters.forEach(function(filter, index){ //Loop through each default filter and apply to current dashboard filters\n\t\tif(index != d.defaultFilters.length - 1){ //Does not refresh filter if it is not the last filter\n\t\t\td.filters.update(filter,{\n\t\t\t\tsave:true, \n\t\t\t\trefresh:false, \n\t\t\t\tunionIfSameDimensionAndSameType:true\n\t\t\t});\n\t\t} \n\t\telse{//Only refresh dashboard on the last filter\n\t\t\td.filters.update(filter,{\n\t\t\t\tsave:true, \n\t\t\t\trefresh:true, \n\t\t\t\tunionIfSameDimensionAndSameType:true\n\t\t\t});\n\t\t} \n\t});\n}\n\n\ndashboard.on('filterschanged', filterschanged);",
+    "lastPublish": "2022-04-06T14:12:24.716Z",
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "606f7632a9880d002d650d41"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-04-08",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "widgets": [
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "subtype": "richtexteditor",
+            "oid": "606f76cda9880d002d650d47",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": []
+            },
+            "type": "richtexteditor",
+            "style": {
+                "content": {
+                    "html": "<div style=\"text-align: left;\"><b style=\"\"><font size=\"2\"><br></font></b></div><div style=\"font-size: x-large; text-align: left;\"><font color=\"#000000\"><b>District Reports</b></font></div>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "EAA25-4214-C4",
+            "widgetTimingLoged": true,
+            "realTimeRefreshing": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "606f7632a9880d002d650d41",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "subtype": "pivot2",
+            "oid": "60ad7902f05fe5002d8c9ef2",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [
+                        "[INSTITUTION_SUMMARIES.CONTENT_PACKAGE_ID]",
+                        "[STUDENT_SUMMARIES.CONTENT_PACKAGE_ID]",
+                        "[GROUP_SUMMARIES.CONTENT_PACKAGE_ID]"
+                    ],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DISTRICT_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[DISTRICT_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "District Name"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DISTRICT_SUMMARIES.NAME]",
+                                    "index": 0
+                                },
+                                "PanelName": "District Name"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DISTRICT_SUMMARIES",
+                                    "column": "DISTRICT_ID",
+                                    "dim": "[DISTRICT_SUMMARIES.DISTRICT_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "title": "ID"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DISTRICT_SUMMARIES.DISTRICT_ID]",
+                                    "index": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DISTRICT_SUMMARIES",
+                                    "column": "INSTITUTIONS_COUNT",
+                                    "dim": "[DISTRICT_SUMMARIES.INSTITUTIONS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "# of Institutions",
+                                    "agg": "avg"
+                                },
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[DISTRICT_SUMMARIES.INSTITUTIONS_COUNT]",
+                                    "index": 2
+                                },
+                                "PanelName": "INSTITUTIONS_COUNT",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DISTRICT_SUMMARIES",
+                                    "column": "STUDENTS_COUNT",
+                                    "dim": "[DISTRICT_SUMMARIES.STUDENTS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "# of Students",
+                                    "agg": "avg"
+                                },
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[DISTRICT_SUMMARIES.STUDENTS_COUNT]",
+                                    "index": 3
+                                },
+                                "PanelName": "STUDENTS_COUNT",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DISTRICT_SUMMARIES",
+                                    "column": "INSTRUCTORS_COUNT",
+                                    "dim": "[DISTRICT_SUMMARIES.INSTRUCTORS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "# of Instructors",
+                                    "agg": "avg"
+                                },
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[DISTRICT_SUMMARIES.INSTRUCTORS_COUNT]",
+                                    "index": 4
+                                },
+                                "PanelName": "INSTRUCTORS_COUNT",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "type": "pivot2",
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "district_name",
+                            "title": "District Name",
+                            "singular": "District Name",
+                            "plural": "District Name"
+                        },
+                        {
+                            "id": "id",
+                            "title": "ID",
+                            "singular": "ID",
+                            "plural": "ID"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "75AFF-53F4-19",
+            "queryStartTime": "2021-06-16T09:22:19",
+            "realTimeRefreshing": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 1,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [
+                    "[DISTRICT_SUMMARIES.NAME]",
+                    "[DISTRICT_SUMMARIES.DISTRICT_ID]",
+                    "[INSTITUTION_CONTENT_PACKAGES.NAME]",
+                    "[INSTITUTION_CONTENT_PACKAGES.TITLE]",
+                    "[INSTITUTION_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]"
+                ],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "custom": true
+            },
+            "widgetTimingLoged": false,
+            "continuousDates": false,
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "element": {},
+            "forcedRedraw": false,
+            "nullAsZero": false,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "canEditFilters": true,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "drillTarget": {
+                    "oid": "606f77adf05fe5002d8bec4d",
+                    "caption": "_drill_Districts Detail",
+                    "folder": "606f7588a9880d002d650d3e"
+                }
+            },
+            "dashboardid": "606f7632a9880d002d650d41",
+            "drawing": true,
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n\nprism.jumpToDashboard(widget,{\n                                           \"displayDashboardsPane\": false,\n                                            \"displayFilterPane\": true,\n                                            \"mergeTargetDashboardFilters\": true,\n                                            \"drilledDashboardDisplayType\": 3,\n                                            \"includeFilterDims\": [\n                                                \"[DISTRICT_SUMMARIES.NAME]\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"[DISTRICT_SUMMARIES.DISTRICT_ID]\",\n                                                \"[INSTITUTION_CONTENT_PACKAGES.NAME]\",\n                                                \"[INSTITUTION_CONTENT_PACKAGES.TITLE]\",\n                                                \"[INSTITUTION_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]\"\n                                            ],\n                                            \"excludeFilterDims\": []\n                                        });",
+            "script_old": "",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ]
+}

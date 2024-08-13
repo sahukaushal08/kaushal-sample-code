@@ -1,0 +1,2954 @@
+{
+    "title": "_drill_BACKUP_User Details",
+    "desc": "",
+    "source": "631779fa560b4f003661da85",
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Vivid",
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ]
+        }
+    },
+    "layout": {
+        "instanceid": "631FA-D238-2B",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 770,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "80px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c8"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1172,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": "92px",
+                                        "defaultWidth": 128,
+                                        "widgetid": "6616a26e7529970040f131c6"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1172,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": "192px",
+                                        "defaultWidth": 128,
+                                        "widgetid": "6616a26e7529970040f131c7"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 586,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "192px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c9"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 586,
+                                "index": 1
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 913,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "188px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c2"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1172,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "144px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c5"
+                                    }
+                                ],
+                                "width": 25,
+                                "stretchable": false,
+                                "pxlWidth": 293,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "144px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c3"
+                                    }
+                                ],
+                                "width": 25,
+                                "stretchable": false,
+                                "pxlWidth": 293,
+                                "index": 1
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "144px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131ca"
+                                    }
+                                ],
+                                "width": 25,
+                                "stretchable": false,
+                                "pxlWidth": 293,
+                                "index": 2
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "144px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c4"
+                                    }
+                                ],
+                                "width": 25,
+                                "stretchable": false,
+                                "pxlWidth": 293,
+                                "index": 3
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "1920px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6616a26e7529970040f131c1",
+                                        "autoHeight": "1939px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1172,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1172,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1709062645802": {
+                "undefined": {
+                    "parentNode": [
+                        385.40195594313093,
+                        25,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "dataExploration": false,
+    "previewLayout": [],
+    "oid": "6616a26e7529970040f131c0",
+    "allowChangeSubscription": false,
+    "datasource": {
+        "fullname": "live:dm_enrollment_snapshot",
+        "id": "live:dm_enrollment_snapshot",
+        "live": true,
+        "title": "dm_enrollment_snapshot"
+    },
+    "defaultFilterRelations": [],
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "DIM_USER",
+                "column": "USER_NAME",
+                "dim": "[DIM_USER.USER_NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "User Name",
+                "isDashboardFilter": true,
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "99FA6-504E-A8",
+            "isCascading": false,
+            "disabled": false,
+            "locked": true
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER",
+                "column": "USER_EMAIL",
+                "dim": "[DIM_USER.USER_EMAIL]",
+                "datatype": "text",
+                "merged": true,
+                "title": "User Email",
+                "isDashboardFilter": true,
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "F12D9-18B9-A9",
+            "isCascading": false,
+            "disabled": false,
+            "locked": true
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER",
+                "column": "USER_BENCHPREP_ID",
+                "dim": "[DIM_USER.USER_BENCHPREP_ID]",
+                "datatype": "numeric",
+                "title": "User ID",
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "BC7E7-2A6F-65",
+            "isCascading": false,
+            "disabled": false,
+            "locked": true
+        },
+        {
+            "jaql": {
+                "table": "DIM_COURSE",
+                "column": "COURSE_TYPE_HUMAN",
+                "dim": "[DIM_COURSE.COURSE_TYPE_HUMAN]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Type",
+                "isDashboardFilter": true,
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "F9F2A-A2F1-EC",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_COURSE",
+                "column": "COURSE_TITLE",
+                "dim": "[DIM_COURSE.COURSE_TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Name",
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "50CA6-1EF3-4E",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "editing": false,
+    "filterToDatasourceMapping": {},
+    "filters": [
+        {
+            "jaql": {
+                "table": "DIM_COURSE",
+                "column": "COURSE_TITLE",
+                "dim": "[DIM_COURSE.COURSE_TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "COURSE_TITLE",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "AP Psychology 2020 Prep by McGraw-Hill Education"
+                    ]
+                }
+            },
+            "instanceid": "21040-63B9-C3",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "isPublic": null,
+    "parentFolder": "63f4574202e8b50035da2e06",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "subscription": {
+        "subscribe": false,
+        "executionPerDay": 1,
+        "schedule": "0 0 0 * * *",
+        "isDataChange": false,
+        "type": "daily",
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "context": {
+            "dashboardid": "6616a26e7529970040f131c0"
+        },
+        "startAt": "2022-04-26",
+        "tzName": "America/Chicago",
+        "timezone": 300,
+        "active": false
+    },
+    "filtersToRestore": null,
+    "openFromJTD": null,
+    "filterRelations": [],
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "script": "",
+    "lastPublish": "2024-04-10T14:39:03.581Z",
+    "widgets": [
+        {
+            "title": "User Overview",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "6616a26e7529970040f131c2",
+            "desc": null,
+            "source": "63640db5af795a003730401c",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_USER",
+                                    "column": "USER_NAME",
+                                    "dim": "[DIM_USER.USER_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "USER_NAME"
+                                },
+                                "instanceid": "DCA8F-F175-56",
+                                "PanelName": "USER_NAME"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_USER",
+                                    "column": "USER_BENCHPREP_ID",
+                                    "dim": "[DIM_USER.USER_BENCHPREP_ID]",
+                                    "datatype": "numeric",
+                                    "title": "USER_BENCHPREP_ID"
+                                },
+                                "instanceid": "9EE28-906D-FD",
+                                "PanelName": "USER_BENCHPREP_ID"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_USER",
+                                    "column": "USER_LAST_ACTIVITY_AT",
+                                    "dim": "[DIM_USER.USER_LAST_ACTIVITY_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Days in USER_LAST_ACTIVITY_AT"
+                                },
+                                "instanceid": "DDE10-D03E-AE",
+                                "PanelName": "Days in USER_LAST_ACTIVITY_AT",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_COURSE",
+                                    "column": "COURSE_TITLE",
+                                    "dim": "[DIM_COURSE.COURSE_TITLE]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "COURSE_TITLE"
+                                },
+                                "instanceid": "37A1C-ECE5-C7",
+                                "PanelName": "COURSE_TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "MIN([AD000-D40])",
+                                    "context": {
+                                        "[AD000-D40]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "PROGRESS",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]",
+                                            "datatype": "numeric",
+                                            "title": "PROGRESS"
+                                        }
+                                    },
+                                    "title": "MIN([PROGRESS])"
+                                },
+                                "instanceid": "7EDA1-EF30-E7",
+                                "PanelName": "MIN([PROGRESS])",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "backgroundColor": "",
+                            "backgroundImage": "",
+                            "fontColor": "white"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "separator": false,
+                                    "style": {
+                                        "padding-bottom": "16px"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:USER_NAME}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "24px",
+                                                        "padding-left": "40px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "separator": false,
+                                    "style": {
+                                        "padding-bottom": "8px"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "ID",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "13px",
+                                                        "padding-bottom": "8px",
+                                                        "padding-left": "40px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:USER_BENCHPREP_ID}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "16px",
+                                                        "padding-left": "40px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Last Activity at",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "13px",
+                                                        "padding-bottom": "8px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:Days in USER_LAST_ACTIVITY_AT}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "16px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Course",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "13px",
+                                                        "padding-bottom": "8px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:COURSE_TITLE}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "16px",
+                                                        "word-wrap": "break-word"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Active Progress",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "13px",
+                                                        "padding-bottom": "8px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:Min PROGRESS}%",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "16px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 16,
+                        "small": 12,
+                        "medium": 22,
+                        "large": 32,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#fff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#353535"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#353535"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 15
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "grey",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "grey",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 16
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 101.5
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "user_name",
+                            "title": "USER_NAME",
+                            "singular": "USER_NAME",
+                            "plural": "USER_NAME"
+                        },
+                        {
+                            "id": "user_benchprep_id",
+                            "title": "USER_BENCHPREP_ID",
+                            "singular": "USER_BENCHPREP_ID",
+                            "plural": "USER_BENCHPREP_ID"
+                        },
+                        {
+                            "id": "days_in_user_last_activity_at",
+                            "title": "Days in USER_LAST_ACTIVITY_AT",
+                            "singular": "Days in USER_LAST_ACTIVITY_AT",
+                            "plural": "Days in USER_LAST_ACTIVITY_AT"
+                        },
+                        {
+                            "id": "course_title",
+                            "title": "COURSE_TITLE",
+                            "singular": "COURSE_TITLE",
+                            "plural": "COURSE_TITLE"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "43149-0C78-65",
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total",
+                    "type": "BloX",
+                    "isTypeValid": false
+                }
+            },
+            "displayMenu": false,
+            "prevSortObjects": [],
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Users Detail",
+            "type": "pivot2",
+            "subtype": "pivot2",
+            "oid": "6616a26e7529970040f131c1",
+            "desc": "The columns in this pivot table are sorted from left to right, with each column sorting within the criteria set by the columns to its left.",
+            "source": "63640db5af795a003730401d",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_USER",
+                                    "column": "USER_NAME",
+                                    "dim": "[DIM_USER.USER_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "User Name"
+                                },
+                                "instanceid": "4EA3C-1494-65",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_USER.USER_NAME]",
+                                    "index": 0
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_USER",
+                                    "column": "USER_EMAIL",
+                                    "dim": "[DIM_USER.USER_EMAIL]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "User Email",
+                                    "sort": "asc",
+                                    "sortDetails": {
+                                        "field": 0,
+                                        "dir": "asc",
+                                        "sortingLastDimension": false,
+                                        "initialized": true,
+                                        "isLastApplied": true
+                                    }
+                                },
+                                "instanceid": "8BE54-3EB9-BA",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_USER.USER_EMAIL]",
+                                    "index": 1
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_COURSE",
+                                    "column": "COURSE_TITLE",
+                                    "dim": "[DIM_COURSE.COURSE_TITLE]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Course Name"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_COURSE.COURSE_TITLE]",
+                                    "index": 2
+                                },
+                                "instanceid": "0B055-E108-60",
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_COURSE",
+                                    "column": "COURSE_TYPE_HUMAN",
+                                    "dim": "[DIM_COURSE.COURSE_TYPE_HUMAN]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Course Type"
+                                },
+                                "instanceid": "51D4F-DA2B-3D",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_COURSE.COURSE_TYPE_HUMAN]",
+                                    "index": 3
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_USER",
+                                    "column": "USER_LAST_ACTIVITY_AT",
+                                    "dim": "[DIM_USER.USER_LAST_ACTIVITY_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Last Activity At",
+                                    "sort": "desc",
+                                    "sortDetails": {
+                                        "field": 4,
+                                        "dir": "desc",
+                                        "sortingLastDimension": true,
+                                        "initialized": true,
+                                        "isLastApplied": true
+                                    }
+                                },
+                                "instanceid": "B357D-3F2F-F8",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_USER.USER_LAST_ACTIVITY_AT (Calendar)]_years",
+                                    "index": 4
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "seconds": "MM/dd/yyyy HH:mm:ss",
+                                        "dateAndTime": "MM/dd/yyyy HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ],
+                                "disabled": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([20349-1AF])/100",
+                                    "context": {
+                                        "[20349-1AF]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "PROGRESS",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]",
+                                            "datatype": "numeric",
+                                            "title": "PROGRESS"
+                                        }
+                                    },
+                                    "title": "Avg Course Progress",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "B79D2-E70E-13",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]_avg",
+                                    "index": 5
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([0596A-0AA])/100",
+                                    "context": {
+                                        "[0596A-0AA]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "ELO_RANK_PERCENTILE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.ELO_RANK_PERCENTILE]",
+                                            "datatype": "numeric",
+                                            "title": "ELO RANK PERCENTILE"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Avg Elo Rank Percentile"
+                                },
+                                "instanceid": "D0BE6-A49C-F1",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[FACT_ENROLLMENT_SUMMARY.ELO_RANK_PERCENTILE]_avg",
+                                    "index": 6
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                },
+                                "disabled": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "scroll": false,
+                "pageSize": 75,
+                "automaticHeight": false,
+                "colors": {
+                    "rows": false,
+                    "columns": false,
+                    "headers": true,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "user_name",
+                            "title": "USER_NAME",
+                            "singular": "USER_NAME",
+                            "plural": "USER_NAME"
+                        },
+                        {
+                            "id": "user_email",
+                            "title": "USER_EMAIL",
+                            "singular": "USER_EMAIL",
+                            "plural": "USER_EMAIL"
+                        },
+                        {
+                            "id": "course_name",
+                            "title": "Course Name",
+                            "singular": "Course Name",
+                            "plural": "Course Name"
+                        },
+                        {
+                            "id": "course_type",
+                            "title": "Course Type",
+                            "singular": "Course Type",
+                            "plural": "Course Type"
+                        },
+                        {
+                            "id": "last_activity_at",
+                            "title": "Last Activity At",
+                            "singular": "Last Activity At",
+                            "plural": "Last Activity At"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "4D919-9E79-95",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "imageColumns": [],
+                "selectorLocked": true,
+                "drillTarget": {
+                    "oid": "62349d383353520036138ff9",
+                    "caption": "_drill_IEDM_Clone_1 - Users - Course Detail",
+                    "folder": "622a20c1dd6f9c0037bc0225"
+                }
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": "[DIM_USER.USER_LAST_ACTIVITY_AT (Calendar)]",
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "member",
+                "custom": true
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total",
+                    "type": "pivot2",
+                    "isTypeValid": false
+                }
+            },
+            "displayMenu": false,
+            "script": "prism.jumpToDashboard(widget, {\n  drillToDashboardNavigateTypePivot: 2,\n  drilledDashboardDisplayType: 3,\n  drillToDashboardPivotLinkCellType: 'member',\n  excludeFilterDims: \"[DIM_USER.USER_LAST_ACTIVITY_AT (Calendar)]\"\n})\n\nwidget.on('domready', function(se, event){\n\tvar nonHeader =\t$('.table-grid__row:not(.table-grid__row-0)');\n\tvar nonClickable = nonHeader.find('.table-grid__cell:nth-child(n+2)'); // starting from the 2rd column\n\tvar clickable = nonHeader.find('.table-grid__cell:nth-child(-n+1)');\n  nonClickable.css({'cursor':'default'});\n  nonClickable.find('.table-grid__content').css({'color': 'inherit'});\n  clickable.css({'cursor':'pointer', 'color':'#33698b'});\n});\nwidget.on('ready', function(){\n  let desc = widget.desc;\n  let $wrapper = $(`widget[widgetid='${widget.oid}']`);\n  var $container = $wrapper.find('.widget-desc');\n  if ($container.length == 0){\n\t$(\"<div class='widget-desc' style='margin: 10px;'></div>\").insertAfter($wrapper.find('widget-header'));\n\t$container = $wrapper.find('.widget-desc');\n\t$container.html(`<div class='narration-wrapper resizable loaded' style='padding-bottom: 10px;'><div class='resize-holder ui-resizable text-holder narration-text'>${desc}</div><div class='ui-resizable-handle ui-resizable-s'></div></div>`);\n    $wrapper.height(parseInt($wrapper.height())+60);\n\t$wrapper.find('.dataTables_scroll,.sisense-pivot__multi-grid').css(\"height\",\"calc(100% - 40px)\");\n  }\n});",
+            "script_old": "",
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Average Exam Score",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "6616a26e7529970040f131c3",
+            "desc": null,
+            "source": "63640db5af795a003730401f",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[D7164-7BD]/100",
+                                    "context": {
+                                        "[D7164-7BD]": {
+                                            "table": "FACT_EXAM_RESULT_SCORE",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXAM_RESULT_SCORE.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "avg",
+                                            "title": "Average PERCENTAGE_CORRECT"
+                                        }
+                                    },
+                                    "title": "Average Exam Score"
+                                },
+                                "instanceid": "435A1-529A-4B",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#353535",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": false
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "40F71-C222-D9",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "custom": {
+                "barcolumnchart": {
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total",
+                    "type": "indicator",
+                    "isTypeValid": false
+                }
+            },
+            "displayMenu": false,
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Average PBQ Score",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "6616a26e7529970040f131c4",
+            "desc": null,
+            "source": "63640db5af795a0037304021",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "((SUM([C44FF-F9B])/[8E829-7E4])) / 100",
+                                    "context": {
+                                        "[C44FF-F9B]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_SIMULATION_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_SIMULATION_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_SIMULATION_SCORE"
+                                        },
+                                        "[8E829-7E4]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "SIMULATION_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.SIMULATION_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total SIMULATION_COUNT"
+                                        }
+                                    },
+                                    "title": "Average PBQ Score"
+                                },
+                                "instanceid": "012FF-FB04-E0",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#353535",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": false
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                }
+            },
+            "instanceid": "A0249-0EED-C4",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "indicator",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Average Practice Score",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "6616a26e7529970040f131c5",
+            "desc": null,
+            "source": "63640db5af795a003730401e",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([413BE-E28]/[6288E-BB0])",
+                                    "context": {
+                                        "[413BE-E28]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CORRECT_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CORRECT_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_PRACTICE_ANSWER_COUNT"
+                                        },
+                                        "[6288E-BB0]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "TOTAL_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.TOTAL_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_PRACTICE_ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "Average Practice Score"
+                                },
+                                "instanceid": "C42CF-744B-69",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#353535",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": false
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "6F994-D07D-41",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "custom": {
+                "barcolumnchart": {
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total",
+                    "type": "indicator",
+                    "isTypeValid": false
+                }
+            },
+            "displayMenu": false,
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "6616a26e7529970040f131c6",
+            "desc": null,
+            "source": "63640db5af795a0037304023",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "<font size=\"5\" color=\"#696969\"><div style=\"text-align: center;\">User Details Dashboard</div></font>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "3A956-4B2A-3F",
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "6616a26e7529970040f131c7",
+            "desc": null,
+            "source": "6446d369bd9b1b00326387f4",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "This dynamic dashboard presents timely data pertaining to User accounts,\n associated courses, and engagement\u2014 in aggregate, and at the user \nlevel\u2014scoped to the level of permission for your account.&nbsp; <u><a rel=\"noopener noreferrer\" href=\"https://support.benchprep.com/kb/article/2032-3-user-dashboard-reporting/\" target=\"_blank\">Info</a></u>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "E1F6F-C600-54",
+            "realTimeRefreshing": false,
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Navigation Links",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "6616a26e7529970040f131c8",
+            "desc": null,
+            "source": "63640db5af795a0037304024",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "showCarousel": true,
+                    "body": [],
+                    "actions": [
+                        {
+                            "type": "JTD",
+                            "title": "Return to User Dashboard",
+                            "data": {
+                                "dashboardId": "62193b03dd6f9c0037bc0189",
+                                "panelsToInclude": [],
+                                "args": {
+                                    "displayDashboardsPane": false,
+                                    "drilledDashboardDisplayType": 3,
+                                    "displayFilterPane": true,
+                                    "excludeFilterDims": [
+                                        "[DIM_USER.USER_EMAIL]",
+                                        "[DIM_USER.USER_NAME]",
+                                        "[DIM_USER.USER_LAST_ACTIVITY_AT (Calendar)]"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#000000"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#5C6372"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "#00436e",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "large",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "left",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 8,
+                        "medium": 16,
+                        "large": 32,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 59
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "C0586-957D-D8",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "BloX",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "displayMenu": false,
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "6616a26e7529970040f131c9",
+            "desc": "This date indicates the hour of last record refresh for ALL data populating this dashboard.\n\nNote: You may encounter report data across dashboards more recent than this timestamp.",
+            "source": "64e5456c2c683600334259ef",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "ETL_REFRESH",
+                                    "column": "LAST_REFRESHED_AT",
+                                    "dim": "[ETL_REFRESH.LAST_REFRESHED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Days in LAST_REFRESHED_AT"
+                                },
+                                "instanceid": "B40FE-F334-80",
+                                "PanelName": "Days in LAST_REFRESHED_AT",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            },
+                            {
+                                "jaql": {
+                                    "table": "ETL_REFRESH",
+                                    "column": "LAST_REFRESHED_AT",
+                                    "dim": "[ETL_REFRESH.LAST_REFRESHED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "minutes",
+                                    "bucket": "15",
+                                    "title": "Time Of Day in LAST_REFRESHED_AT"
+                                },
+                                "instanceid": "2A2E4-C327-FF",
+                                "PanelName": "Time Of Day in LAST_REFRESHED_AT",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "backgroundColor": "",
+                            "backgroundImage": "",
+                            "fontColor": ""
+                        }
+                    ],
+                    "showCarousel": true,
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "separator": false,
+                                    "style": {
+                                        "padding-bottom": "2px"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Data Last Refreshed At",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "right",
+                                                        "font-weight": "bold",
+                                                        "font-size": "14px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:Days in LAST_REFRESHED_AT}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "12px",
+                                                        "word-wrap": "break-word"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:Time of Day in LAST_REFRESHED_AT} UTC",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "12px",
+                                                        "word-wrap": "break-word"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "&nbsp;",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "13px",
+                                                        "padding-bottom": "8px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "&nbsp;",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "horizontalAlignment": "left",
+                                                        "font-weight": "regular",
+                                                        "font-size": "16px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 16,
+                        "small": 12,
+                        "medium": 22,
+                        "large": 32,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#fff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#353535"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#353535"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 15
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "grey",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "grey",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 16
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 80
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "days_in_last_refreshed_at",
+                            "title": "Days in LAST_REFRESHED_AT",
+                            "singular": "Days in LAST_REFRESHED_AT",
+                            "plural": "Days in LAST_REFRESHED_AT"
+                        },
+                        {
+                            "id": "time_of_day_in_last_refreshed_at",
+                            "title": "Time Of Day in LAST_REFRESHED_AT",
+                            "singular": "Time Of Day in LAST_REFRESHED_AT",
+                            "plural": "Time Of Day in LAST_REFRESHED_AT"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "8EFEE-1D8B-A7",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\nwidget.on('ready', function(){\n  let desc = widget.desc;\n  let $wrapper = $(`widget[widgetid='${widget.oid}']`);\n  var $container = $wrapper.find('.widget-desc');\n  if ($container.length == 0){\n\t$(\"<div class='widget-desc' style='margin: 10px;'></div>\").insertAfter($wrapper.find('widget-header'));\n\t$container = $wrapper.find('.widget-desc');\n\t$container.html(`<div class='narration-wrapper resizable loaded' style='padding-bottom: 10px;'><div class='resize-holder ui-resizable text-holder narration-text'>${desc}</div><div class='ui-resizable-handle ui-resizable-s'></div></div>`);\n    $wrapper.height(parseInt($wrapper.height())+60);\n\t$wrapper.find('.dataTables_scroll,.sisense-pivot__multi-grid').css(\"height\",\"calc(100% - 40px)\");\n  }\n});",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Average Lab Score",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "6616a26e7529970040f131ca",
+            "desc": null,
+            "source": "63640db5af795a0037304022",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(([189C9-01D])/[BBB4E-B6E]) / 100",
+                                    "context": {
+                                        "[189C9-01D]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_EXTERNAL_PACKAGE_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_EXTERNAL_PACKAGE_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_EXTERNAL_PACKAGE_SCORE"
+                                        },
+                                        "[BBB4E-B6E]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.EXTERNAL_PACKAGE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total EXTERNAL_PACKAGE_COUNT"
+                                        }
+                                    },
+                                    "title": "Average Lab Score"
+                                },
+                                "instanceid": "4077C-CB0E-67",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#353535",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_EXTERNAL_PACKAGE",
+                                    "column": "EXTERNAL_PACKAGE_TYPE_DISPLAY",
+                                    "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE_DISPLAY]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "Skillable Lab"
+                                        ]
+                                    },
+                                    "collapsed": true,
+                                    "title": "EXTERNAL_PACKAGE_TYPE_DISPLAY",
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    }
+                                },
+                                "instanceid": "A9F8F-B8D5-01"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": false
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "external_package_type_display",
+                            "title": "EXTERNAL_PACKAGE_TYPE_DISPLAY",
+                            "singular": "EXTERNAL_PACKAGE_TYPE_DISPLAY",
+                            "plural": "EXTERNAL_PACKAGE_TYPE_DISPLAY"
+                        }
+                    ]
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                }
+            },
+            "instanceid": "7D9D9-858F-DD",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "indicator",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "6616a26e7529970040f131c0",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

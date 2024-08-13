@@ -1,0 +1,405 @@
+{
+    "oid": "62bb3c4a48de8100388e9d03",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Billing",
+        "id": "live:Billing",
+        "live": true,
+        "title": "Billing"
+    },
+    "defaultFilters": [],
+    "desc": "",
+    "editing": false,
+    "filters": [],
+    "lastPublish": "2023-02-22T16:01:40.232Z",
+    "layout": {
+        "instanceid": "DE121-136B-AF",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "693px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "62bb401848de8100388e9d05",
+                                        "autoHeight": "693px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1328,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1328,
+                "index": 0
+            }
+        ],
+        "container": {}
+    },
+    "parentFolder": "63f7897802e8b50035da36eb",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "source": "62bb3c4a48de8100388e9d04",
+    "style": {
+        "palette": {
+            "name": "Vivid",
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ]
+        }
+    },
+    "title": "MSU A-CAPP Billing CY1-CY3 - METHOD 1",
+    "type": "dashboard",
+    "allowChangeSubscription": false,
+    "subscription": {
+        "executionPerDay": 1,
+        "schedule": "0 0 0 * * *",
+        "isDataChange": false,
+        "type": "daily",
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "context": {
+            "dashboardid": "62bb3c4a48de8100388e9d03"
+        },
+        "startAt": "2023-02-22",
+        "tzName": "America/Chicago",
+        "timezone": 360,
+        "active": false,
+        "subscribe": false
+    },
+    "isPublic": null,
+    "previewLayout": [],
+    "widgets": [
+        {
+            "title": "Granular User/Log-In Dates",
+            "type": "pivot2",
+            "subtype": "pivot2",
+            "oid": "62bb401848de8100388e9d05",
+            "desc": null,
+            "source": "62bb401848de8100388e9d06",
+            "datasource": {
+                "fullname": "live:Billing",
+                "id": "live:Billing",
+                "live": true,
+                "title": "Billing"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "LOGIN_TRACKINGS",
+                                    "column": "LOGIN_ATTEMPTED_AT",
+                                    "dim": "[LOGIN_TRACKINGS.LOGIN_ATTEMPTED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "months",
+                                    "title": "Months in LOGIN_ATTEMPTED_AT"
+                                },
+                                "instanceid": "8DCA7-0D70-DD",
+                                "field": {
+                                    "id": "[LOGIN_TRACKINGS.LOGIN_ATTEMPTED_AT (Calendar)]_years",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "panel": "rows"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "CREATED_AT",
+                                    "dim": "[USERS.CREATED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "months",
+                                    "title": "Months in CREATED_AT"
+                                },
+                                "instanceid": "0DAC7-A468-7E",
+                                "field": {
+                                    "id": "[USERS.CREATED_AT (Calendar)]_years",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "panel": "rows"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "EMAIL",
+                                    "dim": "[USERS.EMAIL]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "EMAIL",
+                                    "datasource": {
+                                        "fullname": "live:Billing",
+                                        "id": "live:Billing",
+                                        "live": true,
+                                        "title": "Billing"
+                                    }
+                                },
+                                "instanceid": "BB08D-D3DA-73",
+                                "field": {
+                                    "id": "[USERS.EMAIL]",
+                                    "index": 2
+                                },
+                                "panel": "rows"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "ID",
+                                    "dim": "[USERS.ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "title": "ID"
+                                },
+                                "instanceid": "8F052-6CC1-76",
+                                "field": {
+                                    "id": "[USERS.ID]",
+                                    "index": 3
+                                },
+                                "panel": "rows"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "TENANT_ID",
+                                    "dim": "[USERS.TENANT_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "title": "TENANT_ID",
+                                    "datasource": {
+                                        "fullname": "live:Billing",
+                                        "id": "live:Billing",
+                                        "live": true,
+                                        "title": "Billing"
+                                    }
+                                },
+                                "instanceid": "3ACB5-DF07-A7",
+                                "field": {
+                                    "id": "[USERS.TENANT_ID]",
+                                    "index": 4
+                                },
+                                "panel": "rows"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": []
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "EMAIL",
+                                    "dim": "[USERS.EMAIL]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "EMAIL",
+                                    "filter": {
+                                        "and": [
+                                            {
+                                                "doesntContain": "benchprep"
+                                            },
+                                            {
+                                                "doesntContain": "smartscrolls"
+                                            },
+                                            {
+                                                "doesntContain": "dtracks.in"
+                                            },
+                                            {
+                                                "doesntContain": "techment"
+                                            },
+                                            {
+                                                "doesntContain": "kenwulf@performancentric.com"
+                                            },
+                                            {
+                                                "doesntContain": "patte542@msu.edu"
+                                            },
+                                            {
+                                                "doesntContain": "musunurh@msu.edu"
+                                            },
+                                            {
+                                                "doesntContain": "heegsar1@msu.edu"
+                                            },
+                                            {
+                                                "doesntContain": "kkammel@msu.edu"
+                                            },
+                                            {
+                                                "doesntContain": "kkammel@gmail.com"
+                                            },
+                                            {
+                                                "contains": ""
+                                            }
+                                        ]
+                                    },
+                                    "datasource": {
+                                        "fullname": "live:Billing",
+                                        "id": "live:Billing",
+                                        "live": true,
+                                        "title": "Billing"
+                                    }
+                                },
+                                "instanceid": "BB08D-D3DA-73",
+                                "field": {
+                                    "id": "[USERS.EMAIL]",
+                                    "index": 2
+                                },
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "TENANT_ID",
+                                    "dim": "[USERS.TENANT_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "title": "TENANT_ID",
+                                    "filter": {
+                                        "explicit": true,
+                                        "userMultiSelect": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "1721"
+                                        ]
+                                    },
+                                    "datasource": {
+                                        "fullname": "live:Billing",
+                                        "id": "live:Billing",
+                                        "live": true,
+                                        "title": "Billing"
+                                    }
+                                },
+                                "instanceid": "3ACB5-DF07-A7",
+                                "field": {
+                                    "id": "[USERS.TENANT_ID]",
+                                    "index": 4
+                                },
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                }
+            },
+            "instanceid": "1509D-5168-DB",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true
+            },
+            "dashboardid": "62bb3c4a48de8100388e9d03",
+            "_dataSourcePermission": "none",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

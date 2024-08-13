@@ -1,0 +1,549 @@
+{
+    "title": "ABA Usage Dashboard",
+    "oid": "6127c270de16de002dce70b8",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "93232-10B1-71",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 384,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6127cb86de16de002dce70be"
+                                    }
+                                ],
+                                "width": 80.02581769308819,
+                                "stretchable": false,
+                                "pxlWidth": 745.217,
+                                "index": 1
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 0,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1629995369103": {
+                "undefined": {
+                    "parentNode": [
+                        1243.323349094863,
+                        37,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Analyst Workspace",
+        "id": "live:Analyst Workspace",
+        "live": true,
+        "title": "Analyst Workspace"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "TENANTS",
+                "column": "ID",
+                "dim": "[TENANTS.ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "ID",
+                "datasource": {
+                    "fullname": "live:Analyst Workspace",
+                    "id": "live:Analyst Workspace",
+                    "live": true,
+                    "title": "Analyst Workspace"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true,
+                    "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                            "1274"
+                        ]
+                    }
+                }
+            },
+            "instanceid": "4F400-6DEC-88",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "USERS",
+                "column": "EMAIL",
+                "dim": "[USERS.EMAIL]",
+                "datatype": "text",
+                "merged": true,
+                "title": "EMAIL",
+                "datasource": {
+                    "fullname": "live:Analyst Workspace",
+                    "id": "live:Analyst Workspace",
+                    "live": true,
+                    "title": "Analyst Workspace"
+                },
+                "collapsed": false,
+                "filter": {
+                    "and": [
+                        {
+                            "doesntContain": "@benchprep"
+                        },
+                        {
+                            "doesntContain": "@aba.com"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "81EE4-0D55-52",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "editing": true,
+    "parentFolder": "6127c25d620043002de6fdcc",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "lastPublish": "2021-08-26T16:34:46.427Z",
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "6127c270de16de002dce70b8"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-08-26",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "filterToDatasourceMapping": {},
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "TENANTS",
+                "column": "ID",
+                "dim": "[TENANTS.ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "1274"
+                    ]
+                },
+                "title": "ID",
+                "datasource": {
+                    "fullname": "live:Analyst Workspace",
+                    "id": "live:Analyst Workspace",
+                    "live": true,
+                    "title": "Analyst Workspace"
+                },
+                "collapsed": true
+            },
+            "instanceid": "4F400-6DEC-88",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "USERS",
+                "column": "EMAIL",
+                "dim": "[USERS.EMAIL]",
+                "datatype": "text",
+                "merged": true,
+                "filter": {
+                    "and": [
+                        {
+                            "doesntContain": "@benchprep"
+                        },
+                        {
+                            "doesntContain": "@aba.com"
+                        }
+                    ]
+                },
+                "title": "EMAIL",
+                "datasource": {
+                    "fullname": "live:Analyst Workspace",
+                    "id": "live:Analyst Workspace",
+                    "live": true,
+                    "title": "Analyst Workspace"
+                },
+                "collapsed": false
+            },
+            "instanceid": "81EE4-0D55-52",
+            "isCascading": false
+        }
+    ],
+    "widgets": [
+        {
+            "title": "Are learners happy with the platform?",
+            "subtype": "column/stackedcolumn",
+            "oid": "6127cb86de16de002dce70be",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Analyst Workspace",
+                "fullname": "live:Analyst Workspace",
+                "id": "live:Analyst Workspace",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CONTENT_PACKAGE_REVIEWS",
+                                    "column": "CREATED_AT",
+                                    "dim": "[CONTENT_PACKAGE_REVIEWS.CREATED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "months",
+                                    "title": "Review Month"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CONTENT_PACKAGE_REVIEWS",
+                                    "column": "ID",
+                                    "dim": "[CONTENT_PACKAGE_REVIEWS.ID]",
+                                    "datatype": "numeric",
+                                    "agg": "countduplicates",
+                                    "title": "# of Reviews"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color_bkp": {
+                                        "color": "#117899",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CONTENT_PACKAGE_REVIEWS",
+                                    "column": "RATING",
+                                    "dim": "[CONTENT_PACKAGE_REVIEWS.RATING]",
+                                    "datatype": "numeric",
+                                    "title": "Rating"
+                                },
+                                "format": {
+                                    "members": {
+                                        "1": {
+                                            "color": "#ff6a37",
+                                            "title": "1",
+                                            "sortData": 1,
+                                            "inResultset": true
+                                        },
+                                        "2": {
+                                            "color": "#ffa753",
+                                            "title": "2",
+                                            "sortData": 2,
+                                            "inResultset": true
+                                        },
+                                        "3": {
+                                            "color": "#ffe06b",
+                                            "title": "3",
+                                            "sortData": 3,
+                                            "inResultset": true
+                                        },
+                                        "4": {
+                                            "color": "#d6f38f",
+                                            "title": "4",
+                                            "sortData": 4,
+                                            "inResultset": true
+                                        },
+                                        "5": {
+                                            "color": "#00a808",
+                                            "title": "5",
+                                            "sortData": 5,
+                                            "inResultset": true
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "type": "chart/column",
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": true,
+                        "stacked": true,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": false,
+                            "percentage": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true,
+                        "text": "# of Reviews"
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "min": 0
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "months",
+                            "title": "months",
+                            "singular": "months",
+                            "plural": "months"
+                        },
+                        {
+                            "id": "rating",
+                            "title": "RATING",
+                            "singular": "RATING",
+                            "plural": "RATING"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "53052-71BA-95",
+            "queryStartTime": "2021-08-26T12:28:54",
+            "widgetTimingLoged": false,
+            "drawing": true,
+            "disableSelctor": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 1,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "canEditFilters": true,
+            "continuousDates": false,
+            "nullAsZero": false,
+            "minDate": 1546322400000,
+            "maxDate": 1627794000000,
+            "tickLevel": "month",
+            "forcedRedraw": false,
+            "hasExcessiveSeries": false,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 19
+                }
+            },
+            "dashboardid": "6127c270de16de002dce70b8",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

@@ -1,0 +1,631 @@
+{
+    "title": "04_Flashcards",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "51AE8-68E5-57",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "191px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "607e5de2a9880d002d652ab7",
+                                        "autoHeight": "191px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 944.21,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 944.21,
+                "index": 0
+            }
+        ],
+        "container": {}
+    },
+    "oid": "607e5de2a9880d002d652ab6",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Boost Model v1.1",
+        "id": "live:Boost Model v1.1",
+        "live": true,
+        "title": "Boost Model v1.1"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "CACHED_GROUPS",
+                "column": "NAME",
+                "dim": "[CACHED_GROUPS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Group Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "Sample Group 1"
+                    ]
+                }
+            },
+            "instanceid": "C89AA-97BB-AA",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "GROUP_CONTENT_PACKAGES",
+                "column": "TITLE",
+                "dim": "[GROUP_CONTENT_PACKAGES.TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Name",
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "Customer Success Training"
+                    ]
+                },
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true
+            },
+            "instanceid": "DB8F1-6796-E4",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "USER_ID",
+                "dim": "[CACHED_USERS.USER_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "User ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "F2D03-9E00-89",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "NAME",
+                "dim": "[CACHED_USERS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Student Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "80EA1-FEA6-F1",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER_GROUP",
+                "column": "TENANT_ID",
+                "dim": "[DIM_USER_GROUP.TENANT_ID]",
+                "datatype": "numeric",
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true
+                },
+                "collapsed": true,
+                "title": "TENANT_ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                }
+            },
+            "instanceid": "C46CA-8907-BF",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "FLASH_CARD_CATEGORY_SUMMARIES",
+                "column": "FLASH_CARD_CATEGORY_NAME",
+                "dim": "[FLASH_CARD_CATEGORY_SUMMARIES.FLASH_CARD_CATEGORY_NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "FC Category",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        }
+    ],
+    "editing": true,
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "filterToDatasourceMapping": {},
+    "parentFolder": "607f1e8ea9880d002d652f35",
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "CACHED_GROUPS",
+                "column": "NAME",
+                "dim": "[CACHED_GROUPS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Group Name",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "C89AA-97BB-AA",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "GROUP_CONTENT_PACKAGES",
+                "column": "TITLE",
+                "dim": "[GROUP_CONTENT_PACKAGES.TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "DB8F1-6796-E4",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "USER_ID",
+                "dim": "[CACHED_USERS.USER_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "User ID",
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "F2D03-9E00-89",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "NAME",
+                "dim": "[CACHED_USERS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Student Name",
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "80EA1-FEA6-F1",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER_GROUP",
+                "column": "TENANT_ID",
+                "dim": "[DIM_USER_GROUP.TENANT_ID]",
+                "datatype": "numeric",
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "15"
+                    ]
+                },
+                "collapsed": true,
+                "title": "TENANT_ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                }
+            },
+            "instanceid": "C46CA-8907-BF",
+            "isCascading": false
+        }
+    ],
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "607e5de2a9880d002d652ab6"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-04-28",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "widgets": [
+        {
+            "title": "Flashcards by Low Confidence %",
+            "subtype": "pivot2",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CACHED_GROUPS",
+                                    "column": "NAME",
+                                    "dim": "[CACHED_GROUPS.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Group Name"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[CACHED_GROUPS.NAME]",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES",
+                                    "column": "FLASH_CARD_ID",
+                                    "dim": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.FLASH_CARD_ID]",
+                                    "datatype": "numeric",
+                                    "title": "Flashcard ID"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.FLASH_CARD_ID]",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES",
+                                    "column": "LOW_CONFIDENCE_PERCENTAGE",
+                                    "dim": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.LOW_CONFIDENCE_PERCENTAGE]",
+                                    "datatype": "numeric",
+                                    "title": "% Low Confidence Levels"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.LOW_CONFIDENCE_PERCENTAGE]",
+                                    "index": 2
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES",
+                                    "column": "LOW_CONFIDENCE_COUNT",
+                                    "dim": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.LOW_CONFIDENCE_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "Low Confidence"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.LOW_CONFIDENCE_COUNT]",
+                                    "index": 3
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES",
+                                    "column": "CONFIDENCE_COUNT",
+                                    "dim": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.CONFIDENCE_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "Total Confidence"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[GROUP_COURSE_FLASH_CARD_CONFIDENCE_SUMMARIES.CONFIDENCE_COUNT]",
+                                    "index": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": []
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CACHED_USERS",
+                                    "column": "NAME",
+                                    "dim": "[CACHED_USERS.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "\t Alicia Luellen",
+                                            "\t Colleen Moore",
+                                            "\t DIAMETRICE PATTERSON",
+                                            "\t Davenia Rutledge",
+                                            "\t Deanna Petty"
+                                        ]
+                                    },
+                                    "title": "NAME",
+                                    "datasource": {
+                                        "fullname": "live:Boost Model v1.1",
+                                        "id": "live:Boost Model v1.1",
+                                        "live": true,
+                                        "title": "Boost Model v1.1"
+                                    },
+                                    "collapsed": true
+                                },
+                                "panel": "scope",
+                                "disabled": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oid": "607e5de2a9880d002d652ab7",
+            "type": "pivot2",
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "group_name",
+                            "title": "Group Name",
+                            "singular": "Group Name",
+                            "plural": "Group Name"
+                        },
+                        {
+                            "id": "flashcard_id",
+                            "title": "Flashcard ID",
+                            "singular": "Flashcard ID",
+                            "plural": "Flashcard ID"
+                        },
+                        {
+                            "id": "%_low_confidence_levels",
+                            "title": "% Low Confidence Levels",
+                            "singular": "% Low Confidence Levels",
+                            "plural": "% Low Confidence Levels"
+                        },
+                        {
+                            "id": "low_confidence",
+                            "title": "Low Confidence",
+                            "singular": "Low Confidence",
+                            "plural": "Low Confidence"
+                        },
+                        {
+                            "id": "confidence_count",
+                            "title": "CONFIDENCE_COUNT",
+                            "singular": "CONFIDENCE_COUNT",
+                            "plural": "CONFIDENCE_COUNT"
+                        },
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "0BDAD-704B-A6",
+            "queryStartTime": "2021-10-24T00:21:54",
+            "drawing": true,
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "selectorLocked": false
+            },
+            "dashboardid": "607e5de2a9880d002d652ab6",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "widgetTimingLoged": false,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "canEditFilters": true,
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ]
+}

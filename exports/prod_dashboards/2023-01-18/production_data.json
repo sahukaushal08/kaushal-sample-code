@@ -1,0 +1,387 @@
+{
+    "oid": "60369423c6bc31002b579ccb",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Analyst Workspace",
+        "id": "live:Analyst Workspace",
+        "live": true,
+        "title": "Analyst Workspace"
+    },
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "CONTENT_PACKAGES",
+                "column": "TENANT_ID",
+                "dim": "[CONTENT_PACKAGES.TENANT_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "filter": {
+                    "equals": "1280"
+                },
+                "title": "TENANT_ID",
+                "datasource": {
+                    "fullname": "live:Analyst Workspace",
+                    "id": "live:Analyst Workspace",
+                    "live": true,
+                    "title": "Analyst Workspace"
+                },
+                "collapsed": false
+            },
+            "instanceid": "99A35-54A9-D7",
+            "isCascading": false
+        }
+    ],
+    "desc": "",
+    "editing": false,
+    "filterToDatasourceMapping": {},
+    "filters": [
+        {
+            "jaql": {
+                "table": "CONTENT_PACKAGES",
+                "column": "TENANT_ID",
+                "dim": "[CONTENT_PACKAGES.TENANT_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "filter": {
+                    "equals": "1280"
+                },
+                "title": "TENANT_ID",
+                "datasource": {
+                    "fullname": "live:Analyst Workspace",
+                    "id": "live:Analyst Workspace",
+                    "live": true,
+                    "title": "Analyst Workspace"
+                },
+                "collapsed": false
+            },
+            "instanceid": "99A35-54A9-D7",
+            "isCascading": false
+        }
+    ],
+    "lastPublish": "2022-09-30T17:30:47.914Z",
+    "layout": {
+        "instanceid": "9D85B-4E56-43",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": 192,
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "60d3b28ddc6623002de5bf90"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 717,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1624486191280": {
+                "undefined": {
+                    "parentNode": [
+                        271,
+                        59,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "source": "60369423c6bc31002b579ccc",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "title": "Production Data",
+    "type": "dashboard",
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "60369423c6bc31002b579ccb"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-03-16",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "defaultFilterRelations": null,
+    "widgets": [
+        {
+            "title": "",
+            "subtype": "indicator/numeric",
+            "oid": "60d3b28ddc6623002de5bf90",
+            "desc": null,
+            "source": "60d3b28ddc6623002de5bf91",
+            "datasource": {
+                "fullname": "live:Analyst Workspace",
+                "id": "live:Analyst Workspace",
+                "live": true,
+                "title": "Analyst Workspace"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "AVG([E9E46-D03])",
+                                    "context": {
+                                        "[E9E46-D03]": {
+                                            "table": "EXAM_RESULTS",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[EXAM_RESULTS.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "title": "PERCENTAGE CORRECT"
+                                        }
+                                    },
+                                    "title": "AVG([PERCENTAGE CORRECT])"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#117899",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CONTENT_PACKAGES",
+                                    "column": "TENANT_ID",
+                                    "dim": "[CONTENT_PACKAGES.TENANT_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "filter": {
+                                        "equals": "1280"
+                                    },
+                                    "title": "TENANT_ID",
+                                    "datasource": {
+                                        "fullname": "live:Analyst Workspace",
+                                        "id": "live:Analyst Workspace",
+                                        "live": true,
+                                        "title": "Analyst Workspace"
+                                    },
+                                    "collapsed": false
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "type": "indicator",
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "tenant_id",
+                            "title": "TENANT_ID",
+                            "singular": "TENANT_ID",
+                            "plural": "TENANT_ID"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "43C72-01E7-41",
+            "queryStartTime": "2021-06-23T17:20:19",
+            "drawing": true,
+            "widgetTimingLoged": false,
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "60369423c6bc31002b579ccb",
+            "canEditFilters": true,
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

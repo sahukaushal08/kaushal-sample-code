@@ -1,0 +1,934 @@
+{
+    "_id": "6673dbde9c7801ac9ffccd76",
+    "oid": "87efc7de-4c36-43d2-a5c9-02fd5da1f3a9",
+    "title": "Web Access Token Usage",
+    "type": "extract",
+    "relationType": "regular",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "elasticube",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "34a5fcd9-ef4f-4be1-a7d4-d4d4e27b22d1",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "9dcb2156-c1a0-49ca-afb7-cc107e42f6a5",
+                    "table": "c3c7d4b1-b7e2-4464-8d50-f23904edbb71",
+                    "column": "d55640f6-4530-4b6e-8fc4-6cf54bb7272d",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "132ce3ec-db37-41ef-bf72-adf58cb99fab",
+                    "table": "041c64c5-a6f7-42f5-bfc7-266f9a130f18",
+                    "column": "7cba6d1a-452b-4d08-a517-b9c13504f133",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "6fd4ec8e-be63-4ccf-99ce-6ab694045c0f",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "35585191-6acb-48ba-b2c5-fd74ff7da0f5",
+                    "table": "e8107bfa-5239-4133-8532-08452dff9079",
+                    "column": "597c06ee-14e4-45aa-a136-7a124aa3fca7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "132ce3ec-db37-41ef-bf72-adf58cb99fab",
+                    "table": "041c64c5-a6f7-42f5-bfc7-266f9a130f18",
+                    "column": "e435861d-cac5-448a-97b0-121cbe071b8e",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "e2be5ba7-f317-4a1e-8989-22e4d8761aa0",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "8efb11ba-d30c-4e4a-af33-0ab65d2c92fe",
+                    "table": "b94da4fd-d9a5-42aa-b66e-3b58fadd53ac",
+                    "column": "6193d7c6-6229-4990-ad8a-64f0244af141",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "132ce3ec-db37-41ef-bf72-adf58cb99fab",
+                    "table": "041c64c5-a6f7-42f5-bfc7-266f9a130f18",
+                    "column": "2bc22817-21f3-429c-8bf5-22d737301cc5",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "132ce3ec-db37-41ef-bf72-adf58cb99fab",
+            "fullname": "mongodb:d207f272-6e76-4898-afb1-7f85ca14832a",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "d207f272-6e76-4898-afb1-7f85ca14832a",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "041c64c5-a6f7-42f5-bfc7-266f9a130f18",
+                        "id": "tq_C0lEJOvf3",
+                        "name": "Fact_WAT_Usage",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "ceacd739-bd7c-4814-b297-6da7ad4bd19c",
+                                "id": "_id",
+                                "name": "_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7cba6d1a-452b-4d08-a517-b9c13504f133",
+                                "id": "webAccessTokenId",
+                                "name": "webAccessTokenId",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d27e4202-a20e-44eb-88d9-c41323c1f002",
+                                "id": "dateCreated",
+                                "name": "dateCreated",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7f44049c-42af-48ae-bf1a-f5a12a65b433",
+                                "id": "counter",
+                                "name": "counter",
+                                "type": 20,
+                                "size": 4,
+                                "precision": 3,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "created_date_num",
+                                    "name": "created_date_num",
+                                    "type": 8,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-08-14T09:58:48.811Z",
+                                    "oid": "2bc22817-21f3-429c-8bf5-22d737301cc5",
+                                    "hidden": true,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-08-14T08:09:40.545Z",
+                                        "oid": "8040a5d4-c69d-4fad-a226-ff0dfc5e0a6d",
+                                        "expression": "getyear([dateCreated]) * 10000 + getmonth([dateCreated]) * 100 + getday([dateCreated])",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "hour_id",
+                                    "name": "hour_id",
+                                    "type": 8,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-08-14T09:58:50.804Z",
+                                    "oid": "e435861d-cac5-448a-97b0-121cbe071b8e",
+                                    "hidden": true,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-08-14T09:58:26.459Z",
+                                        "oid": "fbf3c154-c528-40ec-b80c-a8f756e7b37c",
+                                        "expression": "gethour([dateCreated])",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "aa2945e2-da0a-4ff1-a895-e1e3e96618f4",
+                        "configOptions": {
+                            "importQuery": "SELECT *, 1 as counter FROM \"prismWebDB\".\"webAccessTokenUsage\""
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "78ebf8b8-4510-4aa8-971b-8a48943c2c6f",
+                "id": "6673dbfe30f5020038a21177",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJNRHpSMkliaG9LZnJraEJiNmtQdnlCR1hzR0VuT1dERmNyZ0hLenVQWTAvRHJnNjFaZEdXck94eUJhWi9iSUVIQnIveGZ3SEt4bngxUjZZeEM0TmU2NEw3ODl3WDZqTWZtRmhRcC91alROcmR3R0dVa250NXppazRXR1czU3JaQWVOWXhlMU9PWFZqV1BDTXpZU1VhRVN2QUZaeVY4RWxWZ1p2VldoRy9PWGxZZ2hhL3hoZ1hjY3crWkt4bHFLNjh1RWFjQU1DanZLU0UwVkxpdzJmQlpGcElXVE1PbGtxcUMzQkY1SkpHSmV5NEpJd285V2tKR0ptNERuSnp5SEZpVkZONFJTOElaMWJxbkRFUGExcnJLa3Q5REtxQzRUcHlaWmltdEJzZUwxNldtdytVVXJVYlhHd0xiUzFrTit0YW5XOTJqakVaWmw1cWF4NFd1cldZVlhWUkEwV0Z6c2VSVEpsTStxSm5hS0pLZzVuekVOUGNPcloyelFOTk81YkswWnpEQnk2WUY1cnc0a25NbHhZZTRsaTRkdGtPUDRYaXFzcVI3U1dVeUhvPSIsIm5vbmNlIjoiSjlGdVJRQ3RPMWpZaGVXcU5VRUkrQT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMDVUMTA6NDY6MzQuNTI5Njc0Mjc1WiJ9fQ==",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "21a175c2-dada-457d-8ef4-1c70e0d5e47a",
+            "fullname": "mongodb:a7900c01-f835-45c1-859e-e48af79bd918",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "a7900c01-f835-45c1-859e-e48af79bd918",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "e51de511-4da0-4776-826e-170e98248d78",
+                "id": "6673dbde30f5020038a2116e",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJMNi8xem8vSzM2dUtNeTRoRlY4VnE5bWhFWHRHUnhIeTZUZEsxemhBUmo1ODMrY3JFMm8xNTN4SlZKTjdlT3RiTHFrVmNJVXJGTFdoR3NoemU5SDFJUkwvTERUOGtIN2YxZVFoU2pIQnF3VHpqajVRZ1RpRGdkTktHRzRyY3haMS9Xelg5d2t4K3VXVTIvdFhJRGNLQlgra0c4T0ZESWd5UlpVQWlqNTY3MUo5blY1MHpJN1FuVVUzako2cFdzeXVTWllIK3l0REFsTnY0aFFhdlU5OHdwWFpTSFpLbjZWSmdOVzZMVlEyWlBaU2VpKzk0ZzJ1YTZpcVFzbi9zSTVCRENxQ2VmMmdmdjB3MnBnVCtQK0RJQjUwNytaRWNOSFhNWjFUMEtZdFBrSDdDWk0yN1IyQjZwU01VZlYyUHdHb2xTaVF0UkN5cmlVQW9NUUF1WGNZRDkwZkFONEdLaUxXUUJsUlZuRW9uQURHOS9acjFzb3JVcFh1NG0ySjZadksveUJlMjFTaEJPdXVmcWdvOVpiWnpTMXdJc2F5eWFqQzJXcndLTkFra1c2TVVGRHVycWJKbHVaVUJ4WGh3RUZZZTFDdElwV3hWam4xOFJwcGl5NGE5Zz09Iiwibm9uY2UiOiJrdCs1WDN6WEl2ajVBSXd2RFdBZ3pBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wNVQxMDo0NjozNC41Mjk2OTA0MTVaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "35585191-6acb-48ba-b2c5-fd74ff7da0f5",
+            "fullname": "Excel:7817f9f7-e413-4cc8-ae23-6d2a9f7a291b",
+            "database": "",
+            "schemaName": "/opt/sisense/storage/tenants/60001dda0f9ef7001c4187cc/storage/b9/b991a020-c3aa-4db9-8aaa-63688c8bfc1d.xlsx",
+            "type": "extract",
+            "name": "7817f9f7-e413-4cc8-ae23-6d2a9f7a291b",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "e8107bfa-5239-4133-8532-08452dff9079",
+                        "id": "Sheet1",
+                        "name": "Dim_hour",
+                        "type": "base",
+                        "schemaName": "/opt/sisense/storage/tenants/60001dda0f9ef7001c4187cc/storage/b9/b991a020-c3aa-4db9-8aaa-63688c8bfc1d.xlsx",
+                        "columns": [
+                            {
+                                "oid": "597c06ee-14e4-45aa-a136-7a124aa3fca7",
+                                "id": "hour_id",
+                                "name": "hour_id",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "Hour",
+                                    "name": "Hour",
+                                    "type": 18,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2024-06-20T07:44:21.948Z",
+                                    "oid": "9d18c4ca-fc3f-4ade-9a9b-4f7b265495cf",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2024-06-20T07:44:21.948Z",
+                                        "oid": "5e9ef429-50c6-4050-9148-4270c53937fd",
+                                        "expression": "case when Length(tostring([hour_id])) = 1 then '0' + tostring([hour_id]) + ':00'\nelse tostring([hour_id]) + ':00' end",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "0c62669b-5ce5-4d9d-9948-08b9761ecaf8",
+                        "configOptions": {
+                            "fieldsInFirstRow": true,
+                            "culture": "en-US",
+                            "staticRange": "",
+                            "columnsDateTimePatterns": "{}"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "100abdad-f1be-4a94-b81f-28b4d71eb3d5",
+                "id": "6673dc4830f5020038a21179",
+                "provider": "Excel",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiIwOXRHWXErc0lhbkc1U213VU9nbGQxaWhWbk5iTjExOENTQXhHOFFVeUZtN2FSUjNhKzFrdWxVRVZHU0JLQjJBVTh0R3c1SU5neDJPMFRQQ1FOc3dRSHBNQ3NqeG8ycEEwUzg3aVhnTEpuZ2t6aWkvS25abkh4VWQvTFQ0SFI3Njl2ZENUMWFvN3dJaXVYdkJQcDFpOFRqWWpZTStaY0pMdnNGTWJ0b2F1T1RqTE5kcmtueFlKcm51UENod3ZQSW4iLCJub25jZSI6ImxrR1JwYUFjVDlIczRxYmRqT2dQYXc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTA1VDEwOjQ2OjM0LjUyOTc1MzY2N1oifX0=",
+                "schema": "/opt/sisense/storage/tenants/60001dda0f9ef7001c4187cc/storage/b9/b991a020-c3aa-4db9-8aaa-63688c8bfc1d.xlsx",
+                "fileName": "Dim_hour.xlsx",
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "41e804d0-96b0-46cb-b012-84df57a3f24d",
+            "fullname": "mongodb:a2892925-b90b-49b1-9e85-33d6fdc06910",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "a2892925-b90b-49b1-9e85-33d6fdc06910",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "cc6b1af0-9dc7-4776-98b7-7fe717ea786d",
+                "id": "6673dbdf30f5020038a21172",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJYSTNzSU4rT0JTa3MyNEVwWmx2eFlhb3UrTHY2V0JhWVhubExsRWVFUW5ma05KZVpZVEM2RlFYZ21TclBYZ1AvcnlnU0FHREpxVS8yS2xKSHllejBYNDhHTGtDVGJ2NEpzaVIvNVdxQjRMMEJmeldrUWFlRG5CQXAxSHY4d2hKSmRjTVhWU2FHMjFpa3BsOXljQWFTdVZoWEd4bmlrU2ZVMjF5aCtOK0xHbkF6TkFwaUtndFFjREJXNG5UeStiL3lRWkR4cmoxTkVTVkVydnlUTFUwNEVwMEVKbFFPTE52UnJJcTRtRjVnd2xjWEFqTm5hbHNBc2VMdnB5bVZlTWEwa3VKRzBYV1BicDdzMGFmcUV1RkNGV0JyaTBySi9aT2VnU2JrUzdldDhNTDQyR0tBVVhXV3ZiekRsTVF0S2t0K05QckpialpWVzllVHM4WE5nRHA4QUlIOGFMNEU3RjZITFp2MzRSUURwQ2Fzbll3eFlyalF3MFo4THZUTmI2b2ZZOHljVDdNdm1jWEwzRnZPb3FiQnhDaHpmd0JzaUV1Mk1RZlZJWmFkam5KVXp4dVFZTzhxQWJXZmxldUpNOUVsSEV2M2ZjcGY1L0x0MHRYandxczU4Zz09Iiwibm9uY2UiOiJQMUxNaDl5bE5mSS94aTFrK0g5RmVBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wNVQxMDo0NjozNC41Mjk4Mjg1NThaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "8efb11ba-d30c-4e4a-af33-0ab65d2c92fe",
+            "fullname": "Excel:63562841-bd78-44a5-9bf0-140f39b6ed6e",
+            "database": "",
+            "schemaName": "/opt/sisense/storage/tenants/60001dda0f9ef7001c4187cc/storage/b7/b7bd717d-1567-470a-852d-e0a9ef69f4a9.xlsx",
+            "type": "extract",
+            "name": "63562841-bd78-44a5-9bf0-140f39b6ed6e",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "b94da4fd-d9a5-42aa-b66e-3b58fadd53ac",
+                        "id": "Dim_date",
+                        "name": "Dim_date",
+                        "type": "base",
+                        "schemaName": "/opt/sisense/storage/tenants/60001dda0f9ef7001c4187cc/storage/b7/b7bd717d-1567-470a-852d-e0a9ef69f4a9.xlsx",
+                        "columns": [
+                            {
+                                "oid": "6193d7c6-6229-4990-ad8a-64f0244af141",
+                                "id": "DateNum",
+                                "name": "DateNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "996d7897-4928-42a8-9221-435295bba5c2",
+                                "id": "Date",
+                                "name": "Date",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1c06c216-9d45-4b10-a2c3-48949c1c10a8",
+                                "id": "YearMonthNum",
+                                "name": "YearMonthNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fdf09e1e-9ddb-4d33-9791-28b9f0f266c1",
+                                "id": "Calendar_Quarter",
+                                "name": "Calendar_Quarter",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a2ab5227-f0ab-46ee-9497-20ecdcfe0be4",
+                                "id": "MonthNum",
+                                "name": "MonthNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d5953810-a5a4-4be8-a9c3-6bcde3ce60dd",
+                                "id": "MonthName",
+                                "name": "MonthName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d9af8641-565f-482a-a7a2-078110ce7c4a",
+                                "id": "MonthShortName",
+                                "name": "MonthShortName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "55ae06b0-6563-4c07-9555-4b6af7531d2c",
+                                "id": "WeekNum",
+                                "name": "WeekNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d9acbf49-ff13-4842-9a56-9a7bd417093b",
+                                "id": "DayNumOfYear",
+                                "name": "DayNumOfYear",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f2f3409a-25a6-4a19-ab6a-2ca99555936b",
+                                "id": "DayNumOfMonth",
+                                "name": "DayNumOfMonth",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c7c75e2f-3aeb-44d4-91e2-3281127f628b",
+                                "id": "DayNumOfWeek",
+                                "name": "DayNumOfWeek",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6b028a8a-28a2-4913-b2b3-24436bab764e",
+                                "id": "DayName",
+                                "name": "DayName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "dd2dea1d-db7c-46d5-a65b-637da664db37",
+                                "id": "DayShortName",
+                                "name": "DayShortName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "915c5fbb-1d61-4441-ad4f-53347c5b0303",
+                                "id": "Quarter",
+                                "name": "Quarter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "be4a6b3f-a281-449e-868f-62f12ef49505",
+                                "id": "YearQuarterNum",
+                                "name": "YearQuarterNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "08642f27-1ed2-4421-96c0-4810a09ccba0",
+                                "id": "DayNumOfQuarter",
+                                "name": "DayNumOfQuarter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "1c06c216-9d45-4b10-a2c3-48949c1c10a8"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "fdf09e1e-9ddb-4d33-9791-28b9f0f266c1"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "d9af8641-565f-482a-a7a2-078110ce7c4a"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "55ae06b0-6563-4c07-9555-4b6af7531d2c"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "c7c75e2f-3aeb-44d4-91e2-3281127f628b"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "dd2dea1d-db7c-46d5-a65b-637da664db37"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "915c5fbb-1d61-4441-ad4f-53347c5b0303"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "be4a6b3f-a281-449e-868f-62f12ef49505"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "08642f27-1ed2-4421-96c0-4810a09ccba0"
+                                },
+                                "type": "dont-import"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "996d7897-4928-42a8-9221-435295bba5c2",
+                                    "name": "Date_okd"
+                                },
+                                "type": "rename-column"
+                            },
+                            {
+                                "arguments": {
+                                    "lastUpdated": "2024-06-20T14:40:58.440Z",
+                                    "id": "Date",
+                                    "name": "Date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "oid": "d15c324a-e2dd-49dc-b956-8692733dfde9",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2024-06-20T14:43:13.829Z",
+                                        "oid": "fda659cb-b14a-4c9d-b28c-024993b11b17",
+                                        "expression": "createdate(GetYear(date_okd),[MonthNum],[DayNumOfMonth])",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "d9acbf49-ff13-4842-9a56-9a7bd417093b"
+                                },
+                                "type": "dont-import"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "9967df01-7f3f-4215-8bcc-1118c4de16f8",
+                        "configOptions": {
+                            "fieldsInFirstRow": true,
+                            "culture": "en-US",
+                            "staticRange": "",
+                            "columnsDateTimePatterns": "{}"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "4614b3cb-9c91-4586-b5d0-a4cc3d4ffacf",
+                "id": "6673dc6730f5020038a2117a",
+                "provider": "Excel",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJQWnQwb0Iva2xxYVZBanNNalNHbVJxWnpkU2kxTGZlbWdEVjdYTVBpMEc2UFY1QTdHUUdLTlpvNHJCTmI1eXhOSEJjK2VCQUxQeTRQbXhmQWg3TVM5QXplNUszWXVrUXZwaEZzbXFrUlZ2clp2eEJmck9wd1BLenU0Z3dGay9tTXEyTjN5dmRXaHlRd2RsdzZqVHpGdmc5RXI2SmZNck1wOFk5enFWNnl3MnM4aFpqWWZYUVd5Ykl0REpMcjFVdFUiLCJub25jZSI6ImNSc2xmZ2ZNN29DdWx6cThwNGRCVHc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTA1VDEwOjQ2OjM0LjUyOTkyMzYxMFoifX0=",
+                "schema": "/opt/sisense/storage/tenants/60001dda0f9ef7001c4187cc/storage/b7/b7bd717d-1567-470a-852d-e0a9ef69f4a9.xlsx",
+                "fileName": "Dim_date.xlsx",
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "9dcb2156-c1a0-49ca-afb7-cc107e42f6a5",
+            "fullname": "mongodb:70f1531a-1006-475f-a0eb-7febc88de31c",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "70f1531a-1006-475f-a0eb-7febc88de31c",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "c3c7d4b1-b7e2-4464-8d50-f23904edbb71",
+                        "id": "tq_QGzyZSgC3",
+                        "name": "Dim_WAT",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "d55640f6-4530-4b6e-8fc4-6cf54bb7272d",
+                                "id": "_id",
+                                "name": "_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4bc5db6d-265f-4f0d-ac2c-ee54bbd3cb12",
+                                "id": "name",
+                                "name": "name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "edf6f564-5384-499d-8cc5-ecea3aefcd49",
+                                "id": "description",
+                                "name": "description",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1910d29a-b072-44c1-9dde-84295e43ccc5",
+                                "id": "createdBy_id",
+                                "name": "createdBy_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6f0e1fd3-8aa9-4d7c-951a-63ba24fcca99",
+                                "id": "createdBy_email",
+                                "name": "createdBy_email",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "388a3270-c8f3-4d88-9095-ebc3dfacba6e",
+                                "id": "dateCreated",
+                                "name": "dateCreated",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d068c411-36a0-4ab1-8153-75152c1e9565",
+                                "id": "dateUpdated",
+                                "name": "dateUpdated",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3fac4702-fe2f-4cca-86d2-2fd4e2205543",
+                                "id": "dateLastUsed",
+                                "name": "dateLastUsed",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5a47c49f-c5be-49c8-872a-5491a2b7688e",
+                                "id": "enabled",
+                                "name": "enabled",
+                                "type": 2,
+                                "size": 1,
+                                "precision": 1,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "24d90ef9-35e8-4e15-989e-1a2200f83402",
+                                "id": "last_used",
+                                "name": "last_used",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ae3a86e7-1f6b-4a0a-860f-53c36884c292",
+                                "id": "left_join",
+                                "name": "left_join",
+                                "type": 20,
+                                "size": 4,
+                                "precision": 3,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "31ab6c89-92d2-445a-a947-51bbfe3be55f",
+                        "configOptions": {
+                            "importQuery": "SELECT \n    a._id,\n    a.name,\n    a.description,\n    a.createdBy_id,\n    a.createdBy_email,\n    a.dateCreated,\n    a.dateUpdated,\n    a.dateLastUsed,\n    a.enabled,\n    wat.last_used,\n    0 as left_join\nFROM \"prismWebDB\".\"webAccessTokenKeys\" a\nleft join (\nselect \n    f.webAccessTokenId,\n    max(f.[dateCreated]) as last_used\nfrom webAccessTokenUsage f\ngroup by f.[webAccessTokenId] \n) wat on wat.webAccessTokenId = a._id"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "f179be52-f381-45bb-a077-a04f429fead7",
+                "id": "6673dcf530f5020038a2117c",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJxcXNxb3FVN09QOUpPYVRLMHppbjhnOHp0SlFSMlJrTGtXdDQ3Zk03b3p3UW9XWmlMYVZzemRIU3RFMXhRT0E0VWd6SWh1TWJMN3ZvYVE1SDFqeDJYaHpsWVFtbXVQOXBxSmFFTW91TUtpUzQ2b0VXOVRKemlHeGV6WUllM3FMZmVRNGluUlBjRHkweFdrWkdSa2dvSDJXTG4yN1ZTT3JLYkhkVGs2T3RPQjIwemJDckN6UEJlZ3NLZ1hRdUpuUzZwQ2o2UW1xdDl6aFozNDI1VG9xdVJuT3NabUdJa2JTYWc2YWdJc3pyaktGN2JoempwTDhjSnFVM3BFeTJRVW9mdE9xc1oxRHZ5Y0RQaGliOEFzaklVNXVnVUtYZlZQMVVzU01RVi9HTnd4SFFJaUVUMFZ4VXRXVE1nNkNiUDU1ZmVGcnpqN3d2WHB4a1N3R0tYbFJwY0VSYWkwYllEZnBVYnQxZXI3SW9HMlA3M2FlTlh4azhWQkYxb1pJZUFvaFBFZVRINlNOaElIN1VFWlR4eGI5RDEzaUlXNDljdUxZWVF3WXJydXJ2WGVxTWcyWitRalBrckJzTm5JbDIyZTYreWRobUFYQzlrdUpJVnp6d01GejN5QT09Iiwibm9uY2UiOiJHNS80VG9YaFBWUWROZ284N0h5L2NBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wNVQxMDo0NjozNC41Mjk5ODc2MjFaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "b94da4fd-d9a5-42aa-b66e-3b58fadd53ac",
+                "x": -0.5227294564247131,
+                "y": 0.5605344176292419,
+                "fixed": true
+            },
+            {
+                "id": "e8107bfa-5239-4133-8532-08452dff9079",
+                "x": -0.5188490152359009,
+                "y": 0.08323931694030762,
+                "fixed": true
+            },
+            {
+                "id": "c3c7d4b1-b7e2-4464-8d50-f23904edbb71",
+                "x": -0.5072076916694641,
+                "y": -0.37950897216796875,
+                "fixed": true
+            },
+            {
+                "id": "041c64c5-a6f7-42f5-bfc7-266f9a130f18",
+                "x": 0.3813903033733368,
+                "y": 0.11466996371746063,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -1,
+                "y": 1,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "6673dbdf30f5020038a21176",
+                "oid": "87efc7de-4c36-43d2-a5c9-02fd5da1f3a9",
+                "datamodelOid": "87efc7de-4c36-43d2-a5c9-02fd5da1f3a9",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}

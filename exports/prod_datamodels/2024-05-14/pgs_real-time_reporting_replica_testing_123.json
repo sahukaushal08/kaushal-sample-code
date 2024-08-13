@@ -1,0 +1,39 @@
+{
+    "_id": "65382c31810cbafcb8caa845",
+    "oid": "ac4b2896-a9d8-4521-89d7-86a59ea1e7f5",
+    "title": "PGS real-time reporting replica testing 123",
+    "type": "live",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [],
+    "datasets": [],
+    "modelsLayouts": {
+        "nodesPositions": []
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "65382c31270b72002dc108b1",
+                "oid": "ac4b2896-a9d8-4521-89d7-86a59ea1e7f5",
+                "datamodelOid": "ac4b2896-a9d8-4521-89d7-86a59ea1e7f5",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}
