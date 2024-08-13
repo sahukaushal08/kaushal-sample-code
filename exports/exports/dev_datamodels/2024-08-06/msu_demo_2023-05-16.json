@@ -1,0 +1,230 @@
+{
+    "_id": "6463a51cce6bd1f48ea9ffe3",
+    "oid": "00bf2c4c-8b46-4f58-9825-28eb87d5fb59",
+    "title": "msu demo 2023-05-16",
+    "type": "extract",
+    "relationType": "regular",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "elasticube",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": null,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [],
+    "datasets": [
+        {
+            "oid": "d36a6b7b-a465-4a4f-b36a-db927d2a61e3",
+            "fullname": "CSV:7b6a470f-acde-4d37-9472-a1b3c54ae324",
+            "database": "",
+            "schemaName": "/opt/sisense/storage/datasets/storage/11/11f2cb0f-d13c-4a7d-9116-3d455c162bf7.csv",
+            "type": "extract",
+            "name": "7b6a470f-acde-4d37-9472-a1b3c54ae324",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "0c70e16b-486f-43f6-9b71-7b4e01a24880",
+                        "id": "11f2cb0f-d13c-4a7d-9116-3d455c162bf7.csv",
+                        "name": "msu-demo-highscores-2023-05-16.csv",
+                        "type": "base",
+                        "schemaName": "/opt/sisense/storage/datasets/storage/11/11f2cb0f-d13c-4a7d-9116-3d455c162bf7.csv",
+                        "columns": [
+                            {
+                                "oid": "5b5c9519-c9f0-4370-bbb6-8829b3d7483b",
+                                "id": "HIGHSCORE_ID",
+                                "name": "HIGHSCORE_ID",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4ff6a4af-fea1-4767-a105-d4e60a05b258",
+                                "id": "BP_USER_NAME",
+                                "name": "BP_USER_NAME",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9d07e212-387e-4f5e-be23-9625ae6ea53d",
+                                "id": "BP_USER_EMAIL",
+                                "name": "BP_USER_EMAIL",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5c08e8cc-02d3-4703-ba0d-9b37eb407fe5",
+                                "id": "SCORE",
+                                "name": "SCORE",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "40ac867a-d76b-4245-b34a-6505551baf70",
+                                "id": "GAME_NAME",
+                                "name": "GAME_NAME",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8dab9040-cb3f-4093-914c-624c3b9e78dc",
+                                "id": "HS_CREATED_AT",
+                                "name": "HS_CREATED_AT",
+                                "type": 4,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c8b297c1-420d-4d7d-b4de-8447924f8189",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "333e06bc-04c7-4ac3-bb0b-2310949510eb",
+                                "id": "COURSE_NAME",
+                                "name": "COURSE_NAME",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "56362c85-da82-4f22-a4bf-36ffc2c1212f",
+                                "id": "BP_USER_ID",
+                                "name": "BP_USER_ID",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d9cd4e18-49cb-4da1-ba50-1d37a5c31e25",
+                                "id": "BP_USER_SLUG",
+                                "name": "BP_USER_SLUG",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "3c0abe6c-ad10-4536-8043-be478f713c0e",
+                        "configOptions": {
+                            "delimiter": ",",
+                            "hasHeader": true,
+                            "ignoreMissingColumns": false,
+                            "excludeIfBegins": "",
+                            "excludeIfContains": "",
+                            "stringQuote": "\"",
+                            "ignoreFirstRows": "",
+                            "culture": "en-US",
+                            "columnsDateTimePatterns": "{}"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "27c5a56c-490c-429c-b7cb-dccb65244ec1",
+                "id": "6463a71b813618002d035459",
+                "provider": "CSV",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJvY0dJVUxvRHdST1FMTWVkNnkrSkJtTXZ2ckVNS09xdTJIVEx4RzAyZWRONVpCSVEzcHVVaGhZYmIwbnozRUFqbmpHRVFrQUNQdE0zQWdEUTVQbFdzQm41QjBRS2FUY2RxenpMQnczY0txWmVyZCtSL1V2dnJ4dmdoSWNsdjI3bHR0c3I0WHJwV3JEeCtESlIvSlRDSnQ2dmhOVkNJdzJtdGRDSkljUTlUcG89Iiwibm9uY2UiOiJDcUZKdzVsVjF6TkxIK3kzVHpKdXJ3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wNlQxMzoyNDo0Ny41Mjg3MjA0MTBaIn19",
+                "schema": "/opt/sisense/storage/datasets/storage/11/11f2cb0f-d13c-4a7d-9116-3d455c162bf7.csv",
+                "fileName": "msu-demo-highscores-2023-05-16.csv",
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "0c70e16b-486f-43f6-9b71-7b4e01a24880",
+                "x": 0.2574109733104706,
+                "y": 0.5898303389549255,
+                "fixed": false
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "6621363830f5020038a210cc",
+                "oid": "00bf2c4c-8b46-4f58-9825-28eb87d5fb59",
+                "datamodelOid": "00bf2c4c-8b46-4f58-9825-28eb87d5fb59",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,794 @@
+{
+    "title": "MOCKUP Utilization - Learner Confidence vs. Performance",
+    "oid": "661ff7d87529970040f13920",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Urban",
+            "colors": [
+                "#60C2BB",
+                "#94A1A8",
+                "#6E798D",
+                "#FA7240",
+                "#E2BA50"
+            ]
+        }
+    },
+    "layout": {
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 512,
+                                        "defaultWidth": 512,
+                                        "widgetid": "661ff8297529970040f13922"
+                                    }
+                                ],
+                                "index": 0,
+                                "stretchable": false,
+                                "width": 100,
+                                "pxlWidth": 691.5
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 256,
+                                        "maxHeight": 2048,
+                                        "minWidth": 256,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "66219c117529970040f1399a",
+                                        "height": 512
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1373,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1375,
+                "index": 0
+            }
+        ],
+        "instanceid": "9818F-3653-A1",
+        "type": "columnar",
+        "container": {
+            "sizzle1713478619863": {
+                "undefined": {
+                    "parentNode": [
+                        67.17780832928342,
+                        43,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "dataExploration": false,
+    "previewLayout": [],
+    "datasource": {
+        "fullname": "localhost/Utilization",
+        "id": "localhost_aUtilization",
+        "address": "LocalHost",
+        "database": "aUtilization",
+        "live": false,
+        "title": "Utilization"
+    },
+    "filters": [],
+    "editing": true,
+    "parentFolder": "63f784be02e8b50035da36ca",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "lastPublish": "2024-04-18T22:21:24.669Z",
+    "allowChangeSubscription": false,
+    "subscription": {
+        "executionPerDay": 1,
+        "schedule": "* * * * * *",
+        "isDataChange": true,
+        "type": "onUpdate",
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "context": {
+            "dashboardid": "661ff7d87529970040f13920"
+        },
+        "startAt": "2024-04-18",
+        "tzName": "America/Chicago",
+        "timezone": 300,
+        "active": false,
+        "subscribe": false
+    },
+    "isPublic": null,
+    "widgets": [
+        {
+            "title": "CURRENT: Does learner performance aligned with perceived confidence?",
+            "type": "tablewidgetagg",
+            "subtype": "tablewidgetagg",
+            "oid": "661ff8297529970040f13922",
+            "desc": "The dynamic table represents data pertaining to course question categories showing perceived confidence against actual performance.",
+            "source": "647a1db25cf2ad00332f88a2",
+            "datasource": {
+                "fullname": "localhost/Utilization",
+                "id": "localhost_aUtilization",
+                "address": "LocalHost",
+                "database": "aUtilization",
+                "live": false,
+                "title": "Utilization"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "columns",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                    "column": "QUESTION_CATEGORY",
+                                    "dim": "[USAGE_SCORES_AND_CONFIDENCES.QUESTION_CATEGORY]",
+                                    "datatype": "text",
+                                    "title": "Question Category"
+                                },
+                                "instanceid": "054BC-9E5C-84",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[DB05B-04F]/[0EFD3-5EC]",
+                                    "context": {
+                                        "[DB05B-04F]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "CORRECT_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.CORRECT_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_COUNT"
+                                        },
+                                        "[0EFD3-5EC]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "ANSWER_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "Percent Correct"
+                                },
+                                "instanceid": "1AFFE-FC8D-F8",
+                                "format": {
+                                    "mask": {
+                                        "decimals": "auto",
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([DC4E2-2CB] +(0.5*[92B4C-40C]))/[2E29F-8CB]",
+                                    "context": {
+                                        "[92B4C-40C]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "MEDIUM_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.MEDIUM_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total MEDIUM_CONFIDENCE_COUNT"
+                                        },
+                                        "[2E29F-8CB]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "TOTAL_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.TOTAL_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_CONFIDENCE_COUNT"
+                                        },
+                                        "[DC4E2-2CB]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "HIGH_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.HIGH_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total HIGH_CONFIDENCE_COUNT"
+                                        }
+                                    },
+                                    "title": "Confidence Coefficient"
+                                },
+                                "instanceid": "F4A99-E885-15",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "borders/all": true,
+                "borders/grid": false,
+                "borders/rows": false,
+                "borders/columns": false,
+                "width/content": true,
+                "width/window": false,
+                "colors/headers": true,
+                "colors/rows": true,
+                "colors/columns": false,
+                "wordwrap/headers": true,
+                "wordwrap/rows": false,
+                "scroll": false,
+                "pageSize": 25,
+                "tableState": {
+                    "time": 1711679305667,
+                    "start": 0,
+                    "length": 25,
+                    "order": [
+                        [
+                            0,
+                            "asc"
+                        ]
+                    ],
+                    "search": {
+                        "search": "",
+                        "smart": true,
+                        "regex": false,
+                        "caseInsensitive": true
+                    },
+                    "columns": [
+                        {
+                            "visible": true,
+                            "search": {
+                                "search": "",
+                                "smart": true,
+                                "regex": false,
+                                "caseInsensitive": true
+                            }
+                        },
+                        {
+                            "visible": true,
+                            "search": {
+                                "search": "",
+                                "smart": true,
+                                "regex": false,
+                                "caseInsensitive": true
+                            }
+                        },
+                        {
+                            "visible": true,
+                            "search": {
+                                "search": "",
+                                "smart": true,
+                                "regex": false,
+                                "caseInsensitive": true
+                            }
+                        }
+                    ],
+                    "colResize": {
+                        "columns": [
+                            "295.568px",
+                            "77.5994px",
+                            "131.776px"
+                        ],
+                        "tableSize": 504.942909
+                    },
+                    "childRows": [],
+                    "iScrollerTopRow": 0,
+                    "iScroller": 0,
+                    "headers": [
+                        {
+                            "title": "Question Category",
+                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.QUESTION_CATEGORY]",
+                            "datatype": "text"
+                        },
+                        {
+                            "title": "Percent Correct",
+                            "formula": "[DB05B-04F]/[0EFD3-5EC]"
+                        },
+                        {
+                            "title": "Confidence Coefficient",
+                            "formula": "([DC4E2-2CB] +(0.5*[92B4C-40C]))/[2E29F-8CB]"
+                        }
+                    ]
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_category",
+                            "title": "QUESTION_CATEGORY",
+                            "singular": "QUESTION_CATEGORY",
+                            "plural": "QUESTION_CATEGORY"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "7D30A-8653-7F",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "tablewidgetagg",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('ready', function(){\n  let desc = widget.desc;\n  let $wrapper = $(`widget[widgetid='${widget.oid}']`);\n  var $container = $wrapper.find('.widget-desc');\n  if ($container.length == 0){\n\t$(\"<div class='widget-desc' style='margin: 10px;'></div>\").insertAfter($wrapper.find('widget-header'));\n\t$container = $wrapper.find('.widget-desc');\n\t$container.html(`<div class='narration-wrapper resizable loaded' style='padding-bottom: 10px;'><div class='resize-holder ui-resizable text-holder narration-text'>${desc}</div><div class='ui-resizable-handle ui-resizable-s'></div></div>`);\n\t$wrapper.height(parseInt($wrapper.height())+$container.height());\n\tvar newHeightCalc = `calc(100% - ${$container.height()}px)`;\n\t$wrapper.find('.dataTables_scroll,.sisense-pivot__multi-grid').css(\"height\",newHeightCalc);\n  }\n});",
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "triggersDomready": true,
+                "selector": false,
+                "dataTypes": {
+                    "dimensions": true,
+                    "measures": false,
+                    "filter": false
+                },
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "661ff7d87529970040f13920",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "NEW: Does learner performance aligned with perceived confidence?",
+            "type": "chart/scatter",
+            "subtype": "bubble/scatter",
+            "oid": "66219c117529970040f1399a",
+            "desc": "The dynamic table represents data pertaining to course question categories showing perceived confidence against actual performance.",
+            "source": "647a1db25cf2ad00332f88a2",
+            "datasource": {
+                "fullname": "localhost/Utilization",
+                "id": "localhost_aUtilization",
+                "address": "LocalHost",
+                "database": "aUtilization",
+                "live": false,
+                "title": "Utilization",
+                "lastBuildTime": "2024-04-18T15:29:48.266Z"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "x-axis",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([DC4E2-2CB] +(0.5*[92B4C-40C]))/[2E29F-8CB]",
+                                    "context": {
+                                        "[92B4C-40C]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "MEDIUM_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.MEDIUM_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total MEDIUM_CONFIDENCE_COUNT"
+                                        },
+                                        "[2E29F-8CB]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "TOTAL_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.TOTAL_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_CONFIDENCE_COUNT"
+                                        },
+                                        "[DC4E2-2CB]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "HIGH_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.HIGH_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total HIGH_CONFIDENCE_COUNT"
+                                        }
+                                    },
+                                    "title": "Confidence Coefficient"
+                                },
+                                "instanceid": "F4A99-E885-15",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color_bkp": {
+                                        "type": "range",
+                                        "steps": 9,
+                                        "rangeMode": "auto"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "y-axis",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[DB05B-04F]/[0EFD3-5EC]",
+                                    "context": {
+                                        "[DB05B-04F]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "CORRECT_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.CORRECT_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_COUNT"
+                                        },
+                                        "[0EFD3-5EC]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "ANSWER_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "Percent Correct"
+                                },
+                                "instanceid": "1AFFE-FC8D-F8",
+                                "format": {
+                                    "mask": {
+                                        "decimals": "auto",
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "point",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                    "column": "QUESTION_CATEGORY",
+                                    "dim": "[USAGE_SCORES_AND_CONFIDENCES.QUESTION_CATEGORY]",
+                                    "datatype": "text",
+                                    "title": "Question Category"
+                                },
+                                "instanceid": "054BC-9E5C-84",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Break By / Color",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([F60E1-50A] +(0.5*[73810-2E7]))/[782D6-0BF]",
+                                    "context": {
+                                        "[73810-2E7]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "MEDIUM_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.MEDIUM_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total MEDIUM_CONFIDENCE_COUNT"
+                                        },
+                                        "[782D6-0BF]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "TOTAL_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.TOTAL_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_CONFIDENCE_COUNT"
+                                        },
+                                        "[F60E1-50A]": {
+                                            "table": "USAGE_SCORES_AND_CONFIDENCES",
+                                            "column": "HIGH_CONFIDENCE_COUNT",
+                                            "dim": "[USAGE_SCORES_AND_CONFIDENCES.HIGH_CONFIDENCE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total HIGH_CONFIDENCE_COUNT"
+                                        }
+                                    },
+                                    "title": "Confidence"
+                                },
+                                "instanceid": "6C333-796F-0F",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "range",
+                                        "rangeMode": "auto",
+                                        "steps": 9
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "size",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": -45
+                },
+                "markerSize": {
+                    "isRange": false,
+                    "min": 10,
+                    "max": 10,
+                    "lowest": 10,
+                    "highest": 60,
+                    "step": 1,
+                    "defaultSize": 10
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true
+                },
+                "yAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true
+                },
+                "dataLimits": {
+                    "categoriesCapacityX": 500,
+                    "categoriesCapacityY": 500,
+                    "seriesCapacity": 50
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_category",
+                            "title": "QUESTION_CATEGORY",
+                            "singular": "QUESTION_CATEGORY",
+                            "plural": "QUESTION_CATEGORY"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "23DD4-2849-D9",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "tablewidgetagg",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('ready', function(){\n  let desc = widget.desc;\n  let $wrapper = $(`widget[widgetid='${widget.oid}']`);\n  var $container = $wrapper.find('.widget-desc');\n  if ($container.length == 0){\n\t$(\"<div class='widget-desc' style='margin: 10px;'></div>\").insertAfter($wrapper.find('widget-header'));\n\t$container = $wrapper.find('.widget-desc');\n\t$container.html(`<div class='narration-wrapper resizable loaded' style='padding-bottom: 10px;'><div class='resize-holder ui-resizable text-holder narration-text'>${desc}</div><div class='ui-resizable-handle ui-resizable-s'></div></div>`);\n\t$wrapper.height(parseInt($wrapper.height())+$container.height());\n\tvar newHeightCalc = `calc(100% - ${$container.height()}px)`;\n\t$wrapper.find('.dataTables_scroll,.sisense-pivot__multi-grid').css(\"height\",newHeightCalc);\n  }\n});",
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true
+            },
+            "dashboardid": "661ff7d87529970040f13920",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

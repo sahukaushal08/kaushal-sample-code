@@ -1,0 +1,2184 @@
+{
+    "_id": "654c7c282427d2f3b619be2e",
+    "oid": "ce12c876-1627-4640-a906-09bc28897f8d",
+    "title": "Psychometric",
+    "type": "extract",
+    "relationType": "regular",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "elasticube",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": null,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "f14b826a-7df8-4db1-8231-4e6c4ec8a9ad",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "4f00be62-bba0-484c-bac9-59b74080c244",
+                    "column": "bf820a57-b69f-4d5d-ac8a-6f094a8a3aae",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "f90c5435-5f7f-475f-bcf2-14257a174742",
+                    "column": "da860013-6eec-4181-891c-66adc8bb7fb3",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "d9ff2a89-63fb-4204-ae36-0f55c89b5d6a",
+                    "column": "8d5bdd70-d82a-429a-b1fd-ebbf1abafd12",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "276cdb9d-a297-4d9c-b8a2-32f317d6d87d",
+                    "column": "8cf179a8-62a3-458a-8ad6-088e971c04ce",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "8f18d11e-2b11-4d77-af9a-18b562f20397",
+                    "column": "2e715615-057c-4df4-b08b-f263d3037a8d",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "17111e05-d91a-44d9-9a85-917dcf7a5e49",
+                    "column": "5c256660-2332-4f3c-bbf9-ae17dd9b9587",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "930c52c1-c471-4a12-8994-f96635c250a1",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "4097570b-49a1-4e24-94fc-c6ffbe90e8aa",
+                    "table": "a483d2d6-5c45-4a27-9141-11780fe4f423",
+                    "column": "cf1c4431-55b8-4617-abf9-1c8d7a13b853",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "f90c5435-5f7f-475f-bcf2-14257a174742",
+                    "column": "0d15d9b7-32e5-4f96-be71-cd374b692e1b",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "17111e05-d91a-44d9-9a85-917dcf7a5e49",
+                    "column": "6dde43d0-96fc-4f03-af3e-14afd2c55371",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "8f18d11e-2b11-4d77-af9a-18b562f20397",
+                    "column": "2c07faf1-16d7-4e1f-9c8e-8ea5e4adf8b3",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "276cdb9d-a297-4d9c-b8a2-32f317d6d87d",
+                    "column": "7721074b-c993-4f12-8913-c844305a4ff6",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "d9ff2a89-63fb-4204-ae36-0f55c89b5d6a",
+                    "column": "b5d9f5c1-665a-49cf-a7aa-4fbb2bfc936d",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "1e93b40d-bc39-4b9c-b2db-0b87815afd06",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "17111e05-d91a-44d9-9a85-917dcf7a5e49",
+                    "column": "9ad02123-50b2-4c91-af00-abba68914c44",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "1728ebf1-1d0c-407f-8d2e-0ff33f20f033",
+                    "table": "12e3ec51-9380-43f6-a676-27ccea1af651",
+                    "column": "d3ac8dce-74ff-4ed5-9dea-1dcbf5217915",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "276cdb9d-a297-4d9c-b8a2-32f317d6d87d",
+                    "column": "f0788f73-f7eb-4141-8edb-afe15ddc6d74",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "d9ff2a89-63fb-4204-ae36-0f55c89b5d6a",
+                    "column": "2656ea9e-ad51-4f4c-b37a-121888249640",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "da469879-255b-4066-a709-9ef812f81da1",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "80df1c2c-2ad9-4f05-80c6-06d80c30768d",
+                    "column": "a7a690cd-efdc-43ee-8dba-879e71c178cd",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+                    "table": "f90c5435-5f7f-475f-bcf2-14257a174742",
+                    "column": "3feece7f-025f-428c-ba94-b5047922cd74",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "03084701-ca50-4b7a-8254-70c1e9f8710f",
+            "fullname": "SnowflakeJDBC:7ef5b45f-17cc-449f-9062-1b9a87e35d58",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "7ef5b45f-17cc-449f-9062-1b9a87e35d58",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "17111e05-d91a-44d9-9a85-917dcf7a5e49",
+                        "id": "PSYCH_EXAM_STATUS",
+                        "name": "PSYCH_EXAM_STATUS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "5c256660-2332-4f3c-bbf9-ae17dd9b9587",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9ad02123-50b2-4c91-af00-abba68914c44",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e7b833a7-275d-4707-a88b-2ac3ff4d9d07",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "01b76ad1-3a10-412f-8e71-4719c9fab999",
+                                "id": "COMPLETION_STATUS",
+                                "name": "COMPLETION_STATUS",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b438d98d-6199-4c6a-a5cc-286b1a9277e9",
+                                "id": "RESET_STATUS",
+                                "name": "RESET_STATUS",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "73c4ce9e-4338-41c8-b80b-29355d58b9fb",
+                                "id": "EXAM_SCORE_GROUPING",
+                                "name": "EXAM_SCORE_GROUPING",
+                                "type": 18,
+                                "size": 7,
+                                "precision": 7,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c51e47c5-5a80-49d2-95bf-788dee29fc80",
+                                "id": "EXAM_COUNT",
+                                "name": "EXAM_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ef4ca7c0-6be4-47ab-954c-09d9e6214f9d",
+                                "id": "CORRECT_ANSWERS_COUNT",
+                                "name": "CORRECT_ANSWERS_COUNT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "23676dc0-00d8-48b5-a912-c2ce8baacba9",
+                                "id": "TOTAL_ANSWERS_COUNT",
+                                "name": "TOTAL_ANSWERS_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "5c256660-2332-4f3c-bbf9-ae17dd9b9587",
+                                    "type": 0
+                                },
+                                "type": "change-data-type"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-02-27T19:25:39.586Z",
+                                    "oid": "6dde43d0-96fc-4f03-af3e-14afd2c55371",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-02-27T19:25:39.586Z",
+                                        "oid": "37153dff-1555-4265-a532-dc8202d252ec",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "17111e05-d91a-44d9-9a85-917dcf7a5e49",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "276cdb9d-a297-4d9c-b8a2-32f317d6d87d",
+                        "id": "PSYCH_EXAM_STATISTICS",
+                        "name": "PSYCH_EXAM_STATISTICS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "8cf179a8-62a3-458a-8ad6-088e971c04ce",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "246e6d0b-1732-4c4a-b7a7-304132ea989e",
+                                "id": "EXAM_ID",
+                                "name": "EXAM_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f0788f73-f7eb-4141-8edb-afe15ddc6d74",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4d69f4ea-10a6-439b-8e7c-32c52eb50011",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6548f1da-e1cb-4136-9a62-4479e442daaa",
+                                "id": "EXAMS_ATTEMPTED",
+                                "name": "EXAMS_ATTEMPTED",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "677617b8-f39e-437c-9133-92bb4c082b1f",
+                                "id": "NUMBER_OF_QUESTIONS",
+                                "name": "NUMBER_OF_QUESTIONS",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9818ba6f-8e2c-4318-ab69-0b9385a38a92",
+                                "id": "LOWEST_EXAM_SCORE",
+                                "name": "LOWEST_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7fb4ada9-d258-4979-9949-bbbdb0918218",
+                                "id": "MEAN_EXAM_SCORE",
+                                "name": "MEAN_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "de066fd5-8cd5-4446-a9b0-146056f8fb15",
+                                "id": "HIGHEST_EXAM_SCORE",
+                                "name": "HIGHEST_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "17c8053e-20cc-497c-86ed-61d77c9078cf",
+                                "id": "STD_DEV_EXAM_SCORE",
+                                "name": "STD_DEV_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1fee801a-8f9a-43f4-a13c-39ea7b6157dd",
+                                "id": "LOWEST_PCT_CORRECT",
+                                "name": "LOWEST_PCT_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a8ab1d82-50b5-4785-a16b-617425b80ad5",
+                                "id": "MEAN_PCT_CORRECT",
+                                "name": "MEAN_PCT_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d15b0598-63c6-42ec-a95e-aca4277f6de1",
+                                "id": "HIGHEST_PCT_CORRECT",
+                                "name": "HIGHEST_PCT_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "8cf179a8-62a3-458a-8ad6-088e971c04ce",
+                                    "type": 0
+                                },
+                                "type": "change-data-type"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-02-27T19:24:44.465Z",
+                                    "oid": "7721074b-c993-4f12-8913-c844305a4ff6",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-02-27T19:24:56.495Z",
+                                        "oid": "48018dbd-efdb-4854-ba63-402a24a03e04",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "276cdb9d-a297-4d9c-b8a2-32f317d6d87d",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "4f00be62-bba0-484c-bac9-59b74080c244",
+                        "id": "USAGE_PSYCH_COURSE_TENANT",
+                        "name": "USAGE_PSYCH_COURSE_TENANT",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "f2b05a45-7d4c-4040-9a95-43e616232c09",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "83b1d019-f10d-4f54-b751-f1601e42edfe",
+                                "id": "COURSE_NAME",
+                                "name": "COURSE_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6749fc64-d13d-407d-84d7-9d8900b88350",
+                                "id": "COURSE",
+                                "name": "COURSE",
+                                "type": 18,
+                                "size": 1027,
+                                "precision": 1027,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bf820a57-b69f-4d5d-ac8a-6f094a8a3aae",
+                                "id": "COURSE_ID_AS_INT",
+                                "name": "COURSE_ID_AS_INT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e12ce531-3c46-46f6-842f-7d1fbee7e45e",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "18616462-06d9-4eb1-804c-bd85987b292a",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "6d32b46f-c3ab-4b99-a0b3-0148bcdf271e",
+                        "id": "CUBE_REFRESH",
+                        "name": "CUBE_REFRESH",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "951fce0f-4fcc-4954-9db5-d2cd84b0e595",
+                                "id": "LAST_REFRESHED_AT",
+                                "name": "LAST_REFRESHED_AT",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "8dfa6ea9-0ae6-4f40-841d-8c9e889cf2f8",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "80df1c2c-2ad9-4f05-80c6-06d80c30768d",
+                        "id": "PSYCH_QUESTION_DISTRACTORS",
+                        "name": "PSYCH_QUESTION_DISTRACTORS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "a7a690cd-efdc-43ee-8dba-879e71c178cd",
+                                "id": "QUESTION_ID",
+                                "name": "QUESTION_ID",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "44f283c0-b7e7-4051-978f-d676415bb0af",
+                                "id": "EXAM_ID",
+                                "name": "EXAM_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f8644027-ca47-4753-9d22-220fd440ce6c",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e02ceed4-b504-40a2-9cdf-233540e6371d",
+                                "id": "QUARTILE",
+                                "name": "QUARTILE",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ee37da6b-4057-46c6-afbe-aeee4920cbd1",
+                                "id": "TOTAL_CORRECT_ANSWERS",
+                                "name": "TOTAL_CORRECT_ANSWERS",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "97498b31-9c15-4961-8f03-d51985857e78",
+                                "id": "TOTAL_ANSWERS",
+                                "name": "TOTAL_ANSWERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a5ccc334-23d8-420d-b02e-63d4734fdbeb",
+                                "id": "TOTAL_A",
+                                "name": "TOTAL_A",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9c99ae5b-91d0-47eb-942f-cb17a3c85bc6",
+                                "id": "TOTAL_B",
+                                "name": "TOTAL_B",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "774de06f-a3d5-4ca0-80c1-7d0cc3a55f2f",
+                                "id": "TOTAL_C",
+                                "name": "TOTAL_C",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "91b8c153-6c99-46ba-a682-f0174a0822f8",
+                                "id": "TOTAL_D",
+                                "name": "TOTAL_D",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bcfe32f8-a8f1-4f80-b255-03f1b9fedf6e",
+                                "id": "TOTAL_E",
+                                "name": "TOTAL_E",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4ba66a2b-ee94-4883-82c7-58464f322d87",
+                                "id": "TOTAL_NA",
+                                "name": "TOTAL_NA",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "80164d47-d369-421f-8ac4-c748b70fe295",
+                                "id": "P_VALUE",
+                                "name": "P_VALUE",
+                                "type": 5,
+                                "size": 37,
+                                "precision": 36,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "28afff21-5c05-40d2-85a9-3c0abc65ed11",
+                                "id": "P_VALUE_A",
+                                "name": "P_VALUE_A",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "652c3f62-d778-4ee1-9b72-ec2d9800e7a0",
+                                "id": "P_VALUE_B",
+                                "name": "P_VALUE_B",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "44703e89-9f86-4df0-a0aa-48035908d9aa",
+                                "id": "P_VALUE_C",
+                                "name": "P_VALUE_C",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6d61dc9b-0473-40e4-86c0-8d680baa2063",
+                                "id": "P_VALUE_D",
+                                "name": "P_VALUE_D",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6f051510-daea-443d-b75f-eaea9a1c6433",
+                                "id": "P_VALUE_E",
+                                "name": "P_VALUE_E",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c8eb36c3-e728-4e49-9ebf-5f60fc46505e",
+                                "id": "TOP_P_VALUE",
+                                "name": "TOP_P_VALUE",
+                                "type": 5,
+                                "size": 37,
+                                "precision": 36,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9abd6774-9e8f-4395-b958-472741e4e543",
+                                "id": "TOP_A_PCT",
+                                "name": "TOP_A_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9cceb79f-6203-4d82-98a8-e9c2f62c6861",
+                                "id": "TOP_B_PCT",
+                                "name": "TOP_B_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "86ae9835-1b53-4c4e-b408-7980a57a518c",
+                                "id": "TOP_C_PCT",
+                                "name": "TOP_C_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3bd3b177-8f83-4805-8de1-0e3de661e7e3",
+                                "id": "TOP_D_PCT",
+                                "name": "TOP_D_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "79ff1fb5-ba6b-499b-b27d-c8198eb3d238",
+                                "id": "TOP_E_PCT",
+                                "name": "TOP_E_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e49f2424-b685-4b88-88dd-577a112ea404",
+                                "id": "BOTTOM_P_VALUE",
+                                "name": "BOTTOM_P_VALUE",
+                                "type": 5,
+                                "size": 37,
+                                "precision": 36,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "55709805-06bb-466c-b5d1-95cb4aa7a266",
+                                "id": "BOTTOM_A_PCT",
+                                "name": "BOTTOM_A_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "40642e79-3857-4dd6-9c3d-cbf68f61cfc3",
+                                "id": "BOTTOM_B_PCT",
+                                "name": "BOTTOM_B_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f6e6c93a-2c6b-4b09-88f5-d5ee6d5ade02",
+                                "id": "BOTTOM_C_PCT",
+                                "name": "BOTTOM_C_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6fa481de-c4da-4f76-ae16-d27e2a78323c",
+                                "id": "BOTTOM_D_PCT",
+                                "name": "BOTTOM_D_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ea5b08d6-e484-4330-b8b6-7da058fa73ed",
+                                "id": "BOTTOM_E_PCT",
+                                "name": "BOTTOM_E_PCT",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "52a71b98-9cf7-48f5-adb6-0b8ff3f5de95",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "8f18d11e-2b11-4d77-af9a-18b562f20397",
+                        "id": "PSYCH_PRACTICE_QUESTION_STATISTICS",
+                        "name": "PSYCH_PRACTICE_QUESTION_STATISTICS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "2e715615-057c-4df4-b08b-f263d3037a8d",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "89eb4b24-4325-442f-bac1-a6696eb2e098",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8c40e15c-713f-40fe-8efd-c5d96db156ea",
+                                "id": "QUESTION_ID",
+                                "name": "QUESTION_ID",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7b0b1863-a8ba-42fd-9409-d90777c48489",
+                                "id": "QUESTION_CATEGORY_NAME",
+                                "name": "QUESTION_CATEGORY_NAME",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "37cd4413-7b1c-4c27-a5f7-50ce9ad4dabc",
+                                "id": "SUBCATEGORYNAME",
+                                "name": "SUBCATEGORYNAME",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a110be00-10d1-444e-bf2b-86aa1cb7525e",
+                                "id": "ELO_RANK",
+                                "name": "ELO_RANK",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "79e1e3ed-3a38-47cd-8587-ac68ef269747",
+                                "id": "QUESTION_TYPE",
+                                "name": "QUESTION_TYPE",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2b67d888-2e10-408c-98ef-fc5e4255d6a1",
+                                "id": "NO_OF_CHOICES",
+                                "name": "NO_OF_CHOICES",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c5729881-cddc-4e7a-9876-aee11383f65e",
+                                "id": "TOTAL_ANSWERS",
+                                "name": "TOTAL_ANSWERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ff5f51a8-1bed-4528-9ed9-23844ef3b468",
+                                "id": "TOTAL_CORRECT",
+                                "name": "TOTAL_CORRECT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "19192906-5641-408c-8fa9-7555f1a644d7",
+                                "id": "TOTAL_INCORRECT",
+                                "name": "TOTAL_INCORRECT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7e923f6f-a3ab-4094-8aa0-cfe0bda8a5ce",
+                                "id": "AVG_TIME_TAKEN",
+                                "name": "AVG_TIME_TAKEN",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "2e715615-057c-4df4-b08b-f263d3037a8d",
+                                    "type": 0
+                                },
+                                "type": "change-data-type"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-02-27T19:25:11.396Z",
+                                    "oid": "2c07faf1-16d7-4e1f-9c8e-8ea5e4adf8b3",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-02-27T19:25:11.396Z",
+                                        "oid": "8ba969cd-d0c5-4ad0-8e60-37aa6b0d482d",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "8f18d11e-2b11-4d77-af9a-18b562f20397",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "d9ff2a89-63fb-4204-ae36-0f55c89b5d6a",
+                        "id": "PSYCH_CONFIDENCE_STATISTICS",
+                        "name": "PSYCH_CONFIDENCE_STATISTICS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "8d5bdd70-d82a-429a-b1fd-ebbf1abafd12",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2656ea9e-ad51-4f4c-b37a-121888249640",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c7ad4abe-6b81-4d72-b01c-1353f5dd82d4",
+                                "id": "QUESTION_CATEGORY_NAME",
+                                "name": "QUESTION_CATEGORY_NAME",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "425bdcd5-7f7a-46a5-be4e-dda40173b6f0",
+                                "id": "SUBCATEGORY_NAME",
+                                "name": "SUBCATEGORY_NAME",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c44dfa7d-5f69-409f-8300-69c86118942d",
+                                "id": "QUESTION_TYPE",
+                                "name": "QUESTION_TYPE",
+                                "type": 18,
+                                "size": 8,
+                                "precision": 8,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2c22af36-bdc7-4e9d-b840-22253fccfd88",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "29c273ab-a3b4-4f80-9275-35846c2e5eaa",
+                                "id": "CONFIDENCE",
+                                "name": "CONFIDENCE",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fa9d03c0-5e71-45fc-8a0d-a0b896976a8e",
+                                "id": "COUNT",
+                                "name": "COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "8d5bdd70-d82a-429a-b1fd-ebbf1abafd12",
+                                    "type": 0
+                                },
+                                "type": "change-data-type"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-02-27T19:24:11.531Z",
+                                    "oid": "b5d9f5c1-665a-49cf-a7aa-4fbb2bfc936d",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-02-27T19:23:56.263Z",
+                                        "oid": "906b49fe-47bd-4896-bea0-9523fa9a4454",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "d9ff2a89-63fb-4204-ae36-0f55c89b5d6a",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "f90c5435-5f7f-475f-bcf2-14257a174742",
+                        "id": "PSYCH_DISTRACTOR_ANALYSIS",
+                        "name": "PSYCH_DISTRACTOR_ANALYSIS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "da860013-6eec-4181-891c-66adc8bb7fb3",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a04799ef-bd9c-45b1-885b-a894681efd42",
+                                "id": "DAY",
+                                "name": "DAY",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3feece7f-025f-428c-ba94-b5047922cd74",
+                                "id": "QUESTION_ID",
+                                "name": "QUESTION_ID",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9d53129d-8e60-48b9-ab82-e644eefb8f9e",
+                                "id": "ITEM_NUMBER",
+                                "name": "ITEM_NUMBER",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3cb04ff5-6fe3-427f-b206-8dc5a65b529c",
+                                "id": "NUMBER_OF_RESPONSES",
+                                "name": "NUMBER_OF_RESPONSES",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "70b13102-2002-4d67-9acf-4f4f78fbc1ce",
+                                "id": "TOTAL_CORRECT_ANSWERS",
+                                "name": "TOTAL_CORRECT_ANSWERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "26bdef6f-d0c6-46c1-962a-2407b4966ad1",
+                                "id": "ELO_RANK",
+                                "name": "ELO_RANK",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "be99460f-cd95-4676-a935-56df1790f3b3",
+                                "id": "ITEM_DIFFICULTY",
+                                "name": "ITEM_DIFFICULTY",
+                                "type": 18,
+                                "size": 9,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "efd41fbe-9747-46d5-ac36-1ee015396e92",
+                                "id": "ANSWER_KEY",
+                                "name": "ANSWER_KEY",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "51d7c88e-4bbc-4967-a1a1-7d37f42483d4",
+                                "id": "CHOICE_A",
+                                "name": "CHOICE_A",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4e92c0bd-112c-4ec0-b6c1-234728e5f210",
+                                "id": "CHOICE_B",
+                                "name": "CHOICE_B",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "76d7d4c0-bdb1-4a67-a8c0-e79258d12599",
+                                "id": "CHOICE_C",
+                                "name": "CHOICE_C",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e41c6a49-27b4-4ee2-941d-e25e81d58088",
+                                "id": "CHOICE_D",
+                                "name": "CHOICE_D",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1ea8ceae-185d-464a-abf3-8105d0430073",
+                                "id": "CHOICE_E",
+                                "name": "CHOICE_E",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f2be6165-8e20-4cd7-b933-c3ed32d622e4",
+                                "id": "NO_ANSWER",
+                                "name": "NO_ANSWER",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "da860013-6eec-4181-891c-66adc8bb7fb3",
+                                    "type": 0
+                                },
+                                "type": "change-data-type"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-02-27T19:26:09.622Z",
+                                    "oid": "0d15d9b7-32e5-4f96-be71-cd374b692e1b",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-02-27T19:26:09.622Z",
+                                        "oid": "6c080580-55c9-4e0f-8bb6-a36e7b96ca87",
+                                        "expression": "createdate(getyear([DAY]),getmonth([DAY]),getday([DAY]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "f90c5435-5f7f-475f-bcf2-14257a174742",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "16ae15c6-3388-48e8-a76c-3b9cc531c1be",
+                "id": "6650121d30f5020038a21137",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJkejNhemJVbHl6L0NGWkdLTHhDZGVFY1ZJZjY4VEpsdnJ3eEd6UE1mTFh1VnBLVDZSTGYrcU9SbmNmd3dSRGhyQVNGTlhOYkZHNGlkRFB2U2lHM29SQ29FMXA0alRDNWdIV2lIR1hqNEtxd3A3YktPZ3owRUFwN1VTWi81anFBRGIxRW1TUGk3ckUwem1RR2p6VEFpVjY2UXpJbkRtV2dsbm1sRWlyV3g3dCtQY1o3d0V1WktPU3ZKT1RwUWl1MDRWak13bWlLaDhsN2ZjUHpiNDhkSlVVa2w0bjdkVEptSkF0b3Y4c2hFTHJ3cmhudHA2TE1tRzVLV2wzS0sxMFNacUtqd1FldzZ1eWNhRDBYWGV1cE5yQjFnQ2JOYWV4VnQvOGllSnJxU1RJUWFFcm5nRHBBVHo2d2FnVkxhRms1ZWNrbzF6bU9RTVZ3TlBFOEN6Z3hSTmR3bVlVbW5URVk3SU9xeTNmKzIva2ZZZ1dnaDhKNWdmT2ZIVUoyWmxEYXc3RktFOUVFSVR1dXFnMjJzS3Y1ck9TWmVtbHFuWUwwT0ZrQVg2dWlLZUFlV1dOZWhPeFZJbmdpaVlWeVNwN0k5NGJaT21BUFI5OERYd0pycHdXaitaS0FwQVlFTlBIK3RJTDY2QnNjVlJ3OVV4VjhjN2NwWGFXWGpyc2s4VVBtWm1EVHhJSGc4K2V2VjUzOTVtYUE1dSsxbFR4cmdoa3FScTM3aGNDcGJJL3pIeW1aaDZwRUsrcG1ubzNmc1NGRDAvU2FaMXJEQm1nTDNCeDZuTEFidk9FcUZQUG55ZG0xeEJQenJ0aDlvalJ5eFl5bHNRR28xSUpMYlRwU2d0bjB5OU9pckE4ZlVaYW11ZWRNSXh2NjgrazhVY3BQSDJvUUlCUjhEK05wb0ZkRUVhdHVZV2VSYytvWTJMcUhqamhOanE1cUY1RWNlaG9IdStiMXI0V3Q4M3ZNdU9jZGpTNHUzUncybFRReVA3SjFtWktmL1U3SGVZQ1V2SWxZQUpDM0tYdmgvT28vWjZHWUsyYTUxN1ZkZGRtZTdtb1VvRC9VZHFDVzVydnV6L3J3PSIsIm5vbmNlIjoiRWRTODBmUWxMUHpnWXdTUGs1WkZRZz09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMDdUMTM6NDg6MjYuMTA3Mjc0MTAxWiJ9fQ==",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "09f77d84-5b85-41bb-b0ea-f517404ad1ee",
+            "fullname": "SnowflakeJDBC:4036bfa4-8af0-4e0d-9adb-83d2610b0180",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "4036bfa4-8af0-4e0d-9adb-83d2610b0180",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "c248b6a6-4985-4a6f-b581-eb7a62d76eac",
+                "id": "654d020c07357d002dd323b6",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJFaHN3QVJST3FIYXo4bHhKa2pqMUVYTzhjMCtDdWwvUjIrNTJDckZvR1IvT2kweWVyMC95ejZmb1JFYVFtcjlhOHJNRWUyMVk5blVhaHl6dElIVjFYb2crWWR0ZmJERWIzbG1BTFNmM3h5dnFDYTlFWWhNTGQvQlZrTzZiQmt0SDRkU0c3ZGtDSDRPcWFkTWZxZ1JBcGtjNHlRemlFanBlSURkSFRaSVBVejdMaDhjcTN2Q2haWlZRaExxTHZOSkhKcGo5bWgyRXQwU0ovS2lTMWNrMmVZZlpLOXJBMTg5NEtWVS82T0RJNGNGZlREb2xWN2VHWHlGcjZ6N01uQkU1Y3pnOWgvV1VOYlVCeVdsR3lxN2N2YnhINmt1VFpPNldJRUJWTXN0R0pVcTFEM0hvVWdDQmE1ck1VdG81V2MyaDZhZ0o3Q0NWaHEvQnNuTWpETitLWDBQSCt6WFltOEY3Qk5Tckkvd2c3UUhpa1ZUTXQ3eEZPSG9pZGhpTlRvUWtlL2d5TEkycmFDSXZKemdKTXI1Q21qeWdWY1gxVVJtL3JuSUdmcnFsNDlraTZCNUZWSDU4TkF3dDlYbEJjRkZ2a0JsbmdWZDNFQmtETGt1MHpiOFkvSGNPdTkxd1hVNUw2bXZOQ2JqR0lEMlJ6VGllaFZJUWhGME5TSFNtTDMzOTZRUUFyV0EvbXdaR1pOcGFKQ2JLc2FVVyt5UlB2QjFyYXEvb0dFT2pCQnNyRVg3MXpya29SNHNXV2dpcHdkV3JoZWd6eXh3RW5kNWlFaitXNkdqMm1Od0dFZndWZDJiWTVaVnYrUDFWcmpuaHA4cnpJQllxM0ZQU1M0UlZzdUdURGFHM3JNT1hyc045S01XVERyU2JMbzVmMlJ0TnRMekdPTEZDMDFNSW5YMUpuUzI3MWFYR0I2dFh5V09idjRwK1BaeEdvTk05NTkzcHBIWEVhYnBOMVFiUHpPVG11YlV0cGE0YmNHRGhtUXRQaEl4enFKclB4MjJ0YkoxdjBzV1FIYkxVcUwrcENub0NvU1l0TWtHMlhqL21OV050TE5oUHZJWjROK3ZoM1g1TVc4clQ4SDlaK25pNC90RHhSWEtqZGl1RzF2ZTRpcG1WYUZOQlJHMk44QT09Iiwibm9uY2UiOiJRalNSTHZyK01FOHRKZjFuSFBEUEtRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wN1QxMzo0ODoyNi4xMDg2NDM1NzlaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "0f7aad12-7a14-46bc-8d09-aaf9e059a4b9",
+            "fullname": "SnowflakeJDBC:323c3da2-3f97-4ddb-b5f4-3f25232ad499",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "323c3da2-3f97-4ddb-b5f4-3f25232ad499",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "7c0839be-eb07-4bbd-b6e4-c68ac6a8e996",
+                "id": "654c7c285023b0002ef1689f",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJITlFhcjArQjIvYWtLV0xiME02c3hYVWVSR09saGdNZm45YUxMMTM0RlVKNlZZM1dxL1d2Z09UK2JmdUkwRXRnbzQwVEtybnE1d0VldXRkRnJtdGQvV05lVVVJZEsySWlFd21HQzl3K0VERlBIN3NwWm1ZdkJjT3djUG5BU1B3WUhTS2tuQjdNc3hSVjdRYnVDaTBXRnk1UE1jUlpXY3dNS0MvOWFsZ3FjT0Y3YzExNG83NG5JODlJVHpPZWhUd0Fqb3o0WC9DVjNCYkhvVzZIQ3FhbUtuazdvMk9rOXlQZnVpWHk3VkJqWjVJN1RVb2FlV3ZObzhJbk9TSHlSTER3aVpvK0JwalcxUlBkN0wrQ0t2cExvTUppVVY1VVczcTZLdm1ad0d4M1VCQjEwclJiaTQ0cVRpWHhyK0NTd2VWRW5jWStnSUdLMlBTcHZ5UGVhaXNQNDJWbEtEYXJkNVFQd3R1VzBtdjFTYjYvQ1oxdU5hZTM2VjZueDFybGQ5STR0WmFhNkl6MzcvNGVPNlh0VjE5T2hiRWllRGJBOHhNRE1mOW5Xay9OMU10TnJDRWlmSGxPWi9FNTN6ZjgwZUZxeHZTZVFuUlpMUmhJdi9PR1orSVlkc1p2NFNDeDQ0dGlPd3RqWDhWeTRPRnhZZ1dCU0dLRzZMbHpab2NMN3JzMktwdnFIL1ovRHJoQ1lDc3QyVDFDTGpyaVZQb0ZaLzVYRnE2VWp1ZFlKUTRodXJCUThveUxWOW1yTE9ZbmE0R1JZMHVsanJkdnNTU0hoL1RqcUZYRmNmMGVJaFZ6b2pmcmoyVkprTnAybE0xRC9oNDl2dUVaSk1tQnYyVkRWSlRLRUZBYW43elZFcDAyNGNwSXFlM0xTZms0R2kveDBpTExGRmc0djRNaVhZdmRqR0Vhb21nZ2x3bjFvWERuV3I3VFNENk1vUlkvdjlUSGw5ZjB5cnN2cWptaWRNcUFKY2poeDU4WWNrZk50dm16MXlmdmtHazFpWmc1TGxXQll5K0Nwd0RDbDJ0Rzk0Qi9wS3dEbFVROXo3eDR0UHM2ZSs5VkFNdzdVWE9TNFRDL3N2RXVPcTV1Um9EY0tQeTBNOWp3ekhtSTV3Tkx0SjJNTjl5dU83c0Q5Zz09Iiwibm9uY2UiOiJ0ODViQW52S01ZbkxITUNodStBZzh3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wN1QxMzo0ODoyNi4xMDg1NjcxNThaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "1728ebf1-1d0c-407f-8d2e-0ff33f20f033",
+            "fullname": "b0a110c1-b55c-4d3f-a9cd-6c4fa8a29a9f",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "b0a110c1-b55c-4d3f-a9cd-6c4fa8a29a9f",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "12e3ec51-9380-43f6-a676-27ccea1af651",
+                        "id": "dim_exams",
+                        "name": "dim_exams",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "ec1b636b-36a7-42ed-ae19-78db82b691bd",
+                            "expression": "SELECT DISTINCT pcs.[EXAM_NAME] from [PSYCH_CONFIDENCE_STATISTICS] pcs\nUNION\nSELECT DISTINCT pes.[EXAM_NAME] from [PSYCH_EXAM_STATISTICS] pes\nUNION\nSELECT DISTINCT pest.[EXAM_NAME] from [PSYCH_EXAM_STATUS] pest",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "d3ac8dce-74ff-4ed5-9dea-1dcbf5217915",
+                                "id": "a9151921-10d8-4d76-93ef-a945eca99a79",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "93fe3d2b-6fde-4471-b482-e1bdfb09e761",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "4097570b-49a1-4e24-94fc-c6ffbe90e8aa",
+            "fullname": "Excel:34f4b4af-05cb-4642-94ae-81f2a9b35507",
+            "database": "",
+            "schemaName": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+            "type": "extract",
+            "name": "34f4b4af-05cb-4642-94ae-81f2a9b35507",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "a483d2d6-5c45-4a27-9141-11780fe4f423",
+                        "id": "DimDates",
+                        "name": "dim_dates",
+                        "type": "base",
+                        "schemaName": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+                        "columns": [
+                            {
+                                "oid": "c5cb0b68-c27c-4898-88c8-442975f18381",
+                                "id": "DateNum",
+                                "name": "DateNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cf1c4431-55b8-4617-abf9-1c8d7a13b853",
+                                "id": "Date",
+                                "name": "Date",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e9e0fb5c-9b00-4925-aca3-a7b604dd5737",
+                                "id": "YearMonthNum",
+                                "name": "YearMonthNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6ab2f6f3-834c-491f-b2db-993532ed0fbb",
+                                "id": "Calendar_Quarter",
+                                "name": "Calendar_Quarter",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9d7dd3ca-e921-41f5-b5ae-2a9d99c65cb8",
+                                "id": "MonthNum",
+                                "name": "MonthNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b3c88b72-637b-4764-9d0f-d99ddc7eb89b",
+                                "id": "MonthName",
+                                "name": "MonthName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6c8e9d70-ee91-4f3b-865a-5d0f02587b83",
+                                "id": "MonthShortName",
+                                "name": "MonthShortName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "999997c6-ebb7-4980-b878-2a96d1685bf7",
+                                "id": "WeekNum",
+                                "name": "WeekNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5316442c-dd26-495a-a08c-cf5e24487924",
+                                "id": "DayNumOfYear",
+                                "name": "DayNumOfYear",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "31574772-7892-42b0-8ad8-1945e9788e61",
+                                "id": "DayNumOfMonth",
+                                "name": "DayNumOfMonth",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a8fc9537-b0fc-4ae6-ba97-5091f68b0255",
+                                "id": "DayNumOfWeek",
+                                "name": "DayNumOfWeek",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "38b89d6c-cdcd-422e-8384-0c58d938a192",
+                                "id": "DayName",
+                                "name": "DayName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "146667e6-5199-414c-a9cc-2bdd7196d866",
+                                "id": "DayShortName",
+                                "name": "DayShortName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f5ea0a2f-29cb-465a-8c18-18b0ccebe2d1",
+                                "id": "Quarter",
+                                "name": "Quarter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2039a41c-c6da-48fc-ae12-03651d7c30bd",
+                                "id": "YearQuarterNum",
+                                "name": "YearQuarterNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f1549027-4b10-4267-8e0b-8af80a5989c8",
+                                "id": "DayNumOfQuarter",
+                                "name": "DayNumOfQuarter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "a483d2d6-5c45-4a27-9141-11780fe4f423",
+                        "configOptions": {
+                            "fieldsInFirstRow": true,
+                            "culture": "en-US",
+                            "staticRange": "",
+                            "columnsDateTimePatterns": "{}"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "800b4863-276e-4548-92af-5f3a8cff94a7",
+                "id": "654c7c295023b0002ef168aa",
+                "provider": "Excel",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJPU0lXejNQczdnenhOZEtSSVYydS9XcHJKQTROV2l0d1J3TThxWFU2a09pZG0vc2NsQ3ljNmtOVittZ0RYRGVjemZHb2RTU2NaSndYR1FxeGpaSzc4SWdDRFlLZ25xV29QWkhudk1yMXQyL0duNVhLc2lKeFBTTElLTTdRUWExVlRyWDEwSEhqVXIrRzhIU1JHcmlRYWVNL2NZQjN3NU9Mbm9DQktFc3kwMG89Iiwibm9uY2UiOiJrbVpHUE9jN1NRZnN5K2ZtSk9sQlBRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wN1QxMzo0ODoyNi4xMDg2ODI5MzBaIn19",
+                "schema": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "77b5743c-a18c-4562-9c43-4803b253f6b2",
+            "fullname": "SnowflakeJDBC:1f3243c8-50e8-4ac7-9ed3-3fba1b77bafb",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "1f3243c8-50e8-4ac7-9ed3-3fba1b77bafb",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "d542a2ca-f28a-4bf3-b986-306baeee25dd",
+                "id": "654c7c295023b0002ef168a8",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJwT1VYZldQanRGb2d6eWsySUJwMlRsWWJERS9FeURNcmVjMFcyeXN4Qm1RM05MMGliV3pIYTQ3TTlaVVBTbTMwMlBXWGk3MFhyVTNNSXF2MjE3N2FRUXB2d3Z2bVlwaXVOSFBwMkM4dy9tZFV3QmNUakVqMUM1NHFaQkRBa2laZm0xTHYyUitQcTA1VWljU1JaYm9oMEVVY0htT09RUnIwNVpOR1l6U2ZhZDY0Sy8xdkZsck5KSDZlZURQTVNpenFEVytyc1lpTkN1V2Y3S00yWTJ4TWpQcWNrM2RRMkt0ZTZTOURzcmZXNFZIY0RMQm05TWsyeVRrNDZud2tjeXcrOE1jbHdSZ0VkTkpuSm9SUDVWODFudFQ0UGZiTzdpaWRITjVrS1RHTEN5VFFCbmY2SW5hTGg2TURrK0VkUnFyTGVVSU15ZXlWN2g5U09ua0JZTzg3bllXOHJpOHozR1VnMHNPQ2JNL1A1ZTBlZ0FpczV4RmJIZlNCUnBtVjM0QlZvZlEwZ1ZCODRzbzRvQ1YxcEVqS3BYNU55S0VvVTVPOXl5ZUlPNnAzNEZGVDdPRCs4Zkw4d3UzNzgwUUxFRFhZUWlVbGtZRHVObGIwcndkWmJuSzMzQng1ZGhSUU5OQXp0Q2pYSS9EK1BqTGhGU1Y0MVl2MkVvMDdCYnlYTjdBeGVjTWNmYmxFaXExRk9VdndTWlU1NWM2YXZGYlpPSXB6MlVKZGxjeWcxNndmUjRwY043S29TK0Zsa053dG52WnR5Q080azFLWnc4czFDNCtBQ3FoTmF0S1grOWMxU2hINmVVL0R0WUJ1MncwSlNxYzBYSWd1UUJRa3dBZit1V1RtM3paNndmQW9sdGFlQnpKNjgyY1ZIV0Q0Y3ppWEJ2N0xZYXdINjU4R3pvb2hKL25SNlFSdEo5NjFOeXJqaUdaK0JacWZGcndSbDlmQTBkbm5vUjFiQVkrQ0xkaDViTHBCblArVlBjYThSazdHYnk5ZThVdUxUbHp0cis4S0FkUFdQVVBHaHdKaTZCNXdDUzdJZm5YNUJjenc5ZVRiQWVhNWpwV1NteDY4R2NyMDhHeVZMQkVwQmF2dFBlWTZ6K2FNdnllYWxNaTliTUVBSlZEZmtpZDdaQT09Iiwibm9uY2UiOiJIYTdOWnlrKzZzSUVxNmFZZDNCM0dRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wN1QxMzo0ODoyNi4xMDg3MjQ0MjFaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "d5feee96-cdc7-4899-a737-3dd660873b6f",
+            "fullname": "SnowflakeJDBC:7b5dc5b7-c04d-4916-bac1-e6e283ff17dd",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "7b5dc5b7-c04d-4916-bac1-e6e283ff17dd",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "46afbcaf-3fee-478b-92a5-d268e4bd8f32",
+                "id": "654d004d07357d002dd323b3",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI4QVZXTjBMZkFEQTU4cGxnV0kzWk5STnFaUHg0dWkwb0JZdkVSODVML0dXRjVqNGNJVmRWWktXbW5vWmZvUWlaeVU1QzdVNG5TTXN6TFZTRmJwcjdHckNLVWVOQVdZVXU3SzlvNHVLUWdVbnZ4Y0I4b3VDTkZYbXJmek9zZ0tCSmpYUUhuSVBzQUdkT1JtamtsazhOcDZNOGQ4UmlEYTgrb0drSlN5TkwrMU53cnlwTk5FSG5MYlBCWVEvOHFYVHl6bTZLYk82Ti9nNElXUk90NU03S3ZpYVllNFl5Q0VJL3ErTHZIVFNpUXp4UXNlZWpoTTBKY0VmaXVxQjJQaXNwTGZnaFhPTTVhSHVmYWpCL01iQTJ2KzUrcHVFTkQyR1BRbTJSRUNJNW9ScTJlOXU1MW1PMkNldGp1U3pMQXkvSTk5dUZaZTM4ZzdzSThBNEtQaDdzVTFWaFJrNjAycEhiZlhlRUNtT1RyMHZqSmpOeDBRMVUzT0M5Rmc4eXg1ZCsrVmY5UU9RVjNMSmUrTzIvMmIzMVBiZVhidXFpUDZRQ0U4SWxoOFJZNVBlcDQ5QmdYTFpBbWJOKzlSYmhMVURiNVVmOEZHQlBxS2dSN1NEb2h6Um0xazZwQlZuOFJxVHgvdU9pQjhWdUVnajFrdktDY3d5WVlIcDNBelBhYzdabzVKL0ZpU3IwWFpFN1lPY0lNdmY2YnhOTjFZRVc1eEk4N25jazFha1c0K2crNytrcnltdzZKWXl2UDVTcGZaNTRDdWduRStyTnhJT2NkbzJVcGdOaUhzY0MrYjVRN3lQbFZlSDZFZkJEcjdpK1cyVUJUVGQ3UUtodkQ2QkoyaE45aUpBSnAxd01ONzNUc1NPZml4SGVYcDI5TFZsZW5KZGptRk92ZnV5VHFTaFUzbUlUK0x1Y0hnT0hZeWw5ejMzNGxsZVFBR2s5N2ZTeXRDUG1aRzdtRG5DdTNaY3hRZUFSVGdDSXkrNmZZMjg4V2wxOVpScDJpVXJ1SDJ1MUNlaWRTaTg5clVHdXNIbDRtaXJKQjB6WnJpVlNoS1NHWGYxSit6M084aVgvVGVBb3l1aG9GSW85RHFtQkh5bWNSNmxYOHByMUxudHpacnZCcnZlSXdKK29WQT09Iiwibm9uY2UiOiI5c21RdmZqejBEMng1b0hDY3hWNk1RPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wN1QxMzo0ODoyNi4xMDg4MzI2MjNaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "6d32b46f-c3ab-4b99-a0b3-0148bcdf271e",
+                "x": -1.6873923540115356,
+                "y": -1.1856883764266968,
+                "fixed": true
+            },
+            {
+                "id": "a483d2d6-5c45-4a27-9141-11780fe4f423",
+                "x": -3.253974676132202,
+                "y": -0.6649472117424011,
+                "fixed": true
+            },
+            {
+                "id": "12e3ec51-9380-43f6-a676-27ccea1af651",
+                "x": -7.548728942871094,
+                "y": 2.0840494632720947,
+                "fixed": true
+            },
+            {
+                "id": "d9ff2a89-63fb-4204-ae36-0f55c89b5d6a",
+                "x": -4.219959735870361,
+                "y": 2.8436882495880127,
+                "fixed": true
+            },
+            {
+                "id": "f90c5435-5f7f-475f-bcf2-14257a174742",
+                "x": -5.50793981552124,
+                "y": -0.8537029027938843,
+                "fixed": true
+            },
+            {
+                "id": "276cdb9d-a297-4d9c-b8a2-32f317d6d87d",
+                "x": -6.1189069747924805,
+                "y": 0.8259879350662231,
+                "fixed": true
+            },
+            {
+                "id": "17111e05-d91a-44d9-9a85-917dcf7a5e49",
+                "x": -6.4176130294799805,
+                "y": 3.333721160888672,
+                "fixed": true
+            },
+            {
+                "id": "8f18d11e-2b11-4d77-af9a-18b562f20397",
+                "x": -1.3761237859725952,
+                "y": 0.3046281337738037,
+                "fixed": true
+            },
+            {
+                "id": "80df1c2c-2ad9-4f05-80c6-06d80c30768d",
+                "x": -4.111973762512207,
+                "y": -2.7352349758148193,
+                "fixed": true
+            },
+            {
+                "id": "4f00be62-bba0-484c-bac9-59b74080c244",
+                "x": -1.9326343536376953,
+                "y": 2.9928572177886963,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -4.25,
+                "y": 4.25,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "654c7c295023b0002ef168ac",
+                "oid": "ce12c876-1627-4640-a906-09bc28897f8d",
+                "datamodelOid": "ce12c876-1627-4640-a906-09bc28897f8d",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}

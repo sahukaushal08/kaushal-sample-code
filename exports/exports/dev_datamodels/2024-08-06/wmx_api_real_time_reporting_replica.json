@@ -1,0 +1,2216 @@
+{
+    "_id": "653fdaeb2427d2f3b6ddcb97",
+    "oid": "9a201a3f-9cf0-4162-9fa4-46cd99ca20f5",
+    "title": "wmx_api_real_time_reporting_replica",
+    "type": "live",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "66d7cfb5-ae7a-4a68-ab61-1a7f285b2a5a",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "4872b593-2333-41b4-86af-30f4b9017ae4",
+                    "column": "36602d2d-cdbd-456f-af8b-1c5913758644",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "63d93059-4f97-4f85-b9ce-6c1bafeaed39",
+                    "column": "ba4dd543-20bc-4021-b032-84b210d8b113",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "9a2b7ea7-e194-4178-ac5c-c28a37c90e87",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "ab05ee3c-3e6e-41ee-bc02-23ce25eb2c93",
+                    "column": "9ee5c0f0-7628-4bc7-8ba5-6b333a411f2a",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "de3ddaf5-bae2-4490-a9f0-e9a105412885",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e2cc1c10-e660-4dd5-af5d-7efeba3f807e",
+                    "column": "92a7c70b-e4f6-48ad-96bd-edd8c165bd41",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "3f57c5ad-a691-43d8-a946-6ade39d231d0",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "63d93059-4f97-4f85-b9ce-6c1bafeaed39",
+                    "column": "5e8e92c9-a9a8-40c4-82f6-49d7832903a3",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "4ce1aec0-3360-4f53-83ae-ca3acf16b5e2",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "50e300ec-9bb0-420b-9ee1-47a4d2616028",
+                    "column": "2caa8d1f-d813-4d83-8d36-1f0431bfc34f",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "b6f4493a-44c1-494c-9e82-e1ed6422d33e",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e2cc1c10-e660-4dd5-af5d-7efeba3f807e",
+                    "column": "4d2f9a50-6948-46ac-b171-151bb40a70cf",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                    "column": "b4218ce8-a7ca-49f9-8a3d-81f541494435",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "8aba00b0-9399-4f52-b9f2-d4b4e43d844a",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "63d93059-4f97-4f85-b9ce-6c1bafeaed39",
+                    "column": "39e5adde-d24d-436d-8e37-b1fc6df3f689",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                    "column": "b4218ce8-a7ca-49f9-8a3d-81f541494435",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "a00ecee2-7053-4e70-930e-526b3a4d17c9",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "50e300ec-9bb0-420b-9ee1-47a4d2616028",
+                    "column": "901774c0-7a34-46dc-8e2d-074e942ca940",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                    "column": "b4218ce8-a7ca-49f9-8a3d-81f541494435",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "cbbd97e5-13c4-4bff-9a5f-bb0526171ea8",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "7a60fe8d-de79-49b7-a91c-9bf570655d25",
+                    "column": "c65e2afd-ac66-445c-ace8-95618d854c46",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "50e300ec-9bb0-420b-9ee1-47a4d2616028",
+                    "column": "0745a6a1-3fa9-4942-a0e6-9837461b761e",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "5e484e87-875b-44a8-8da6-646172d52189",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "4de3dc61-8c73-4bb4-9fb1-5ca546b1eb6d",
+                    "column": "04fd7a39-18e7-40ab-a170-7cec91befafe",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                    "column": "b4218ce8-a7ca-49f9-8a3d-81f541494435",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "01cd8855-2422-4d2f-93db-b772864c3089",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "4de3dc61-8c73-4bb4-9fb1-5ca546b1eb6d",
+                    "column": "a8056a68-92df-494b-a431-6a375a0ffd99",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "a6f99164-7ace-492d-8674-80e23bb6fdc3",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "ccf69690-e27a-4e8c-91b6-dc1501c41b7e",
+                    "column": "45cb382b-8476-494d-a1cf-a0b7727f6142",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "d2c3b01c-b489-429d-8e14-5211023f7a82",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                    "column": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "50e300ec-9bb0-420b-9ee1-47a4d2616028",
+                    "column": "2b73eb16-00ee-4f84-8797-a9af1d2eb2f5",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "ebdcb469-7049-4f46-b6f7-06ba5be81c83",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                    "column": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "63d93059-4f97-4f85-b9ce-6c1bafeaed39",
+                    "column": "d0d3b925-9155-4f32-8f91-70fce87f7336",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "10ec291f-1327-4338-8bc5-ac86a8432dee",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                    "column": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e2cc1c10-e660-4dd5-af5d-7efeba3f807e",
+                    "column": "bf212e46-5add-4734-b0fc-68d29368fcaf",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "e3170880-3dce-4e9e-8520-ac873b173762",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                    "column": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "4de3dc61-8c73-4bb4-9fb1-5ca546b1eb6d",
+                    "column": "6bef9fb0-1f29-4178-80ab-30d0701488fb",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "4bb4e436-c9bb-472e-8be0-e0c18e859ac9",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                    "column": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "ab05ee3c-3e6e-41ee-bc02-23ce25eb2c93",
+                    "column": "f4f23087-02e2-4ce7-b3af-2d60d5370349",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "343b5c87-d864-4a60-a01d-b8e48206fc03",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "4872b593-2333-41b4-86af-30f4b9017ae4",
+                    "column": "36602d2d-cdbd-456f-af8b-1c5913758644",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e2cc1c10-e660-4dd5-af5d-7efeba3f807e",
+                    "column": "9e222b99-c348-4b27-951e-cf161c4944d1",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "aff1ba3e-4ffb-4d7e-9deb-1b7b1dbe79bf",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "20a6fbba-0127-477f-844c-5c833a328060",
+                    "column": "6526916b-3577-4983-98ca-ef109f0278d6",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                    "column": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "37784ebc-8526-4e40-ba08-4c3f70e8bc13",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "20a6fbba-0127-477f-844c-5c833a328060",
+                    "column": "66265ebd-acb8-4dcc-853c-ad0682527497",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                    "column": "b4218ce8-a7ca-49f9-8a3d-81f541494435",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "a652621c-1f86-4359-bda2-3cfac8f23918",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "20a6fbba-0127-477f-844c-5c833a328060",
+                    "column": "dcd28d0f-3d3d-4e24-9fc4-b97b2da38979",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+                    "table": "10a57301-6dd9-4c6d-b219-5836633082df",
+                    "column": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "edff0f9e-2b55-4e1c-8aa0-89a49335aaa1",
+            "fullname": "PostgreSQL:wmx_api_real_time_reporting_replica",
+            "database": "wmx_api_real_time_replica",
+            "schemaName": "public",
+            "type": "live",
+            "name": "wmx_api_real_time_reporting_replica",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "10a57301-6dd9-4c6d-b219-5836633082df",
+                        "id": "rtv_dim_user",
+                        "name": "rtv_dim_user",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "6f42af2f-fa7a-43c9-89fe-6e2e21bfe64e",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ada5619e-13dd-4d57-849f-0d669e052198",
+                                "id": "user_name",
+                                "name": "user_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "81482b77-7a96-4bcb-9bba-d2228d87d684",
+                                "id": "sis_id",
+                                "name": "sis_id",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "72acaf55-b06c-446c-ba7e-5a73b2eeb1dd",
+                                "id": "user_email",
+                                "name": "user_email",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7baee70b-bab7-4312-ad55-dc91f54154ac",
+                                "id": "branch_membership_id",
+                                "name": "branch_membership_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "446ebb86-922b-49e2-b678-16f7b6a9868f",
+                                "id": "branch_membership",
+                                "name": "branch_membership",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "12657903-f534-4c76-bb1c-a84f07fe837e",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "32cd8a27-10f8-47c2-9525-be2820ee3904",
+                                "id": "tenant_name",
+                                "name": "tenant_name",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a0051b9a-374c-47d6-aa60-21d59cf8a44b",
+                                "id": "tenant_slug",
+                                "name": "tenant_slug",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0ed7f8f7-3e11-4b2c-a1a3-d14ada5d50f5",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "20a6fbba-0127-477f-844c-5c833a328060",
+                        "id": "rtv_fact_study_task_completion",
+                        "name": "rtv_fact_study_task_completion",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "66265ebd-acb8-4dcc-853c-ad0682527497",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9725c013-322f-45a6-8cfb-fafc450e1298",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "dcd28d0f-3d3d-4e24-9fc4-b97b2da38979",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6526916b-3577-4983-98ca-ef109f0278d6",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8cb07012-31e0-461f-ba91-323d4f2ff749",
+                                "id": "completed_study_task_count",
+                                "name": "completed_study_task_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0ff04970-3814-49a0-8780-554871b30a81",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "4872b593-2333-41b4-86af-30f4b9017ae4",
+                        "id": "rtv_dim_exam",
+                        "name": "rtv_dim_exam",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "36602d2d-cdbd-456f-af8b-1c5913758644",
+                                "id": "exam_id",
+                                "name": "exam_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "48697e7e-225e-40f0-976d-aad952fdfa89",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4ea7374d-649f-444b-a8a7-b9db9423513d",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f92eb7c8-d2b3-465e-b3f5-e41f5877e5ac",
+                                "id": "exam_name",
+                                "name": "exam_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "063fdd93-685c-48ce-93db-ef46a3e4bb1b",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "78e604a8-5621-46ea-9ca3-5d715252e656",
+                                "id": "tenant_name",
+                                "name": "tenant_name",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "65528af7-43e0-42c9-bdda-c42f9d9ebe93",
+                                "id": "tenant_slug",
+                                "name": "tenant_slug",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "744e0ccd-f625-4201-94d1-286cbd8f3ed8",
+                                "id": "questions_count",
+                                "name": "questions_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "8295b0df-3901-4ce2-8afc-d75779fa9c76",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "4de3dc61-8c73-4bb4-9fb1-5ca546b1eb6d",
+                        "id": "rtv_fact_enrollment_summary",
+                        "name": "rtv_fact_enrollment_summary",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "04fd7a39-18e7-40ab-a170-7cec91befafe",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "09024077-9aca-4876-8908-1858ca7a6793",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a8056a68-92df-494b-a431-6a375a0ffd99",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6bef9fb0-1f29-4178-80ab-30d0701488fb",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ab163b5d-d5fd-4da4-a0e3-ca910a14f92c",
+                                "id": "last_activity_at",
+                                "name": "last_activity_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7e85a3eb-f043-4f67-8a23-9b101cc0f05d",
+                                "id": "days_visited",
+                                "name": "days_visited",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b77ebe30-0178-49bb-b0e8-7bf97c1e7488",
+                                "id": "course_progress",
+                                "name": "course_progress",
+                                "type": 41,
+                                "size": 7,
+                                "precision": 6,
+                                "scale": 3,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ba1d341a-89bb-46a6-bd9c-a29e52279fc5",
+                                "id": "elo_rank_percentile",
+                                "name": "elo_rank_percentile",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "46bebfd0-100b-48b2-8e33-409ea11f2fcb",
+                                "id": "elo_rank",
+                                "name": "elo_rank",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f289b8e1-69ff-40ba-83c7-0e2877ce3208",
+                                "id": "enrollment_count",
+                                "name": "enrollment_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d3b84401-4827-4125-ae0a-ad7849a16090",
+                                "id": "active_enrollment_count",
+                                "name": "active_enrollment_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f303c810-f04b-4cc7-b906-418515869779",
+                                "id": "adopted_study_plan",
+                                "name": "adopted_study_plan",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "d203ef8c-37d2-471c-b38e-8eac8a268cbc",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "50e300ec-9bb0-420b-9ee1-47a4d2616028",
+                        "id": "rtv_fact_quiz_session",
+                        "name": "rtv_fact_quiz_session",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "2caa8d1f-d813-4d83-8d36-1f0431bfc34f",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "901774c0-7a34-46dc-8e2d-074e942ca940",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "41d9abc6-7116-4421-a608-e5ad0e9aedc3",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f33b87d2-f147-416f-9692-dd33830dc782",
+                                "id": "quiz_session_id",
+                                "name": "quiz_session_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2b73eb16-00ee-4f84-8797-a9af1d2eb2f5",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5c7dcdf7-988f-419a-9078-3bf0afba6d8a",
+                                "id": "quiz_session_created_at",
+                                "name": "quiz_session_created_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d7485df7-9b79-4af2-a528-86483af7032f",
+                                "id": "deleted_at",
+                                "name": "deleted_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e56eac38-f973-44b7-857d-c4f6f3e4514b",
+                                "id": "reset_report_id",
+                                "name": "reset_report_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0745a6a1-3fa9-4942-a0e6-9837461b761e",
+                                "id": "question_category_id",
+                                "name": "question_category_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cf281656-9343-44c8-98cd-85f4f3704ea8",
+                                "id": "quiz_attempts_count",
+                                "name": "quiz_attempts_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c75f97f1-0cd3-48fa-9913-2e563c4d6d43",
+                                "id": "total_answers_count",
+                                "name": "total_answers_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e7e7fc0f-8675-4cf1-91a9-3d97e715deaa",
+                                "id": "correct_answers_count",
+                                "name": "correct_answers_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "adbd27d1-dfbf-4d58-b9a3-d8f307b90128",
+                                "id": "incomplete_answers_count",
+                                "name": "incomplete_answers_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c03b0cf2-37c4-432a-9106-42a15cf4be9b",
+                                "id": "total_time_taken",
+                                "name": "total_time_taken",
+                                "type": 40,
+                                "size": 18,
+                                "precision": 17,
+                                "scale": 17,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "cb034063-5be1-46f8-8786-b86ad5c0ead3",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                        "id": "rtv_dim_tenant",
+                        "name": "rtv_dim_tenant",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "f7379b4b-ed99-48ec-83f1-ff705e7bc973",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "140e324d-b2d0-4e59-b377-5c7ee37fdc62",
+                                "id": "tenant_name",
+                                "name": "tenant_name",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2657d6ca-4ce3-4c8b-8f2b-7257b4d3da50",
+                                "id": "tenant_slug",
+                                "name": "tenant_slug",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "852ff80e-c50c-4f7b-bbb3-703621a92945",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "63d93059-4f97-4f85-b9ce-6c1bafeaed39",
+                        "id": "rtv_fact_exam_result",
+                        "name": "rtv_fact_exam_result",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "5e8e92c9-a9a8-40c4-82f6-49d7832903a3",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "39e5adde-d24d-436d-8e37-b1fc6df3f689",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5c208c14-0001-49b4-a754-83b4be61f740",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ba4dd543-20bc-4021-b032-84b210d8b113",
+                                "id": "exam_id",
+                                "name": "exam_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d0d3b925-9155-4f32-8f91-70fce87f7336",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "87f6dcca-66ef-4a87-a9d7-044a8ea23728",
+                                "id": "exam_questions_count",
+                                "name": "exam_questions_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "389c8bda-98a5-4e03-98fb-e2762dba34af",
+                                "id": "most_recent_attempt",
+                                "name": "most_recent_attempt",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "52f5a2ef-28ae-40c7-88eb-e0a92b837c8c",
+                                "id": "total_attempts",
+                                "name": "total_attempts",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cca5f4ce-c0fe-40e6-a67b-217b1de70bda",
+                                "id": "exam_result_id",
+                                "name": "exam_result_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bbac202a-44e9-4c2c-ad71-574a2a18c10c",
+                                "id": "total_time_taken",
+                                "name": "total_time_taken",
+                                "type": 40,
+                                "size": 18,
+                                "precision": 17,
+                                "scale": 17,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6be5a257-29c8-4f61-b984-afb4327a9f17",
+                                "id": "percentage_correct",
+                                "name": "percentage_correct",
+                                "type": 40,
+                                "size": 18,
+                                "precision": 17,
+                                "scale": 17,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d621fae5-ef79-40dc-85b5-adb44e45fdc3",
+                                "id": "exam_result_state",
+                                "name": "exam_result_state",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3fb95e1d-1c5a-48dc-a526-fc0db14135d9",
+                                "id": "completed_at",
+                                "name": "completed_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "90d3c697-e8c2-4536-a8ac-df3185aab4df",
+                                "id": "exam_result_created_at",
+                                "name": "exam_result_created_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "33067636-a3a1-4320-95e7-ac184b7b36a5",
+                                "id": "exam_result_deleted_at",
+                                "name": "exam_result_deleted_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b77daf6a-4b15-4480-bfa2-b497d0c0bda9",
+                                "id": "total_answers_count",
+                                "name": "total_answers_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "128a561f-40d7-40be-9dc7-9352da1ee1ea",
+                                "id": "correct_answers_count",
+                                "name": "correct_answers_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6ac2a2c5-965a-45f0-af41-0ed21ebae868",
+                                "id": "incomplete_answers_count",
+                                "name": "incomplete_answers_count",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "eb604959-7d40-4841-9ad8-97729200b715",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "7a60fe8d-de79-49b7-a91c-9bf570655d25",
+                        "id": "rtv_dim_question_category",
+                        "name": "rtv_dim_question_category",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "c65e2afd-ac66-445c-ace8-95618d854c46",
+                                "id": "question_category_id",
+                                "name": "question_category_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c3a460cd-a476-4fd8-902f-d687ea11be05",
+                                "id": "question_category_name",
+                                "name": "question_category_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "abbcd353-069d-4ea8-b511-2fb50b5e5a08",
+                                "id": "parent_question_category_benchprep_id",
+                                "name": "parent_question_category_benchprep_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7d96cc82-e41c-4ec3-b70e-a0752b417d13",
+                                "id": "parent_question_category_name",
+                                "name": "parent_question_category_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b3e151ca-145a-444e-8192-741e29de3225",
+                                "id": "parent_category_equals_self",
+                                "name": "parent_category_equals_self",
+                                "type": 2,
+                                "size": 5,
+                                "precision": 1,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a9c2d71e-7650-4610-a543-368526fd26b0",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "859558ab-8930-4a2c-9e36-491f9b5b4349",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cd90d248-9e50-40eb-9054-16719b0eea4e",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "eb2050c2-0c3c-4890-b5fa-8b3b69ef7378",
+                                "id": "tenant_name",
+                                "name": "tenant_name",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7d2b5b9c-9c8f-4f23-88dc-8f67828ec2d4",
+                                "id": "tenant_slug",
+                                "name": "tenant_slug",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "cc44964f-02ef-4265-8b0d-8be395f2597b",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "ab05ee3c-3e6e-41ee-bc02-23ce25eb2c93",
+                        "id": "rtv_fact_user_summary",
+                        "name": "rtv_fact_user_summary",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "9ee5c0f0-7628-4bc7-8ba5-6b333a411f2a",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f4f23087-02e2-4ce7-b3af-2d60d5370349",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5e54a73d-78a9-4bfa-9112-7bc9d208bb7b",
+                                "id": "total_enrollments",
+                                "name": "total_enrollments",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "87387d35-3839-4c9a-a0ff-cacb2da77bdd",
+                                "id": "active_enrollments",
+                                "name": "active_enrollments",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "479984d8-d176-41f5-9a42-10558bbb15fe",
+                                "id": "average_course_progress",
+                                "name": "average_course_progress",
+                                "type": 41,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "895f8f23-8125-47ab-990f-2c3ccb83758a",
+                                "id": "average_active_course_progresss",
+                                "name": "average_active_course_progresss",
+                                "type": 41,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "51861f7d-dac3-4850-b35d-eead941c45ef",
+                                "id": "last_activity_at",
+                                "name": "last_activity_at",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "1dc95cd2-aee0-4bd2-b449-3c69f1d5339a",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "ccf69690-e27a-4e8c-91b6-dc1501c41b7e",
+                        "id": "rtv_fact_group_membership",
+                        "name": "rtv_fact_group_membership",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "45cb382b-8476-494d-a1cf-a0b7727f6142",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "526f49f9-f0ee-4ccb-8a12-66619a49d18a",
+                                "id": "group_id",
+                                "name": "group_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "57269ba3-ae61-4815-bba3-44927e0d80cb",
+                                "id": "member_type",
+                                "name": "member_type",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7aff2bb9-21cd-49c4-90f5-9523788d13f1",
+                                "id": "external_uuid",
+                                "name": "external_uuid",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9af8b288-08ba-4dd8-9678-7670a7761a14",
+                                "id": "external_system_id",
+                                "name": "external_system_id",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "58b539b1-f6f0-43f9-b6ad-585dc233d5ef",
+                                "id": "branch_id",
+                                "name": "branch_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "09204414-c48c-4a37-9345-9e9e3cec3fbf",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0d68d920-b44b-4abe-be7c-8892e9284475",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                        "id": "rtv_dim_course",
+                        "name": "rtv_dim_course",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "b4218ce8-a7ca-49f9-8a3d-81f541494435",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "00a31a4f-04b9-4d54-ab30-1f63250e0da5",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "05d38d29-f7a8-45d8-b36b-1e8ef68af51e",
+                                "id": "course_slug",
+                                "name": "course_slug",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ac0c6b6b-cee8-44b7-9593-05c8d3174253",
+                                "id": "course_type",
+                                "name": "course_type",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5f65a963-3031-49ad-b6fc-2a44b5a94199",
+                                "id": "exams_count",
+                                "name": "exams_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c8510442-a6be-4af3-a2aa-66dfa6c06eab",
+                                "id": "study_tasks_count",
+                                "name": "study_tasks_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9642fa86-c389-426c-aa9e-88b1f0e362cd",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "964c01e6-8e00-406b-956f-082005331784",
+                                "id": "tenant_name",
+                                "name": "tenant_name",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "033d2191-1528-4d4a-8845-2a7483e87eb6",
+                                "id": "tenant_slug",
+                                "name": "tenant_slug",
+                                "type": 18,
+                                "size": 2147483647,
+                                "precision": 2147483647,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "2a1ca8d1-fecf-40f6-949d-22fd0bc48d90",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e2cc1c10-e660-4dd5-af5d-7efeba3f807e",
+                        "id": "rtv_fact_exam_summary",
+                        "name": "rtv_fact_exam_summary",
+                        "type": "base",
+                        "schemaName": "public",
+                        "columns": [
+                            {
+                                "oid": "92a7c70b-e4f6-48ad-96bd-edd8c165bd41",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4d2f9a50-6948-46ac-b171-151bb40a70cf",
+                                "id": "course_id",
+                                "name": "course_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e9eef5c0-c482-4ca3-8d5a-bb4eb251bbc7",
+                                "id": "course_title",
+                                "name": "course_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9e222b99-c348-4b27-951e-cf161c4944d1",
+                                "id": "exam_id",
+                                "name": "exam_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ef6e964e-d0f9-4d27-8d19-52ee5a72cd0c",
+                                "id": "questions_count",
+                                "name": "questions_count",
+                                "type": 8,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bf212e46-5add-4734-b0fc-68d29368fcaf",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "deb65e3f-4007-458b-82db-4223fc43d4dd",
+                                "id": "most_recent_attempt",
+                                "name": "most_recent_attempt",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1aff1aa7-966e-4fcd-86d8-918c333e8635",
+                                "id": "earliest_attempt",
+                                "name": "earliest_attempt",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 29,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "27735f16-9033-4494-82ef-5900f22d1eb1",
+                                "id": "total_attempts",
+                                "name": "total_attempts",
+                                "type": 0,
+                                "size": 19,
+                                "precision": 19,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c4363d54-e303-4ef8-a0ee-b3e6e20af24d",
+                                "id": "highest_score",
+                                "name": "highest_score",
+                                "type": 40,
+                                "size": 18,
+                                "precision": 17,
+                                "scale": 17,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "979cdf21-2fdc-469c-ba01-7b7e44ff64fe",
+                                "id": "lowest_score",
+                                "name": "lowest_score",
+                                "type": 40,
+                                "size": 18,
+                                "precision": 17,
+                                "scale": 17,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "d2ac036f-0c06-400c-8829-cb1bb687dc68",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "8c487015-ad4c-4ee6-b00a-a7b6c8bd9128",
+                "id": "6650128830f5020038a21138",
+                "provider": "PostgreSQL",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJIK1piTzVvT1BTTjhkZXBSKzNGb0pCVEFyUTEyaC9BN3hjRzQrcmd5MVJvM0FpVkNGUTU0ajcwRVlaOUtoUHJ3M290MDdPaFNHV2hubmdGN0R1WEJFVEErY0VLclZUK1lHYjJmRG5PczdzMktqRFBFWHppTHlwTmFNZVhlTU4rZ3VQNlR1RjAyR085TWxpWjZlNFVzWUpYS24ydWxCZzJzQ2MrWEF0UmRiUStpWC8veC9LRHozWkx6UWRkZ2gzM3VBSmQ2VDN5SjNzTWozYXVSVWNOSGZxKzNmOEN3Z25USVlSUmRiaE5QeFhDbHBmdFdzMUEybGF2K1AzYTZuQkZIbjdmSEdoQ284ZXhXakQ3U0hvMmpuUkJKUkZLKytHYWE0Y3FjdjN0NzdYRFRGN2t2ZXY3M2VmZUovSHpSOUlJeUZQaVprTVB4TFdCUVNZSElWcnlxZEtZL2JqeHQ1d1BQczlqYzlZUDY5QWRRNFZUa2pEbW9NS0VDUHVOMU02OVMzTmp1UXpNRkNublJESHNVWFRpaTAxVTJnUWxEM0dXRDdRQTMxTFhCSG1lMjVhVFNtSzc5VWkyS3BDQ1puNXR1dlpHRkNQNzhuTlZGVXBIeUVKUzgxTGordW1YTW5HSDVUUG5Zd2t0SXo0Tlp2Z0twMUtGTkNLS2lPbGpwVG8vZzIxNGNDU1JjZHY1Qi9QU01QVlF5c3E0Z29aaWRvWXVlNG1oZHBqQXlSNHJ5eDdKdmt6NjE2c0lXck5SYkY2cXlIQlgvK3NzZ3Y4SGQyWHJBdVFIMFFsalpkYWxxNXZmcExLRjcrcGVrVnNNZ3JLMHM2SVBvRS85N3daV3JaS3NIVjlFbFNnZFpjZUJEem03UTdyS0lIcXhWRlNSdktUTE9HNms2NnhINzRHcz0iLCJub25jZSI6IjlERlFmbXNSQUpLbnJRTmgzZXhSZWc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTA2VDEzOjI0OjQ5LjcyNjAzNzMxMVoifX0=",
+                "schema": "public",
+                "fileName": null,
+                "protectedParameters": [
+                    "Password"
+                ],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": {
+                "timeout": 60000,
+                "autoRefresh": false,
+                "refreshRate": 30000,
+                "resultLimit": 5000
+            }
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "e0c3e13e-1e7a-4eb3-88bb-a258637053bf",
+                "x": -7.628098964691162,
+                "y": 1.0897102355957031,
+                "fixed": true
+            },
+            {
+                "id": "4872b593-2333-41b4-86af-30f4b9017ae4",
+                "x": 4.535378932952881,
+                "y": 3.2478368282318115,
+                "fixed": true
+            },
+            {
+                "id": "7a60fe8d-de79-49b7-a91c-9bf570655d25",
+                "x": -6.890702724456787,
+                "y": 5.504395484924316,
+                "fixed": true
+            },
+            {
+                "id": "5a8bd824-007c-4a06-b2bf-8ef59493096d",
+                "x": -5.921389102935791,
+                "y": -3.988140106201172,
+                "fixed": true
+            },
+            {
+                "id": "10a57301-6dd9-4c6d-b219-5836633082df",
+                "x": 6.40518856048584,
+                "y": 0.8632159233093262,
+                "fixed": true
+            },
+            {
+                "id": "4de3dc61-8c73-4bb4-9fb1-5ca546b1eb6d",
+                "x": -0.20096330344676971,
+                "y": -3.4677257537841797,
+                "fixed": true
+            },
+            {
+                "id": "63d93059-4f97-4f85-b9ce-6c1bafeaed39",
+                "x": -0.3321346640586853,
+                "y": 2.015237331390381,
+                "fixed": true
+            },
+            {
+                "id": "e2cc1c10-e660-4dd5-af5d-7efeba3f807e",
+                "x": -0.17472903430461884,
+                "y": -0.7131270170211792,
+                "fixed": true
+            },
+            {
+                "id": "ccf69690-e27a-4e8c-91b6-dc1501c41b7e",
+                "x": 5.8928022384643555,
+                "y": -4.170164585113525,
+                "fixed": true
+            },
+            {
+                "id": "50e300ec-9bb0-420b-9ee1-47a4d2616028",
+                "x": -0.3583689332008362,
+                "y": 4.769835948944092,
+                "fixed": true
+            },
+            {
+                "id": "20a6fbba-0127-477f-844c-5c833a328060",
+                "x": -0.6207116842269897,
+                "y": 8.101588249206543,
+                "fixed": true
+            },
+            {
+                "id": "ab05ee3c-3e6e-41ee-bc02-23ce25eb2c93",
+                "x": -0.1538030356168747,
+                "y": -5.799703121185303,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -8.25,
+                "y": 8.25,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "653fdaeb5023b0002ef16877",
+                "oid": "9a201a3f-9cf0-4162-9fa4-46cd99ca20f5",
+                "datamodelOid": "9a201a3f-9cf0-4162-9fa4-46cd99ca20f5",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true,
+                "relationsTables": []
+            }
+        ]
+    }
+}

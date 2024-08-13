@@ -1,0 +1,966 @@
+{
+    "title": "Real-Time User Scores Course Detail - Test + Practice",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Urban",
+            "colors": [
+                "#60C2BB",
+                "#94A1A8",
+                "#6E798D",
+                "#FA7240",
+                "#E2BA50"
+            ]
+        }
+    },
+    "layout": {
+        "instanceid": "645D3-32CD-4C",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "44px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "655e2fe8099eb0003397d7e0"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 879,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 512,
+                                        "defaultWidth": 512,
+                                        "widgetid": "655e2fe8099eb0003397d7e8"
+                                    }
+                                ],
+                                "index": 0,
+                                "stretchable": false,
+                                "width": 100,
+                                "pxlWidth": 879
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 512,
+                                        "defaultWidth": 512,
+                                        "widgetid": "655e2fe8099eb0003397d7e9"
+                                    }
+                                ],
+                                "index": 0,
+                                "stretchable": false,
+                                "width": 100,
+                                "pxlWidth": 879
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 879,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1700662246671": {
+                "undefined": {
+                    "parentNode": [
+                        98.05804796287545,
+                        29,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "previewLayout": [],
+    "oid": "655e2fe8099eb0003397d7df",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:wmx_api_real_time_reporting_replica",
+        "id": "live:wmx_api_real_time_reporting_replica",
+        "live": true,
+        "title": "wmx_api_real_time_reporting_replica"
+    },
+    "filters": [],
+    "editing": true,
+    "parentFolder": "655e2fd8099eb0003397d7dc",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "filterRelations": [],
+    "filterToDatasourceMapping": {},
+    "widgets": [
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "655e2fe8099eb0003397d7e0",
+            "desc": null,
+            "source": "631a44167fe23000373ac317",
+            "datasource": {
+                "fullname": "live:wmx_api_real_time_reporting_replica",
+                "id": "live:wmx_api_real_time_reporting_replica",
+                "live": true,
+                "title": "wmx_api_real_time_reporting_replica"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "<font color=\"#696969\" size=\"5\"><div style=\"text-align: center;\">Real-Time User Scores Course Detail Dashboard</div></font>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "48017-71F1-C7",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "655e2fe8099eb0003397d7df",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Practice Time & Correctness by Parent Category",
+            "type": "chart/column",
+            "subtype": "column/classic",
+            "oid": "655e2fe8099eb0003397d7e8",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "wmx_api_real_time_reporting_replica",
+                "fullname": "live:wmx_api_real_time_reporting_replica",
+                "id": "live:wmx_api_real_time_reporting_replica",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "rtv_fact_quiz_session",
+                                    "column": "parent_question_category_name",
+                                    "dim": "[rtv_fact_quiz_session.parent_question_category_name]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Parent Question Category Name"
+                                },
+                                "instanceid": "AB3B2-9ED2-F1",
+                                "panel": "rows"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "sum(([34ED4-F73],[BF379-796]))/60",
+                                    "context": {
+                                        "[BF379-796]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "total_time_taken",
+                                            "dim": "[rtv_fact_quiz_session.total_time_taken]",
+                                            "datatype": "numeric",
+                                            "filter": {
+                                                "from": 0
+                                            },
+                                            "title": "total_time_taken",
+                                            "datasource": {
+                                                "title": "wmx_api_real_time_reporting_replica",
+                                                "fullname": "live:wmx_api_real_time_reporting_replica",
+                                                "id": "live:wmx_api_real_time_reporting_replica",
+                                                "live": true
+                                            }
+                                        },
+                                        "[34ED4-F73]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "total_time_taken",
+                                            "dim": "[rtv_fact_quiz_session.total_time_taken]",
+                                            "datatype": "numeric",
+                                            "title": "Total Time Taken"
+                                        }
+                                    },
+                                    "title": "Total Time Taken (min)"
+                                },
+                                "instanceid": "56C0F-3A50-D1",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#4b5260",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([E2481-FC6],[C2543-2F9])/([C76AC-A20],[C2543-2F9])",
+                                    "context": {
+                                        "[E2481-FC6]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "correct_answers_count",
+                                            "dim": "[rtv_fact_quiz_session.correct_answers_count]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total correct_answers_count"
+                                        },
+                                        "[C76AC-A20]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "total_answers_count",
+                                            "dim": "[rtv_fact_quiz_session.total_answers_count]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total total_answers_count"
+                                        },
+                                        "[C2543-2F9]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "total_time_taken",
+                                            "dim": "[rtv_fact_quiz_session.total_time_taken]",
+                                            "datatype": "numeric",
+                                            "filter": {
+                                                "from": 0
+                                            },
+                                            "title": "total_time_taken",
+                                            "datasource": {
+                                                "title": "wmx_api_real_time_reporting_replica",
+                                                "fullname": "live:wmx_api_real_time_reporting_replica",
+                                                "id": "live:wmx_api_real_time_reporting_replica",
+                                                "live": true
+                                            }
+                                        }
+                                    },
+                                    "title": "% Correct"
+                                },
+                                "instanceid": "D6628-4BCA-06",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#0e788f",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "singleSeriesType": "line",
+                                "y2": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[rtv_dim_question_category.parent_question_category_name]",
+                                    "table": "rtv_fact_quiz_session",
+                                    "column": "deleted_at",
+                                    "dim": "[rtv_fact_quiz_session.deleted_at (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "datasource": {
+                                        "title": "wmx_api_real_time_reporting_replica",
+                                        "fullname": "live:wmx_api_real_time_reporting_replica",
+                                        "id": "live:wmx_api_real_time_reporting_replica",
+                                        "live": true
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "N\\A"
+                                        ],
+                                        "isCondition": true
+                                    },
+                                    "level": "years",
+                                    "title": "Years in deleted_at",
+                                    "collapsed": true
+                                },
+                                "instanceid": "4653F-CD9B-17",
+                                "panel": "scope",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "disabled": false
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "stacked": false,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": false,
+                            "percentage": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "y2Axis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "max": 1,
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "parent_question_category_name1",
+                            "title": "parent_question_category_name1",
+                            "singular": "parent_question_category_name1",
+                            "plural": "parent_question_category_name1"
+                        },
+                        {
+                            "id": "years_in_deleted_at",
+                            "title": "Years in deleted_at",
+                            "singular": "Years in deleted_at",
+                            "plural": "Years in deleted_at"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "4297A-12D5-86",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "cancelled": true,
+            "dashboardid": "655e2fe8099eb0003397d7df",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Practice Time & Correctness by Sub-Category",
+            "type": "chart/column",
+            "subtype": "column/classic",
+            "oid": "655e2fe8099eb0003397d7e9",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "wmx_api_real_time_reporting_replica",
+                "fullname": "live:wmx_api_real_time_reporting_replica",
+                "id": "live:wmx_api_real_time_reporting_replica",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "rtv_fact_quiz_session",
+                                    "column": "question_category_name",
+                                    "dim": "[rtv_fact_quiz_session.question_category_name]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Question Category Name"
+                                },
+                                "instanceid": "7B23A-A396-9C",
+                                "panel": "rows"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "sum([1681B-0C9])/60",
+                                    "context": {
+                                        "[1681B-0C9]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "total_time_taken",
+                                            "dim": "[rtv_fact_quiz_session.total_time_taken]",
+                                            "datatype": "numeric",
+                                            "title": "Total Time Taken"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Total Time Taken (min)"
+                                },
+                                "instanceid": "56C0F-3A50-D1",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#4b5260",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[E4C1B-752]/[1D979-F23]",
+                                    "context": {
+                                        "[E4C1B-752]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "correct_answers_count",
+                                            "dim": "[rtv_fact_quiz_session.correct_answers_count]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total correct_answers_count"
+                                        },
+                                        "[1D979-F23]": {
+                                            "table": "rtv_fact_quiz_session",
+                                            "column": "total_answers_count",
+                                            "dim": "[rtv_fact_quiz_session.total_answers_count]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total total_answers_count"
+                                        }
+                                    },
+                                    "title": "% Correct"
+                                },
+                                "instanceid": "D6628-4BCA-06",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#0e788f",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "singleSeriesType": "line",
+                                "y2": true,
+                                "disabled": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[rtv_dim_question_category.parent_question_category_name]",
+                                    "table": "rtv_fact_quiz_session",
+                                    "column": "deleted_at",
+                                    "dim": "[rtv_fact_quiz_session.deleted_at (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "datasource": {
+                                        "title": "wmx_api_real_time_reporting_replica",
+                                        "fullname": "live:wmx_api_real_time_reporting_replica",
+                                        "id": "live:wmx_api_real_time_reporting_replica",
+                                        "live": true
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "N\\A"
+                                        ],
+                                        "isCondition": true
+                                    },
+                                    "level": "years",
+                                    "title": "Years in deleted_at",
+                                    "collapsed": true
+                                },
+                                "instanceid": "4653F-CD9B-17",
+                                "panel": "scope",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "table": "rtv_fact_quiz_session",
+                                    "column": "parent_category_equals_self",
+                                    "dim": "[rtv_fact_quiz_session.parent_category_equals_self]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": false,
+                                        "multiSelection": true,
+                                        "all": true
+                                    },
+                                    "title": "parent_category_equals_self",
+                                    "datasource": {
+                                        "title": "wmx_api_real_time_reporting_replica",
+                                        "fullname": "live:wmx_api_real_time_reporting_replica",
+                                        "id": "live:wmx_api_real_time_reporting_replica",
+                                        "live": true
+                                    },
+                                    "collapsed": true
+                                },
+                                "instanceid": "4C166-2DBA-32",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "stacked": false,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": false,
+                            "percentage": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "y2Axis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_category_name",
+                            "title": "question_category_name",
+                            "singular": "question_category_name",
+                            "plural": "question_category_name"
+                        },
+                        {
+                            "id": "years_in_deleted_at",
+                            "title": "Years in deleted_at",
+                            "singular": "Years in deleted_at",
+                            "plural": "Years in deleted_at"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "parent_category_equals_self",
+                            "singular": "parent_category_equals_self",
+                            "plural": "parent_category_equals_self"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "4297A-12D5-86",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "cancelled": true,
+            "dashboardid": "655e2fe8099eb0003397d7df",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

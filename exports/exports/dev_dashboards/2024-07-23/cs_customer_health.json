@@ -1,0 +1,3100 @@
+{
+    "title": "CS Customer Health",
+    "desc": "",
+    "source": "640f9daf02e8b50035da531b",
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Vivid",
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ]
+        }
+    },
+    "layout": {
+        "instanceid": "4961D-BB83-9A",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": "84px",
+                                        "defaultWidth": 128,
+                                        "widgetid": "640f9daf02e8b50035da52ee"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": "512px",
+                                        "defaultWidth": 128,
+                                        "widgetid": "640f9daf02e8b50035da52f3"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "height": "84px",
+                                        "defaultWidth": 128,
+                                        "widgetid": "640f9daf02e8b50035da5303"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 128,
+                                        "widgetid": "64109ac402e8b50035da53dd",
+                                        "height": "84px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 2048,
+                                        "minWidth": 64,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 128,
+                                        "widgetid": "64109a7402e8b50035da53db",
+                                        "height": "52px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "654074402712d70032d5e9bc",
+                                        "height": 384
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1170.5,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 384,
+                                        "defaultWidth": 512,
+                                        "widgetid": "641250df02e8b50035da58b0"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 726.5,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 384,
+                                        "defaultWidth": 512,
+                                        "widgetid": "641253d202e8b50035da58b6"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6412a12502e8b50035da5901",
+                                        "height": 512
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 512,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6411439e02e8b50035da55a8"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1173,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1173,
+                "index": 0
+            }
+        ],
+        "container": {}
+    },
+    "oid": "640f9daf02e8b50035da52ec",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:cs_metrics",
+        "id": "live:cs_metrics",
+        "live": true,
+        "title": "cs_metrics"
+    },
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "TENANTS",
+                "column": "NAME",
+                "dim": "[TENANTS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Tenant Name",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "10B61-9698-B4",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "USAGE_PSYCH_COURSE_TENANT",
+                "column": "TENANT_ID",
+                "dim": "[USAGE_PSYCH_COURSE_TENANT.TENANT_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Tenant ID",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "152CD-FF39-B5",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                "column": "ENROLLMENT_CREATION_MONTH",
+                "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.ENROLLMENT_CREATION_MONTH (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "New Enrollment Date",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "82B09-C1D6-56",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CS_TENANT_NPS_MONTHLY",
+                "column": "NPS_SURVEY_DATE",
+                "dim": "[CS_TENANT_NPS_MONTHLY.NPS_SURVEY_DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "NPS Survey Date",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "06ECC-21E5-F8",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                "column": "REVIEW_DATE",
+                "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "Course Review/Rating  Date",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "0C8D9-4647-3D",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "datatype": "datetime",
+                "dim": "[CS_TENANT_NPS_MONTHLY.NPS_SURVEY_DATE (Calendar)]",
+                "title": "Quarters in NPS_SURVEY_DATE",
+                "level": "quarters",
+                "column": "NPS_SURVEY_DATE",
+                "table": "CS_TENANT_NPS_MONTHLY",
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                },
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "collapsed": true,
+                "isDashboardFilter": true
+            },
+            "instanceid": "9C5B0-47A6-A3",
+            "isCascading": false
+        }
+    ],
+    "editing": false,
+    "filterToDatasourceMapping": {},
+    "filters": [
+        {
+            "jaql": {
+                "table": "TENANTS",
+                "column": "NAME",
+                "dim": "[TENANTS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Tenant Name",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "10B61-9698-B4",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "USAGE_PSYCH_COURSE_TENANT",
+                "column": "TENANT_ID",
+                "dim": "[USAGE_PSYCH_COURSE_TENANT.TENANT_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Tenant ID",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "152CD-FF39-B5",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                "column": "ENROLLMENT_CREATION_MONTH",
+                "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.ENROLLMENT_CREATION_MONTH (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "New Enrollment Date",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "82B09-C1D6-56",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CS_TENANT_NPS_MONTHLY",
+                "column": "NPS_SURVEY_DATE",
+                "dim": "[CS_TENANT_NPS_MONTHLY.NPS_SURVEY_DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "NPS Survey Date",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "06ECC-21E5-F8",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                "column": "REVIEW_DATE",
+                "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "Course Review/Rating  Date",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "0C8D9-4647-3D",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "datatype": "datetime",
+                "dim": "[CS_TENANT_NPS_MONTHLY.NPS_SURVEY_DATE (Calendar)]",
+                "title": "Quarters in NPS_SURVEY_DATE",
+                "level": "quarters",
+                "column": "NPS_SURVEY_DATE",
+                "table": "CS_TENANT_NPS_MONTHLY",
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                },
+                "datasource": {
+                    "fullname": "live:cs_metrics",
+                    "id": "live:cs_metrics",
+                    "live": true,
+                    "title": "cs_metrics"
+                },
+                "collapsed": true,
+                "isDashboardFilter": true
+            },
+            "instanceid": "9C5B0-47A6-A3",
+            "isCascading": false
+        }
+    ],
+    "lastPublish": "2024-02-23T17:21:39.848Z",
+    "parentFolder": "6419ca5157d69b0033a5f1d3",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "previewLayout": [],
+    "defaultFilterRelations": null,
+    "filtersToRestore": null,
+    "openFromJTD": null,
+    "filterRelations": [],
+    "subscription": {
+        "subscribe": false,
+        "executionPerDay": 1,
+        "schedule": "0 0 0 * * *",
+        "isDataChange": false,
+        "type": "daily",
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "context": {
+            "dashboardid": "640f9daf02e8b50035da52ec"
+        },
+        "startAt": "2023-03-14",
+        "tzName": "America/Chicago",
+        "timezone": 360,
+        "active": false
+    },
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "widgets": [
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "640f9daf02e8b50035da52ee",
+            "desc": null,
+            "source": "640f9daf02e8b50035da531d",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": []
+            },
+            "style": {
+                "content": {
+                    "html": "<font size=\"5\" color=\"#696969\"><div style=\"text-align: left;\"><font size=\"6\">CS Customer Health<br></font></div></font>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#ffffff",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "E3863-9629-47",
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "640f9daf02e8b50035da52f3",
+            "desc": null,
+            "source": "640f9daf02e8b50035da5322",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "<div style=\"text-align: left;\"><font size=\"2\"><font size=\"5\"><font size=\"2\"><b><u>Customer Health Framework</u></b><br></font></font></font></div><ul style=\"text-align: left;\"><li><span style=\"color: rgb(255, 0, 0);\"><b>Phase 5:</b></span> Customer Health Summary<br></li><li><font size=\"2\">Product Value<br></font></li><ul><li><font size=\"2\">Usage/Growth</font></li><ul><li><font size=\"2\"><b><span style=\"color: rgb(0, 168, 8);\">MVP DONE: </span>% new enrollments &lt;&gt; per quarter</b> [Data Source:&nbsp; View - USAGE_LEARNERS_BY_MONTH_AGGREGATE]</font></li><li><font size=\"2\"><b><span style=\"color: rgb(0, 168, 8);\">MVP DONE</span></b></font><font size=\"2\"><b><span style=\"color: rgb(0, 168, 8);\">: </span></b></font><font size=\"2\"><b>NPS counts by type (promoter / passive / detractor) </b>[Data Source: View - USAGE_NET_PROMOTER_SCORE]</font></li><li><font size=\"2\"><b><span style=\"color: rgb(0, 168, 8);\">MVP DONE</span></b></font><font size=\"2\"><b><span style=\"color: rgb(0, 168, 8);\">: </span></b></font><font size=\"2\"><b>Avg Course Rating</b> </font><font size=\"2\">[Data Source: View - USAGE_PRODUCT_REVIEWS]</font></li></ul><li><font size=\"2\">Business Value</font></li><ul><li><font size=\"2\">Product Alignment<br></font></li><ul><li><font size=\"2\"><b><span style=\"color: rgb(155, 155, 215);\">Phase 2: </span></b></font><font size=\"2\">Content Type [<span style=\"color: rgb(155, 155, 215);\"><b>PENDING DATA/PROSERV rec</b></span> to CS: Provide parameters to classify each course into Product Strategy Framework &gt; Content Type]<br></font></li><li><font size=\"2\"><b><span style=\"color: rgb(155, 155, 215);\">Phase 2: </span></b></font><font size=\"2\">Instructional Method</font><font size=\"2\"> [</font><font size=\"2\"><span style=\"color: rgb(155, 155, 215);\"><b>PENDING DATA/PROSERV rec</b></span></font><font size=\"2\"> to </font><font size=\"2\">CS: Provide parameters to classify each course into Product \nStrategy Framework &gt; Instructional Method]</font></li><li><font size=\"2\">Distribution Method</font><font size=\"2\"> </font><font size=\"2\">[PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]</font><font size=\"2\"> </font></li></ul></ul></ul><li><font size=\"2\"><span style=\"color: rgb(18, 76, 135);\"><b>Phase 3/4:</b></span> Relationship --&gt; <br></font></li><ul><li><font size=\"2\">CSM Sentiment </font><font size=\"2\">[PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]</font><font size=\"2\"> <br></font></li><li><font size=\"2\">Customer NPS (\"Does the customer recommend our product?\") [PENDING CS; Data Source: <span style=\"color: rgb(212, 98, 94);\"><b>Email survey tool</b></span>]<br></font></li><li><font size=\"2\">Loyalty</font><font size=\"2\"> </font><font size=\"2\">[PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]</font></li><ul><li><font size=\"2\"># of Renewals Completed</font></li><li><font size=\"2\"># of Referrals (of BenchPrep to others) []<br></font></li></ul></ul><li><font size=\"2\"><span style=\"color: rgb(18, 76, 135);\"><b>Phase 3/4:</b></span></font><font size=\"2\"> </font><font size=\"2\">Financials --&gt; <br></font></li><ul><li><font size=\"2\">Risk Evaluation</font><font size=\"2\"> [PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]</font></li><ul><li><font size=\"2\">Assessment level</font></li><li><font size=\"2\">Accounts receivable</font></li><li><font size=\"2\">Customer's Financial health</font></li></ul><li><font size=\"2\">Annual ARR</font></li><li><font size=\"2\">Potential for Growth </font><font size=\"2\">[PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]</font></li><ul><li><font size=\"2\">Accounts Receivable</font></li><li><font size=\"2\"># of Days outstanding [PENDING CS / Accounting; Data Source: <span style=\"color: rgb(180, 180, 249);\"><b>???</b>]<br></span></font></li></ul><li><font size=\"2\">Annual ARR </font><font size=\"2\"> [PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]</font></li><li><font size=\"2\">Growth Potential [PENDING CS; Data Source: <span style=\"color: rgb(0, 206, 230);\">Salesforce</span>]<br></font></li></ul></ul><div><br></div>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "186E4-D35B-93",
+            "realTimeRefreshing": false,
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "640f9daf02e8b50035da5303",
+            "desc": null,
+            "source": "640f9daf02e8b50035da5332",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "<div><font size=\"5\">Customer Health Summary<br></font></div>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "25317-E04A-20",
+            "realTimeRefreshing": false,
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "64109a7402e8b50035da53db",
+            "desc": null,
+            "source": "64109a7402e8b50035da53dc",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "<div><font size=\"3\">Usage/Growth<br></font></div>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "25317-E04A-20",
+            "realTimeRefreshing": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "RICHTEXT_MAIN.TITLE",
+            "type": "richtexteditor",
+            "subtype": "richtexteditor",
+            "oid": "64109ac402e8b50035da53dd",
+            "desc": null,
+            "source": "64109ac402e8b50035da53de",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "content": {
+                    "html": "<div><font size=\"5\">Product Value<br></font></div>",
+                    "vAlign": "valign-middle",
+                    "bgColor": "#FFFFFF",
+                    "textAlign": "center"
+                }
+            },
+            "instanceid": "25317-E04A-20",
+            "realTimeRefreshing": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "options": {
+                "triggersDomready": true,
+                "hideFromWidgetList": true,
+                "disableExportToCSV": true,
+                "disableExportToImage": true,
+                "toolbarButton": {
+                    "css": "add-rich-text",
+                    "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+                },
+                "selector": false,
+                "disallowSelector": true,
+                "disallowWidgetTitle": true,
+                "supportsHierarchies": false,
+                "dashboardFiltersMode": "filter"
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Course Reviews / Ratings by Quarter",
+            "type": "chart/column",
+            "subtype": "column/stackedcolumn",
+            "oid": "6411439e02e8b50035da55a8",
+            "desc": "The dynamic chart represents data pertaining to review score, presented as an average, and scoped to the level of permission for your account. Interact with and utilize this dashboard to analyze learner satisfaction with the platform.",
+            "source": "6411439e02e8b50035da55a9",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                    "column": "REVIEW_DATE",
+                                    "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_DATE (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "quarters",
+                                    "title": "Review Date (Quarter)"
+                                },
+                                "instanceid": "805ED-9E0A-D7",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([A8A6E-FC6])",
+                                    "context": {
+                                        "[A8A6E-FC6]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_SCORE",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_SCORE]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_SCORE"
+                                        }
+                                    },
+                                    "title": "Average Rating Score"
+                                },
+                                "instanceid": "CB422-C471-5B",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#124c87",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "singleSeriesType": "line",
+                                "y2": true
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(count([8E67A-2BC]),[C254A-56A])",
+                                    "context": {
+                                        "[C254A-56A]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_SCORE",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_SCORE]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_SCORE",
+                                            "filter": {
+                                                "equals": "5"
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "fullname": "live:cs_metrics",
+                                                "id": "live:cs_metrics",
+                                                "live": true,
+                                                "title": "cs_metrics"
+                                            }
+                                        },
+                                        "[8E67A-2BC]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_ID",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_ID]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_ID"
+                                        }
+                                    },
+                                    "title": "Rating Score=5"
+                                },
+                                "instanceid": "4EF99-C062-30",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[USAGE_PRODUCT_REVIEWS.COURSE]_countduplicates",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#6eda55",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(count([E09CC-F9E]),[369FE-66B])",
+                                    "context": {
+                                        "[369FE-66B]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_SCORE",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_SCORE]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_SCORE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "4"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "fullname": "live:cs_metrics",
+                                                "id": "live:cs_metrics",
+                                                "live": true,
+                                                "title": "cs_metrics"
+                                            }
+                                        },
+                                        "[E09CC-F9E]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_ID",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_ID]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_ID"
+                                        }
+                                    },
+                                    "title": "Rating Score=4"
+                                },
+                                "instanceid": "4EF99-C062-30",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[USAGE_PRODUCT_REVIEWS.COURSE]_countduplicates",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#80fd63",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(Count([37848-6D7]),[961FC-E5A])",
+                                    "context": {
+                                        "[961FC-E5A]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_SCORE",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_SCORE]",
+                                            "datatype": "numeric",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "3"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "title": "REVIEW_SCORE",
+                                            "datasource": {
+                                                "fullname": "live:cs_metrics",
+                                                "id": "live:cs_metrics",
+                                                "live": true,
+                                                "title": "cs_metrics"
+                                            }
+                                        },
+                                        "[37848-6D7]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_ID",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_ID]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_ID"
+                                        }
+                                    },
+                                    "title": "Rating Score=3"
+                                },
+                                "instanceid": "EB60C-88E9-77",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#bfbfbf",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(COUNT([774CC-4A8]),[A737A-FD9])",
+                                    "context": {
+                                        "[A737A-FD9]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_SCORE",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_SCORE]",
+                                            "datatype": "numeric",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "2"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "title": "REVIEW_SCORE",
+                                            "datasource": {
+                                                "fullname": "live:cs_metrics",
+                                                "id": "live:cs_metrics",
+                                                "live": true,
+                                                "title": "cs_metrics"
+                                            }
+                                        },
+                                        "[774CC-4A8]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_ID",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_ID]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_ID"
+                                        }
+                                    },
+                                    "title": "Rating Score=2"
+                                },
+                                "instanceid": "16AF7-AFAF-D5",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#fbb755",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(Count([C9A84-DBC]),[4D4D3-ADC])",
+                                    "context": {
+                                        "[4D4D3-ADC]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_SCORE",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_SCORE]",
+                                            "datatype": "numeric",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "1"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "title": "REVIEW_SCORE",
+                                            "datasource": {
+                                                "fullname": "live:cs_metrics",
+                                                "id": "live:cs_metrics",
+                                                "live": true,
+                                                "title": "cs_metrics"
+                                            }
+                                        },
+                                        "[C9A84-DBC]": {
+                                            "table": "CS_TENANT_MONTHLY_PRODUCT_REVIEWS",
+                                            "column": "REVIEW_ID",
+                                            "dim": "[CS_TENANT_MONTHLY_PRODUCT_REVIEWS.REVIEW_ID]",
+                                            "datatype": "numeric",
+                                            "title": "REVIEW_ID"
+                                        }
+                                    },
+                                    "title": "Rating Score=1"
+                                },
+                                "instanceid": "B72DB-38E3-5B",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#fc7570",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": true,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": true,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": true,
+                            "totals": false
+                        },
+                        "stacked": true,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true,
+                        "text": "Total Course Reviews"
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true,
+                    "templateMainYHasGridLines": true,
+                    "max": ""
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "review_date_(quarter)",
+                            "title": "Review Date (Quarter)",
+                            "singular": "Review Date (Quarter)",
+                            "plural": "Review Date (Quarter)"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "23D72-5E05-51",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "New Enrollments per Quarter",
+            "type": "chart/column",
+            "subtype": "column/classic",
+            "oid": "641250df02e8b50035da58b0",
+            "desc": null,
+            "source": "641250df02e8b50035da58b1",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                                    "column": "ENROLLMENT_CREATION_MONTH",
+                                    "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.ENROLLMENT_CREATION_MONTH (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "quarters",
+                                    "title": "Quarters in ENROLLMENT_CREATION_MONTH"
+                                },
+                                "instanceid": "DC093-DFFA-29",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[TENANT_NEW_MONTHLY_ENROLLMENTS.ENROLLMENT_CREATION_MONTH (Calendar)]_years",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                                    "column": "NEW_ENROLLMENT_COUNT",
+                                    "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.NEW_ENROLLMENT_COUNT]",
+                                    "datatype": "numeric",
+                                    "agg": "sum",
+                                    "title": "New Enrollments"
+                                },
+                                "instanceid": "EDF81-0DC9-7E",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#bfbfbf",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": false,
+                                "panel": "measures"
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "DiffPastQuarter([82250-BAD])",
+                                    "context": {
+                                        "[82250-BAD]": {
+                                            "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                                            "column": "NEW_ENROLLMENT_COUNT",
+                                            "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.NEW_ENROLLMENT_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total NEW_ENROLLMENT_COUNT"
+                                        }
+                                    },
+                                    "title": "<> in Enrollment vs. Last Q"
+                                },
+                                "instanceid": "56A4E-65E5-66",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "condition",
+                                        "conditions": [
+                                            {
+                                                "color": "#fc7570",
+                                                "operator": "<",
+                                                "expression": "0"
+                                            },
+                                            {
+                                                "color": "#6eda55",
+                                                "operator": "\u2265",
+                                                "expression": "0"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "y2": false,
+                                "disabled": false,
+                                "panel": "measures"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": false,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": false,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "quarters_in_enrollment_creation_month",
+                            "title": "Quarters in ENROLLMENT_CREATION_MONTH",
+                            "singular": "Quarters in ENROLLMENT_CREATION_MONTH",
+                            "plural": "Quarters in ENROLLMENT_CREATION_MONTH"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "E2F6C-4BCA-EF",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Difference in New Enrollments (by Count and %) per Quarter",
+            "type": "chart/column",
+            "subtype": "column/classic",
+            "oid": "641253d202e8b50035da58b6",
+            "desc": null,
+            "source": "641253d202e8b50035da58b7",
+            "datasource": {
+                "title": "cs_metrics",
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                                    "column": "ENROLLMENT_CREATION_MONTH",
+                                    "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.ENROLLMENT_CREATION_MONTH (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "quarters",
+                                    "title": "Quarters in ENROLLMENT_CREATION_MONTH"
+                                },
+                                "instanceid": "94D04-05E3-C3",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "DiffPastQuarter([B0A4C-28C])",
+                                    "context": {
+                                        "[B0A4C-28C]": {
+                                            "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                                            "column": "NEW_ENROLLMENT_COUNT",
+                                            "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.NEW_ENROLLMENT_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total NEW_ENROLLMENT_COUNT"
+                                        }
+                                    },
+                                    "title": "Enrollment Count Difference"
+                                },
+                                "instanceid": "CE842-B637-2B",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "condition",
+                                        "conditions": [
+                                            {
+                                                "color": "#fc7570",
+                                                "operator": "<",
+                                                "expression": "0"
+                                            },
+                                            {
+                                                "color": "#6eda55",
+                                                "operator": "\u2265",
+                                                "expression": "0"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "GrowthPastQuarter(sum([482D8-069]))",
+                                    "context": {
+                                        "[482D8-069]": {
+                                            "table": "TENANT_NEW_MONTHLY_ENROLLMENTS",
+                                            "column": "NEW_ENROLLMENT_COUNT",
+                                            "dim": "[TENANT_NEW_MONTHLY_ENROLLMENTS.NEW_ENROLLMENT_COUNT]",
+                                            "datatype": "numeric",
+                                            "title": "NEW ENROLLMENT COUNT"
+                                        }
+                                    },
+                                    "title": "% Change in New Enrollments"
+                                },
+                                "instanceid": "EFE6C-0161-DD",
+                                "format": {
+                                    "mask": {
+                                        "type": "percent",
+                                        "separated": true,
+                                        "decimals": "1",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#0e788f",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "y2": true,
+                                "singleSeriesType": "line"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "stacked": false,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": false,
+                            "percentage": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "y2Axis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "quarters_in_enrollment_creation_month",
+                            "title": "Quarters in ENROLLMENT_CREATION_MONTH",
+                            "singular": "Quarters in ENROLLMENT_CREATION_MONTH",
+                            "plural": "Quarters in ENROLLMENT_CREATION_MONTH"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "9C99A-8CA1-FD",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "NPS Scores by Quarter",
+            "type": "chart/column",
+            "subtype": "column/stackedcolumn",
+            "oid": "6412a12502e8b50035da5901",
+            "desc": "The dynamic chart represents data pertaining to NPS (net promoter score - industry standard), presented in aggregate, and scoped to the level of permission for your account. Interact with and utilize this dashboard to analyze learners who answer the question \"How likely are you to recommend your course to a friend\".",
+            "source": "6412a12502e8b50035da5902",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CS_TENANT_NPS_MONTHLY",
+                                    "column": "NPS_SURVEY_DATE",
+                                    "dim": "[CS_TENANT_NPS_MONTHLY.NPS_SURVEY_DATE (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "quarters",
+                                    "title": "Quarters in NPS_SURVEY_DATE"
+                                },
+                                "instanceid": "5D24D-3864-DA",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[BB056-96C]",
+                                    "context": {
+                                        "[BB056-96C]": {
+                                            "table": "CS_TENANT_NPS_MONTHLY",
+                                            "column": "PROMOTER_COUNT",
+                                            "dim": "[CS_TENANT_NPS_MONTHLY.PROMOTER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PROMOTER_COUNT"
+                                        }
+                                    },
+                                    "title": "Promoter (9-10)"
+                                },
+                                "instanceid": "D62E3-B771-38",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#6eda55",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[B6FDD-D5E]",
+                                    "context": {
+                                        "[B6FDD-D5E]": {
+                                            "table": "CS_TENANT_NPS_MONTHLY",
+                                            "column": "PASSIVE_COUNT",
+                                            "dim": "[CS_TENANT_NPS_MONTHLY.PASSIVE_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PASSIVE_COUNT"
+                                        }
+                                    },
+                                    "title": "Passive (7-8)"
+                                },
+                                "instanceid": "2C9E4-0FAA-93",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#bfbfbf",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[4FF7C-3AF]",
+                                    "context": {
+                                        "[4FF7C-3AF]": {
+                                            "table": "CS_TENANT_NPS_MONTHLY",
+                                            "column": "DETRACTOR_COUNT",
+                                            "dim": "[CS_TENANT_NPS_MONTHLY.DETRACTOR_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total DETRACTOR_COUNT"
+                                        }
+                                    },
+                                    "title": "Detractor (0-6)"
+                                },
+                                "instanceid": "F6C3B-90DA-3E",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#fc7570",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([C66A2-C28]/[C08DA-748])-([52D4F-065]/[C08DA-748])",
+                                    "context": {
+                                        "[52D4F-065]": {
+                                            "table": "CS_TENANT_NPS_MONTHLY",
+                                            "column": "DETRACTOR_COUNT",
+                                            "dim": "[CS_TENANT_NPS_MONTHLY.DETRACTOR_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total DETRACTOR_COUNT"
+                                        },
+                                        "[C66A2-C28]": {
+                                            "table": "CS_TENANT_NPS_MONTHLY",
+                                            "column": "PROMOTER_COUNT",
+                                            "dim": "[CS_TENANT_NPS_MONTHLY.PROMOTER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PROMOTER_COUNT"
+                                        },
+                                        "[C08DA-748]": {
+                                            "table": "CS_TENANT_NPS_MONTHLY",
+                                            "column": "SURVEYS_TAKEN",
+                                            "dim": "[CS_TENANT_NPS_MONTHLY.SURVEYS_TAKEN]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total SURVEYS_TAKEN"
+                                        }
+                                    },
+                                    "title": "Net Promoter Score"
+                                },
+                                "instanceid": "A37C9-1D1F-FC",
+                                "format": {
+                                    "mask": {
+                                        "decimals": "auto",
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#0e788f",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "singleSeriesType": "line",
+                                "y2": true,
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "sum([937D1-D9E])",
+                                    "context": {
+                                        "[937D1-D9E]": {
+                                            "table": "CS_COURSE_NPS_MONTHLY",
+                                            "column": "PROMOTER_COUNT",
+                                            "dim": "[CS_COURSE_NPS_MONTHLY.PROMOTER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PROMOTER_COUNT"
+                                        }
+                                    },
+                                    "title": "old Promoter (9-10)"
+                                },
+                                "instanceid": "E906B-A258-8D",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#00a808",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "sum([4A687-A2D])",
+                                    "context": {
+                                        "[4A687-A2D]": {
+                                            "table": "CS_COURSE_NPS_MONTHLY",
+                                            "column": "DETRACTOR_COUNT",
+                                            "dim": "[CS_COURSE_NPS_MONTHLY.DETRACTOR_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total DETRACTOR_COUNT"
+                                        }
+                                    },
+                                    "title": "OLD Detractor (0-6)"
+                                },
+                                "instanceid": "23694-E6AD-38",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#fc7570",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([67A11-A7D]/[13BFD-46E]) - ([DA133-133]/[13BFD-46E])",
+                                    "context": {
+                                        "[DA133-133]": {
+                                            "table": "CS_COURSE_NPS_MONTHLY",
+                                            "column": "DETRACTOR_COUNT",
+                                            "dim": "[CS_COURSE_NPS_MONTHLY.DETRACTOR_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total DETRACTOR_COUNT"
+                                        },
+                                        "[67A11-A7D]": {
+                                            "table": "CS_COURSE_NPS_MONTHLY",
+                                            "column": "PROMOTER_COUNT",
+                                            "dim": "[CS_COURSE_NPS_MONTHLY.PROMOTER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PROMOTER_COUNT"
+                                        },
+                                        "[13BFD-46E]": {
+                                            "table": "CS_COURSE_NPS_MONTHLY",
+                                            "column": "SURVEYS_TAKEN",
+                                            "dim": "[CS_COURSE_NPS_MONTHLY.SURVEYS_TAKEN]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total SURVEYS_TAKEN"
+                                        }
+                                    },
+                                    "title": "OLD Net Promoter Score"
+                                },
+                                "instanceid": "A37C9-1D1F-FC",
+                                "format": {
+                                    "mask": {
+                                        "decimals": "auto",
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#0e788f",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "singleSeriesType": "line",
+                                "y2": true,
+                                "disabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[USAGE_NET_PROMOTER_SCORE.DATE (Calendar)]",
+                                    "table": "USAGE_NET_PROMOTER_SCORE",
+                                    "column": "DATE",
+                                    "dim": "[USAGE_NET_PROMOTER_SCORE.DATE (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "months",
+                                    "title": "Months in DATE",
+                                    "datasource": {
+                                        "fullname": "live:cs_metrics",
+                                        "id": "live:cs_metrics",
+                                        "live": true,
+                                        "title": "cs_metrics"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "last": {
+                                            "count": 12,
+                                            "offset": 1
+                                        },
+                                        "isNotCurrentPeriod": true,
+                                        "custom": true
+                                    },
+                                    "collapsed": true
+                                },
+                                "instanceid": "980A3-5161-AB",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": true,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": true,
+                        "stacked": true,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": true,
+                            "totals": false,
+                            "percentage": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true,
+                        "text": "Total NPS Surveys"
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "y2Axis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "quarters_in_nps_survey_date",
+                            "title": "Quarters in NPS_SURVEY_DATE",
+                            "singular": "Quarters in NPS_SURVEY_DATE",
+                            "plural": "Quarters in NPS_SURVEY_DATE"
+                        },
+                        {
+                            "id": "months_in_date",
+                            "title": "Months in DATE",
+                            "singular": "Months in DATE",
+                            "plural": "Months in DATE"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "BF259-D6B6-40",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                },
+                "selectorLocked": false
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "New Users per Quarter",
+            "type": "chart/column",
+            "subtype": "column/classic",
+            "oid": "654074402712d70032d5e9bc",
+            "desc": null,
+            "source": "654074402712d70032d5e9bd",
+            "datasource": {
+                "fullname": "live:cs_metrics",
+                "id": "live:cs_metrics",
+                "live": true,
+                "title": "cs_metrics"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "CREATED_AT",
+                                    "dim": "[USERS.CREATED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "quarters",
+                                    "title": "Quarters in User Creation Month"
+                                },
+                                "instanceid": "EF0C4-EDD4-D4",
+                                "panel": "rows",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USERS",
+                                    "column": "ID",
+                                    "dim": "[USERS.ID]",
+                                    "datatype": "numeric",
+                                    "agg": "count",
+                                    "title": "New Users"
+                                },
+                                "instanceid": "B1A78-4FBE-25",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#bfbfbf",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "DiffPastQuarter([EE320-9AC])",
+                                    "context": {
+                                        "[EE320-9AC]": {
+                                            "table": "USERS",
+                                            "column": "ID",
+                                            "dim": "[USERS.ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique ID"
+                                        }
+                                    },
+                                    "title": "<> in New Users vs. Last Q"
+                                },
+                                "instanceid": "56A4E-65E5-66",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "condition",
+                                        "conditions": [
+                                            {
+                                                "color": "#fc7570",
+                                                "operator": "<",
+                                                "expression": "0"
+                                            },
+                                            {
+                                                "color": "#6eda55",
+                                                "operator": "\u2265",
+                                                "expression": "0"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "y2": false,
+                                "disabled": false,
+                                "panel": "measures"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[USERS.CREATED_AT (Calendar)]",
+                                    "table": "USERS",
+                                    "column": "CREATED_AT",
+                                    "dim": "[USERS.CREATED_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:cs_metrics",
+                                        "id": "live:cs_metrics",
+                                        "live": true,
+                                        "title": "cs_metrics"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "last": {
+                                            "count": 3,
+                                            "offset": 0
+                                        },
+                                        "isNotCurrentPeriod": true
+                                    },
+                                    "level": "years",
+                                    "title": "Years in CREATED_AT",
+                                    "collapsed": true
+                                },
+                                "instanceid": "9A781-A4B9-A8",
+                                "panel": "scope",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/y HH:mm",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": false,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": false,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "quarters_in_user_creation_month",
+                            "title": "Quarters in User Creation Month",
+                            "singular": "Quarters in User Creation Month",
+                            "plural": "Quarters in User Creation Month"
+                        },
+                        {
+                            "id": "years_in_created_at",
+                            "title": "Years in CREATED_AT",
+                            "singular": "Years in CREATED_AT",
+                            "plural": "Years in CREATED_AT"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "E2F6C-4BCA-EF",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "640f9daf02e8b50035da52ec",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}
