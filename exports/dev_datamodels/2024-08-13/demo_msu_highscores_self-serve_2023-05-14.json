@@ -193,7 +193,7 @@
                 "oid": "0d724db9-a4b5-4429-a310-d6602f44468b",
                 "id": "6461a6bd813618002d035456",
                 "provider": "CSV",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJvUmdXUitVZyt6M0srY1Q2WFB2UDFGZEplREhSekNERC9rcWNaWWZHbW5rV2lMNXArd1U2RGlYMUVSVW9oYVRBTk51YzJIOHFvT29QcTRJUHErZ05yUWxJaGdEYitEbE4wN3ZET2s5VkJXOHVBbDFvUTFYdDZ1K2JwUW1KTFZIVit6WnhCNm1xTmdXZ0tZdzZoSTR4blZlVU5Xa2ZjajNaRk1SQkU1djV0VEU9Iiwibm9uY2UiOiJ1OVpROHJuNHBQbmNYWlhSWHFDSUNBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMzowODoxMi44MDA5NDcyMTVaIn19",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJrekVYSHRqOEkycTRjTktlOWIxVXFXTk03emFSang2dTNGWGlvOGhwT0FnOEsxbVdJQiszdE40eUp4UXFrYWVmR2x1Y2RzMW9uRGQ5bkNyTDZtemRLQVMzMit2bEZlRjRwNy84WDQ0NXVQWm1Db2k3QU1hdzZOYWg0NklkazhwdXlhUzRuWEdQK3RzbEhneUEza2YyM3ljQ2NtWGp2dWRXQ2JnNmZaYUFjanc9Iiwibm9uY2UiOiJIQ2NtL3pHeE9BZkVRTzVkTXVLNlZBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMzozODoxNy41MjI4NzIyNTFaIn19",
                 "schema": "/opt/sisense/storage/datasets/storage/ff/ffd5f8db-43e5-4815-90de-dfee217cde8e.csv",
                 "fileName": "MSU-game-center-highscores_2023-05-14.csv",
                 "protectedParameters": [],
