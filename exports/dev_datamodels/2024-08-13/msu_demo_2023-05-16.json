@@ -193,7 +193,7 @@
                 "oid": "27c5a56c-490c-429c-b7cb-dccb65244ec1",
                 "id": "6463a71b813618002d035459",
                 "provider": "CSV",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJWbkU5NTdGblRJckp1MkVHTzN5aUU3QUxaN0NnZFROUm5nSWhibkZpYjlqVjZoNU9PZXY2Mk14SzVUdTk5eVdtbW8zRW5QM2ZJa0luc1VSQkIwMVdpOE5ZSERPWVFVVE40L3JUclVpYm5XQlI2SFhTZFN5Y0VWeUc1Mmw2SW80YW1UNXpJMVlYQ1FsMEtXSUlPWDV1bHNXVWs4U2I5UnVoL1JObzhHSGwrT2c9Iiwibm9uY2UiOiJVZ2p2dE44aXpCbU1WRkJ4SDRvV2J3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMzo1Mjo0OS4zODAyNzQ5NDRaIn19",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJaV2ZHWmU2QzJXOUdWT21FV1RVYXZBVnpIYytqaFJSQkhRUG8vSFkxOWpRRUlwb29TUmk0QWVEdWxyQ05NMDBuUmU0V0MzQW5WRzhLc1dvQlU0MVkyOStpSzVQbDFQMFExRFptclEyOThvUUZOOG4xdHA0bXlUNkZLaitNWXpEeWhFSmNmQTJGVXVoZnVCL0lZSmpOOFo1VVhWbVdpOGRCV0IzSkg3VVdBeVk9Iiwibm9uY2UiOiIwaWVjajdvanFUYXNxdVI5bVY0ekZnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMToyOS42MzUzOTkyOTRaIn19",
                 "schema": "/opt/sisense/storage/datasets/storage/11/11f2cb0f-d13c-4a7d-9116-3d455c162bf7.csv",
                 "fileName": "msu-demo-highscores-2023-05-16.csv",
                 "protectedParameters": [],

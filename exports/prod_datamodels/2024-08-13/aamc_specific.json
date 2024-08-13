@@ -1,6 +1,6 @@
 {
-    "_id": "64148c7cce6bd1f48e24093f",
-    "oid": "979d3451-0fe3-460b-b89e-ea15564fb87a",
+    "_id": "641dbcda71afd091534b548a",
+    "oid": "ad3fc947-a417-43f6-ac72-4cd6e649a404",
     "title": "aamc_specific",
     "type": "live",
     "relationType": "regular",
@@ -12,7 +12,7 @@
     },
     "modelStatistics": {
         "enableModelStatistics": true,
-        "allTablesPerCollection": null,
+        "allTablesPerCollection": true,
         "maxTablesPerCollection": null,
         "recollectStatsInterval": null
     },
@@ -20,7 +20,7 @@
     "relations": [],
     "datasets": [
         {
-            "oid": "91ec72b5-3544-4398-b3b3-0a5e3069e3af",
+            "oid": "5f9e0339-e672-4aed-9fac-5106672b66fa",
             "fullname": "SnowflakeJDBC:aamc_specific",
             "database": "RAW_DATA_LANDING",
             "schemaName": "UTILIZATION_PSYCHOMETRIC",
@@ -30,14 +30,14 @@
             "schema": {
                 "tables": [
                     {
-                        "oid": "344e3ad2-a21f-4c2a-a1df-4e18e1645945",
+                        "oid": "1f93d3ad-5156-4cad-9fea-1ec3ec151e5c",
                         "id": "USAGE_AAMC_ALL_LOGINS",
                         "name": "USAGE_AAMC_ALL_LOGINS",
                         "type": "base",
                         "schemaName": "UTILIZATION_PSYCHOMETRIC",
                         "columns": [
                             {
-                                "oid": "567e5200-28c1-4a57-a34b-65610e660224",
+                                "oid": "da61c190-f6b1-47a1-95fb-eb5e66261ec7",
                                 "id": "DATE",
                                 "name": "DATE",
                                 "type": 31,
@@ -50,7 +50,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "9eee68ad-4dd1-452d-8874-b8d54c81bbd1",
+                                "oid": "96059e9f-619d-40d5-a28e-2ea94e33b95b",
                                 "id": "USER_ID",
                                 "name": "USER_ID",
                                 "type": 18,
@@ -63,7 +63,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "b00f488b-726d-43ab-93fd-212e37e99101",
+                                "oid": "6a578fb2-4283-4897-82f0-3c4dadeb7032",
                                 "id": "AAMC_USER_ID",
                                 "name": "AAMC_USER_ID",
                                 "type": 18,
@@ -76,7 +76,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "ae36acec-50ed-4959-a7f6-2211cdbce85c",
+                                "oid": "f1b03d68-84fb-41b8-ac75-1c39b0a9caa7",
                                 "id": "USER_TYPE",
                                 "name": "USER_TYPE",
                                 "type": 18,
@@ -89,7 +89,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "61fa6843-43d6-4311-bbbc-96dcda6c705b",
+                                "oid": "cbac6bab-b61c-4c48-9fce-1f9fe935376b",
                                 "id": "FAP",
                                 "name": "FAP",
                                 "type": 18,
@@ -108,19 +108,19 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "1fa4cc0d-18e0-4053-bbd9-53dea30dd0d9",
+                        "vTag": "f921624c-85c1-4dc3-9305-1980b7363d92",
                         "configOptions": {},
                         "isMaterialized": false
                     },
                     {
-                        "oid": "bcd97a4a-6e2d-423d-93a7-a29dca2ef20b",
+                        "oid": "7661e0ab-1c38-44ab-8bec-7bb4a3d59eb1",
                         "id": "USAGE_AAMC_EARLIEST_LOGINS",
                         "name": "USAGE_AAMC_EARLIEST_LOGINS",
                         "type": "base",
                         "schemaName": "UTILIZATION_PSYCHOMETRIC",
                         "columns": [
                             {
-                                "oid": "14e523df-bdfc-475d-b1c4-d483798862d7",
+                                "oid": "2835cf48-eb5f-4dda-850b-75d3f951a604",
                                 "id": "USER_ID",
                                 "name": "USER_ID",
                                 "type": 18,
@@ -133,7 +133,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "d3a34610-a0c1-4e96-8e57-c6858a588f78",
+                                "oid": "814673f1-7823-4576-92e8-d6aa5b66d2bb",
                                 "id": "AAMC_USER_ID",
                                 "name": "AAMC_USER_ID",
                                 "type": 18,
@@ -146,7 +146,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "c5e31556-bba6-4163-820e-2dae6ae58377",
+                                "oid": "e3baaa68-ad52-407f-84b8-c8d180538d19",
                                 "id": "USER_TYPE",
                                 "name": "USER_TYPE",
                                 "type": 18,
@@ -159,7 +159,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "a474aef3-5667-4a94-a389-947ca219fc8e",
+                                "oid": "d42be5a0-80de-4bd5-b652-2bc30e3b3761",
                                 "id": "FAP",
                                 "name": "FAP",
                                 "type": 18,
@@ -172,7 +172,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "7bf4efb1-e045-4989-878d-96aa86b4b0a7",
+                                "oid": "c59e464b-d666-42f4-b8fa-7950f20cd7ca",
                                 "id": "NAME",
                                 "name": "NAME",
                                 "type": 18,
@@ -185,7 +185,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "fb70398f-d525-47b1-870b-d056b05ccdbe",
+                                "oid": "b3ec146e-937a-45f3-ac2d-4c0fc3dd803a",
                                 "id": "EMAIL",
                                 "name": "EMAIL",
                                 "type": 18,
@@ -198,7 +198,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "e739f633-e172-4878-9752-09d06e83b8f9",
+                                "oid": "f1cc6d24-62b5-4710-8dfd-7be870f174bc",
                                 "id": "DATE",
                                 "name": "DATE",
                                 "type": 4,
@@ -211,7 +211,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "853778f4-815f-4f27-8117-8422f656d726",
+                                "oid": "5c7d73a3-5994-4732-87e3-3b67b9ae1cc0",
                                 "id": "IP_ADDRESS_COUNT",
                                 "name": "IP_ADDRESS_COUNT",
                                 "type": 0,
@@ -224,7 +224,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "6cd2aee4-162c-41e0-ba9d-b51d6ef6bc26",
+                                "oid": "432365ef-2c7f-4f11-8f1c-8a2044e637e6",
                                 "id": "LOGIN_COUNT",
                                 "name": "LOGIN_COUNT",
                                 "type": 0,
@@ -243,17 +243,17 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "ca5e9ed6-2c2f-48a4-8ed8-9e160f824a98",
+                        "vTag": "582eadc8-bbb6-4895-8feb-104df76997f7",
                         "configOptions": {},
                         "isMaterialized": false
                     }
                 ]
             },
             "connection": {
-                "oid": "78fb2b87-f935-4239-b58b-6edd6697ae58",
-                "id": "664b930930f5020038a21131",
+                "oid": "1fea2007-095c-4a48-ac44-1173b4e96d6b",
+                "id": "6621416c6ae6d3003996c18a",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJQaWxJSGpLQTd1SVFINnhneTBqN2ZmaTZxNFdnY2ZoYlVqOU85bHpRMGppN04rYWhERWNXSzZZTFFLbmZKbGszSGtlL2JhVitmN0lFMVlPdlBoTUt1T0Q0aHhzV05MOURKMFQvWis3MHQ1V0lzZmhIVWZzdDk2QUZnS1JGcStCZ29iM3ZhMlFGM1FtL0wwcXVpSThXTkVqT3NsMDBMcW45aElDcTk5ODQ2ZTZxakFNRTJvQWRsVGFicmY3OC80MzhvMWZpaWZrc2FsaFRTRHpLVk1LeGhNdnNFTFVHc0hFWE9JQUdrdlRyYU02emR3QVpoR0dMR0t3TWdieTJCeDhlaENyM2tWcTNQdUcvYmhHWG1OcG4xUGVzZVdjSzNnVW9MY0Y5MEdqNDRwMFZqTjc1c2tvN2EwWHZNa1B3VExvbFE2eVI4dDhvUGVJR1RubXRta3hybThwQWlTTVc2UnUxc0d1UmpKMnRDcjRoUzZhSUFycThIamxIOUY5MTJsazdNZHFsODgxQWNpNWtld01XSzVQdVFhb3BDNUM4dDVzRkZUOGhlQlVTTEFFWHlvYTNQRDV3cCtXVmJOMmtLY2F4SlRyWFhkLy9pSVlneEZ1SGxMaUt4T3pjYWpFU25TM29yeHVqbFFIcncrbHBNL2krSFpTbGk5NUoxUGtadno2NVlEcWdRU2E5NmoyalVTZjg4NEZ3Slp2QVhaekdSdEs4Uit5QmdUQ0x6WHY0aVQ2cjRhY0o2R1FrWE5TMFJVZEVNeUhZU05ORDQrQmhhVHVrbzdzTEw3SVRNMGZ5Q2R0aE9Ua28zUU5FUDA3aTc2SkJDUE43cElhVUwxY3QxdUxLbEJCa0J1RkIvQTdZc3BlZW5KY3RkblpUZHF0Y0txbXUyOUVsWVBQOEovMEExM2szZitDQ0hGL2ZyUTRXZTdNUTBCdzlsS282aklYbkpHUGNQdVhmNXZTb3l2Z0pHb0xkd0FTa2psOTNlb0U9Iiwibm9uY2UiOiJrTFJRR0tEUENmTmhVT3FDN1YyU3pBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMToyNS44NzUwODgyNzBaIn19",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJhYlV4cXhpaEczc0hSbmhycWVvRC9jY3ZCWHRId3BMR0VJZlIzd1kzWDViUnhrWGQ0Z25sV0FzV3FKb1dNdDFhN3llSzdaOXJZTktUMTg4RGlBN0NZMFdVOW5PREhYYlBqbWFmMHpkSlJrc3pWMi91UTlET3JKaVFmbXp3bW5BMFRPdkVlQkJZei9kMVBGcTRBZGZtbS8zd29vaHBWZEZBYzkraExldXMyZSt3V25xZ25RNnZzVnIvNTRKVmIzbGR4ZFRFblg5eDVhdUhiOWRKTlk0ekd3VmlWQ3lGMGEycEN3TndBSTJkUk9vVmlXbTd0MHdLamJZK0tXZ0ZKcXE5NHp0c2o1QitjejVwRWhja2FhaXV0RXUzODJKY1h6OWFmRTQ5Zlp0cFowc2tkUktCaHlFL3hDeEFsMTQxZjdNNm56SDE0NEoxSWxUMTh6VW8xcEkzUFl1OEptZ2JxVWdXYmRUcUZseFZ4OHpZaDRrVU9majE0UXFYbzlOWnJwZlJBSktRMHE2VlJBUkhzcHJVdmtTT3JUa1pSMy9NRnZxOFVSSHVnVElXY3NQSit5ZmpKRTdhYSsveXA1bWphd09uYWlJWUo3dUNpWHBhY1h3R0c0YUJaRkRkRVZ5aFkzVzRnV1Nza24zZGJIVWs5bW5yeFA5eEE1SkhsUjNGcFFoZ1BjQjVBRmIzOGRxOXpuUExUa2IyNDk3VDdNbnFUV3JqMDgxNDdqamJ2cmg5ZFN2aEc1amlIcStsNTRaU2NxSUlZZ0NkS0R4MlVhcUxuVU1SdC9lTWlROG93andTMGQwVkJUWWNwY2RLelFmTXZpc29GeTJINWVuTElRNHFkajlYckduMmNUUGpBZlk3WVd2Smo2bTVSdUtOclpremdYekZLdjlxNDExVjdxTnE4cFVmcE5OMy9vSDhFQmlaWUtQcDd6eFg1WU4wcFU1VzM3ZEcxWnMzbG9neGwvTkhQRXpMOGhQc0FaMW5CcHl5bVhXNFhrT25hSUVWNk9LMnRGNTBrVG9Xa0E5eWwxNG5OSDVreEhUZVR4NW5wMkFLaXIvUE85b3FiRGVmd2tnPSIsIm5vbmNlIjoiQmYxNGs3T3Z3SElJSFRnZHNqWUdQZz09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTQ6MDI6MzguMTQ3ODk0NDkyWiJ9fQ==",
                 "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
@@ -275,25 +275,25 @@
     "modelsLayouts": {
         "nodesPositions": [
             {
-                "id": "344e3ad2-a21f-4c2a-a1df-4e18e1645945",
-                "x": 0.13072533905506134,
-                "y": -0.6518992185592651,
+                "id": "1f93d3ad-5156-4cad-9fea-1ec3ec151e5c",
+                "x": 0.11605498194694519,
+                "y": -0.39128395915031433,
                 "fixed": true
             },
             {
-                "id": "bcd97a4a-6e2d-423d-93a7-a29dca2ef20b",
-                "x": 1.4827555418014526,
-                "y": -0.705567479133606,
-                "fixed": true
+                "id": "7661e0ab-1c38-44ab-8bec-7bb4a3d59eb1",
+                "x": 0.9828279614448547,
+                "y": 0.7319352626800537,
+                "fixed": false
             }
         ]
     },
     "dependencies": {
         "perspectives": [
             {
-                "_id": "64d506c3fed739002d056ade",
-                "oid": "979d3451-0fe3-460b-b89e-ea15564fb87a",
-                "datamodelOid": "979d3451-0fe3-460b-b89e-ea15564fb87a",
+                "_id": "65426e95560f26002d1b725a",
+                "oid": "ad3fc947-a417-43f6-ac72-4cd6e649a404",
+                "datamodelOid": "ad3fc947-a417-43f6-ac72-4cd6e649a404",
                 "description": "",
                 "tables": [],
                 "parentOid": null,

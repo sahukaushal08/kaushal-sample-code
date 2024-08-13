@@ -1,5 +1,5 @@
 {
-    "_id": "6553b8272427d2f3b6cdba02",
+    "_id": "6595f58bc5066940d0addb1f",
     "oid": "598ce0a7-a968-4ca5-8eaa-a3c1fbf5f150",
     "title": "Utilization",
     "type": "extract",
@@ -12,7 +12,7 @@
     },
     "modelStatistics": {
         "enableModelStatistics": true,
-        "allTablesPerCollection": null,
+        "allTablesPerCollection": true,
         "maxTablesPerCollection": null,
         "recollectStatsInterval": null
     },
@@ -155,9 +155,15 @@
             "type": null,
             "columns": [
                 {
-                    "dataset": "2191eab2-d419-4072-999d-305daf6e26bd",
-                    "table": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
-                    "column": "cd5270bb-9556-4680-897b-671b53dcbaa7",
+                    "dataset": "462959e1-a553-4c82-b563-5ae0706b27c0",
+                    "table": "78b372f3-b49c-4331-9e85-e9e4ae402dc7",
+                    "column": "98285ed5-7c7f-4ab1-b769-c3ac88baa05c",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                    "column": "d22f559d-da56-4856-90a6-39c9ef86d58c",
                     "isDropped": null
                 },
                 {
@@ -182,12 +188,6 @@
                     "dataset": "361a458a-1544-4697-947a-c927df94acb7",
                     "table": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
                     "column": "84abf16d-7c0a-4446-a8d6-8e6ed439af87",
-                    "isDropped": null
-                },
-                {
-                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
-                    "table": "fc44f500-7f2d-461f-9c78-66e48ac37552",
-                    "column": "d22f559d-da56-4856-90a6-39c9ef86d58c",
                     "isDropped": null
                 },
                 {
@@ -249,48 +249,22 @@
     ],
     "datasets": [
         {
-            "oid": "3348dd33-2a10-46db-b2fc-5e50a3172c92",
-            "fullname": "SnowflakeJDBC:d2a1f13c-b0b8-410f-881b-832ddd306800",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
-            "type": "extract",
-            "name": "d2a1f13c-b0b8-410f-881b-832ddd306800",
-            "modelingTransformations": [],
-            "schema": {
-                "tables": []
-            },
-            "connection": {
-                "oid": "49e412da-6ac2-47b9-a843-ce3a2c6e22c6",
-                "id": "6553b82807357d002dd323bc",
-                "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJzZ0FDM2xJalFrbUtjZVRONmF6UWY3a2w4V3NEeGE0NmhnWkNFNUpva0tINFlWeWJmMjcrekt0UW9ueVk3eE1FWjhPT1VMSTYzS2hFZXBNdWFPUTl1R0pyNmlhVUJzNldCcTAyUFJoZ0xuRFVKbVZFWGdLYUxyL3dxVlMxT28xQ3RKR2NINUs4UnBWcldNQWNwM09JaGZvZjh2VmpGckNDaWVDV0ltSitKRW5Pc1AvYlA4TG1YYmUzNWkxOXowMndjOVAyN3N2UDNCNit2WFQxcG9HWTh3VlB2TzZ3MGMyU21GbjNLMTNMYmk4MzBmWm0vVXlxNjRsNVRvWDJHZE9JcGNiK1E4eGVqYUJwK1oxTWpwclZuTFZuN3F5a3I4dDhnbktoaWpXMFU2TkQrdTV2blVUR3ZQZWtIMDV2WS9ROUMzTzRmb1d2UWhvbWl3UW5yV21PWGtFeE9lY0hVOGo3elJHaWxla0p3YVl0RHBMT0o2aWVmYUlTZ0kyTCtLTlE1ZXBFUFBrNE14NC8vQnlKMGRJb0VUQ3BHcEVLL20zS3B5b3ppRVRnd1FoUlBpN3RFZENiYTRHUjhuM2lwZFd6S2xYNmdISTdPS0FYa0FneDltaWN3OWFDYlQvWHBHVXhuMXZrSGs0Q05RaEQzSjdPeGNncnFGQnZ3aWsrQnB5bkxFZ3hRbzAzUk9va2FoRTdFelFLalpRclFaRlp2OGhYUjBBSm1zdWQ1WjJ2T09qdW9Sck50SHNYaUkrQjZ1R0ZIamhJaGEyYVA3amdobWpTanV2VVlEc28xQ3BJanFSbW5EeWJqbXVTK2FZWWRQMnl6d0xTOFV5cjhaNkVhUzk4TnUwM3UxOU54MWszN09JTjBwc3V6VGtNcTl3Mzh6elgvWG0xQXVpTHVzakhFSHRMUGdYNnFrT0dsaDBjSGdwUlBvSlcxb09FaHFrRkt3YjlrTVpNd0pNUWdDamNDeXBEWVVQQUZqZXhnZ3pHTm5YVis5RGZrVk0xMWM1ZWZoYXc4b0E3bExTa0ZscGJqclZDeHpibGk1VVpvTEszU2JiUUpTYzZiV21samkxdGpYb0RxUXh0SnVId0ZTQ2E0Z3RoWlFTSDljTHNoVDhSU0lIK0orRHErdz09Iiwibm9uY2UiOiJhbENtSmRjaXJxZGh0aUNFQk9wblFRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNjQ5NjY1MTZaIn19",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
-                "fileName": null,
-                "protectedParameters": [
-                    "password"
-                ],
-                "uiParams": null,
-                "globalTableConfigOptions": null
-            },
-            "liveQuerySettings": null
-        },
-        {
             "oid": "02fd40bf-1c11-4393-b4d0-41399f580727",
-            "fullname": "SnowflakeJDBC:a7984315-ce87-49dd-9e81-8b9b182152fd",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "fullname": "SnowflakeJDBC:eb4bbf19-1af7-4a11-8c6e-1aeebe35d39e",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
             "type": "extract",
-            "name": "a7984315-ce87-49dd-9e81-8b9b182152fd",
+            "name": "eb4bbf19-1af7-4a11-8c6e-1aeebe35d39e",
             "modelingTransformations": [],
             "schema": {
                 "tables": []
             },
             "connection": {
                 "oid": "c2f4460d-1d95-4da2-aa9d-41fab6c2faf8",
-                "id": "6553b82807357d002dd323be",
+                "id": "664d0b7e99fe64003a793d90",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJDWmYybzBYU2NSekU3b0JITlhDRFBVTVF3QnpxOUhPeEIvanJ1VTRwcytZRm5UZHR1SDJJTDJyOFU5MXJxbnd5Uk1zSFovaEpoUnZGNXQreFdpTk5PWDJhejRiTkExQ3FjVjFpd3EzTE5HbXljSkk4cEQ0Q09LTFhnRW81WnlqUzRJbE13VFphdGoycGs2RW9WL3Zob3B2bHNiWXpkMUJMQjMrak1maFZ1cGUwZ0RwSTU1NWxTMTUwK25rM09sTVA4akwzOWx5K1ZVS0k5czhOa3YydEw5TDlyZlBJUHpDazVxMXZrYjk3b2RZK0UvZUhISzJFbEh5VVpQTEt1UUlyUXo4ZXpxTEVZUFR0REY5ZGRYMzNPN1Z3aGI3S2ZQZ3JVUTk3UXNNY3B5THM3eUdzQkFDclVDaEhqVjFIY0RvRm16eHl5eXhiQXVBQ0xrNXg1RHFUby9PbDJLaFR4Q2FnNFZFb0cvMCtPZ2ZFd3lMbHJVYzdib0tBSDZvNDhwZU1JQmxXUUFmYUlWczJoTlZWRXczc1RCK3JPRG4xRm9aNjZYVzBNNFF4VXdrV1l1R0JQNWc5aUtRQ3E2a3B0WmJOSTBHNXlwNlBrRlIrMTJOYlJIVndiRUlKM3hxakhqcktGYmI3MkZ3VlAzZHkrZFUxVTg1TlVqeTdnbnNUNEJCRHRqQ1V0YmE2QkVXa29oZ3dMODBkMlgrWG8wZC85RFdCOGtMdU40b3JQZ01YNnA4eUNEaUVPbDRVNUVHQTQ1Ynl6NFRpN1lvN0h1Z3dodWFCOUJlTmpHQ2tuTER1RDFIajBuNHhTVnNnSWtkL0o0aUlvcnQ2dUlrMUhYaGk0WThMYTR2SDRsNjJud2JrOWtGZ3MxMzI5ci9yaGpqSmJhMlZsYm9VVTZiYUFRczRZZUJKMHJYSkt3eUtVcmNTc2VPcVIrK2hDdzRORVlwS05KRlh4VWtLaURhaDRCR094WVN5ZUZDbTQ2MTdTbDBwVFRDRytMLzkrTzBXUlVGYlhCM01MK1E1MnZiSzR3UGhIYUp1Ny9nU2FRPT0iLCJub25jZSI6IkU1RnF2QitkZUI1d2xDS0x4MHJxVlE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAxOjMzLjM2NDk2NjUwNVoifX0=",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJiT0dMeThJVENRRGUxYUo3a3RSYnNudFdHRzhGQnhkMldrQnJlTHdsR0lMUTN3QkFwODhMeVlSWGVUK0FhcmZCSlEvSFNTODJsc2owSlNZaDZSd1c0bmNpaWpiOTQxdUxldFpNbEUzcWtoWndCdVhyZ1l3QVBRazhLcE0wdVFZRUtFZnZwVW9zRytSekFCNGNYYWI4NXREZEtxQ2VQeTVZOXFNOWRQeEQxd21HdGhhTitFc1pTTFFoaTZpNDNibEtlRkdIVjloTFd2WnZkTVkvSFRscXF0QmxpN2srbWNSS3p4UlFsakhLVlA2dDBSeGNMMTFhMDNCRkdoWjNJRjNwZlQxN3JXM0ZmUzVBUDlHQW5aTm14Q1V6NTB0ZnZnT3Jzd2tZeVJ4WExRUGpTL0dWd0tYWGtYVTVqLzNrK3ZpOFMwMHJvcDNSNkVTL3VaYy81c0w1VzdqdDh3c2V3QnJ6RG1ibFFhWjJZOHpxVkpicUVKdXZIVTRETWEzVlZiUVJUd3V6U0laNXE3b2toMll4aWJRdXcrVTZsTm04K0FEaWMwSzFIemRxZTgyRTQ0RVdBVldUaExvOXZtV2JXYzFxNVFQU2x4aFRWcDBEV1JLajRqTHNLZlBjaUFvUC9jWUJ5RkhOZUh3RzFXSHd5a0xkWkJUeHFNU1Q2b1c3Rk5HNVpRd2VPMmVWTmtiakJlaVlIQkVCODJmY2dmalhnMGo3bnRkTCsxNi95S0xxaTBKYUk1RU5rSFRPNEMrb1Q3aW5FUS9OZngxQStiK2dQemttZi9JelNnOTJQdnVmSU1XY0UzM0xmazllTkpsSHhNM2Z1Vmdtd1lMWEJCM1laaUtGMEpnNnY1dXhMZytFcER4dlU4SThZdndtVC9kWjBtUC9udjZQUHR4b3c4T1ZlVGEwUm9OQUVHR3RBRTVEVU41MHpmY1hsQ3ppeHl5S1BLQzdqWWRBbnZ2cTN0VmRnYzYvMVVCVFliWm92TDdtVVE5Q3JERnNBTm1wNHE4U1RGRUNRTkZKRXlKZkpOODc4OW41NEdGYTh3PT0iLCJub25jZSI6Imp4M3hDZ0JkM2J2OGpZcWRESXA5SWc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAyOjQxLjUxNjA4NDYzNVoifX0=",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
@@ -301,22 +275,22 @@
             "liveQuerySettings": null
         },
         {
-            "oid": "8b355db3-975a-47cb-8cc4-5410fcb83ce3",
-            "fullname": "SnowflakeJDBC:17f68eea-f90c-4864-a077-433f6acce518",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "oid": "3348dd33-2a10-46db-b2fc-5e50a3172c92",
+            "fullname": "SnowflakeJDBC:4151cbf9-d303-4deb-aa35-ae9ab8b0d970",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
             "type": "extract",
-            "name": "17f68eea-f90c-4864-a077-433f6acce518",
+            "name": "4151cbf9-d303-4deb-aa35-ae9ab8b0d970",
             "modelingTransformations": [],
             "schema": {
                 "tables": []
             },
             "connection": {
-                "oid": "a3a5d0f5-2a7d-486c-8bdf-e0b95bff0c52",
-                "id": "6553b82807357d002dd323c0",
+                "oid": "49e412da-6ac2-47b9-a843-ce3a2c6e22c6",
+                "id": "664d0b7f99fe64003a793d93",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ6aXlyb05RY3VGWnlXL205b2QrR1BhbTZNT0FGbTlvVFp1dmZZWXptZXBvNDUwZm1hSXBEaTNQTk80SDd5RnRiTXRwYVRudVJ2UVl5QXNweERLUWlGejU0S2tCNWp1cVBhemFnb2hodDVRdFV0V2xEbU9xSFh5ZHhBR1RQZHBFMzVMc25LeWdQUEdUQmxGOHFTeENiTmhta2U4V3kzRzFDTmtJTGVLaElydHVDMGJpTzNPeWVKZ0NBYXIzaTZRaVNFbTJJdHdZcHlYTVM5LytPYWg3RGQ0WXk3YUtRTCs1WlZUaXJ3RzF4akxkaDBIYUlBNytsc01kczFvMHVQOE9WRzhSMWtzdmk1UXFZRmxqVjV0RE9YNlVBUmNXWlB1ZnU0UDRxTDFvcE5HTi8wdzhBL05nUStrQStlNDF2RmVNaEZ6TmJuYys5dFo2V0RzVWt0dW1XZGljU1pRU2F0Q2tyRk16U0pTeDVXOS9UZHdHNFlhTE1LdlRpVjZKbS9VU0l0Q2QzT0NGRzJiUkpDcEl1V0pwVE1uVHc3UnRoTkRCZ2ZSTnltbFd5MnZwcmhnR2pnWWx1ZDI2eUlzcS9ndFQ1WTlLNko4eXNiTm5lM1hBVnpkdkxLRm9yQjNteDNScHVDcER0bVRxVGVIOUdhRktPdUZiRUgzM0NJbjlac3lnRWpoSE0zMjBpUDlHUjlUM2ZvV0lRSjBUR1pNWTUvSnU3YSt3b2l0M1o5WWViOGNUbW1tVVVwcUFvY0NqSnQwZm91L1dJMjFZUHVBSS84NGltR1U4ZnhydE9KajR6UVU2RWVLZHcrQ2g0QXRTZnBEWG1sUWdudU1Uc281S2kxenJ1V25JTTBjb2J6TEpKQnFFTCtRK0prYTNQZVpocjZTUUJBUklGQ2RCMnp0OW9CVDVPc1FJdVFwMm5hTVhpRGlaMHFuWVlvQllzTWpGYlpDVmRqSGxFZkhiNWNtT1ZIcTZTbGNZZzN6NEVvTzNJVHNwa1lpQnMrSEJMNGpXeWtxTHMreHhIakJxN28vdXhCbk5PZjR3YkdPV0Q1dHF0c0ZqQkQydkluTTc1UEJRTURicXV4S3hvdUlBbGFQSlRvY2M5bTdzSTdMckQ3a1MzaUZrV0c5d1YzUT09Iiwibm9uY2UiOiJ3Ymd0ZzF1N2NmTVFCTjNaSnRXSUlBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNjQ5NjY1MDVaIn19",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI0SGhxdVBJZWIzT29yVitjVGlHdTdNb05RZ3NXK2Fpb2NMTlB2VGlydFBNa05VUTJkR2xhRHhRWFV3RDlJYnBnc0hZQnp2cXJST25xbkRLV2ZvdzJQVldMYUJMZllaY09rcGJQQlJFTHNZN2lmNG8zUzZpaDJURkNXYyt2di94VzlhODdoNi82NzlEVFZHMFl5S2JMOXVTdko1OXZZWEFQWlJoc3lnSjdTWUo1anladllFWGhrdHBBUXBJRGwvVDdlNnpQaTRQbEVsL0JkbHhKdmVaNDNxdm5RdWprNHFhR3dyMXF2NlAvOVVPMzdmVGw5LzhKbnh6S1pvQU43YkZzYk9haEZZSDA4QkhZdlJlMDI5Z2Zab3pjRWYxVjVpcHZBWC9HVU92a0JqWVRFNktUMUk4MHlBdkNhZ1p4anNpaFhQY3VsL2FsZU5panVsL05UV0l0UFNOQm84U1E4TUtIbldvcHlRcXJaaWdrcXdxVXdBYkozR1J0NVcwdTZPTS95a09xRVp3a0pkN2huY0tOejcxaWhUd3dRQ2xiNnc1MUVocHBLMkkrNEZYQWhmNEJEbVNaTmRuV0NqOTRiaXNJM3VwdzkrRWdBMkZqSXA3UEpDd3VYZmJ0MkZBZTdGM21Ydy9FZU5Hak1DS2NKOTNZVVd4UnhaUU0vODVWeDhKY2FobkdGbi82NkV4VjJVblRTVC9wZFRDS1JtdEJLOGdvRGFEYVJxS3VhSjM1REJKbnQrdDJNRGRVQzZiZElUZTErUlZ3RHhtcUx1SXRzL0xrRXIwWG9ZL0EvSjJ2cnoxeldVREh5MXRBaHVrWkwxYVdtME5mbEFtNS9QUXpWMTlQRTZ5ZkMyMzB6MGtsdTdJVUh3ekRpODVWRnA0WVFYMWRPdDMyMmIrNkp6Q2ZkN2F6MG1hV25iZTYxZUplZmI1MjJoY3J3dGltcmtDKzdDaVJRZTR6ZUNMOTVFSXlYZjRucyt0VzZIUHZzZ0VJU21ucitENFJHNkdyQ3hzRlhVallaRnYvMGhxN1loWlBHNTdZWmVmeDc4QTR6Y2hwc0l6MnVpd1RRQjZRMDRJUHRBRzk4M2doaUNGUWltRzJmZVg4VUh1ZXYybXhERkg2SzE2UUEydi9qUT09Iiwibm9uY2UiOiJEdnhkSm1OR242QzhhQUZVUVZjQVdnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTU5Nzg3MDdaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
@@ -328,11 +302,11 @@
         },
         {
             "oid": "361a458a-1544-4697-947a-c927df94acb7",
-            "fullname": "SnowflakeJDBC:87ba95b9-84f6-432f-a2f5-622542b41a5c",
+            "fullname": "SnowflakeJDBC:f5f8e708-0351-475d-a328-6a0871309221",
             "database": "RAW_DATA_LANDING",
             "schemaName": "UTILIZATION_PSYCHOMETRIC",
             "type": "extract",
-            "name": "87ba95b9-84f6-432f-a2f5-622542b41a5c",
+            "name": "f5f8e708-0351-475d-a328-6a0871309221",
             "modelingTransformations": [],
             "schema": {
                 "tables": [
@@ -542,7 +516,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "1380da17-c653-4cec-b768-e0f655e68e96",
+                        "vTag": "9d9c1084-7bd3-460e-88f1-ef900d2e58a8",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -687,7 +661,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
+                        "vTag": "4b234172-bdbd-4b98-a80e-93639c932f9f",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -780,7 +754,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
+                        "vTag": "2bf021a2-0927-4dda-a338-bd95d4e2dfb0",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -915,7 +889,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "21d6eb23-3580-4825-9152-70adeaa58833",
+                        "vTag": "e11c6e7e-93d2-4fe5-89c8-ee4fd1aa66bf",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1086,7 +1060,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "2755ffff-0b76-4532-a739-123b5fc39347",
+                        "vTag": "6036b266-cd98-4085-a3b0-aec5265b18f1",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1221,7 +1195,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "41e32c69-92d4-4671-aac5-294dd72bb09b",
+                        "vTag": "b285da62-35a9-4cea-becb-bfd6e0e30d9c",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1314,7 +1288,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "83b7f30d-a54e-4bdf-83e2-1aeff88b25b3",
+                        "vTag": "f487d5fa-b4ac-46a1-afc2-ac352e6abcad",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1433,7 +1407,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "8a595be7-823c-46b7-a2e0-61388b1e6248",
+                        "vTag": "457abbf1-e708-4a49-9ce1-f6ac05f04b28",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1591,7 +1565,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "8c3f2715-859d-4ad7-9aec-5c963c1e84a4",
+                        "vTag": "2b564a0a-2d26-4063-a582-e0251949297c",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1674,7 +1648,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "9bd826e5-6c68-4236-aadf-bdf9829c2420",
+                        "vTag": "d8bad6a0-1e89-4dcd-a987-b95e1b6efc58",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1758,13 +1732,13 @@
                         "tupleTransformations": [
                             {
                                 "arguments": {
-                                    "lastUpdated": "2023-02-09T18:27:58.629Z",
                                     "id": "activity_type_description",
                                     "name": "activity_type_description",
                                     "type": 18,
                                     "size": 0,
                                     "scale": 0,
                                     "precision": 0,
+                                    "lastUpdated": "2023-02-09T18:27:58.629Z",
                                     "oid": "eba58c5a-9504-4260-808c-4c5000fe7bb0",
                                     "hidden": false,
                                     "indexed": true,
@@ -1802,7 +1776,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "a3cd15c7-dff1-4f70-90ac-9f72d66bb747",
+                        "vTag": "a251e825-23f0-4b25-87a5-4cc08eb28543",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1924,7 +1898,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "b908555e-b616-4f0c-8a21-4da49c3b2d32",
+                        "vTag": "dc57e35a-37d2-405e-acf5-c40741948dfb",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2082,7 +2056,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "df435871-cfef-48be-9d99-19aaed7c39f5",
+                        "vTag": "37fbbd7b-d76c-4986-bbd8-886c5cf70f89",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2188,7 +2162,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "e2637ec7-dd03-4081-a945-a5095cd21ac4",
+                        "vTag": "235c7f62-855e-48af-b2f5-ce18ebdfa6ff",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2329,7 +2303,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                        "vTag": "b5d32472-d370-42a1-9ac7-cc10b1d8a527",
                         "configOptions": {},
                         "isMaterialized": false
                     }
@@ -2337,40 +2311,38 @@
             },
             "connection": {
                 "oid": "42967f8f-c22a-4b5e-8d70-7baa8ef44a35",
-                "id": "66213c0c30f5020038a210dc",
+                "id": "664d0b7f99fe64003a793d95",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ1Z3RHa3c1OG9iMENPSWJUQ1E2TXBvaUxzOHlQa0J2dE9JWlhGZnlDWGVOakd2VzB6ekFrME5SR2c1c0c4YnpWb25BcUdzK0ozWFVmYXpwZlhYSU0rd243dVJXSVdNQWZzc1Nyb3VZVTBvRDVCcDU1bFZtMTNSQWNYTkFiZlBYRGVkaWozU2g3bTAvK1pITVllbkUzNWVObk5nczAwT2o0RCt0TDV2TUdHUk9NY1JJa1hvcjNISjNHQ3ZjWXNReXBVVUFxS3lPT3h0OU1XK3VEMG5iREFDNlg4Q240S0oyVzhSYVc4WWRoUmNxaVBLUDZCZDE5bTlnSHlXSnNuZlh3bGRITGpQbDhzd3ZUMkxBUGtnc3RNd2U5Z29ENFFQT0ROcG1mSlNveGtrSkl2V1VXVUh1Z3pMb2E0bU5yQnBvQlovUXd0ZVVKUTg0cEszTXkwejloL1B1c0ViWVR2Y1ZhUFk5SUNZeWcwS21rc29pbW5XQThXSkJ1cnVJNStKVC9TQy9xRHA2dmV0eElsL3lyaldvdTZCbk1mdmp6aGk4ek9GUlh0QVQyN3p5NjFwUzJ3TEsyaTI2ZXQwRS9UMDRkdDBmR0EzWitJOWk5ZzZXdUIzOXJjMVJud3JKaG52QitGOFh4ZHowaWVlc1VNM3h6TExkYk5BbUNPNjNjZ1Ywb1VTMzdzZ2IxWS9zR2hZa09TVHRKdUlpOEZRU2IrWUhvQzVyRDhVcXNYTWlFL1BnWDBBRDN2UjU0TjZvNW14SjdNN0NQOGZKRnNUcjJ5YVRYNWNxZUgxYnpZQ2YrMmVTY3RQN09xZkcrTTNZbm12aDQzYi9aL0ZqakxXR2tjV2Y4S1NCTTBZbHNQWUtnSVcxOW96Znp3blFXN0RyUnh1dVN5OXhBZk9GblB1b0x0UFBibHlaR2M0Nlh0Y2pNN2FLa1V0b3NQdEI3ZTFPU2VwWFlQVFJvYXA2YytJd3B0WUR4dko0MGhvaURBc0FXQmt0NjBxMDFhNEw3MWp6R1RRVFdXb2xXOTlQZkc3T0JNTlArVk5yOTcvVithK2krbGlEanR2aDFoZTNHa0FJPSIsIm5vbmNlIjoiSWtBdVpYSmdoTlYrV0xjSFlHdjljQT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTQ6MDE6MzMuMzY1MDM5MjU3WiJ9fQ==",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJGYTVJYWpKZUhiclliKzBLKzFlejJ6K1NoYUhlNWNwUDJwMVl4UDE2OEV3ZGoxSEwxSEpFS09FR1R0ZnBBV0xlQWRIOUhRNnJjeEZsYmdYanY1eVZyOHhVUCt6NDJ0WHp0cElCN2JyaldFdEdDdUVVNmFkVzN2bVBMaVhHYTVyTzFhNENIV3RkZmFRS2pUeG5WQWxrZVorQkwrRklwNk5VRzNPTGhEbG93V0VXdTNVcFBUc3JMTGh3V2phZjNlNFNscWRuMDlFdTBwallGUzNjVzhSYTdXVElNSU1GNFNEVTZaL0c3Q2wrZTZPV1BRakxheFVtOCtpdmFyWnJqUVQ4Snp5YjQ0d25vOXBiOG9RQ2dTOVFBMkQ4VzltcWlXT1pZZ1RCN2ZuVjRJcUozblFTV0ZyZFlKTUFKUmM0Q2g4V2NYUXZOU0wxZU1MUlFmSXlYSERzaDRwbUZNaVFuYVZWT3gwWjRuNUhMbk1qM2Jjb0VoWDV6Z0xSa1hwaWdoMU9yc3IyRGYvTDR5MktHTjFXWUtmLzdIYzlhV1ZTSGloYU5zYTVyWjkxcUU1UjlPVDEyUk5pcWRSRm5USTJzNEFJbkErQkNuUTR5WllyeWJsUmVOVm1OTU9nOGFUQUErZHE1dThwVjJVQTBBR0k0dys4TGZzNjZZR0dNN0pOaDNvYzM1Q3plWVJoRndML2tXdzJnZlhwSkduVHB1OWljM0p5U3REaUFTK0RhUTN2S3NyVTRQc1JlMElzby9hTzBaVWllVEN6NTU4eFFqTkg1bGlPUUQ5ZkxlSUR5eXRFQzNOUjhBSitJMGthRUhsMmlmT3dsdmlmdmZkRVU5aFIzZmRLZ0pnQkdlK2E5V2dGbVpRRnQ0QXVPVkFSZHBpN2ZraFd0UEh4OGQxRjE3L2c0a2ZESWJBZGh4dW5EUjhwMUpFVGZCWU9jNjJEa2Ura0lyWlhXL2JIVW5WSitiM3poZEs2aC9Ud1VFREdxanIxVS9QWjA2RkRXaVN2aFdlT1ZGOEQ5YmtmNXZXMGlsYzlkbzY1ZEJrTnhXTHNOZlg1TmhkZTljRlZIeTZ6N244PSIsIm5vbmNlIjoiRUhRNENDdS9vcld0R0RkUVZVMUowQT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTQ6MDI6NDEuNTE2MDg0Njk4WiJ9fQ==",
                 "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
                 ],
-                "uiParams": {
-                    "passwordAuth": true
-                },
+                "uiParams": null,
                 "globalTableConfigOptions": null
             },
             "liveQuerySettings": null
         },
         {
-            "oid": "2191eab2-d419-4072-999d-305daf6e26bd",
-            "fullname": "Excel:83d15659-1c94-4dc4-b0cd-4756df923e01",
+            "oid": "462959e1-a553-4c82-b563-5ae0706b27c0",
+            "fullname": "Excel:5693f43c-4233-47cb-a41a-c0c1fcdebbbf",
             "database": "",
-            "schemaName": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+            "schemaName": "/opt/sisense/storage/tenants/5fff423994d2d1001a7765d8/storage/ec/ec70af1b-3587-42ec-9a6a-c6a3c02a1fe7.xlsx",
             "type": "extract",
-            "name": "83d15659-1c94-4dc4-b0cd-4756df923e01",
+            "name": "5693f43c-4233-47cb-a41a-c0c1fcdebbbf",
             "modelingTransformations": [],
             "schema": {
                 "tables": [
                     {
-                        "oid": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
+                        "oid": "78b372f3-b49c-4331-9e85-e9e4ae402dc7",
                         "id": "DimDates",
                         "name": "DimDates",
                         "type": "base",
-                        "schemaName": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+                        "schemaName": "/opt/sisense/storage/tenants/5fff423994d2d1001a7765d8/storage/ec/ec70af1b-3587-42ec-9a6a-c6a3c02a1fe7.xlsx",
                         "columns": [
                             {
-                                "oid": "d2361383-0ece-4541-8c8d-c97ef6b7885d",
+                                "oid": "b7d52282-6923-4f8a-8d44-d971d86f5cf3",
                                 "id": "DateNum",
                                 "name": "DateNum",
                                 "type": 8,
@@ -2383,7 +2355,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "cd5270bb-9556-4680-897b-671b53dcbaa7",
+                                "oid": "98285ed5-7c7f-4ab1-b769-c3ac88baa05c",
                                 "id": "Date",
                                 "name": "Date",
                                 "type": 4,
@@ -2396,7 +2368,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "1c59359e-2777-4afb-84b0-0f680ec239ca",
+                                "oid": "4cb0f800-ec38-45fd-ad73-1f4bc860585f",
                                 "id": "YearMonthNum",
                                 "name": "YearMonthNum",
                                 "type": 8,
@@ -2409,7 +2381,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "513e0580-efcb-4dd3-9017-5b86216f4951",
+                                "oid": "6ef0f9ea-25a2-4152-8a0b-451c6871f23c",
                                 "id": "Calendar_Quarter",
                                 "name": "Calendar_Quarter",
                                 "type": 18,
@@ -2422,7 +2394,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "6bef8002-5b4c-4456-98b4-49fd9711bc85",
+                                "oid": "9ff4257f-0ad9-4e26-b7c2-a34a616713e4",
                                 "id": "MonthNum",
                                 "name": "MonthNum",
                                 "type": 8,
@@ -2435,7 +2407,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "c73fe18f-bdc3-419d-b996-733c2609d8ac",
+                                "oid": "d750b325-0041-43d9-b715-93029bc454f8",
                                 "id": "MonthName",
                                 "name": "MonthName",
                                 "type": 18,
@@ -2448,7 +2420,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "301eec3a-961d-4391-a20f-f7d3e75dd9e2",
+                                "oid": "7c780cf2-d909-4747-922a-362300b0e459",
                                 "id": "MonthShortName",
                                 "name": "MonthShortName",
                                 "type": 18,
@@ -2461,7 +2433,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "118ed407-1385-4af9-9477-a3f786ea06e1",
+                                "oid": "2b61d2b0-d301-4461-b121-eb906da048f0",
                                 "id": "WeekNum",
                                 "name": "WeekNum",
                                 "type": 8,
@@ -2474,7 +2446,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "6cc05160-145a-498f-8f32-b098c4ae0a02",
+                                "oid": "78467cc5-c5aa-4a15-9c74-34b9affa5688",
                                 "id": "DayNumOfYear",
                                 "name": "DayNumOfYear",
                                 "type": 8,
@@ -2487,7 +2459,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "1a3127f5-111f-4163-9f33-8442a408a05e",
+                                "oid": "bec64a96-dbad-4cf5-b478-8c4a09e87eb9",
                                 "id": "DayNumOfMonth",
                                 "name": "DayNumOfMonth",
                                 "type": 8,
@@ -2500,7 +2472,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "0c55b1e5-e516-443a-9e4a-1444e81a6782",
+                                "oid": "7f8b75df-6563-41c2-b079-492c35a64f76",
                                 "id": "DayNumOfWeek",
                                 "name": "DayNumOfWeek",
                                 "type": 8,
@@ -2513,7 +2485,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "4c71328c-ba50-41e3-9561-6b3b81a6ddd5",
+                                "oid": "8c6b215b-ebe3-4c09-bc0d-92f98ac311a4",
                                 "id": "DayName",
                                 "name": "DayName",
                                 "type": 18,
@@ -2526,7 +2498,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "3934c59f-2f91-47da-a8bf-3f42d7b0251e",
+                                "oid": "cb4b4552-ed39-4ca1-a0c9-faf1cd1da92c",
                                 "id": "DayShortName",
                                 "name": "DayShortName",
                                 "type": 18,
@@ -2539,7 +2511,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "890e59c2-4771-43ad-8e8e-713d8820c891",
+                                "oid": "2af8a155-fdf0-4bc9-bb2c-efb929aba8bc",
                                 "id": "Quarter",
                                 "name": "Quarter",
                                 "type": 8,
@@ -2552,7 +2524,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "79a73ea9-3708-41fd-8d2d-e6bb40b6da7a",
+                                "oid": "f3123b12-4a3b-4034-983f-996d87ba97e8",
                                 "id": "YearQuarterNum",
                                 "name": "YearQuarterNum",
                                 "type": 8,
@@ -2565,7 +2537,7 @@
                                 "description": null
                             },
                             {
-                                "oid": "320e8038-fef9-4464-ad1d-196341e030f9",
+                                "oid": "1fa37823-032a-495c-9040-1c45de73d490",
                                 "id": "DayNumOfQuarter",
                                 "name": "DayNumOfQuarter",
                                 "type": 8,
@@ -2584,7 +2556,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
+                        "vTag": "ed8afd44-7d79-41a7-9302-a61b4e3512a8",
                         "configOptions": {
                             "fieldsInFirstRow": true,
                             "culture": "en-US",
@@ -2596,113 +2568,35 @@
                 ]
             },
             "connection": {
-                "oid": "a0cb0725-eb0e-48e7-b444-4ad4d813411d",
-                "id": "6553b82807357d002dd323c4",
+                "oid": "6e017bc3-1f80-42c5-8d21-c6667217b206",
+                "id": "664d363799fe64003a793dae",
                 "provider": "Excel",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI2cUZSZ2ZoVG5rRkc4dms0MEhSUGYyM1lnek5ob1VVc3UwM2ZZMzVPWUVEbGNlY1hLY3BKSVBiSjZ2Y0RycTJjSVkvTER2Wk1POVBrcTZ0NlUrNWJMYS9ndnd3ZVZXK2FqV0ZiaVJNbjJnYXQ5eHoybEFCSTZhNkNKcE43WTh4bmc1a1RuL01xUG85aEpjUk1XTnp3a1dmNVpFVXhDK1k3VGFZeWRSc3oxY09sVXVkWWxTOWNTK29nK2xpUUh3djQiLCJub25jZSI6IjMwemZodzZ4aEZHR2dkdnNVQkdlV0E9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAxOjMzLjM2NTE2NjI0MFoifX0=",
-                "schema": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
-                "fileName": null,
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJzVk5DSktaR2I5cEpKcmN4bFFlRUJOd28yd1Q4Y1NJR01NTEJ0NUZGcEVmeU55ODdsZGpoOFEwNEpocHExVlBtN3pMVWRJT2JwTEVTc1REQWtGYmZ5SXlRY2tOSGJYNk1Td3NuTENDWCtwTDJVSDJsSWNrUVBTMWxwWnJmaDV0dTBZZlp4dDZBVU9POVlpS2pKWnoxM1ZWSVRydFR4eHFMbFFXMVRqNWtyZXFrczFmQ2ZFdW9mNkI5eld3WFRkam85clE0L2N2UDNSZkx4ZHlWdjd5enhBPT0iLCJub25jZSI6IjQvQ0VrMWpHd21UdVVUVk5IN3p3QXc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAyOjQxLjUxNjA0MzQ3N1oifX0=",
+                "schema": "/opt/sisense/storage/tenants/5fff423994d2d1001a7765d8/storage/ec/ec70af1b-3587-42ec-9a6a-c6a3c02a1fe7.xlsx",
+                "fileName": "DimDates.xlsx",
                 "protectedParameters": [],
-                "uiParams": null,
-                "globalTableConfigOptions": null
-            },
-            "liveQuerySettings": null
-        },
-        {
-            "oid": "c526d13c-f260-4328-a0d6-404fc0a055bd",
-            "fullname": "SnowflakeJDBC:4e996ee6-be23-4758-8160-10761da14b64",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
-            "type": "extract",
-            "name": "4e996ee6-be23-4758-8160-10761da14b64",
-            "modelingTransformations": [],
-            "schema": {
-                "tables": []
-            },
-            "connection": {
-                "oid": "76754302-ce92-4073-b622-aadc9d35d73c",
-                "id": "6553b82907357d002dd323c6",
-                "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI5TGNieDBiQy95Y0VTckFxMHlsN3BGZWxnZmZYTG5XL3dPa2ExeVdPM05RMSt3ei9QUldEeWlSM2RUR0QzQ1hRcjJnZVljL3hGUnR3dERPaTRmL2ZqRW9TSHIxM1ZnVkp4OExyNW96OHluZEhiNHdWb0lBQVhmLzkxZEdQTE9WUTVJVSs5OWFleERCdDJFUWpKdGhPRnNGYmNrZ2JFbldYckhFMmRDVUVTalh1YjJWb1RZT0hLUUJDb3BlMXRpYUZWbDh5UnJqVUQ2WkpNQ1hPQ3ZRRzAxR2lQR3FxWXZWM2tJM01kQkZ1N1g1RS8rSXFiYWhpT0Z4cFhCb2d3eEY5U2NvZ05mMU1LOEhFMlZaczFpOGNZcVFtS3NkVkkzTmhocVBnSDM5UDA5MEsrODJpVzY1Y1cyOEdTMmxFaHUrTDNkOXcya1J0L25UQ1ZYL2lqN0w0SlBMcWlPY21JbUlXMFVuQnRSdTlQZHUxUmFYM3pXVXVGNmJmNGNOVVZzdDB4WncyM2p0MnRxM251SGRRaVp3QmtRWGEvOWJHR0RSaHZGMTRJb1NFTWVod2VqMnNldlhybGxicjBBU2tQU2pWMjAwTzZwNUxnNTJqSU5JK29tNmFJSnpUU1ZQR2R3TEpLZWVTV0ZUbFRDUWx1YWppeXJSRzZHSU5DK3NnbWNGREFQVVZxR1B2VlYzTmVGcHZiS253S0RWNnZTRVJveHhGVVFrTFU2WHNNcDh6WjAraTVFK3ZQU1QzTW1mR1dDUkk1VFU1ck80VldDdjFEbEpLRG4xR0xlZUlQbXFlWUVaUUdLMzA5ZHFBSTNRcU9CTXJnQ2tSNk1Pdm1xZGRrSWNmUjlOY3VMMXpSSit3MlBQMEg1RzhYVE9oUkl6anI1UnE1bmZxMzlTdExFWEZZY0Z1V0pSdndDMVZlSlltRDgyNDR5Ty9tU2dKSk5QUkxXOHc2SGtFOSs2SlM5OEY2WXU0eURUSy9kb3JHcndTaHdKUk9UMUxKcVpDMTJPcjdaR0pnNzBVRitaSmh6L25XMkh6TmphbHlnPT0iLCJub25jZSI6IlYzVHJaUStINDk5ZUNYZVo1azNKSHc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAxOjMzLjM2NTMyOTQzM1oifX0=",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
-                "fileName": null,
-                "protectedParameters": [
-                    "password"
-                ],
-                "uiParams": null,
+                "uiParams": {},
                 "globalTableConfigOptions": null
             },
             "liveQuerySettings": null
         },
         {
             "oid": "5a5bc866-ad07-434e-b30f-a57e8ba33a93",
-            "fullname": "SnowflakeJDBC:d814b8a0-9f6b-4ff0-a02f-acb57bd84d1e",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "fullname": "SnowflakeJDBC:3b9d9962-d6c8-4518-90b4-f0a861cc3af5",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
             "type": "extract",
-            "name": "d814b8a0-9f6b-4ff0-a02f-acb57bd84d1e",
+            "name": "3b9d9962-d6c8-4518-90b4-f0a861cc3af5",
             "modelingTransformations": [],
             "schema": {
                 "tables": []
             },
             "connection": {
                 "oid": "6fc72164-0d69-40e5-8c5f-27d8f3f8f1b0",
-                "id": "6553b82907357d002dd323c8",
+                "id": "664d0b7f99fe64003a793d97",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ6MUJSaFBnNFg1UERPaHlTejNuQVJZMFdLNE1Ub2IrV1VyYjhNTkdxYmhvaU9FM0ZQaW5MR2VyWTBHYzhDUi9VRVIvTkRXazNkYWwxNlM4eVFnbDRPTjUzbUJUTmsybWFhakpNNWVlcnFVaitMdzNhQVRrVUhVKysrZEF5TVVXMGZGdE9MM1lOanpkZmZUWWRWRFFLZlBVUXdaODdSaEI4SURuMGZYZlNzOEd1UmVNeGpDclU4U3ljT2JXV1BUZHJTQmlUR3VRMlRyOHUwZ2JsVklLamFBQmR2UXl3cVRwa0JWZXA0WHc1NE53SCtGcjEvTzFhdGxGaWRxaUN4Smp3c3FKQnk4bzZ2NWhVaVR1Mm04NGVSSzNEVldHTUZPTURXVFloNml6bVlneTFmUjVXWlMrZERQSURta1g3aWZvVTlBeTJRZXJYS095U1Zaa05yZDJzWGhmSnhseEpFSWM2RVc0N0F1Z0hocVFhTURuY0pvL0NybVpxMHZGUVBZeWo1RmVPZFlCYUhMc3VWeGJiS0V4UkVnbkJVSGhkTE1qdDFSakVxaXc4cnQ1L1JiNEtsWlZTTnVTZ0JrT1NFdWpyTzhTVENnNTFhUDgrWEd4bEhvNGVPaENBeFFSSW9CcUNoNTgra0wwVXhVdDNJQkZDT2xLMW5EZ0VJYXZxcWxYQTY1ZDh6ZFBOMjJnSnNocXJ6NmZ4cllSN0t3L1BtcUUwV1hzWXI3MmFuckg1dkYwdmRVUHhacWoyaW80ZFJnR3ZBQjhFVEw5OUNrNkVKUTE5MWl5Wjc3aDVETlNlUkJySXBOMHhDcWRqSThjUDBmanpUajl1T0NsRjVxUG1FYWVVYTJOZ0ZmOWNZS1RsalZaeGovTVdxMEtZbnpHMHpzNFNjQzUzQnlEemFZVzBQYk1uTjJLQWVSUnNkWGpqMUVrMGN4OUljYnJ2aFc0ZVhIY2Fha0dxNG9OYnBpdXpjeUhncGV3T3hwbitMelpvazJMNnl4MzRJc0VHTWJ0UHRwUk9leUZWRlUvY1FUd1BQdXFMc2pXNzYzNWszckJXUHhZdGd0MlZ5WHVWNkhlVFM5MDVHYXZuclFIdnhNQ2lRL21GTG9UM0FkSU9wNHVUcjBQUnRFUFdydz09Iiwibm9uY2UiOiJ4Y09KYlN5aFgzNVdHQ1NTRDB0ZFl3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNzExNzE5MTFaIn19",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
-                "fileName": null,
-                "protectedParameters": [
-                    "password"
-                ],
-                "uiParams": null,
-                "globalTableConfigOptions": null
-            },
-            "liveQuerySettings": null
-        },
-        {
-            "oid": "7c9bf429-cbee-45af-a5ff-b3205d61c70e",
-            "fullname": "SnowflakeJDBC:f1a5cef2-fbee-46e7-bc4f-579b23ec6360",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
-            "type": "extract",
-            "name": "f1a5cef2-fbee-46e7-bc4f-579b23ec6360",
-            "modelingTransformations": [],
-            "schema": {
-                "tables": []
-            },
-            "connection": {
-                "oid": "b5c2488e-a1e4-40ce-aecc-fac6a23bf132",
-                "id": "6553b82907357d002dd323ca",
-                "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJNK0tMb2NZSExNOTBNQ2hrVitaRmZIM3J0UVhPRW9RQ3ZPZWh4OG9sQWVkZ093R2RaT0hISmpBQjFyZkxQNTZuVlF2cnRiZmkxSjRkbGw5L2FNbVdJTk4wYWRwY3dzTlRoaW51c1kxTHRZRlFZWGRqUkw1Rkx1Z0cxaHRhM2tmTUpDZ3VLeUZ5VzIxRWYrQ0dUS0RiNVNhdDArazRHMmRXaEhJQzV0MllBV0ZOMnlBMGp0Mmx4YmJCTnEyd3lETk8ySFlFRWp5VkJqWURpUGtoVnpocjFORDFXL3M5eTlhR3pYVHBHVTFXYXFBeHc4d2FGNU9LclU1STBuWXVGQzQrejFKSGFBK0R3emdMdnJmd2wveWNPb3BRUmZ0K2lXekZjcnh3TnFSaU9zaW9YV0FtcFV0YmhIMWhjN3gyaXVDN2lLazBaMzFBT1p5S1MxMlg5eXlrYk1PZ1BHMmwyMWdHL1RaRnlWb1l4OWJiNGxDNVRpck5pVjF2T3FlU056UlR5QU5rYnZXY0xJTGh2QnVMc25GbEpPZFdtNUVVQk9MUXZvWW9TNGlNZk5pbUVxZjZpVU5XcWJuV0hCcXhwSUpuMEhvOXRqYjVXeUJ1TUFTcXQxUzRlYVNGSER6TkYzcmI2K0VuMUlJVHdBZFlqMDRneC9GVE5zeVlGLzdOeDhpTm1HcUt0cUhqYVlrVWRxeSt0THp1WEVmbitwbm9YQ255TElRVHZZNEllbi9YZXkvVEpwZWprWFZGMXgyQ3JxdGNEeVJ3R1ZYc1NSNDYrWFkyaFBNeUk0ZG55TzE0d0lZZGQ2NC9mNXhHYU1aaFJNUG1CU3cyVHRaUW03aE5hUlljdFRHVjNjNFVlWUQxU1kvL3JzckNRNU5xblVkcXBtZ1hFYVREMjZxR2dhNzNoZnZKLy9uYnBUUU1MQXdUbk1Rdjk4bWJ4SFE5YmxQSkxnck9HVmVnb29nbnA5R1ZCaFBFeDc3SWtVdnZQVmkwY1RJMzUyQjZya2tCektoL0tpaTh5TnBXRzR6L0pEUWxPU25hY2ZQR3B3PT0iLCJub25jZSI6ImhCUWNLTU9WSHVjalQ1K296NXBjOVE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAxOjMzLjM3MTM4NTgyNVoifX0=",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
-                "fileName": null,
-                "protectedParameters": [
-                    "password"
-                ],
-                "uiParams": null,
-                "globalTableConfigOptions": null
-            },
-            "liveQuerySettings": null
-        },
-        {
-            "oid": "e9a37281-a814-4ca0-908f-55cce85e4cdc",
-            "fullname": "SnowflakeJDBC:7d291067-427c-4bf7-9ba1-6cafa9deb0bd",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
-            "type": "extract",
-            "name": "7d291067-427c-4bf7-9ba1-6cafa9deb0bd",
-            "modelingTransformations": [],
-            "schema": {
-                "tables": []
-            },
-            "connection": {
-                "oid": "b7fc19bc-ab22-42ea-8f96-af33569abf8e",
-                "id": "6553b82907357d002dd323cc",
-                "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJKVzdFUnRHcndudG5XWlN6QTJaeWlDT3NtV2RwSG5keVoyZFVHdk9LN21jZHZoM3BGNU11ZktLZm5WY1NQWWRPaGZ3Z1g0Z0o3anJySFV3dHVNaml1QUlZalZXQXlla2k3MzhwMUFqZXhpcFQ2dThpdVhMQUtycVlGNHp3aitwVEdYRnpvcVJmd3IvKzlaRk91OWVmTnNiQ2k2ODN6bTF0Zm5qM1dsWjQzcEU2NTR4UG1WNFNWTlpEM3VVeWtYV0ZlK0dOZ0dndG9Bc2pFZnI5OENDTVQ4WTFPdGl0cUk1SkZRRWdCZ2JwN1J1cXU2eFZ2YXdGUm9lQ3hSaE5OZnZQWlc2dXRUTlNpOG5LQlFCMEg2bldpZ0JMczNOanA2YWwxcW1tRjFGUHVDZFE2b1Badks4TytXbzVucmNpdndHM3FjOVI5UnJnK0l0eHI4M0lBbzJlMVUwbWVVWUpWNURIdHhHaDlaTHJETWV3dWMxWUZRODVuYmVSYURFMFFVVnBMZTY5TzkxN3lmMlZwZCt1V21wSjMvN2xrNVRVUERheG44cEZPMVZ0L3hpOWVHVTZ3eXY4b2pmbUQ5UVQ3ODdlMHgvQUJxYU1EL0cwSytIWUNTNlhqa2ZlVVBYL1pmTG5MYzhNb0Z1WjNnSnNYNFRXMFp0VW4xcjdXU2Z0SnFFZkRIUllYclovaXdydUFTdDdya09VaFo4NWFocmF0VFJ0dHh1TWI0Y0dYWVpwd0dNaWFSTTFpZDBiamY1MkROS0tMV3RPOTJPYkE5T2FqdXRyNTBXT0o1ZkMyUGgzc0hIai9JRG85VVcyS25OQ1NYejZhTUlGYnlmelhoZExuMndhWG5tZ2xjdmNDWDNKNUE0VjcyRjdZOGVEZXlyK0xqTC9Ia3g4eTdvanBLQnFQVEV4Ti94NktJVzB0VUxjNUo3Tks3NUsrclpuV1huR2RYb2g2RmdvSDhYdklqUHpmZXI1OEFMOGswNDNMV0w0UHVrUHdRZCtvZWMyb1hhcFkwbWNLVlNhL2g4MzdkYlRWbEkyL3I4NlFCblZXdGJ5RkpnUzFOSjA5T0ZvMGpkaWpPQThtVTRUOFcvazR3OTZZZ29KUjZSbVVhM2FVQm9hbithZXNyb0tmZz09Iiwibm9uY2UiOiJXY0FyNTQrTE92UzBRbDcxNWw0eTd3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNzE1MTkxMThaIn19",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJseWZSbzZnenNHNktWYTJXMi9oN3ZVaklXaXF2R3QvdGhKdmFYNzkvWlZ6Q2M4cDVvNjVxUk5mc2h2WU8ya1FINUhYUUJMSUF0RFRBUVVnREgxai9xcDFoQzBJd0NIb0IxemZLOVJISEd4WFQ4cVF1N3l1YUlhRVFaTkxWLzExMHNvb2dRNVpBS3pTYXF5OTAxamtGYzVza2tyZnBMbG4zcGNmb0YzeHZoTnlMTXEwSG55cjFIMHNLcnVVR2l4UGlCVW9mRjF1bTljUW1VMGxwSHRBZHJSKzF4dzh5d1ZkY0hGRkl1dm1LN2ZSTnV2UG9yVlVNV2RJZDVUUndKWTdIK2NWTi9ubE1XSFVDR3kxUDJXS3k4VmlZU0JVOEtCajlyQjVoTmh5QjJIcjJ3b0lLL2dEWVFodEpjSGlzdUpGcnVDZHZUTkRtSWNSYVpqK2RKYVJUV2xnd3NWSFhNQUpIbkY1bC9YTzBZbEkzU2VFZVJkejRXMVoxeXhUckVhQ085Qko4aVRNZEIzb3NjZVJPVk44VkhtV1N0US9OUVg4ekwvVmNrVEs2elkzQnN4bkpPTU5iSmVzSkxxVmFoQ3M3Z0xXeUZwRUV6b0RUbk1aK2lQY0wxc3FGdHpZbXc5bTFiK2pWQjIrSWNGZTBWaWlvWXd0eElJMjVvU0wybkE0UWprRlBXRkIvcDFMU1RRQmdlNkxISWdjOUloVlJzL1pUdk4zbEFSenJvay9ZOGN5eWZENGxzTFdKVjM2aG9kbFBoMlhFdTNqU2VzOEszM0c3Z0MyOCt3TjI0QlBZY1lsNGVxUWZpSkNiRXcvZ2thWDNnN2cxR0hRRThGMjBYbFc2dHhNS0g0bkgxVU5NY25ZcDBvWWp3eldHTUpYOXBkRTVKWGZJck5uQlRtWnFRNzJ4VGZFUUZHMldubjNmdlUyN2pMdC9NblBhNWpEcW43LzUyc0FGRXY3VGxNYnBTdUJpcVNNRTg3clFVbUwzSldDWldrMG00bjBQbjBqYkJNNXJuNmVzYmJKMkhhQWRySjZKTGpVWmFrVHZDYktHUExSbi9wVUU4V0c2eldWZTBPVGRKVUxPeWY0UlQzQnUrRjhqckNtTi9VMEZDbGFZdWUvcXdiOSt5Zz09Iiwibm9uY2UiOiJKMHZrSHRQdVlBYi9YSzltWEJuc2lRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTYwODQ3MjRaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
@@ -2714,428 +2608,37 @@
         },
         {
             "oid": "69f6a580-d59f-4493-80c7-0a80971e976b",
-            "fullname": "SnowflakeJDBC:5562fcd4-0438-4789-8e0d-97d552cf30fd",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "fullname": "SnowflakeJDBC:cbcf32b0-b734-4205-9aa1-e50aad513ea2",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
             "type": "extract",
-            "name": "5562fcd4-0438-4789-8e0d-97d552cf30fd",
+            "name": "cbcf32b0-b734-4205-9aa1-e50aad513ea2",
             "modelingTransformations": [],
             "schema": {
                 "tables": []
             },
             "connection": {
                 "oid": "7d549453-39fd-47ca-87e8-1566766ed7f1",
-                "id": "6553b82907357d002dd323ce",
+                "id": "664d0b7f99fe64003a793d99",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJKUzUxNXczUnpnM2gvbHRJdVFBMFhMdUxJTEpLS3RxZFFDRXJwSk16RmVLVGNvNU0rQTBaZXVYcmV6M0gwR1hsamhHWWlhMG9uMHdlTjd4R0lQaEJZOEhjRHlUWjNHWkRmemtjbFJVTEZ4aE1lUlNOcDc4TzhPRWx1R2grelFkUFRLY0owbHJOd3BLNzhVZ0pkT2hZRGh5YktHaVl1TTg2ek52bkw4dGRudE1jWTZsMTc4SEJvVVdRdVpTV2c1YXIwbDcxOEJwMDJ2c2tzV0ppY3o0L1N6YkErMjVDYVlEQ0YvODMyYmo4a0JlTjJBYlZmSXJ4cEd2aHFFOEpRUTZRZG9DZG5mdmY1R0thM1RtSy9Ed2xFN04zR25ZejZ0NmdHWlpmY3E0YlRQTnFSbVF4T1VTSXBlT0R4MERsTXFiVElRMCtiUW15SWd0R1AwUEYwemxEL3h2anJ6TC8vNGt6N2hmWUhxTUxQNVYzTUt2b2tnMnAvZWIzVjA3SjVicEZKRk1ob3NqWG9YVnpTWGJLdW0zamZnOVNJdkluY0xCVVN1S3JkQWNLTjFKYkJibXU0T3pxMGMyTStMWUNQSmhSaUw2cHI0Q1ZCNFNFRXB4ODliUTVqSU5xS2g1SVZNSllOaGgvVnZmalkvZFRORWVQc1p0YTNhQnVXN2VLMWdpVEZEU3BYcDJMUHQrQXMxL1ZVblFiWU56RTBqS3lXUDJEMCsvVDFWUmhjdUlPSFhRelJudmEvQWVDL1lnQUNTMjg3ZEVBUmxNZFRXWXpYWWtuUERhbHUxRHVBZlgySHFIQU5vZ0dqblk5SkN2S3dJVFk1dmZncW1NMDVxZGIxWXhHOEhva0g5MmJTdExYbjN0bzhSQm94MGlmYlNLWFZpZ1lnL1JQUGM4WE81RGhKOVhibHFtSVpGaktpaEtJOUJOK1kxSkptNGR1a1FKR0VEdE94RUdMVU9WUURlSkQ2TEtKMkw4YnZuQ3dwMi9MSDQxWFdiVktpUmJZbFd4TXdySTgzQ2F0S3hRRmJ3V0xSSzBFSm5PNTU4ZjAyaUNXcVVSd2Vhbit4U0dFdGVBYTdGbEVmcVZCUnlRSmE5NUlGS0xHS1FWSE1pNEFDTEJ6bW9VQm5nM0daQT09Iiwibm9uY2UiOiIrZ2lXMXlwQ1o4bDFwK3puVEhhb2xnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNzE1MzczODhaIn19",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
-                "fileName": null,
-                "protectedParameters": [
-                    "password"
-                ],
-                "uiParams": null,
-                "globalTableConfigOptions": null
-            },
-            "liveQuerySettings": null
-        },
-        {
-            "oid": "a111868d-786a-4795-9627-164ad7915921",
-            "fullname": "SnowflakeJDBC:ce59d6ce-5905-4bf2-ad51-394c64d07759",
-            "database": "PC_FIVETRAN_DB",
-            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
-            "type": "extract",
-            "name": "ce59d6ce-5905-4bf2-ad51-394c64d07759",
-            "modelingTransformations": [],
-            "schema": {
-                "tables": []
-            },
-            "connection": {
-                "oid": "81c4c34b-60b8-44b3-acb5-bb29cbfb2da2",
-                "id": "6553b82a07357d002dd323d0",
-                "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiIrSzdvWDh5TUpNS0dzaktRRGpQTUo4SGxDcVdyeUVMNldYSmF5ZFZtMEFIUTB5N0Y5UkNjb1pIbHArenNzZFZ3aERiMHhJdlExYUF2dDR6SHdtNXZzL05MWVN1L2FTbUdzT1pRWTE5cDdHMnduN3l2ejFMT2ZEdmp2QkJLTXE2SVU2a0drMW1vK3V4dUJkNFE0VjZDSmRJUDhmS3pBNnpSTEJyWldsMTBVSHNIWVArOTNoSVFxYTJDdzZHWDM4RVRuY3AxS3BJdTBKR0NEV1JReURyeC93Tm81SkNyeEh6TVhyK29IcUhMMG9lZzg2TVhObDIrS3kxYTRUQXNxQjdpVEVwek9YUFpHZG9nUHplZlVEdGxhcWREZmsvbE5Tbjk0TXZWdWRJS2drcjdnaHFIWmhBU0tTcFBsUENocTYzUHNaSDFJeWdDQlJBL3k5SHgwWVhZb3E3K1B2cWV3aUtaZFFvQzJ5Z29zRUJwbEZPUGc4dEl3aitVVG10OHVhKy9sTEt1aU1Vb2s4VW96RmQ2RlhLWEZ4ckdTR3dCdE5aamNENDlCLzRPa00zQWRkaWExdytiY0RXZlBQV0M4K0sybHVsNHAzc2JZTENMQW5LbCtiY0hHVHVQd2FYMlNxTEJsUEZsb21HNkRDTDhvQ2tVd0RRSUYrK295MWxkQ2NsM0UzS2hjRnVSeFYwR3A2S3pQWVNIN21sNXVsUE1hajVic05GbFJFUHdyenZSdkRQbTVkR2FiK2I1WGVPNEV4d1ZVT3d3dTJjNDFRWXNyZHRtRWtjQzBmQWNqZ0tPWnpwWEUzNjlwa2xzUFlMTFljWk02VW1rWEk2NG9uU1E4TkQzKzZMMFRxWGlDdXdSTUgvRHZlc0lzUEdBSTFmNjB1Um1MUG1vZkRsNE1INVZzWW91YUVWN0lJZ1pQNnYvdW9WQkIvei9wUElkbmgrVXpWK1ZNZUFBTWNrWVdlVmtkRHdSVGFrM1Y0Z215c25sVmhncVhYQ2ZGTG0rSFVWbGtOOWlacjhIVlRQK2xndmRiUzB3dXUwM0NkQUM1NGd3ZFlQM1NMQ3VOb0ViU253SHp4K3h5cEd1b3czbnhmeUwzR2tKZnVpbTJMb2Znd1JDeHJMU0ltWGJmZz09Iiwibm9uY2UiOiJUeEdyYmpEN1M3bWdwWHlsNktUT2RBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNzE3NzkxMzNaIn19",
-                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
-                "fileName": null,
-                "protectedParameters": [
-                    "password"
-                ],
-                "uiParams": null,
-                "globalTableConfigOptions": null
-            },
-            "liveQuerySettings": null
-        },
-        {
-            "oid": "74405707-2144-404b-83f1-0d357d30b244",
-            "fullname": "SnowflakeJDBC:618e930b-33de-43bd-ad39-952f791b2368",
-            "database": "RAW_DATA_LANDING",
-            "schemaName": "UTILIZATION_PSYCHOMETRIC",
-            "type": "extract",
-            "name": "618e930b-33de-43bd-ad39-952f791b2368",
-            "modelingTransformations": [],
-            "schema": {
-                "tables": [
-                    {
-                        "oid": "0b2df946-0fe3-44be-bb50-c4811a821adb",
-                        "id": "USAGE_LICENSES",
-                        "name": "USAGE_LICENSES",
-                        "type": "base",
-                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
-                        "columns": [
-                            {
-                                "oid": "6b215398-8781-442e-b6ca-2644ab5a8b44",
-                                "id": "TENANT_ID",
-                                "name": "TENANT_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "7e999bf8-31a3-4355-8378-b890bf3d767a",
-                                "id": "USER_ID",
-                                "name": "USER_ID",
-                                "type": 18,
-                                "size": 9,
-                                "precision": 9,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "3d64d6ec-11f9-4558-8071-a9a1bb814695",
-                                "id": "USER_NAME",
-                                "name": "USER_NAME",
-                                "type": 18,
-                                "size": 1020,
-                                "precision": 1020,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": false,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "cb2588bd-6db4-4705-81dd-19b31aca7259",
-                                "id": "DATE",
-                                "name": "DATE",
-                                "type": 4,
-                                "size": 50,
-                                "precision": 0,
-                                "scale": 9,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "e21a18b9-34e9-4250-b30a-ef6b3a3387a3",
-                                "id": "TOTAL_LICENSE_COUNT",
-                                "name": "TOTAL_LICENSE_COUNT",
-                                "type": 0,
-                                "size": 18,
-                                "precision": 18,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            }
-                        ],
-                        "buildBehavior": {
-                            "type": "sync",
-                            "accumulativeConfig": null
-                        },
-                        "tupleTransformations": [
-                            {
-                                "arguments": {
-                                    "id": "mdy_date",
-                                    "name": "mdy_date",
-                                    "type": 19,
-                                    "size": 0,
-                                    "scale": 0,
-                                    "precision": 0,
-                                    "lastUpdated": "2023-03-08T23:16:11.744Z",
-                                    "oid": "8440b5be-e66e-42fb-9fbc-c683dd050d0c",
-                                    "hidden": false,
-                                    "indexed": true,
-                                    "isUpsertBy": false,
-                                    "expression": {
-                                        "lastUpdated": "2023-03-08T23:16:11.744Z",
-                                        "oid": "3ab4fdac-dd1e-481b-9210-68f871317eae",
-                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
-                                        "isDatabaseDialect": false
-                                    }
-                                },
-                                "type": "add-column"
-                            }
-                        ],
-                        "hidden": false,
-                        "vTag": "0b2df946-0fe3-44be-bb50-c4811a821adb",
-                        "configOptions": {},
-                        "isMaterialized": false
-                    },
-                    {
-                        "oid": "6972f9a6-0a44-4c87-ab36-5082a2107ad3",
-                        "id": "CUBE_REFRESH",
-                        "name": "CUBE_REFRESH",
-                        "type": "base",
-                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
-                        "columns": [
-                            {
-                                "oid": "b25fe782-6e86-4c91-9dd5-75da62721dab",
-                                "id": "LAST_REFRESHED_AT",
-                                "name": "LAST_REFRESHED_AT",
-                                "type": 43,
-                                "size": 50,
-                                "precision": 0,
-                                "scale": 9,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            }
-                        ],
-                        "buildBehavior": {
-                            "type": "sync",
-                            "accumulativeConfig": null
-                        },
-                        "tupleTransformations": [],
-                        "hidden": false,
-                        "vTag": "6972f9a6-0a44-4c87-ab36-5082a2107ad3",
-                        "configOptions": {},
-                        "isMaterialized": false
-                    },
-                    {
-                        "oid": "e325346d-70fd-4045-acdc-aade200ab91a",
-                        "id": "USAGE_LEARNERS_BY_MONTH_AGGREGATE",
-                        "name": "USAGE_LEARNERS_BY_MONTH_AGGREGATE",
-                        "type": "base",
-                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
-                        "columns": [
-                            {
-                                "oid": "ac8067b2-6716-4ed2-8a30-873335b71512",
-                                "id": "DATE",
-                                "name": "DATE",
-                                "type": 31,
-                                "size": 50,
-                                "precision": 0,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "0a24a16c-2fb5-43b1-986f-e4262e60d137",
-                                "id": "TENANT_ID",
-                                "name": "TENANT_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "044deac0-f026-4431-a40a-537a416a9d64",
-                                "id": "ACTIVE_USERS",
-                                "name": "ACTIVE_USERS",
-                                "type": 0,
-                                "size": 18,
-                                "precision": 18,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "9e2cda98-aa11-41f6-a94f-1a7770235d15",
-                                "id": "NEW_ENROLLMENTS",
-                                "name": "NEW_ENROLLMENTS",
-                                "type": 0,
-                                "size": 18,
-                                "precision": 18,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            }
-                        ],
-                        "buildBehavior": {
-                            "type": "sync",
-                            "accumulativeConfig": null
-                        },
-                        "tupleTransformations": [
-                            {
-                                "arguments": {
-                                    "id": "mdy_date",
-                                    "name": "mdy_date",
-                                    "type": 19,
-                                    "size": 0,
-                                    "scale": 0,
-                                    "precision": 0,
-                                    "lastUpdated": "2023-03-08T23:15:57.672Z",
-                                    "oid": "c1d60d66-fea7-4ed1-8650-4f0270c1eab5",
-                                    "hidden": false,
-                                    "indexed": true,
-                                    "isUpsertBy": false,
-                                    "expression": {
-                                        "lastUpdated": "2023-03-08T23:15:57.672Z",
-                                        "oid": "71f3a944-6fba-4a82-8e21-c159973087c8",
-                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
-                                        "isDatabaseDialect": false
-                                    }
-                                },
-                                "type": "add-column"
-                            }
-                        ],
-                        "hidden": false,
-                        "vTag": "e325346d-70fd-4045-acdc-aade200ab91a",
-                        "configOptions": {},
-                        "isMaterialized": false
-                    },
-                    {
-                        "oid": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
-                        "id": "USAGE_LOGINS",
-                        "name": "USAGE_LOGINS",
-                        "type": "base",
-                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
-                        "columns": [
-                            {
-                                "oid": "2fc0b827-3ab0-4870-9c01-95d0004a4737",
-                                "id": "TENANT_ID",
-                                "name": "TENANT_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "220d3bd2-c913-488d-9671-48894a85bb98",
-                                "id": "USER_ID",
-                                "name": "USER_ID",
-                                "type": 18,
-                                "size": 9,
-                                "precision": 9,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "6610a5df-e057-4420-9993-567b5541ec9e",
-                                "id": "USER_NAME",
-                                "name": "USER_NAME",
-                                "type": 18,
-                                "size": 1020,
-                                "precision": 1020,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": false,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "4f584948-8932-4b5d-b9ef-34e7a70a0bfe",
-                                "id": "DATE",
-                                "name": "DATE",
-                                "type": 4,
-                                "size": 50,
-                                "precision": 0,
-                                "scale": 9,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "3322e2ef-28a8-41f2-9b6a-dae1daacf4cf",
-                                "id": "TOTAL_LOGIN_COUNT",
-                                "name": "TOTAL_LOGIN_COUNT",
-                                "type": 0,
-                                "size": 18,
-                                "precision": 18,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            }
-                        ],
-                        "buildBehavior": {
-                            "type": "sync",
-                            "accumulativeConfig": null
-                        },
-                        "tupleTransformations": [
-                            {
-                                "arguments": {
-                                    "id": "mdy_date",
-                                    "name": "mdy_date",
-                                    "type": 19,
-                                    "size": 0,
-                                    "scale": 0,
-                                    "precision": 0,
-                                    "lastUpdated": "2023-03-08T23:16:25.277Z",
-                                    "oid": "0fac7d94-6883-4cf9-9d97-6decf3ddf194",
-                                    "hidden": false,
-                                    "indexed": true,
-                                    "isUpsertBy": false,
-                                    "expression": {
-                                        "lastUpdated": "2023-03-08T23:16:25.277Z",
-                                        "oid": "5a727c1b-8ce0-4dbd-a4cb-e32b88c369bc",
-                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
-                                        "isDatabaseDialect": false
-                                    }
-                                },
-                                "type": "add-column"
-                            }
-                        ],
-                        "hidden": false,
-                        "vTag": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
-                        "configOptions": {},
-                        "isMaterialized": false
-                    }
-                ]
-            },
-            "connection": {
-                "oid": "d58929b5-3510-4e72-8691-0de11af10a3b",
-                "id": "66213c5e30f5020038a210df",
-                "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJEb0VFdUswYVNXQzhMa3FoV05oclJpdjBFMXdCT1ZPeVd1bi9FTTRDSHBjOFcyN0x0TWkyc1ZkcVVyeUMzSG1zYWpSR011ZzZnUkMwYXhrVVpJVHYrSldqbm8zd29MWFNCVGdPL1VaajlKMG1JU01LY2NZanN1VUJsdUszY25yZ2hWVGxtT1ZLbUNsVFVjSmVVb2sxdEowOFZqSXRxRGdJM2N4ZEJ5WHU3LytrdmhMVTFpY1BaUyt5b2F0OVU2Q2l1bHBYQ2F4MHNXbG8xOC94NW00L1JpSCs1YVRxZWc2bGdKbElXUXdKNFcwRzBJUzN4R3RqekQrMGl0NitRS2NPWllwM2lNc2hBbDRXN0ZZc29COGtGMG9yVTM3SlBPUTdjVE4vcVpqTWFtUjhLR2w1Qk1Wb3ZVanphRnZybExlakIxT1ZJY1NMTkVBUXk5ZWlZRll3ZnVzeUxPa3ZURFRlanZoTmVDUk1HNWdianhxNktpNTk1QVpzeEYybHNlVXNWQ01Ea1NybU5KbndXenRUcEdJOXNXTXJ1SXNhQUVkZzUvRDV0NWZGRmxEVmxxcHpvUkRHUDdkRHZDVHgxeDVEYWFMY0VGSjFmMGM4SmFJZmMxMEtnbng2VWRWNExob2pXeXRLRWlwbFRSeERUdjNKNjhDcHFOd3NjSUtIRGl3bUJ2ZklkTFlMazNwbS9lU0RPME45QnczNStnb2kwekE5ejdJUHMwWWNQY0llNHVZMWxoVE1Xa3JnMzl2UFp2UHZpUFNIUnRlMHY4VzFNZ05oNldnZk4xbk9idWpZOVc5ZnNNWGJrN0k2ZXNWd3BuTzhmMUM0MUpxRXhhZkFienBCcDJ0S3R5QzBnY0w1dFFXbmJYekNPaUFQeW1tYkI2aUZGU3k0Qkp0SmZVc2xBYi9LQ1dUWmYybFc5cU9NalpseVBYRGJYN1JBcmQzQTlSSjVGWk1aUzZFTUVSZXVjbFZpdXFrRzdWR1licnM9Iiwibm9uY2UiOiJvck5Od3M2bWdHOXMrd3BUd0xhZ0VnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNzE4MjU3NjRaIn19",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJsOVlTYS9pQ0lhM0pabTVRZyszNldvNUozUGpOeEdZbCtxSjVQSjQ4T1FUVStjdjU1YStEMTFsRzF0MFV2TVRJYUZJUStlWlVUbEgvSm4rN2FYRkVPUmt5WndtZnFWVGM0NlVGMFp5ZFkvbGpmZnUrVVd4azlMWlNKTmc1cXJDbnI0ekhNdis1cEErdUkyWFdkazNOWGJiNUd6blVkRkE2N2NONnYyb1pyL05UdmhSTVVxeFNlRVBVbkNWeDl1MEcvM2ZjbjZmRVJhTDFoS1BhUXR3RmNuWjNsY2lLMnRjYVU5SGJoa1VNUkdnaXBFZnU2ZVdNZ3o5NjFjY0FCTzFDVmg3V2pKUEp2aFkvVG9Ta3hSaW8vMVpxREtJcXFVOFZ2emxhK1NoTWFUTm9MWDF0TXNWL2g4cGp6KzFLanUrT0lJVEZqNEwwelJUeDFFSDVPTEtrUGVRdUdpc3YzNktiRkM2ZzZQbUVlVFRhVVFzY3hJNzBVd2lWVVZzUVY0cEowWUxTY3BOUG9JTlkycWh3Rko4cHg1SlJDYnpkeUoxQzR2cGV3dTdkMktHUkFwejBPL1liV2hnc2Q3RUNvaktuSWtDMlgrRFRSQlVORU5vOU9tUTZPeVlwUmE4V2Z4bTFsc3lwQTh2aldaeCs5eFVJMEZPTHhYNmIvUFAzOTVveEZtemJoR3lOenQxaGxvaC93K3M0ZnlmRGs4bGRTQUlkSlRkWTN3VmJNSktWNlMyc3lmUTdQVytiRUVVdU9TcUY1UXF1c3NVN1NhTlB2OStxOWg4WjhNKy8wZ2JLdXovWDZQdkpub0JGZXRRSlhEKzBhR0ZIdGVhczJMQzFMU29RN3FSaGVqcU9vNnRXU25qcHY0blpPSExTaEJCTFg2RHBCRnhlZ3plRGk1dG1SRytnUUg0MDVDc0JUTzgxZWFDWTF2am1PLzQ5WkIrZnZvZzFMTHRKdVhyLzBnSmtiTDZLd1A2VytoR3BxTkRhclpmaDc5c0RWQnZFTmxtWENTSW1JTHRpbUpySUpocWlZK0dhMHVNQkN6UTNUVVNvd25EdU9hSkJuVHZoN0ZZZjMzUnRvRlp3SVlmYlNadDhNbFhQZWlydUlPbXZDM3NpREZBcTg1RnN6UT09Iiwibm9uY2UiOiJtKzhUdnZWNVhnZC9mZTVmcnFBUlhBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTU5Nzg4MTVaIn19",
                 "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
                 ],
-                "uiParams": {
-                    "passwordAuth": true
-                },
+                "uiParams": null,
                 "globalTableConfigOptions": null
             },
             "liveQuerySettings": null
         },
         {
             "oid": "6d231b48-2d9c-484f-8eb9-9f25774e494d",
-            "fullname": "SnowflakeJDBC:cec97e5c-c06b-4135-879f-fa643409eb37",
+            "fullname": "SnowflakeJDBC:5ca4a102-6daa-42e7-895e-cb25ec807075",
             "database": "RAW_DATA_LANDING",
             "schemaName": "UTILIZATION_PSYCHOMETRIC",
             "type": "extract",
-            "name": "cec97e5c-c06b-4135-879f-fa643409eb37",
+            "name": "5ca4a102-6daa-42e7-895e-cb25ec807075",
             "modelingTransformations": [],
             "schema": {
                 "tables": [
@@ -3387,24 +2890,515 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "bf4359f3-9199-4171-bb41-d1274c78921d",
+                        "vTag": "53804a75-5698-4299-a02c-59b8570e1f02",
                         "isMaterialized": false
                     }
                 ]
             },
             "connection": {
                 "oid": "5f8ef855-a090-4990-96a3-289bbbeb829b",
-                "id": "663c2b1730f5020038a21119",
+                "id": "664d0b7f99fe64003a793d9b",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ0M2F3dHY2K0p4dy9wZ28rY0p6Tmg4Mlhhdk5EcWRsSU9pUHB4SW5lWUhCVkhhN0JZMC8zZ25QS2JjVUFFWmQvVmRKVkVxNHBnR3VpaTlyNllzMXVUdVNOa01CU2c0dVdtajRMYzltRWNnYUxMTERQeVhzb1VHc0d4OWhzVUZJam12bnMrRytvbm5md3EvU2k3SkMzSmdDOEZWM2dQTGZkWWdRSHRoSHpuT0QrZmZGMU9ta0RxZTl1WVZZRjhLOGVGYzZ3WnUzM1FHdHJONjJObnZwVGt5ZVZiNktVWS80RWl4c3lZMFliM1hGU3pidGM5ZmYzaVFOa0FNRDFyT1ZiZy93dHdPZmpOZWlaODd1dlZOa2VDRHYxRmgxUWRuR25MV3R6K2tvSm8yRFNtVW0vWjJ2R0dwOGZFcjFDUTFJRTl2MlFmVGR3bGQreGQ3OURaNHpkYTA4QWFNTVZXemxzSmN5UGIyV2xlV0hVVElQSmNwcnd2bldyOUt1UHVUclQ5MytSV2Zjb0xMbUhRSlhjbHJYUHBLRjhVT3Rjc3o5OEs2RWlNVDdORlJ4ZjN2K3Q5eS9oeGdRMzZrU01RaDVld1BJZExscUdnN0x2d3REbGd4aXdMekNQRmc5WkdtODJmOE5tMkQ2d0g1TDNmZXdLQ0JIWjNnUVV5aW5sZVFOMk5OV0FydnE1aUp4ODNBTDVLOWpaR0pJbUQzd2JMSUdiWnNPdXhSbWY4Nis1SE1nZGlwczNEaGV5UnRyOWVwdTBrVVZoditadkt5VHVvQ09QSXhIVFpCbDlTNmRlVmMrQmVkVklqNTdvYmxrNnpsV241bEdRR1Nyak1oY2lVRTVIMURYTVpac3l5VEFqS1lsSk1tNklncVJxUmVwRE1jZmZoTXdoU3FIdUo2bU8zNy9qZ2xPWmU5bGozd0dqd3YvS2hGTmtYekJGQmlLTDY2TC9aRUlGdmdRL0g5cGQza2UrWVYxRU1JaVNXaU09Iiwibm9uY2UiOiJrSXBteWVYZlgxSS9pRVlpQVYzU2lRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMTozMy4zNzIwMTc4NThaIn19",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ4RDRaSjEvd3hPYyt4K1VLYnVUQTA1S3ZZbFk1ZDZNUEFGVXlSTHFwODlHRW5vNGM5ZDlxL2I1T2cxK1BRVmsvT2UxYlVOU3hsa1JpVXpocjlpSlhrbS9UdXlyaGZMT0lGcGVHQzl5UmhIaWNPREdXWUpGMW1xR3lmd2MyOU1RWld0MEFGTFZHREhHUGlxeSt6cndmRkw0SFVoQiszZWJHMzg4YmhNbUg1aklUbklmeGZJbHdGT29TUTBoT0VSdFBna0p2d29FUHcxNWtyQXJXSFg5WU15Q0RzbGthSWFWL0d3c29BQm1uNlMrSlNuZURGbHFabktCOHJaR0ZJdjN4VVoweUxWa2E0T0tYSURxQko4a0Nzb2lpRUFkUkJHbDl1RmhXNHArenpRbFVBRFQ0clRuR1llRThIbVBDQWhEMDhwdGY1YTlYazFGWlF1aStCNE1RM3p3Q3pIdHJFYTZ0NlVrc2M3QXhxWGdMMmlZTDFoSGJhMGJoRExiWUQvN0NFaUxTU1N2bVFrcFFsanRVdStHRGg2SHppUUgrU2hPQ0g1Y0M1WCtsZ25leEpNSnIvbzdsbFdjKzBvUm9JYVlKVTJKL05UY2FRem9jZFpjTDBVckREeDFWTkRPa0ZZTVFQcGRDRkxNRWhNenR4NzNsS29xamdoeW5uUmJwNllKMUs0VkhnZFBsVWNIb1ZxT1dORnNDUXRYWUloemZ5bXgzZzBNN3JmbUFWekEzYmlFNFh5Vit5ZmdVMTUrN0FSY3lnZXF0MERncEJZdjh6R2JkS2JXM2o1TVBiVXE3NlJuN24xMzRJczR2a1JERUZ3MTgxY3BBYjFoMnV5QWhCNTdLWmtDdTF5NUZOWFdSL1RlZFhIUjJGeXZXdFozK3I2ckFVZmtNazh1Sll3Nk9ZaEdNWE92eTZYY1d4eEplVWpwLzJsckE5cFVNdUh1ekM4Wk43NlZGMDEzVVEvMmFkRUVPWklzTEtjZEdxeFE9Iiwibm9uY2UiOiJyMk40ZVpNSFJuKzBQd0ttanl1WmZBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTYwODQ2MzdaIn19",
                 "schema": "UTILIZATION_PSYCHOMETRIC",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
                 ],
-                "uiParams": {
-                    "passwordAuth": true
-                },
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "74405707-2144-404b-83f1-0d357d30b244",
+            "fullname": "SnowflakeJDBC:ea7ce48b-bd09-4aa4-aea2-409a91e0c650",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "ea7ce48b-bd09-4aa4-aea2-409a91e0c650",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "0b2df946-0fe3-44be-bb50-c4811a821adb",
+                        "id": "USAGE_LICENSES",
+                        "name": "USAGE_LICENSES",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "6b215398-8781-442e-b6ca-2644ab5a8b44",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7e999bf8-31a3-4355-8378-b890bf3d767a",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 9,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3d64d6ec-11f9-4558-8071-a9a1bb814695",
+                                "id": "USER_NAME",
+                                "name": "USER_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cb2588bd-6db4-4705-81dd-19b31aca7259",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e21a18b9-34e9-4250-b30a-ef6b3a3387a3",
+                                "id": "TOTAL_LICENSE_COUNT",
+                                "name": "TOTAL_LICENSE_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:16:11.744Z",
+                                    "oid": "8440b5be-e66e-42fb-9fbc-c683dd050d0c",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:16:11.744Z",
+                                        "oid": "3ab4fdac-dd1e-481b-9210-68f871317eae",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "6aa0f184-37c5-4d75-88aa-6ec5632be0e4",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "6972f9a6-0a44-4c87-ab36-5082a2107ad3",
+                        "id": "CUBE_REFRESH",
+                        "name": "CUBE_REFRESH",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "b25fe782-6e86-4c91-9dd5-75da62721dab",
+                                "id": "LAST_REFRESHED_AT",
+                                "name": "LAST_REFRESHED_AT",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "e4432a63-2d80-4b3f-8799-6a8b688cb321",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e325346d-70fd-4045-acdc-aade200ab91a",
+                        "id": "USAGE_LEARNERS_BY_MONTH_AGGREGATE",
+                        "name": "USAGE_LEARNERS_BY_MONTH_AGGREGATE",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "ac8067b2-6716-4ed2-8a30-873335b71512",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0a24a16c-2fb5-43b1-986f-e4262e60d137",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "044deac0-f026-4431-a40a-537a416a9d64",
+                                "id": "ACTIVE_USERS",
+                                "name": "ACTIVE_USERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9e2cda98-aa11-41f6-a94f-1a7770235d15",
+                                "id": "NEW_ENROLLMENTS",
+                                "name": "NEW_ENROLLMENTS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:15:57.672Z",
+                                    "oid": "c1d60d66-fea7-4ed1-8650-4f0270c1eab5",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:15:57.672Z",
+                                        "oid": "71f3a944-6fba-4a82-8e21-c159973087c8",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "267858c4-8ef4-4d58-bb14-f987377f4fca",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
+                        "id": "USAGE_LOGINS",
+                        "name": "USAGE_LOGINS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "2fc0b827-3ab0-4870-9c01-95d0004a4737",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "220d3bd2-c913-488d-9671-48894a85bb98",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 9,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6610a5df-e057-4420-9993-567b5541ec9e",
+                                "id": "USER_NAME",
+                                "name": "USER_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4f584948-8932-4b5d-b9ef-34e7a70a0bfe",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3322e2ef-28a8-41f2-9b6a-dae1daacf4cf",
+                                "id": "TOTAL_LOGIN_COUNT",
+                                "name": "TOTAL_LOGIN_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:16:25.277Z",
+                                    "oid": "0fac7d94-6883-4cf9-9d97-6decf3ddf194",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:16:25.277Z",
+                                        "oid": "5a727c1b-8ce0-4dbd-a4cb-e32b88c369bc",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "72720709-7f70-437d-868e-6a4b604c2bf1",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "d58929b5-3510-4e72-8691-0de11af10a3b",
+                "id": "664d0b8099fe64003a793d9d",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJPdjNtZ2hKa29DSnFlaVFZZzdiUXhzdCt6WmFjQ0hWWXFET0FXUXJpUmlmV1kyZjNncnkxeklidGw3bDVPRXVwOWFPeU1HNVpycGdYSG1RYjQwUFI0WnRMbzdtdGNCY0dPUG12RFVFWkEyTUU0cENCSnl5ejIvZ2xIUVVkZC9SSytqRTJWVVF3Uy9jdkpVUERacmpTWWZtTEpiYmNhTGhzNDBLL3NwMXBIT1lVUC85d0NNQUprbk5IZVBwWDBEMlg1ZU93QzNWd1J1YWIwV05pOC9GRmYzK1o2MFcvSzNEdzBSZjJ0R2pIbFlMMy8vT0tDb3ZoanpSekE5YXh3UjJzREdnSUdQUThjWStXRTRiazdpaGI3ZTY1UEQrVWprWWQ3eWd6UU80eUdLeG91SWdKUitoSTdyKzVkcXd6am4zS0VIcHdTeDR2R1I2ZDZxamRBRTNQaHltb2hwQy9PNHdIQ0xsVExUY21oUTlqQUQ4TUdmUElOUHV5WnA0WEovU0pQNXNwQUd0YUdxYXpSWGNZYTdSdzFWNGZVTFZmMytOL2xwd1E2MnV2bG9kMExMNGFQK3RiZ2JKcVFEekd4OXZ6SDk2RmRXbGRiUWw5UTZBdVZyWWNobWFveW5HUFg2bmYySSt0ZnFCMGZwV1VSZG1YV3RlWmVJZTdMRm5xOWViTnVnOTNlbGpKZk1nbjJlTHpMYjA4b21SOFBJazdZaWEvZjliZGtzVEhPZ3ltSW13eVg4QlJkV21OaHpHQ2VKd1R0dWJJUlV5U0lUUmJ4V0I5TVZuNFNMYitQY0RaYy8rS1RndmVqcFRxcGhqRmxXVDJyTjdMVFVtL0xrM21MZEtwR3ZsdkhXZ0p3aXZId0MreTBxMVEyNE9QUVlWOGN0VjhDVWRaNWVMVk1JTGU1NlMvMm9kNFdpMXcwQnZsNmNhRmwySVZWZzg5SFlrL2lRdEhXaUd1RTJPN1N5STlRVHdLdGJ0dUN4RlhUczQ9Iiwibm9uY2UiOiJ2UG8vZVJHblp5bWlrT2hmN2NqRUZBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTYwNzQ3NDlaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "7c9bf429-cbee-45af-a5ff-b3205d61c70e",
+            "fullname": "SnowflakeJDBC:e8181dbe-7f85-40d9-8bf5-f6ca7b961e59",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "e8181dbe-7f85-40d9-8bf5-f6ca7b961e59",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "b5c2488e-a1e4-40ce-aecc-fac6a23bf132",
+                "id": "664d0b8099fe64003a793d9f",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJaRmNzeDAxajVSU0wxdC9FZGt4cXhsUktNZGk0TXBYZlgrb0xpUGVLQVEybms3YW1FdURYVDluYXBmL1BOZGM0T0Y4NGN2SHJIRVAyQnhoV1JhemEza3pEdlBnVVdIT3BCdzdHeE16MUlSL3JRYW1qT0hwUTB5dm9DNndJTEhBWjJpcjlGRjhUc0NlZDNwM2YwMDM2ZFhITyt1K2ZzWG1PdG94Z0pvbmVFVW4xNzAwL0VSNEZFbXNPZnJqbzFXWEcwSTlBQWNHZXBiR1dVZ0dhQ0R4bVlZY3J4RVFtU2dSTkZoU05yZDAydnZJejlQTHB5SmIzNmJ2NTlYTUYxVHFkcFpvQklUM2swZlh4d1l1V1diR3Q5Q3FiNzJaTUlhRXhlMm94MFZpK3N2UTlKRmhmd3VjV2VhV3c5U1RDeXFZdVV0eGlrR2FhcEVva0grbnlodzFrc0puN2x6bWMwT1FpTTZYZFRhWm9UclU1c3FKNDdXYUl2cm9wVDNjVUN1UWx3ZHlBMXNmb3JWYXBBMjUxTXNhSzJFK3lTUkM5NnVOUEg5OEQ4MVFqZ0xCSlZKNlM5THBNU2FHWkpnZVBoU1JqYVRwUkRubWVYaTdOTGlJOE5OaFpMN055WmtqaXdQS1Rpc1E3bElYZDE4TmxSb3NoZGlzTlpiL3BTME5PRnd6MVo1Q1pLQ3pZMXRKbEFlSlZlNXR1SmVVd3d1WGZWYWtxWU0vbG9oY0ZSVmZlR2x1WTNpcUV5OUl5WTJ5dFVRN0pSZnpYb0hSL0s0U2FYaUpuWERtTkYvTi9nb2haVm4rN01RQU1tdk4zNkpLVktKaDBIeGlWTWFHRTlISnJOL2o4TVNubGxWYmV1bDFZU1JFbnVCNzRJVngzck9Td25qTWgyMkptV3VmQWhDd2t4dTVrM1lVTzEvUVFaUG82alZMeFhLblJiT0tsQXRmalROS3BWSmJJRW93S3FDSzNXTUwvcjZ1MzFTemVicVFISmJUcWdCZnNlMVlTRDhYNWE2eXVzQ0FvbFFESE9kZHJLZkdhWkJnc2hnPT0iLCJub25jZSI6Ii9hWkZyTC9ZN2NpYWV5WUEwZk9HWEE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAyOjQxLjUxNjE4NTk4NFoifX0=",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "8b355db3-975a-47cb-8cc4-5410fcb83ce3",
+            "fullname": "SnowflakeJDBC:d1550152-4fac-4e43-8589-3a1fd8ace8db",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "d1550152-4fac-4e43-8589-3a1fd8ace8db",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "a3a5d0f5-2a7d-486c-8bdf-e0b95bff0c52",
+                "id": "664d0b8099fe64003a793da1",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJwaVRWZ2JQWWFjSEdKOFdISVJtWFh0UFc1Qk1jZ3NhMHJ6VHU3WEw2ME1tcHc3dGMrazJ4K08yUys0VndvdzIzcDJJZGJWV1h2TW0yTmluZEozd1J3eGIvb3F4Mjc0dHRhNVlZTm11M1NYOHFtM1JFUUF2UlI1UTFLbmRsL0dyazlKUkVjVlg4YVdaa09ZTlZCMEU2OFh6M2NpSW9lYWlwZmU1dFFOT0tjQ0ROeHl6SjcxRmM5QWU2NnZlT2dHTGxOVnhXN1RZZURhK1FWSFc3WHJFUUYwZkQ4MlpuQVJiYWtxN1IvTnlQTkNRNGM5R1pnaWRiUXQwbVM2RU80YW1POVhIOWU3N2xFZ2VlZmgrZ1hOUkd2ejkzdnNmbXM3SGM3MENuRVJLdnhnT296b1k4UkhNL3VPbWxtSlltVUNRQ1h3Rnl2QnZtaFd2MlVZQXR3bE1tRjJoaGlCVHV0cm9OODQxc3lQa1RSNXkzQXY4NCt0bFQ4bSttdmdFK3h2VDg0OG9XTzJpbkR6dVc1Rm5YOUd2YlU2cnpDL002MkFyWGVOSDA3bUV6TjF5RnUzanpoZ09Gd2ttVUF5clAvMTh5d3Nsb3VOOHhYdTFEUFNWbUtFa1hxSCtXcklwdVVHYWpSV2ZUdGliWGlnalp2NDJhSERGc21sUkc4cDBPakFIT21XcG1nTTgxK2pRQngwUTArVkw4NDhSRi9yMExJUUo0cnhIR1NqaFFicDdWbWN5dk1aTWFIQWRudnU3aUxQNXI2aXdrNlVqemQ5YkNBZGZocU8yYUxOYk5FaDIwYWVLZC9QcFNKMUJWeDFJb0o1eGNNSWlFUjVDZ3BacFNwQlJHYUswcWY1Z1BRMVl1VUZqbkZoaXlJd05ZUVpET0xNZkNta2NVY3YraCtYcWovdFREZHlIVGZFSUxjcXJsM1ByOWNTVzIwUHI3N3J2SGpVMXpBZ0xQYlBQSDd2akNYazIvempwVU1jVHBOYzNPMjVBemlZNHJCRmZpamxVWFdTbUxLZnRRTG9mNis4all0WStGcUFzS0FOQVlzcUtCR2d6Y3ZFSFhSck94eEU2RDgyb0xWa1ZjczIrVFFGS0kyQnVnVk5kZTNKOXJZSHFSKzFGYldSZXB0dz09Iiwibm9uY2UiOiJtS0dtcVV4SDJ0Ui8ybU45S3M2QW9BPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTYxNTg3MzVaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "a111868d-786a-4795-9627-164ad7915921",
+            "fullname": "SnowflakeJDBC:2f1cfa05-b34f-444e-b505-1b2d6e5c7b02",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "2f1cfa05-b34f-444e-b505-1b2d6e5c7b02",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "81c4c34b-60b8-44b3-acb5-bb29cbfb2da2",
+                "id": "664d0b8099fe64003a793da3",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJOcisrQmI1elFDK21YL3ZSSXRsUzlZaGY5UUdQOFBOVktyblV4TXo4eGo2TW1uT1JiaWJDdDJuanNneUdYeUhoVXltRGplRHpDM09tMURsbmZZbkQ0UTFqQlN3T3FFWEN3ZlMxK0R4U1NudXNveEtZUFIvMFdpRUszUGZYcHd2N05OS2E0cy83ZERTZXlMRlM2TVBvL2pWeTZPVVdCY3Q5WDZaYndHWHo5V1NQZlZQa0hMZ2lmeUpzQlMrTU85WnliQW1Hb2ptZHZMNFRBUFFNbVlzMWpiYWJKTDRFZE1lVXYwMklWVitjV0JYcUYwSjVUVjViYjc3YUgwSERrZXZiNWdLVGxMcDlyYlozNkpISkIyYThyZGcwZVZuS3pUemZydWRXTHIyelBqM05kWEZoc1BCU015WXJSejlaYTBGaDZubjNaMWVHaDUydDl3djFvOEowMVZ5ZlZGa2g5cGoxZnROZGVpdUVtZXRrODRMaStKOHczcVVNVGlnVUlwVlR0WWN2dXNEZG9sUlN6c2VxWlRpN0ZpcXJTVUZ4aXBoa04rNnk0NkhzbkJldHpqTkhYYkdXWENZVDE5cGxjRkREWlJXb2Y5TlJ4MlFtWU9FUmQvckxXRzB2emQ1T3lCY0pGNWZiRmZmVzF0R0IyN3QwWUJqbU05U3lraTBabDZuaklKKzd1d1NNL1laREV1bSsxWGxqckoyQVNjTUFWYVh3b1E4Y25hY0ZlTlV1b2FON2NHVlBmZXlWRHR6dGtvQTdFU1o4dWhzaW84YlVmWG40dFh6YzRzVEp3VVhLVWk3c3FiTk15WjNMOFg2cm5GS2pqa2d2R2R1M0dtS1FYa0VER0tDVVpOc1FmTEtHRk9vcGdCdFJKeEVuWlVmamFtMi9VYzRTYnBUbXNhdTY1SFBWWDE2Zmkxd29yT2dvdGtid3FWSkhJbUUvTlB3RGFidHduS0VFYTFPWnVxNURtT21xdEJMVnJUdHA5bmQwN2plWnFtOHJiMGllSzk4SUhYeHMzV29Uem1NVEtBZXRpdkg0YXZ0ZWR3MVgyeTdkMi9ZWkNTNWdEUm85YzVqUWtjVHkvV2lyQlBFeStIakxLSk9hQXNpa1BuRzNEOWhRd2prTHllNnMzZz09Iiwibm9uY2UiOiJXL2ZDUjRBYVIrRjBGazVreWUwU3dnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTYyMDc1NDNaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "c526d13c-f260-4328-a0d6-404fc0a055bd",
+            "fullname": "SnowflakeJDBC:1a9b1c24-c004-4ee5-a265-295567f03d87",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "1a9b1c24-c004-4ee5-a265-295567f03d87",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "76754302-ce92-4073-b622-aadc9d35d73c",
+                "id": "664d0b8099fe64003a793da5",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJzYXNQaFhySkdUQjgralJhRlBZMXZ1VXlBMDR2b0l3bHdUaFErQk5CRXVMVTM4QmhsT21pbGJ1MituNUhxRFpRdTZxR21kMUpBN29VSnFpZGVUZHlzb0VsNm1xL01IcHJCV3pNcHpFR01DVGIwenVIeEoyNWVpRFh5dEZ6MDArMXY5WStIei9CVGlJejYwb2JxTmlBTVlHd1Z3ZmlLemROUjVFSjJDMGlSS21PcThFYkJsQ1NTVkpLMktYbGV5NEVMTmwvVTNteS9La2krNUVvM3ZoOElzaG9Ma0F0aTQ5SkVXdVRNRU0wbHl1aTZrTjU3NEV3dm50eGlPbzNEKzdSbTFwN0VONmlmdkdKMWhuS25vTnNEN1JzNDhubEpQY25FVzNvNnE4eFpGdGtFYnpmRlJ4U0pxeUVHYlFBdm9seVFlOVFGSDZrdUdpVnp5SS9lOWcvS0RFWHV3UU10NmJ6VmdJSzdOc3MzS1hRS2RzTUZ2NHdOSHVFUjV3b2NzOUxkSXN0TlNTbjAzdHlOdlhhS2xIanFVK2tJWThzV2hVaDlQZFlTajAwNWdwREVTSElDYnk4aVJWajB6ZDM3NXp3cUFzZnVLSVFBZllOM3ZsTHBGcS9BSmF0dUlVN1dMWjBRaHhaZXlxNVl4ejVTS3pYQUYwL2JRa0VKT1J1M1FLT2tLS04vZ3pOVUk4VG5YQXZuZjcrZm5vYlBKRjJ0SGgwN3NzN2VYNitCWE80RHlpa3ZBUDViNUFhdHM2Y3ZyZkJoL084NWlrdlJUejdZL21hMVpSek4vRzNrbnhkWFZqKzQybXhTNUREQUh2U3ZTRW1OMlFuc3VvSEswZ0hPMCtEdmo0QkZWTXBoVEdhU0VvMEY2RERiMi9FYWsvMW9nQmVGNGQvaU1HQXZzRGNjaUJwWHJReTZFZ3BWMGFlTlNDWG4zaENNQSsrUGtlZVN0VWl3YWROOVZiMlZWQ2VFdEpRdWxVd3kvZ1JqenVFbzVxYmRsUWF1b1lUcVhlMkpaM09uTk1YL3NzeGZWVlhCNXMyTHU3aERBPT0iLCJub25jZSI6IkxpZGxkZTFRdFdSemdzb2g5a1pkN2c9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDE0OjAyOjQxLjUxNjIyNzg0MFoifX0=",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "e9a37281-a814-4ca0-908f-55cce85e4cdc",
+            "fullname": "SnowflakeJDBC:e6fc71d9-8df9-43ce-bdc8-a80cb645294e",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "e6fc71d9-8df9-43ce-bdc8-a80cb645294e",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "b7fc19bc-ab22-42ea-8f96-af33569abf8e",
+                "id": "664d0b8199fe64003a793da7",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJIb1UzeEZlRUdiMC9Ja2tDSkdxWVpxZUV4SXFXbmFQeDlYOUFiSElvQ2p3UVpjeFBjRXErVVhKVE9IakxHMDY5VjNSaFdHZHNETTd0WW93S1VpQVJRZkhJRnhMQ0JxekJqWVZ2SjlEekg1SHdVOHZ0T1k5WkRDd2l4dEFSaW9PWkhLeFk4NCt2c1FJSkhPcmtqSmxrNU9RL3M4MTNTVlpBb2U3MDdXeXJRWnoxNys3L1hXbUdNZlphdWE1dHhkYzJ0ZTFRTE12dEJhekpOOHVHMk1hVTlUeDR0Tm42ZFNIU3ZHdTVka2ZTeGRjclIrakkwek94WFFzeWV5amNiSnRhVlkrcEcraUdkM2l6dTJTV0o4MUZ0SExwZWxvT3RoTlo1WWphZHJvRU43NXVsVytxR0w1c3hWczkrNkI2MnpIMFZKOGpvL2lqT1NVVzBpd00yZHFlM2JmMVBPb2lJMjFFWVZEaHh1Z2k0NmNTZGRadnRxMTIya0NwN2p0T2hIOUZDM0lrdEtmVlRpRm9SRmJLVFFqY0VyR2FyQkdJYmRkVXRlM1VOSUNWb0hWSzExanNhVjV5eUNjR3BNdkpxY3RSd1V5bDFhRVQ4NVFoMWxXbXFZbEV4R1RWR3RsMzhiRkRWZTZpTzZyUElROWhsUEpwMFFXMGpLaVRyNTlhN0YzMFJWM0UvbXhTamhDMmVkODZweERXYTZONlo2Y2tmY1FvK1JDSkdjc3E2VlZZZDMwMUhFSnJ6MXlYamRLS0dBSW5jVDBRUVUxanBWdFlEUVFlY0J3cE9wWGdWY0hoTDErRXViNS84UUZjaktqSWhaYkswSDVLS0NoVVFIVnN5SG8vMFUzb0hBS2xOR3FpKzVIeTR5NEVrUko5bW1KWktYS2V5RjJibGZwb29FekVjR3BJNzl6bVhGU1VvVWNtdk1Bc2JIQVlZSjY3Qi9KQk1KT1lOYi81ZjRuZTl6OWVzRVhkL3IzbXZja0tKWlJDOXdUbldwR1V4NGtpRzF0aEEwOHRDSDM1dURRRHNTSHNIQm5VYkYza2hhQkg4S1ZaemZrd1dBaXJHc0xOMHRLQmt1SjVweVYxWXM1SlY2dlU2ZEdyTFpmQWJKVFlSVTF0WitGY2N1em9EUT09Iiwibm9uY2UiOiJpbEIxNE9rUmxNR2JaVGY5T0twMVl3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxNDowMjo0MS41MTYyOTQ3NjRaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
                 "globalTableConfigOptions": null
             },
             "liveQuerySettings": null
@@ -3425,9 +3419,9 @@
                 "fixed": true
             },
             {
-                "id": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
-                "x": -1.0089266300201416,
-                "y": 9.247833251953125,
+                "id": "78b372f3-b49c-4331-9e85-e9e4ae402dc7",
+                "x": -1.1605585813522339,
+                "y": 9.089157104492188,
                 "fixed": true
             },
             {
@@ -3474,8 +3468,8 @@
             },
             {
                 "id": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
-                "x": -4.8970794677734375,
-                "y": 0.4997420310974121,
+                "x": -8.148226737976074,
+                "y": -0.43574854731559753,
                 "fixed": false
             },
             {
@@ -3486,8 +3480,8 @@
             },
             {
                 "id": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
-                "x": -6.722776889801025,
-                "y": -0.06911442428827286,
+                "x": -10.50325870513916,
+                "y": -1.8281692266464233,
                 "fixed": false
             },
             {
@@ -3549,7 +3543,7 @@
     "dependencies": {
         "perspectives": [
             {
-                "_id": "6553b82a07357d002dd323d2",
+                "_id": "6595f58d67dc36002d9fddbc",
                 "oid": "598ce0a7-a968-4ca5-8eaa-a3c1fbf5f150",
                 "datamodelOid": "598ce0a7-a968-4ca5-8eaa-a3c1fbf5f150",
                 "description": "",
