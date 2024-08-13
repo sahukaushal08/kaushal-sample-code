@@ -1,0 +1,3191 @@
+{
+    "title": "Usage - Groups",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "_id": "5a4bbbe6a8faddaac7539fb0",
+            "colors": [
+                "#F89C33",
+                "#808080",
+                "#FBC730",
+                "#EC6333"
+            ],
+            "name": "Sunset",
+            "isDefault": false,
+            "sortOrder": 80,
+            "isSystem": true
+        }
+    },
+    "layout": {
+        "instanceid": "F869B-42F4-7C",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "156px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a5"
+                                    }
+                                ],
+                                "width": 33.3333333333333,
+                                "stretchable": false,
+                                "pxlWidth": 370,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a7",
+                                        "height": "156px"
+                                    }
+                                ],
+                                "width": 33.3333333333333,
+                                "stretchable": false,
+                                "pxlWidth": 370,
+                                "index": 1
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "156px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a4"
+                                    }
+                                ],
+                                "width": 33.3333333333333,
+                                "stretchable": false,
+                                "pxlWidth": 370,
+                                "index": 2
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7ac",
+                                        "height": "156px"
+                                    }
+                                ],
+                                "width": 33.3333333333333,
+                                "stretchable": false,
+                                "pxlWidth": 222,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "156px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a3"
+                                    }
+                                ],
+                                "width": 33.3333333333333,
+                                "stretchable": false,
+                                "pxlWidth": 444,
+                                "index": 1
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": "156px",
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a6"
+                                    }
+                                ],
+                                "width": 33.3333333333333,
+                                "stretchable": false,
+                                "pxlWidth": 444,
+                                "index": 2
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "348px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a8"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 555,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7aa",
+                                        "height": "348px"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 555,
+                                "index": 1
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a9",
+                                        "height": "324px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1110,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 253,
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7ab"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1110,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "372px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "627406852c3b4800364fd7a2"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1110,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1110,
+                "index": 0
+            }
+        ],
+        "container": {}
+    },
+    "dataExploration": true,
+    "oid": "07870f008967064c703675f7",
+    "systemName": "usageGroups",
+    "datasource": {
+        "title": "Usage Analytics Model",
+        "fullname": "LocalHost/Usage Analytics Model",
+        "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+        "address": "LocalHost",
+        "database": "aUsageIAAaAnalyticsIAAaModel"
+    },
+    "editing": true,
+    "filters": [
+        {
+            "jaql": {
+                "table": "FactActions",
+                "column": "date",
+                "dim": "[FactActions.date (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "title": "Date",
+                "level": "days",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "17A46-54AD-D9",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DimUsers",
+                "column": "User Group",
+                "dim": "[DimUsers.User Group]",
+                "datatype": "text",
+                "merged": true,
+                "title": "User Group",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "A0C7C-1C9F-D5",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DimUsers",
+                "column": "User Name",
+                "dim": "[DimUsers.User Name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "User Name",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "ADA83-85D6-F6",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "DimDashboards",
+                "column": "Dashboard Name",
+                "dim": "[DimDashboards.Dashboard Name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Dashboard Name",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "C77E6-93BB-AE",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "DimDashboards",
+                "column": "Dashboard Path",
+                "dim": "[DimDashboards.Dashboard Path]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Dashboard Path",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "AE4EE-3EB5-A8",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "FactActions",
+                "column": "Dashboard ID",
+                "dim": "[FactActions.Dashboard ID]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Dashboard ID",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "3FF92-CDFC-1E",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "DimUsers",
+                "column": "Domain",
+                "dim": "[DimUsers.Domain]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Domain",
+                "collapsed": true,
+                "datasource": {
+                    "title": "Usage Analytics Model",
+                    "fullname": "LocalHost/Usage Analytics Model",
+                    "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                    "address": "LocalHost",
+                    "database": "aUsageIAAaAnalyticsIAAaModel"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "B2DD6-ECB6-D7",
+            "isCascading": false
+        }
+    ],
+    "parentFolder": "61cacc70e5993800358d6f9d",
+    "lastPublish": "2022-05-05T17:16:53.328Z",
+    "subscription": {
+        "subscribe": false
+    },
+    "widgets": [
+        {
+            "title": "",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "627406852c3b4800364fd7a3",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([AB530-6DD],avg([91263-31C],([7E371-FE2],[45DE4-B0D])))",
+                                    "context": {
+                                        "[7E371-FE2]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "countduplicates",
+                                            "title": "# of ActionID"
+                                        },
+                                        "[91263-31C]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[AB530-6DD]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        },
+                                        "[45DE4-B0D]": {
+                                            "table": "FactActions",
+                                            "column": "Action",
+                                            "dim": "[FactActions.Action]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Action",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "dashboard.loaded"
+                                                ]
+                                            },
+                                            "collapsed": false,
+                                            "datasource": {
+                                                "title": "Usage Analytics Model",
+                                                "fullname": "LocalHost/Usage Analytics Model",
+                                                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                                "address": "LocalHost",
+                                                "database": "aUsageIAAaAnalyticsIAAaModel"
+                                            }
+                                        }
+                                    },
+                                    "title": "Avg Dashboard Refreshes per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "Max([82F38-BE1],MAX([52F7F-19D],([79C6D-826],[AB2AF-F8B])))",
+                                    "context": {
+                                        "[79C6D-826]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "countduplicates",
+                                            "title": "# of ActionID"
+                                        },
+                                        "[52F7F-19D]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[82F38-BE1]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        },
+                                        "[AB2AF-F8B]": {
+                                            "table": "FactActions",
+                                            "column": "Action",
+                                            "dim": "[FactActions.Action]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Action",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "dashboard.loaded"
+                                                ]
+                                            },
+                                            "collapsed": false,
+                                            "datasource": {
+                                                "title": "Usage Analytics Model",
+                                                "fullname": "LocalHost/Usage Analytics Model",
+                                                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                                "address": "LocalHost",
+                                                "database": "aUsageIAAaAnalyticsIAAaModel"
+                                            }
+                                        }
+                                    },
+                                    "title": "Max Dashboard Refreshes per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": false,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "FC420-00C8-34",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Group Activity",
+            "type": "pivot",
+            "subtype": "pivot",
+            "oid": "627406852c3b4800364fd7a2",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DimUsers",
+                                    "column": "User Group",
+                                    "dim": "[DimUsers.User Group]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "User Group"
+                                },
+                                "field": {
+                                    "id": "[DimUsers.User Group]",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "width": 204
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[4009B-8C4]",
+                                    "context": {
+                                        "[4009B-8C4]": {
+                                            "table": "FactActions",
+                                            "column": "User ID",
+                                            "dim": "[FactActions.User ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique User ID"
+                                        }
+                                    },
+                                    "title": "Viewers"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "field": {
+                                    "id": "[4009B-8C4]",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(count([1A6FE-D31]),[006CC-6D8])",
+                                    "context": {
+                                        "[1A6FE-D31]": {
+                                            "table": "DimDashboards",
+                                            "column": "Dashboard ID",
+                                            "dim": "[DimDashboards.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[006CC-6D8]": {
+                                            "table": "FactActions",
+                                            "column": "Category",
+                                            "dim": "[FactActions.Category]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Category",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Analytics"
+                                                ]
+                                            },
+                                            "collapsed": false,
+                                            "datasource": {
+                                                "title": "Usage Analytics Model",
+                                                "fullname": "LocalHost/Usage Analytics Model",
+                                                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                                "address": "LocalHost",
+                                                "database": "aUsageIAAaAnalyticsIAAaModel"
+                                            }
+                                        }
+                                    },
+                                    "title": "Viewed Dashboards"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "field": {
+                                    "id": "(count([1A6FE-D31]),[006CC-6D8])",
+                                    "index": 2
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[67231-0E9]",
+                                    "context": {
+                                        "[67231-0E9]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique ActionID"
+                                        }
+                                    },
+                                    "title": "Actions"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "field": {
+                                    "id": "[67231-0E9]",
+                                    "index": 3
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(([77DEF-9F8],[AD271-171]))",
+                                    "context": {
+                                        "[77DEF-9F8]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "countduplicates",
+                                            "title": "# of ActionID"
+                                        },
+                                        "[AD271-171]": {
+                                            "table": "FactActions",
+                                            "column": "Action",
+                                            "dim": "[FactActions.Action]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Action",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "dashboard.loaded"
+                                                ]
+                                            },
+                                            "collapsed": false,
+                                            "datasource": {
+                                                "title": "Usage Analytics Model",
+                                                "fullname": "LocalHost/Usage Analytics Model",
+                                                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                                "address": "LocalHost",
+                                                "database": "aUsageIAAaAnalyticsIAAaModel"
+                                            }
+                                        }
+                                    },
+                                    "title": "Dashboard Refreshes"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "field": {
+                                    "id": "(([77DEF-9F8],[AD271-171]))",
+                                    "index": 4
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([BB36A-94B],avg([7CFDE-181]))",
+                                    "context": {
+                                        "[BB36A-94B]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[7CFDE-181]": {
+                                            "table": "FactActions",
+                                            "column": "Load Time",
+                                            "dim": "[FactActions.Load Time]",
+                                            "datatype": "numeric",
+                                            "title": "Load Time (ms)"
+                                        }
+                                    },
+                                    "title": "Avg Load Time (ms)"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "field": {
+                                    "id": "avg([BB36A-94B],(avg([7CFDE-181]),[16367-3FE]))",
+                                    "index": 5
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "MAX([E7D8A-DE9],MAX([BC6E5-8CC]))",
+                                    "context": {
+                                        "[E7D8A-DE9]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[BC6E5-8CC]": {
+                                            "table": "FactActions",
+                                            "column": "Load Time",
+                                            "dim": "[FactActions.Load Time]",
+                                            "datatype": "numeric",
+                                            "title": "Load Time (ms)"
+                                        }
+                                    },
+                                    "title": "Max Load Time (ms)"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "transparent"
+                                    }
+                                },
+                                "field": {
+                                    "id": "MAX([E7D8A-DE9],(MAX([BC6E5-8CC]),[D4CD8-A80]))",
+                                    "index": 6
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": true,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "user_group",
+                            "title": "User Group",
+                            "singular": "User Group",
+                            "plural": "User Group"
+                        },
+                        {
+                            "id": "group",
+                            "title": "Group",
+                            "singular": "Group",
+                            "plural": "Group"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "61004-857A-CC",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "viewState": {
+                "activeTab": "design"
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "627406852c3b4800364fd7a5",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DimUsers",
+                                    "column": "User Group",
+                                    "dim": "[DimUsers.User Group]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "agg": "count",
+                                    "title": "Active Groups in Period"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "B62E1-129B-1F",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "627406852c3b4800364fd7a4",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([A65BD-7EB],[D0DEB-179])",
+                                    "context": {
+                                        "[D0DEB-179]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "countduplicates",
+                                            "title": "# of ActionID"
+                                        },
+                                        "[A65BD-7EB]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Avg Actions per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "decimals": "auto",
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "max([C1C4D-016],[36B81-54A])",
+                                    "context": {
+                                        "[36B81-54A]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "countduplicates",
+                                            "title": "# of ActionID"
+                                        },
+                                        "[C1C4D-016]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Max Actions per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": false,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "4A21C-CA06-65",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "627406852c3b4800364fd7a6",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([D1CE9-9B4],avg([96DF1-9C6],avg([2A679-6E4])))",
+                                    "context": {
+                                        "[96DF1-9C6]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[2A679-6E4]": {
+                                            "table": "FactActions",
+                                            "column": "Load Time",
+                                            "dim": "[FactActions.Load Time]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Load Time (ms)"
+                                        },
+                                        "[D1CE9-9B4]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Avg Load Time per Group (ms)"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "MAX([2F74C-7AB],avg([D181C-8DF],MAX([0008A-9F6])))",
+                                    "context": {
+                                        "[D181C-8DF]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Dashboard ID"
+                                        },
+                                        "[2F74C-7AB]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        },
+                                        "[0008A-9F6]": {
+                                            "table": "FactActions",
+                                            "column": "Load Time",
+                                            "dim": "[FactActions.Load Time]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Load Time (ms)"
+                                        }
+                                    },
+                                    "title": "Max Load Time per Group (ms)"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": false,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "96F95-EE60-43",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Actions over Time",
+            "type": "chart/line",
+            "subtype": "line/basic",
+            "oid": "627406852c3b4800364fd7a8",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "x-axis",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "date",
+                                    "dim": "[FactActions.date (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Date"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[879C4-5C1]",
+                                    "context": {
+                                        "[879C4-5C1]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "agg": "countduplicates",
+                                            "title": "# of ActionID"
+                                        }
+                                    },
+                                    "title": "Actions"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "days",
+                            "title": "days",
+                            "singular": "days",
+                            "plural": "days"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "2DB23-F711-A0",
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 2
+                }
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "627406852c3b4800364fd7a7",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([64305-83B],[C2169-613])",
+                                    "context": {
+                                        "[C2169-613]": {
+                                            "table": "FactActions",
+                                            "column": "User ID",
+                                            "dim": "[FactActions.User ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique User ID"
+                                        },
+                                        "[64305-83B]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Avg Active Viewers per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "MAX([7990E-898],[C190D-900])",
+                                    "context": {
+                                        "[C190D-900]": {
+                                            "table": "FactActions",
+                                            "column": "User ID",
+                                            "dim": "[FactActions.User ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique User ID"
+                                        },
+                                        "[7990E-898]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Max Active Viewers per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": false,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "FC420-00C8-34",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Dashboard Load Time (ms)",
+            "type": "chart/line",
+            "subtype": "line/basic",
+            "oid": "627406852c3b4800364fd7aa",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "x-axis",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "date",
+                                    "dim": "[FactActions.date (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Date"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([BABBA-611],avg([4CD39-B05]))",
+                                    "context": {
+                                        "[4CD39-B05]": {
+                                            "table": "FactActions",
+                                            "column": "Load Time",
+                                            "dim": "[FactActions.Load Time]",
+                                            "datatype": "numeric",
+                                            "title": "Load Time (ms)"
+                                        },
+                                        "[BABBA-611]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Avg Load Time (ms)"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "max([71F6C-7E3],MAX([9D6AC-31A]))",
+                                    "context": {
+                                        "[9D6AC-31A]": {
+                                            "table": "FactActions",
+                                            "column": "Load Time",
+                                            "dim": "[FactActions.Load Time]",
+                                            "datatype": "numeric",
+                                            "title": "Load Time (ms)"
+                                        },
+                                        "[71F6C-7E3]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Max Load Time (ms)"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "color": "#808080",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "Action",
+                                    "dim": "[FactActions.Action]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Action",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "dashboard.loaded"
+                                        ]
+                                    },
+                                    "collapsed": false,
+                                    "datasource": {
+                                        "title": "Usage Analytics Model",
+                                        "fullname": "LocalHost/Usage Analytics Model",
+                                        "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                        "address": "LocalHost",
+                                        "database": "aUsageIAAaAnalyticsIAAaModel"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "days",
+                            "title": "days",
+                            "singular": "days",
+                            "plural": "days"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "2DB23-F711-A0",
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 2
+                }
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Dashboard Refreshes and Viewers",
+            "type": "chart/line",
+            "subtype": "line/basic",
+            "oid": "627406852c3b4800364fd7a9",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "x-axis",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "date",
+                                    "dim": "[FactActions.date (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Date"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([08904-C1A],[806DC-0A7])",
+                                    "context": {
+                                        "[08904-C1A]": {
+                                            "table": "FactActions",
+                                            "column": "ActionID",
+                                            "dim": "[FactActions.ActionID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique ActionID"
+                                        },
+                                        "[806DC-0A7]": {
+                                            "table": "FactActions",
+                                            "column": "Action",
+                                            "dim": "[FactActions.Action]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "Action",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "dashboard.loaded"
+                                                ]
+                                            },
+                                            "collapsed": false,
+                                            "datasource": {
+                                                "title": "Usage Analytics Model",
+                                                "fullname": "LocalHost/Usage Analytics Model",
+                                                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                                "address": "LocalHost",
+                                                "database": "aUsageIAAaAnalyticsIAAaModel"
+                                            }
+                                        }
+                                    },
+                                    "title": "Dashboard Refreshes"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#f89c33"
+                                    }
+                                },
+                                "singleSeriesType": "line"
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "count([E2ADF-750])",
+                                    "context": {
+                                        "[E2ADF-750]": {
+                                            "table": "DimUsers",
+                                            "column": "User ID",
+                                            "dim": "[DimUsers.User ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User ID"
+                                        }
+                                    },
+                                    "title": "Dashboard Viewers"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#808080"
+                                    }
+                                },
+                                "singleSeriesType": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "Category",
+                                    "dim": "[FactActions.Category]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Category",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "Analytics"
+                                        ]
+                                    },
+                                    "collapsed": false,
+                                    "datasource": {
+                                        "title": "Usage Analytics Model",
+                                        "fullname": "LocalHost/Usage Analytics Model",
+                                        "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                        "address": "LocalHost",
+                                        "database": "aUsageIAAaAnalyticsIAAaModel"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "days",
+                            "title": "days",
+                            "singular": "days",
+                            "plural": "days"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "2DB23-F711-A0",
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Dashboard Viewers per Group",
+            "type": "pivot",
+            "subtype": "pivot",
+            "oid": "627406852c3b4800364fd7ab",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DimUsers",
+                                    "column": "User Group",
+                                    "dim": "[DimUsers.User Group]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "User Group"
+                                },
+                                "field": {
+                                    "id": "[DimUsers.User Group]",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DimDashboards",
+                                    "column": "Dashboard Path",
+                                    "dim": "[DimDashboards.Dashboard Path]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Dashboard Path"
+                                },
+                                "field": {
+                                    "id": "[DimDashboards.Dashboard Path]",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DimDashboards",
+                                    "column": "Dashboard Name",
+                                    "dim": "[DimDashboards.Dashboard Name]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Dashboard Name"
+                                },
+                                "field": {
+                                    "id": "[DimDashboards.Dashboard Name]",
+                                    "index": 2
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "Dashboard ID",
+                                    "dim": "[FactActions.Dashboard ID]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Dashboard ID"
+                                },
+                                "field": {
+                                    "id": "[FactActions.Dashboard ID]",
+                                    "index": 3
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DimUsers",
+                                    "column": "User Name",
+                                    "dim": "[DimUsers.User Name]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Viewers"
+                                },
+                                "field": {
+                                    "id": "[DimUsers.User Name]",
+                                    "index": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": []
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "Category",
+                                    "dim": "[FactActions.Category]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Category",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "Analytics"
+                                        ]
+                                    },
+                                    "collapsed": false,
+                                    "datasource": {
+                                        "title": "Usage Analytics Model",
+                                        "fullname": "LocalHost/Usage Analytics Model",
+                                        "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                        "address": "LocalHost",
+                                        "database": "aUsageIAAaAnalyticsIAAaModel"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DimDashboards",
+                                    "column": "Dashboard ID",
+                                    "dim": "[DimDashboards.Dashboard ID]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Dashboard ID",
+                                    "filter": {
+                                        "explicit": false,
+                                        "multiSelection": true,
+                                        "exclude": {
+                                            "members": [
+                                                "N\\A"
+                                            ]
+                                        }
+                                    },
+                                    "datasource": {
+                                        "title": "Usage Analytics Model",
+                                        "fullname": "LocalHost/Usage Analytics Model",
+                                        "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                        "address": "LocalHost",
+                                        "database": "aUsageIAAaAnalyticsIAAaModel"
+                                    },
+                                    "collapsed": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": true,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "user_group",
+                            "title": "User Group",
+                            "singular": "User Group",
+                            "plural": "User Group"
+                        },
+                        {
+                            "id": "dashboard_path",
+                            "title": "Dashboard Path",
+                            "singular": "Dashboard Path",
+                            "plural": "Dashboard Path"
+                        },
+                        {
+                            "id": "dashboard_name",
+                            "title": "Dashboard Name",
+                            "singular": "Dashboard Name",
+                            "plural": "Dashboard Name"
+                        },
+                        {
+                            "id": "dashboard_id",
+                            "title": "Dashboard ID",
+                            "singular": "Dashboard ID",
+                            "plural": "Dashboard ID"
+                        },
+                        {
+                            "id": "viewers",
+                            "title": "Viewers",
+                            "singular": "Viewers",
+                            "plural": "Viewers"
+                        },
+                        {
+                            "id": "category",
+                            "title": "Category",
+                            "singular": "Category",
+                            "plural": "Category"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "FF848-A75F-D7",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "627406852c3b4800364fd7ac",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Usage Analytics Model",
+                "fullname": "LocalHost/Usage Analytics Model",
+                "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                "address": "LocalHost",
+                "database": "aUsageIAAaAnalyticsIAAaModel"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([E62B5-744],[F1267-A1D])",
+                                    "context": {
+                                        "[F1267-A1D]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "# of unique Dashboard ID",
+                                            "agg": "count"
+                                        },
+                                        "[E62B5-744]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Avg Dashboards Viewed per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "decimals": "auto",
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    },
+                                    "color": {
+                                        "color": "#F89C33",
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "max([22AA9-551],[4B99B-405])",
+                                    "context": {
+                                        "[4B99B-405]": {
+                                            "table": "FactActions",
+                                            "column": "Dashboard ID",
+                                            "dim": "[FactActions.Dashboard ID]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique Dashboard ID"
+                                        },
+                                        "[22AA9-551]": {
+                                            "table": "DimUsers",
+                                            "column": "User Group",
+                                            "dim": "[DimUsers.User Group]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "User Group"
+                                        }
+                                    },
+                                    "title": "Max Dashboards Viewed per Group"
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FactActions",
+                                    "column": "Category",
+                                    "dim": "[FactActions.Category]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Category",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "Analytics"
+                                        ]
+                                    },
+                                    "collapsed": false,
+                                    "datasource": {
+                                        "title": "Usage Analytics Model",
+                                        "fullname": "LocalHost/Usage Analytics Model",
+                                        "id": "aLOCALHOST_aUSAGEIAAaANALYTICSIAAaMODEL",
+                                        "address": "LocalHost",
+                                        "database": "aUsageIAAaAnalyticsIAAaModel"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": false,
+                        "enabled": true
+                    }
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "category",
+                            "title": "Category",
+                            "singular": "Category",
+                            "plural": "Category"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "B62E1-129B-1F",
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "07870f008967064c703675f7",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

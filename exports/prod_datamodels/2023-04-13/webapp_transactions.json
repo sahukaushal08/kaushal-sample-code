@@ -1,0 +1,234 @@
+{
+    "_id": "617b076659ae9781ae105d2a",
+    "oid": "664aa03d-dc4f-4025-9a41-5f30376770aa",
+    "title": "Webapp Transactions",
+    "type": "live",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "420332bd-ffa9-4871-8c40-0b83c42605dd",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "146967a4-711d-4283-9831-247bf6cccdcc",
+                    "table": "3bb9fe50-8394-4839-8045-0bc73a69fccd",
+                    "column": "beebebbf-8927-4906-bad7-4715f16f1326"
+                },
+                {
+                    "dataset": "146967a4-711d-4283-9831-247bf6cccdcc",
+                    "table": "dcd7a1dc-1f31-49dd-b187-4b0ab7878f8f",
+                    "column": "d5bfc932-69c9-46e1-a7ba-132c21707b22"
+                }
+            ]
+        },
+        {
+            "oid": "a07fa066-861d-46b0-87c3-1bc36663326a",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "146967a4-711d-4283-9831-247bf6cccdcc",
+                    "table": "3bb9fe50-8394-4839-8045-0bc73a69fccd",
+                    "column": "cb5a196c-7e64-4964-8246-16a3210dacfd"
+                },
+                {
+                    "dataset": "146967a4-711d-4283-9831-247bf6cccdcc",
+                    "table": "dcd7a1dc-1f31-49dd-b187-4b0ab7878f8f",
+                    "column": "8a090f3c-93a7-4ebd-8bbf-62b27a0cda41"
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "146967a4-711d-4283-9831-247bf6cccdcc",
+            "fullname": "SnowflakeJDBC:Webapp Transactions",
+            "type": "live",
+            "name": "Webapp Transactions",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "3bb9fe50-8394-4839-8045-0bc73a69fccd",
+                        "id": "OVER_2_SEC_TRANSACTIONS_BY_TENANT",
+                        "name": "OVER_2_SEC_TRANSACTIONS_BY_TENANT",
+                        "type": "base",
+                        "schemaName": "DEVOPS_NEW_RELIC",
+                        "columns": [
+                            {
+                                "oid": "beebebbf-8927-4906-bad7-4715f16f1326",
+                                "id": "REPORT_DATE",
+                                "name": "REPORT_DATE",
+                                "type": 31,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cb5a196c-7e64-4964-8246-16a3210dacfd",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d014a80f-697a-49d2-8211-be4003938492",
+                                "id": "OVER_2_SEC_TRANSACTION_COUNT",
+                                "name": "OVER_2_SEC_TRANSACTION_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e195c166-0497-4117-9674-f5a7ff58daa5",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "beebebbf-8927-4906-bad7-4715f16f1326",
+                                    "name": "Date"
+                                },
+                                "type": "rename-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "3bb9fe50-8394-4839-8045-0bc73a69fccd",
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "dcd7a1dc-1f31-49dd-b187-4b0ab7878f8f",
+                        "id": "WEBAPP_TRANSACTIONS_BY_TENANT",
+                        "name": "WEBAPP_TRANSACTIONS_BY_TENANT",
+                        "type": "base",
+                        "schemaName": "DEVOPS_NEW_RELIC",
+                        "columns": [
+                            {
+                                "oid": "d5bfc932-69c9-46e1-a7ba-132c21707b22",
+                                "id": "REPORT_DATE",
+                                "name": "REPORT_DATE",
+                                "type": 31,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8a090f3c-93a7-4ebd-8bbf-62b27a0cda41",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "094e8c5d-f634-4ed9-82f5-e853fca4e4e2",
+                                "id": "TOTAL_TRANSACTION_COUNT",
+                                "name": "TOTAL_TRANSACTION_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d3a29422-c018-4e29-a996-781841d18653",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "d5bfc932-69c9-46e1-a7ba-132c21707b22",
+                                    "name": "Date"
+                                },
+                                "type": "rename-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "dcd7a1dc-1f31-49dd-b187-4b0ab7878f8f",
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "ee106061-3f27-4e01-802a-dd3ce703f694",
+                "id": "617b0766e6cfd9002c6bf36b",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJRbDNlVURHampjdVpMZHJaVVlIQVByZTBkcUhDTHc3S2J6eTlyL2VVKzVDdStCN3VBa09VMDNQNmhMVUovMG04ajhGdFhRbnpDdTdOL053SjhOazRCVEJ5a25GSlJxNkpCNXA2Ukp0emZIZjdSdlY0aUJWeitRcEJRelNPdC9ydkVLc3p3cXk5Z3lkQTVCYU1KSGdCck50dmFUNTBwM0M2MnhwWkJvTUd6WGtSaCt0L2hjeVpJUWR3L1dNbTlRRVF4U1JzNFo1QnlybFRQaVRKUzc5bVNsY0NxR2dtR0lGWW14SGtnZEYwQUk1dHpJVncvMGJKMGhRaHhHL0pOZmVTMElvT0NmUUMrK2tKc0VNZzBLalhRTHVmaGpZbmNLWWZQejB2bUFjVmg4OWgvYkcvc2VURG93ZWVDeTFPc2FFSXFydHdoT0JZY0dDTXIwcTgyNVpTNkZsaldiaHk4QTNFcEhhdkhKS01qK1VYMlY4cjJoZkVrMkFoUmgxUVJRNkJEcUpkOWpnd1BmRDcya3VXRk5PNUpRPT0iLCJub25jZSI6IlZMM0pTZGVpNnZKa2UwVktUVGJQU3c9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDIzLTA0LTEzVDE1OjExOjU1LjA3NjE0OTU0NVoifX0=",
+                "schema": "PG_WMX_API_APP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": {
+                "timeout": 60000,
+                "autoRefresh": false,
+                "refreshRate": 30000,
+                "resultLimit": 5000
+            }
+        }
+    ],
+    "dependencies": {}
+}

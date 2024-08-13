@@ -1,0 +1,3676 @@
+{
+    "title": "Branch/Group Front",
+    "desc": "",
+    "source": "63a1dbc3aefb2f003697b11c",
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Vivid",
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ]
+        }
+    },
+    "layout": {
+        "instanceid": "4961D-BB83-9A",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 137.067,
+                                        "defaultWidth": 512,
+                                        "widgetid": "662979d57529970040f144a4"
+                                    }
+                                ],
+                                "index": 0,
+                                "stretchable": false,
+                                "width": 100,
+                                "pxlWidth": 693
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 32,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "40px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "662ab1797529970040f146b7"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 1025,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "662c395a7529970040f14a37",
+                                        "height": 66
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 66.4,
+                                        "defaultWidth": 512,
+                                        "widgetid": "662979de7529970040f144a8"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 1025,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "662c3cbd7529970040f14a49",
+                                        "height": 66.4
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "662fa2c27529970040f14caf",
+                                        "height": "512px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "662f37a57529970040f14b9f",
+                                        "height": "512px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "432px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "662979e27529970040f144aa"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 693,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 693,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1721144769086": {
+                "undefined": {
+                    "parentNode": [
+                        676.356037243942,
+                        27,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "oid": "63a1dbc3aefb2f003697b10b",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:dm_enrollment_snapshot",
+        "id": "live:dm_enrollment_snapshot",
+        "live": true,
+        "title": "dm_enrollment_snapshot"
+    },
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "DIM_COURSE",
+                "column": "COURSE_TITLE",
+                "dim": "[DIM_COURSE.COURSE_TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot_filter_tenant",
+                    "id": "live:dm_enrollment_snapshot_filter_tenant",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot_filter_tenant",
+                    "address": "localhost",
+                    "permission": "owner"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "Course Name",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "D250E-F2CB-17",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_GROUP",
+                "column": "HAS_ACTIVE_LICENSES_HUMAN",
+                "dim": "[DIM_GROUP.HAS_ACTIVE_LICENSES_HUMAN]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot_filter_users",
+                    "id": "live:dm_enrollment_snapshot_filter_users",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot_filter_users",
+                    "address": "localhost",
+                    "permission": "owner"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "All Groups/Current Group",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "A1BA6-DEE3-C4",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER",
+                "column": "HAS_BENCHPREP_ROLE_DISPLAY",
+                "dim": "[DIM_USER.HAS_BENCHPREP_ROLE_DISPLAY]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot_filter_users",
+                    "id": "live:dm_enrollment_snapshot_filter_users",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot_filter_users",
+                    "address": "localhost",
+                    "permission": "owner"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "User Type",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "Learners"
+                    ]
+                }
+            },
+            "instanceid": "DA203-F746-A5",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "editing": false,
+    "filterToDatasourceMapping": {},
+    "filters": [
+        {
+            "jaql": {
+                "table": "DIM_COURSE",
+                "column": "COURSE_TITLE",
+                "dim": "[DIM_COURSE.COURSE_TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot_filter_tenant",
+                    "id": "live:dm_enrollment_snapshot_filter_tenant",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot_filter_tenant",
+                    "address": "localhost",
+                    "permission": "owner"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "Course Name",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "D250E-F2CB-17",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_GROUP",
+                "column": "HAS_ACTIVE_LICENSES_HUMAN",
+                "dim": "[DIM_GROUP.HAS_ACTIVE_LICENSES_HUMAN]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot_filter_users",
+                    "id": "live:dm_enrollment_snapshot_filter_users",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot_filter_users",
+                    "address": "localhost",
+                    "permission": "owner"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "All Groups/Current Group",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "A1BA6-DEE3-C4",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER",
+                "column": "HAS_BENCHPREP_ROLE_DISPLAY",
+                "dim": "[DIM_USER.HAS_BENCHPREP_ROLE_DISPLAY]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot_filter_users",
+                    "id": "live:dm_enrollment_snapshot_filter_users",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot_filter_users",
+                    "address": "localhost",
+                    "permission": "owner"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "User Type",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "Learners"
+                    ]
+                }
+            },
+            "instanceid": "DA203-F746-A5",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "lastPublish": "2024-07-08T23:21:42.593Z",
+    "parentFolder": "63a1dac2aefb2f003697b092",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "previewLayout": [],
+    "defaultFilterRelations": [],
+    "filtersToRestore": null,
+    "openFromJTD": null,
+    "subscription": {
+        "subscribe": false,
+        "executionPerDay": 1,
+        "schedule": "0 0 0 * * *",
+        "isDataChange": false,
+        "type": "daily",
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "context": {
+            "dashboardid": "63a1dbc3aefb2f003697b10b"
+        },
+        "startAt": "2022-12-20",
+        "tzName": "America/Chicago",
+        "timezone": 300,
+        "active": false
+    },
+    "filterRelations": [],
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "script": "",
+    "widgets": [
+        {
+            "title": "",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "662979d57529970040f144a4",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e1501",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "4AD96-AD27-A5",
+            "realTimeRefreshing": false,
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "body": [
+                        {
+                            "type": "ColumnSet",
+                            "class": "title-and-description",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "header-title",
+                                            "wrap": true,
+                                            "text": "Branch/Group Dashboard"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "sync-text",
+                                            "text": "..."
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "header-description",
+                                            "wrap": true,
+                                            "text": "<em>This dashboard presents Branch and Group-level data as informed by your level of access. Please note that all members and managers of a Branch may not also be members or managers of a Group, and that a user could be a member or manager of multiple Groups, so the top row values are not always equal to the sum of the values in each Group-level row represented in the table at bottom.</em>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 13,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 30,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#ffffff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#5B6372"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#3A4356"
+                                },
+                                "lightgrey": {
+                                    "normal": "#9EA2Ab"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 20,
+                        "small": 40,
+                        "medium": 20,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "maxActions": 5,
+                        "spacing": "default",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 15,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 0,
+                        "small": 30,
+                        "medium": 30,
+                        "large": 30,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 5,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 0
+                    },
+                    "supportsInteractivity": true,
+                    "height": 137.067,
+                    "imageBaseUrl": ""
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "662979de7529970040f144a8",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e14ff",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "AVG([3570F-522])/100.0",
+                                    "context": {
+                                        "[3570F-522]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "PROGRESS",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]",
+                                            "datatype": "numeric",
+                                            "title": "PROGRESS"
+                                        }
+                                    },
+                                    "title": "avg_progress"
+                                },
+                                "instanceid": "E9D5F-D1A6-DE",
+                                "PanelName": "avg_progress",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([1CD09-138])/100",
+                                    "context": {
+                                        "[1CD09-138]": {
+                                            "table": "FACT_EXAM_RESULT_SCORE",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXAM_RESULT_SCORE.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "avg",
+                                            "title": "Average PERCENTAGE_CORRECT"
+                                        }
+                                    },
+                                    "title": "avg_test"
+                                },
+                                "instanceid": "E233B-5929-4B",
+                                "PanelName": "avg_test",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([C7386-393]/ [8C283-924])",
+                                    "context": {
+                                        "[C7386-393]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CORRECT_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CORRECT_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_PRACTICE_ANSWER_COUNT"
+                                        },
+                                        "[8C283-924]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "TOTAL_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.TOTAL_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_PRACTICE_ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "avg_practice"
+                                },
+                                "instanceid": "2F649-6CF7-44",
+                                "PanelName": "avg_practice",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "4AD96-AD27-A5",
+            "realTimeRefreshing": false,
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": false,
+                    "body": [
+                        {
+                            "type": "ColumnSet",
+                            "class": "indicator-row",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:avg_progress}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Average<br>Course Progress"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:avg_practice}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Average<br>Practice Score"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:avg_test}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Average<br>Test Score"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 13,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 30,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#ffffff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#5B6372"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#3A4356"
+                                },
+                                "lightgrey": {
+                                    "normal": "#9EA2Ab"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 20,
+                        "small": 40,
+                        "medium": 20,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "maxActions": 5,
+                        "spacing": "default",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 15,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 0,
+                        "small": 30,
+                        "medium": 30,
+                        "large": 30,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 5,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 0
+                    },
+                    "supportsInteractivity": true,
+                    "height": 66.4,
+                    "imageBaseUrl": ""
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "pivot2",
+            "subtype": "pivot2",
+            "oid": "662979e27529970040f144aa",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e14fe",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_GROUP",
+                                    "column": "GROUP_NAME",
+                                    "dim": "[DIM_GROUP.GROUP_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Group Name",
+                                    "sort": "asc",
+                                    "sortDetails": {
+                                        "field": 0,
+                                        "dir": "asc",
+                                        "measurePath": null,
+                                        "sortingLastDimension": false,
+                                        "isLastApplied": true,
+                                        "initialized": true
+                                    }
+                                },
+                                "instanceid": "F1AE9-2A2C-84",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_GROUP.GROUP_NAME]",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "width": 328.76739501953125
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_GROUP",
+                                    "column": "GROUP_LAST_ACTIVITY_AT",
+                                    "dim": "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Last Activity"
+                                },
+                                "instanceid": "38117-CB5B-49",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]_years",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "yyyy-MM-dd",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/yyyy HH:mm"
+                                    },
+                                    "width": 116.1875
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(COUNT([0641F-C4F]), [6BD6C-A7F])",
+                                    "context": {
+                                        "[6BD6C-A7F]": {
+                                            "dimension": "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]",
+                                            "table": "DIM_USER",
+                                            "column": "HAS_BENCHPREP_ROLE_DISPLAY",
+                                            "dim": "[DIM_USER.HAS_BENCHPREP_ROLE_DISPLAY]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Users with admin permissions"
+                                                ]
+                                            },
+                                            "title": "HAS_BENCHPREP_ROLE_DISPLAY",
+                                            "firstday": "mon",
+                                            "locale": "en-us"
+                                        },
+                                        "[0641F-C4F]": {
+                                            "table": "DIM_USER",
+                                            "column": "USER_ID",
+                                            "dim": "[DIM_USER.USER_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique USER_ID"
+                                        }
+                                    },
+                                    "title": "Manager(s)",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "02CB8-2F1A-BE",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[DIM_GROUP.MANAGER_COUNT]_sum",
+                                    "index": 2
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    },
+                                    "width": 109.25
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(COUNT([34F3E-B9F]), [65B84-5A7])",
+                                    "context": {
+                                        "[65B84-5A7]": {
+                                            "table": "DIM_USER",
+                                            "column": "HAS_BENCHPREP_ROLE_DISPLAY",
+                                            "dim": "[DIM_USER.HAS_BENCHPREP_ROLE_DISPLAY]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Learners"
+                                                ]
+                                            },
+                                            "title": "HAS_BENCHPREP_ROLE_DISPLAY"
+                                        },
+                                        "[34F3E-B9F]": {
+                                            "table": "DIM_USER",
+                                            "column": "USER_ID",
+                                            "dim": "[DIM_USER.USER_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique USER_ID"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Learners"
+                                },
+                                "instanceid": "E6CC4-53E9-60",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[DIM_USER.USER_ID]_count",
+                                    "index": 3
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "FACT_ENROLLMENT_SUMMARY",
+                                    "column": "ENROLLMENT_SUMMARY_ID",
+                                    "dim": "[FACT_ENROLLMENT_SUMMARY.ENROLLMENT_SUMMARY_ID]",
+                                    "datatype": "numeric",
+                                    "agg": "count",
+                                    "title": "Total Enrollments"
+                                },
+                                "instanceid": "4FEB9-CDDA-86",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[FACT_ENROLLMENT_SUMMARY.ENROLLMENT_SUMMARY_ID]_sum",
+                                    "index": 4
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    },
+                                    "width": 115.38750457763672
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[31467-E33]",
+                                    "context": {
+                                        "[31467-E33]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "COURSE_ID",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.COURSE_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique COURSE_ID"
+                                        }
+                                    },
+                                    "title": "Courses w/ Enrollments",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "8999A-9C6C-99",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[31467-E33]",
+                                    "index": 5
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": "false",
+                "displayToolbarRow": "true",
+                "displayHeaderRow": "false",
+                "volatile": false,
+                "hideDrilledDashboards": "true",
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [
+                    "[FACT_ENROLLMENT_SUMMARY.ENROLLMENT_STATE]",
+                    "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]",
+                    "[DIM_GROUP.HAS_ACTIVE_LICENSES_HUMAN]"
+                ],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": "false",
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "drillToDashboardPivotLinkCellType": "member",
+                "drillToDashboardPivotLinkAllowedCellTitles": [
+                    "Group Name"
+                ],
+                "resetDashFilterAfterJTD": "false",
+                "custom": true
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "22865-A957-FD",
+            "realTimeRefreshing": false,
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": false,
+                "colors": {
+                    "rows": false,
+                    "columns": false,
+                    "headers": true,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "group_name",
+                            "title": "GROUP_NAME",
+                            "singular": "GROUP_NAME",
+                            "plural": "GROUP_NAME"
+                        },
+                        {
+                            "id": "last_activity",
+                            "title": "Last Activity",
+                            "singular": "Last Activity",
+                            "plural": "Last Activity"
+                        }
+                    ]
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "imageColumns": [],
+                "drillTarget": {
+                    "oid": "63a1dbebaefb2f003697b126",
+                    "caption": "_drill_Group Detail",
+                    "folder": "63a1dac2aefb2f003697b092"
+                }
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "WidgetsTabber",
+            "subtype": "WidgetsTabber",
+            "oid": "662ab1797529970040f146b7",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "activeTab": "0",
+                "showTitle": false,
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "7F28D-CA16-CB",
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on(\"render\", function (w, e) {\n  e.prefixText = \"\";\n  e.suffixText = \"\";\n  e.selectedColor = \"#0E788F\"; /*The color of the chosen title*/\n  e.fontColor = \"#828282\"; /*The color of the unchosen titles*/\n  e.elementWidth = \"103%\";\n  e.descColor = \"#a5a5a5\";\n  e.parentMarginLeft = \"-15px\";\n  e.height = 32; /* affects the tabber widget default high*/\n});\n\noveralltotalsIds = [\n  \"662979e27529970040f144aa\",\n  \"662979da7529970040f144a6\",\n  \"662c395a7529970040f14a37\"\n];\n\n\nperformanceIds = [\n  \"662979de7529970040f144a8\",\n  \"662ab7f27529970040f146d1\",\n  \"662c3cbd7529970040f14a49\",\n  \"662f37a57529970040f14b9f\",\n  \"662fa2c27529970040f14caf\"\n];\n\n\nallIds = [\n  ...overalltotalsIds,\n  ...performanceIds,\n]\n\n\nwidget.tabs = [\n  {\n    title: \"Overall Totals\",\n    displayWidgetIds: overalltotalsIds,\n    hideWidgetIds: allIds.filter(n => !overalltotalsIds.includes(n)),\n  },\n\n  {\n    title: \"Progress & Performance\",\n    displayWidgetIds: performanceIds,\n    hideWidgetIds: allIds.filter(n => !performanceIds.includes(n)),\n  },\n\n];\n",
+            "viewState": {
+                "activeTab": "design"
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "drillToDashboardPivotLinkCellType": "value",
+                "drillToDashboardPivotLinkAllowedCellTitles": []
+            },
+            "tabs": [
+                {
+                    "title": "Overall Totals",
+                    "displayWidgetIds": [
+                        "662979e27529970040f144aa",
+                        "662979da7529970040f144a6",
+                        "662c395a7529970040f14a37"
+                    ],
+                    "hideWidgetIds": [
+                        "662979de7529970040f144a8",
+                        "662ab7f27529970040f146d1",
+                        "662c3cbd7529970040f14a49",
+                        "662f37a57529970040f14b9f",
+                        "662fa2c27529970040f14caf"
+                    ]
+                },
+                {
+                    "title": "Progress & Performance",
+                    "displayWidgetIds": [
+                        "662979de7529970040f144a8",
+                        "662ab7f27529970040f146d1",
+                        "662c3cbd7529970040f14a49",
+                        "662f37a57529970040f14b9f",
+                        "662fa2c27529970040f14caf"
+                    ],
+                    "hideWidgetIds": [
+                        "662979e27529970040f144aa",
+                        "662979da7529970040f144a6",
+                        "662c395a7529970040f14a37"
+                    ]
+                }
+            ],
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "662c395a7529970040f14a37",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e1500",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FACT_ENROLLMENT_SUMMARY",
+                                    "column": "ENROLLMENT_SUMMARY_ID",
+                                    "dim": "[FACT_ENROLLMENT_SUMMARY.ENROLLMENT_SUMMARY_ID]",
+                                    "datatype": "numeric",
+                                    "agg": "count",
+                                    "title": "total_enrollments"
+                                },
+                                "instanceid": "33476-70DB-B2",
+                                "PanelName": "total_enrollments",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "FACT_GROUP_MEMBERSHIP",
+                                    "column": "GROUP_ID",
+                                    "dim": "[FACT_GROUP_MEMBERSHIP.GROUP_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "agg": "count",
+                                    "title": "total_groups"
+                                },
+                                "instanceid": "C171A-4A37-09",
+                                "PanelName": "total_groups",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(COUNT([76DC9-853]), [FE5A6-605])",
+                                    "context": {
+                                        "[FE5A6-605]": {
+                                            "table": "DIM_USER",
+                                            "column": "HAS_BENCHPREP_ROLE_DISPLAY",
+                                            "dim": "[DIM_USER.HAS_BENCHPREP_ROLE_DISPLAY]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Users with admin permissions"
+                                                ]
+                                            },
+                                            "title": "HAS_BENCHPREP_ROLE_DISPLAY",
+                                            "firstday": "mon",
+                                            "locale": "en-us"
+                                        },
+                                        "[76DC9-853]": {
+                                            "table": "DIM_USER",
+                                            "column": "USER_ID",
+                                            "dim": "[DIM_USER.USER_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique USER_ID"
+                                        }
+                                    },
+                                    "title": "total_managers"
+                                },
+                                "instanceid": "ABD63-C417-C7",
+                                "PanelName": "total_managers",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": "auto",
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(COUNT([C2F60-F20]), [8FFCD-993])",
+                                    "context": {
+                                        "[8FFCD-993]": {
+                                            "table": "DIM_USER",
+                                            "column": "HAS_BENCHPREP_ROLE_DISPLAY",
+                                            "dim": "[DIM_USER.HAS_BENCHPREP_ROLE_DISPLAY]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Learners"
+                                                ]
+                                            },
+                                            "title": "HAS_BENCHPREP_ROLE_DISPLAY"
+                                        },
+                                        "[C2F60-F20]": {
+                                            "table": "DIM_USER",
+                                            "column": "USER_ID",
+                                            "dim": "[DIM_USER.USER_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique USER_ID"
+                                        }
+                                    },
+                                    "title": "total_learners"
+                                },
+                                "instanceid": "DD942-2317-B9",
+                                "PanelName": "total_learners",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "[C87E4-128]",
+                                    "context": {
+                                        "[C87E4-128]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "COURSE_ID",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.COURSE_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "agg": "count",
+                                            "title": "# of unique COURSE_ID"
+                                        }
+                                    },
+                                    "title": "total_courses"
+                                },
+                                "instanceid": "7CD85-2C28-94",
+                                "PanelName": "total_courses",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "decimals": "auto",
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([20188-FB0],[A9BCB-1E2])",
+                                    "context": {
+                                        "[20188-FB0]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "USER_ID",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.USER_ID]",
+                                            "datatype": "numeric",
+                                            "merged": true,
+                                            "title": "# of unique USER_ID",
+                                            "agg": "count"
+                                        },
+                                        "[A9BCB-1E2]": {
+                                            "table": "DIM_USER",
+                                            "column": "IS_ACTIVE",
+                                            "dim": "[DIM_USER.IS_ACTIVE]",
+                                            "datatype": "numeric",
+                                            "title": "IS_ACTIVE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "1"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            }
+                                        }
+                                    },
+                                    "title": "enrolled_users"
+                                },
+                                "instanceid": "8BD96-710D-A0",
+                                "PanelName": "enrolled_users",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "decimals": "auto",
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "4AD96-AD27-A5",
+            "realTimeRefreshing": false,
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": false,
+                    "body": [
+                        {
+                            "type": "ColumnSet",
+                            "class": "indicator-row",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:total_enrollments}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Total<br>Enrollments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:total_groups}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Groups with<br>Enrollments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:total_learners}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Learner(s)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:total_managers}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Manager(s)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 12,
+                        "medium": 22,
+                        "large": 32,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 400,
+                        "light": 200,
+                        "bold": 800
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#ffffff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#000000"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#3A4356"
+                                },
+                                "lightgrey": {
+                                    "normal": "#9EA2Ab"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#93c0c0"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 30,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 5,
+                        "medium": 5,
+                        "large": 20,
+                        "extraLarge": 10,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 2,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 66
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "BloX",
+            "subtype": "BloX",
+            "oid": "662c3cbd7529970040f14a49",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e14ff",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([1CD09-138])/100",
+                                    "context": {
+                                        "[1CD09-138]": {
+                                            "table": "FACT_EXAM_RESULT_SCORE",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXAM_RESULT_SCORE.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "avg",
+                                            "title": "Average PERCENTAGE_CORRECT"
+                                        }
+                                    },
+                                    "title": "avg_test"
+                                },
+                                "instanceid": "E233B-5929-4B",
+                                "PanelName": "avg_test",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([C7386-393]/ [8C283-924])",
+                                    "context": {
+                                        "[C7386-393]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CORRECT_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CORRECT_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_PRACTICE_ANSWER_COUNT"
+                                        },
+                                        "[8C283-924]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "TOTAL_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.TOTAL_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_PRACTICE_ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "avg_practice"
+                                },
+                                "instanceid": "2F649-6CF7-44",
+                                "PanelName": "avg_practice",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([DB33F-7E0],[CA19A-734])/([76BFF-5CA],[CA19A-734])/100",
+                                    "context": {
+                                        "[76BFF-5CA]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID"
+                                        },
+                                        "[DB33F-7E0]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PERCENTAGE_CORRECT"
+                                        },
+                                        "[CA19A-734]": {
+                                            "table": "DIM_EXTERNAL_PACKAGE",
+                                            "column": "EXTERNAL_PACKAGE_TYPE",
+                                            "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "EXTERNAL_PACKAGE_TYPE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "AICC",
+                                                    "PDF",
+                                                    "SCORM",
+                                                    "XAPI"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us"
+                                        }
+                                    },
+                                    "title": "avg_external_asset"
+                                },
+                                "instanceid": "56B1A-E61E-11",
+                                "PanelName": "avg_external_asset",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([30B69-4F3],[FFC3E-885])/([C0649-9A6],[FFC3E-885])/100",
+                                    "context": {
+                                        "[C0649-9A6]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID"
+                                        },
+                                        "[30B69-4F3]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PERCENTAGE_CORRECT"
+                                        },
+                                        "[FFC3E-885]": {
+                                            "table": "DIM_EXTERNAL_PACKAGE",
+                                            "column": "EXTERNAL_PACKAGE_TYPE",
+                                            "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "EXTERNAL_PACKAGE_TYPE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "LOD"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            }
+                                        }
+                                    },
+                                    "title": "avg_lab"
+                                },
+                                "instanceid": "159DC-A654-31",
+                                "PanelName": "avg_lab",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(Sum([8B327-1E1]/ [E28E8-4C3]))/100",
+                                    "context": {
+                                        "[8B327-1E1]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_SIMULATION_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_SIMULATION_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_SIMULATION_SCORE"
+                                        },
+                                        "[E28E8-4C3]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "SIMULATION_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.SIMULATION_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total SIMULATION_COUNT"
+                                        }
+                                    },
+                                    "title": "avg_pbq"
+                                },
+                                "instanceid": "BDEB7-4BC7-91",
+                                "PanelName": "avg_pbq",
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "4AD96-AD27-A5",
+            "realTimeRefreshing": false,
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": false,
+                    "body": [
+                        {
+                            "type": "ColumnSet",
+                            "class": "indicator-row",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:avg_lab}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Average<br>Lab Score"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:avg_external_asset}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Average<br>External Asset Score"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "class": "equal-spacing",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "value",
+                                            "text": "{panel:avg_pbq}"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "class": "label",
+                                            "text": "Average<br>PBQ Score"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 13,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 30,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#ffffff",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#5B6372"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#3A4356"
+                                },
+                                "lightgrey": {
+                                    "normal": "#9EA2Ab"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 20,
+                        "small": 40,
+                        "medium": 20,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "maxActions": 5,
+                        "spacing": "default",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 15,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 0,
+                        "small": 30,
+                        "medium": 30,
+                        "large": 30,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 5,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 0
+                    },
+                    "supportsInteractivity": true,
+                    "height": 66.4,
+                    "imageBaseUrl": ""
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "type": "pivot2",
+            "subtype": "pivot2",
+            "oid": "662f37a57529970040f14b9f",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e14fe",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_GROUP",
+                                    "column": "GROUP_NAME",
+                                    "dim": "[DIM_GROUP.GROUP_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Group Name",
+                                    "sort": "asc",
+                                    "sortDetails": {
+                                        "field": 0,
+                                        "dir": "asc",
+                                        "sortingLastDimension": false,
+                                        "isLastApplied": true,
+                                        "initialized": true
+                                    }
+                                },
+                                "instanceid": "F1AE9-2A2C-84",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_GROUP.GROUP_NAME]",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "width": 328.76739501953125
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_GROUP",
+                                    "column": "GROUP_LAST_ACTIVITY_AT",
+                                    "dim": "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Last Activity"
+                                },
+                                "instanceid": "38117-CB5B-49",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]_years",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "yyyy-MM-dd",
+                                        "minutes": "HH:mm",
+                                        "dateAndTime": "MM/dd/yyyy HH:mm"
+                                    },
+                                    "width": 116.1875
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "AVG([3F0AF-61F])/100.0",
+                                    "context": {
+                                        "[3F0AF-61F]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "PROGRESS",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]",
+                                            "datatype": "numeric",
+                                            "title": "PROGRESS"
+                                        }
+                                    },
+                                    "title": "Avg. Course Progress",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "EF705-9560-BE",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]_sum",
+                                    "index": 2
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    },
+                                    "width": 125.92500305175781
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([03ACC-072]/[EDA22-2A8])",
+                                    "context": {
+                                        "[03ACC-072]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CORRECT_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CORRECT_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_PRACTICE_ANSWER_COUNT"
+                                        },
+                                        "[EDA22-2A8]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "TOTAL_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.TOTAL_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_PRACTICE_ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "Avg. Practice Score",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "44C68-FFE7-D3",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([03ACC-072]/[EDA22-2A8])",
+                                    "index": 3
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([D58D9-2C9]/[CB15B-657])/100",
+                                    "context": {
+                                        "[D58D9-2C9]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_EXAM_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_EXAM_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_EXAM_SCORE"
+                                        },
+                                        "[CB15B-657]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "EXAM_RESULT_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.EXAM_RESULT_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total EXAM_RESULT_COUNT"
+                                        }
+                                    },
+                                    "title": "Avg. Test Score",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "01AB6-7384-1D",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([D58D9-2C9]/[CB15B-657])/100",
+                                    "index": 4
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([20267-5F4],[83DA4-FB8])/([2ACCB-B9D],[83DA4-FB8])",
+                                    "context": {
+                                        "[2ACCB-B9D]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID"
+                                        },
+                                        "[20267-5F4]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PERCENTAGE_CORRECT"
+                                        },
+                                        "[83DA4-FB8]": {
+                                            "table": "DIM_EXTERNAL_PACKAGE",
+                                            "column": "EXTERNAL_PACKAGE_TYPE",
+                                            "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "EXTERNAL_PACKAGE_TYPE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "LOD"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            }
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Avg. Lab Score"
+                                },
+                                "instanceid": "5DC6F-13F5-F8",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[7F1B6-216]",
+                                    "index": 5
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 1,
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([88334-C22],[76F0D-66F])/([BCC24-4EB],[76F0D-66F])",
+                                    "context": {
+                                        "[BCC24-4EB]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID"
+                                        },
+                                        "[88334-C22]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PERCENTAGE_CORRECT"
+                                        },
+                                        "[76F0D-66F]": {
+                                            "table": "DIM_EXTERNAL_PACKAGE",
+                                            "column": "EXTERNAL_PACKAGE_TYPE",
+                                            "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "EXTERNAL_PACKAGE_TYPE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "AICC",
+                                                    "PDF",
+                                                    "SCORM",
+                                                    "XAPI"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Avg. External Asset Score"
+                                },
+                                "instanceid": "55B0D-6E50-30",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([88334-C22],[76F0D-66F])/([BCC24-4EB],[76F0D-66F])",
+                                    "index": 6
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 1,
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([1761E-72D]/[200B4-124])/100",
+                                    "context": {
+                                        "[1761E-72D]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_SIMULATION_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_SIMULATION_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_SIMULATION_SCORE"
+                                        },
+                                        "[200B4-124]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "SIMULATION_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.SIMULATION_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total SIMULATION_COUNT"
+                                        }
+                                    },
+                                    "title": "Avg. PBQ Score",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "7649E-6C9D-77",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([1761E-72D]/[200B4-124])/100",
+                                    "index": 7
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": "false",
+                "displayToolbarRow": "true",
+                "displayHeaderRow": "false",
+                "volatile": false,
+                "hideDrilledDashboards": "true",
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [
+                    "[FACT_ENROLLMENT_SUMMARY.ENROLLMENT_STATE]",
+                    "[DIM_GROUP.GROUP_LAST_ACTIVITY_AT (Calendar)]",
+                    "[DIM_GROUP.HAS_ACTIVE_LICENSES_HUMAN]"
+                ],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": "false",
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "resetDashFilterAfterJTD": "false",
+                "drillToDashboardPivotLinkCellType": "member",
+                "custom": true
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "22865-A957-FD",
+            "realTimeRefreshing": false,
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": false,
+                "colors": {
+                    "rows": false,
+                    "columns": false,
+                    "headers": true,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "group_name",
+                            "title": "Group Name",
+                            "singular": "Group Name",
+                            "plural": "Group Name"
+                        },
+                        {
+                            "id": "last_activity",
+                            "title": "Last Activity",
+                            "singular": "Last Activity",
+                            "plural": "Last Activity"
+                        }
+                    ]
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "imageColumns": [],
+                "drillTarget": {
+                    "oid": "63a1dbebaefb2f003697b126",
+                    "caption": "_drill_Group Detail",
+                    "folder": "63a1dac2aefb2f003697b092"
+                }
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "viewState": {
+                "activeTab": "design"
+            },
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "How is each group progressing and performing?",
+            "type": "chart/column",
+            "subtype": "column/classic",
+            "oid": "662fa2c27529970040f14caf",
+            "desc": null,
+            "source": "66267d0d9c7801ac9f1e14fe",
+            "datasource": {
+                "title": "dm_enrollment_snapshot",
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_GROUP",
+                                    "column": "GROUP_NAME",
+                                    "dim": "[DIM_GROUP.GROUP_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Group Name",
+                                    "sortDetails": {
+                                        "field": 0,
+                                        "dir": "asc",
+                                        "sortingLastDimension": true,
+                                        "isLastApplied": true,
+                                        "initialized": true
+                                    }
+                                },
+                                "instanceid": "F1AE9-2A2C-84",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_GROUP.GROUP_NAME]",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "width": 328.76739501953125,
+                                    "continuous": false
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "AVG([3F0AF-61F])/100.0",
+                                    "context": {
+                                        "[3F0AF-61F]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "PROGRESS",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]",
+                                            "datatype": "numeric",
+                                            "title": "PROGRESS"
+                                        }
+                                    },
+                                    "title": "Avg. Course Progress",
+                                    "datatype": "numeric",
+                                    "sort": "desc"
+                                },
+                                "instanceid": "EF705-9560-BE",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[FACT_ENROLLMENT_SUMMARY.PROGRESS]_sum",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "width": 125.92500305175781,
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#4b5260",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "singleSeriesType": "line",
+                                "y2": true
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([03ACC-072]/[EDA22-2A8])",
+                                    "context": {
+                                        "[03ACC-072]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CORRECT_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CORRECT_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CORRECT_PRACTICE_ANSWER_COUNT"
+                                        },
+                                        "[EDA22-2A8]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "TOTAL_PRACTICE_ANSWER_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.TOTAL_PRACTICE_ANSWER_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total TOTAL_PRACTICE_ANSWER_COUNT"
+                                        }
+                                    },
+                                    "title": "Avg. Practice Score (%)",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "44C68-FFE7-D3",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([03ACC-072]/[EDA22-2A8])",
+                                    "index": 3
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "colorIndex": 2,
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([D58D9-2C9]/[CB15B-657])/100",
+                                    "context": {
+                                        "[D58D9-2C9]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_EXAM_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_EXAM_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_EXAM_SCORE"
+                                        },
+                                        "[CB15B-657]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "EXAM_RESULT_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.EXAM_RESULT_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total EXAM_RESULT_COUNT"
+                                        }
+                                    },
+                                    "title": "Avg. Test Score (%)",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "01AB6-7384-1D",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([D58D9-2C9]/[CB15B-657])/100",
+                                    "index": 2
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "colorIndex": 1,
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([20267-5F4],[83DA4-FB8])/([2ACCB-B9D],[83DA4-FB8])",
+                                    "context": {
+                                        "[2ACCB-B9D]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID"
+                                        },
+                                        "[20267-5F4]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PERCENTAGE_CORRECT"
+                                        },
+                                        "[83DA4-FB8]": {
+                                            "table": "DIM_EXTERNAL_PACKAGE",
+                                            "column": "EXTERNAL_PACKAGE_TYPE",
+                                            "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "EXTERNAL_PACKAGE_TYPE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "LOD"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            }
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Avg. Lab Score"
+                                },
+                                "instanceid": "5DC6F-13F5-F8",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[7F1B6-216]",
+                                    "index": 5
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 1,
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    },
+                                    "color": {
+                                        "colorIndex": 4,
+                                        "type": "color"
+                                    }
+                                },
+                                "disabled": false
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([88334-C22],[76F0D-66F])/([BCC24-4EB],[76F0D-66F])",
+                                    "context": {
+                                        "[BCC24-4EB]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID]",
+                                            "datatype": "numeric",
+                                            "agg": "count",
+                                            "title": "# of unique EXTERNAL_PACKAGE_ACTIVITY_SUMMARY_ID"
+                                        },
+                                        "[88334-C22]": {
+                                            "table": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
+                                            "column": "PERCENTAGE_CORRECT",
+                                            "dim": "[FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY.PERCENTAGE_CORRECT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total PERCENTAGE_CORRECT"
+                                        },
+                                        "[76F0D-66F]": {
+                                            "table": "DIM_EXTERNAL_PACKAGE",
+                                            "column": "EXTERNAL_PACKAGE_TYPE",
+                                            "dim": "[DIM_EXTERNAL_PACKAGE.EXTERNAL_PACKAGE_TYPE]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "EXTERNAL_PACKAGE_TYPE",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "AICC",
+                                                    "PDF",
+                                                    "SCORM",
+                                                    "XAPI"
+                                                ]
+                                            },
+                                            "collapsed": true,
+                                            "datasource": {
+                                                "title": "dm_enrollment_snapshot",
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Avg. External Asset Score"
+                                },
+                                "instanceid": "55B0D-6E50-30",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([88334-C22],[76F0D-66F])/([BCC24-4EB],[76F0D-66F])",
+                                    "index": 4
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 1,
+                                        "number": {
+                                            "separated": true
+                                        },
+                                        "abbreviateAll": false
+                                    },
+                                    "color": {
+                                        "colorIndex": 3,
+                                        "type": "color"
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "([1761E-72D]/[200B4-124])/100",
+                                    "context": {
+                                        "[1761E-72D]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "CUMULATIVE_SIMULATION_SCORE",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.CUMULATIVE_SIMULATION_SCORE]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total CUMULATIVE_SIMULATION_SCORE"
+                                        },
+                                        "[200B4-124]": {
+                                            "table": "FACT_ENROLLMENT_SUMMARY",
+                                            "column": "SIMULATION_COUNT",
+                                            "dim": "[FACT_ENROLLMENT_SUMMARY.SIMULATION_COUNT]",
+                                            "datatype": "numeric",
+                                            "agg": "sum",
+                                            "title": "Total SIMULATION_COUNT"
+                                        }
+                                    },
+                                    "title": "Avg. PBQ Score (%)",
+                                    "datatype": "numeric"
+                                },
+                                "instanceid": "7649E-6C9D-77",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "([1761E-72D]/[200B4-124])/100",
+                                    "index": 6
+                                },
+                                "format": {
+                                    "mask": {
+                                        "decimals": 1,
+                                        "percent": true,
+                                        "percentMultiplier": 100
+                                    },
+                                    "color": {
+                                        "colorIndex": 5,
+                                        "type": "color"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "drilledDashboardDisplay": {
+                "self": "_self"
+            },
+            "instanceid": "D86E9-5B82-A4",
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true,
+                        "text": "Avg. Score"
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true
+                },
+                "y2Axis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "hideMinMax": false,
+                    "isIntervalEnabled": true,
+                    "templateMainYHasGridLines": true
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "group_name",
+                            "title": "Group Name",
+                            "singular": "Group Name",
+                            "plural": "Group Name"
+                        }
+                    ]
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 19999
+                }
+            },
+            "dashboardid": "63a1dbc3aefb2f003697b10b",
+            "viewState": {
+                "activeTab": "design"
+            },
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}
