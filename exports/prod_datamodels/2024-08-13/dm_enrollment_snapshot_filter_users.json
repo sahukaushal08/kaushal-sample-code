@@ -1,5 +1,5 @@
 {
-    "_id": "668c2ab39c7801ac9f6ccbc8",
+    "_id": "66a0134960b2b783e5971045",
     "oid": "6fef764e-343f-4968-95ac-4ff84f26f161",
     "title": "dm_enrollment_snapshot_filter_users",
     "type": "live",
@@ -359,24 +359,6 @@
                     "isDropped": null
                 }
             ]
-        },
-        {
-            "oid": "d9b2883e-4ba6-47d4-9c78-6f0d65ae87db",
-            "type": null,
-            "columns": [
-                {
-                    "dataset": "37bac706-9df1-4fdb-82c1-f2e3a2db9e0e",
-                    "table": "ac870ee0-33da-415e-82f0-8963da51aa09",
-                    "column": "37f4bd11-1452-46cb-8b08-1bb947a6339a",
-                    "isDropped": null
-                },
-                {
-                    "dataset": "37bac706-9df1-4fdb-82c1-f2e3a2db9e0e",
-                    "table": "4ec7adef-981f-42b7-becf-c7ea17b2ea52",
-                    "column": "e45bb2d9-bf11-448e-a368-20c193a12bd2",
-                    "isDropped": null
-                }
-            ]
         }
     ],
     "datasets": [
@@ -384,7 +366,7 @@
             "oid": "37bac706-9df1-4fdb-82c1-f2e3a2db9e0e",
             "fullname": "SnowflakeJDBC:dm_enrollment_snapshot_filter_users",
             "database": "BENCHPREP_DATA_PLATFORM",
-            "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+            "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
             "type": "live",
             "name": "dm_enrollment_snapshot_filter_users",
             "modelingTransformations": [],
@@ -395,7 +377,7 @@
                         "id": "FACT_SIMULATION_RESULT",
                         "name": "FACT_SIMULATION_RESULT",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "f744165b-3ee2-4cde-95dc-0e188385881d",
@@ -557,7 +539,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "1199f9ae-5b53-4500-9689-5c56aa7671e3",
+                        "vTag": "ff4ed3e2-004a-4b05-9108-6c0a53c05c52",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -566,7 +548,7 @@
                         "id": "DIM_TENANT_BRANCH",
                         "name": "DIM_TENANT_BRANCH",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "1bde1d18-c839-480f-9d5e-78e7963240ea",
@@ -731,7 +713,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "18bf8bb4-e0c3-4789-9f2e-9f4269987f87",
+                        "vTag": "e49431b8-b858-4de1-bd8e-2a17d3704ef8",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -740,7 +722,7 @@
                         "id": "FACT_TENANT_BRANCH_MEMBERSHIP",
                         "name": "FACT_TENANT_BRANCH_MEMBERSHIP",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "d4339112-e188-4595-abad-86111a1c8bfc",
@@ -840,7 +822,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "4a684afd-8fbf-474a-8eac-5349b5a7ff48",
+                        "vTag": "d389985f-d211-48e5-8810-a5a107601006",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -849,7 +831,7 @@
                         "id": "DIM_GROUP",
                         "name": "DIM_GROUP",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "e45bb2d9-bf11-448e-a368-20c193a12bd2",
@@ -1089,7 +1071,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "4ec7adef-981f-42b7-becf-c7ea17b2ea52",
+                        "vTag": "521051ef-3e31-408c-93dc-8e257c496c22",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1098,7 +1080,7 @@
                         "id": "DIM_EXAM_RESULT",
                         "name": "DIM_EXAM_RESULT",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "266db4bf-e613-4889-a3b5-626a6379a5a9",
@@ -1263,7 +1245,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "4f809e28-be2f-4867-a2d8-5d0020c75940",
+                        "vTag": "d7c05894-81c3-4792-86a9-ce85b2ea3d0a",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1272,7 +1254,7 @@
                         "id": "DIM_USER",
                         "name": "DIM_USER",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "cb743492-6f6d-4690-b47c-0d95db49708d",
@@ -1476,7 +1458,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "547d767e-de13-4e80-96f9-8fbb263b4ba0",
+                        "vTag": "171ff753-25ef-46db-9c4a-a373887862b7",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1485,7 +1467,7 @@
                         "id": "FACT_ENROLLMENT_SUMMARY",
                         "name": "FACT_ENROLLMENT_SUMMARY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "e2cf7552-7a21-4874-bcc4-5796d1a654e5",
@@ -1816,7 +1798,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "558395cb-ad28-4193-a0a4-d5a1bc511b34",
+                        "vTag": "8f543fb4-5018-459f-9796-a41b318fe2eb",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1825,7 +1807,7 @@
                         "id": "DIM_EXTERNAL_PACKAGE",
                         "name": "DIM_EXTERNAL_PACKAGE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "d2a706e5-6e11-45ee-9e2c-ad50e358ac3c",
@@ -1938,7 +1920,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "5d583aee-f138-45fb-a1fc-bc916e58dc4d",
+                        "vTag": "6c7a6916-48d1-4de6-baba-ff170501dadd",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1947,7 +1929,7 @@
                         "id": "ETL_REFRESH",
                         "name": "ETL_REFRESH",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "b3823206-2552-4621-99cd-2b8513cbf7e1",
@@ -1969,7 +1951,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "6a9ae83a-f28b-4224-af5b-e4997782c10c",
+                        "vTag": "9260c8e3-9edc-4355-b7dc-5d7229437e63",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1978,7 +1960,7 @@
                         "id": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
                         "name": "FACT_EXTERNAL_PACKAGE_ACTIVITY_SUMMARY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "90ee4afa-7e86-4f3d-b336-f0f0b29a61b4",
@@ -2143,7 +2125,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "6e0890e1-a03f-4eb6-95b2-9c860ec7d0c9",
+                        "vTag": "9a60aa6d-d22f-4edb-b77d-64c69621f24f",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2152,7 +2134,7 @@
                         "id": "DIM_QUIZ_SESSION",
                         "name": "DIM_QUIZ_SESSION",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "555c70a5-5eff-4392-8f8e-d6b929b8ccd6",
@@ -2239,7 +2221,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "7607c7fa-2d6d-473a-be5e-3011307f2999",
+                        "vTag": "50e32514-fb11-4f5c-9e84-cb017d14befd",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2248,7 +2230,7 @@
                         "id": "FACT_CONTINUOUS_LEARNING_SUMMARY",
                         "name": "FACT_CONTINUOUS_LEARNING_SUMMARY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "1c9cce52-182b-4fc8-a588-b17863efd7ae",
@@ -2400,7 +2382,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "80413824-969d-464c-bbcc-a2a52226e116",
+                        "vTag": "581ede0d-1be4-452e-a06b-cff948214728",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2409,7 +2391,7 @@
                         "id": "DIM_FLASH_CARD",
                         "name": "DIM_FLASH_CARD",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "d24cc0c5-4f7c-410a-a775-eb46baa535e5",
@@ -2548,7 +2530,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "8395c210-c1a8-4627-b9de-28650a48f4a6",
+                        "vTag": "d4a16a46-03c8-402c-8ffc-9124436f4e8f",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2557,7 +2539,7 @@
                         "id": "DIM_COURSE",
                         "name": "DIM_COURSE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "6a3aec9f-c04e-4f88-a731-8b88a0ca5319",
@@ -2797,7 +2779,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "842e7dd8-1f71-4ed5-ae28-4c0a06845145",
+                        "vTag": "376c6c4b-3408-4de8-bf59-f2a88d9d18ee",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2806,7 +2788,7 @@
                         "id": "DIM_LESSON",
                         "name": "DIM_LESSON",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "52404feb-5c7d-484b-9a72-2a15eee987ff",
@@ -2971,7 +2953,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "8a8463c0-665c-479a-bf8c-ed81c941f949",
+                        "vTag": "7f39bb19-5050-4cac-8733-37a17477412a",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2980,7 +2962,7 @@
                         "id": "FACT_CONTINUOUS_LEARNING_PROFICIENCY",
                         "name": "FACT_CONTINUOUS_LEARNING_PROFICIENCY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "2420fb9c-c87b-42e8-9f9b-f7703f0ae8cc",
@@ -3080,7 +3062,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "8e0e24ac-c679-43c4-8895-604787961c16",
+                        "vTag": "1abc7445-629e-440b-bd28-a8128cd683bf",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -3089,7 +3071,7 @@
                         "id": "FACT_GROUP_MEMBERSHIP",
                         "name": "FACT_GROUP_MEMBERSHIP",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "cb85fb1d-57b9-4260-9912-7f9aa9c555c3",
@@ -3176,7 +3158,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "94da5d1a-3502-47dd-a47e-5010c16bc7a4",
+                        "vTag": "54cf6671-8ae5-447b-812e-c691c15f08a3",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -3185,7 +3167,7 @@
                         "id": "DIM_QUESTION_CATEGORY",
                         "name": "DIM_QUESTION_CATEGORY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "1d3b4a4d-c7ad-4f8a-8068-e6b65ce02458",
@@ -3298,7 +3280,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "9c263699-6263-4993-9d19-b322a40a6152",
+                        "vTag": "34323697-f023-47f7-9a96-e8918bcde5b6",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -3307,7 +3289,7 @@
                         "id": "FACT_QUIZ_SESSION_SUMMARY",
                         "name": "FACT_QUIZ_SESSION_SUMMARY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "b216e549-5fbd-4808-a4c7-49232d0a5331",
@@ -3459,142 +3441,8 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "a29953f9-94df-4b8d-bec6-d573030847cf",
+                        "vTag": "da9bab84-3099-4d27-91be-83101bc7b99a",
                         "configOptions": {},
-                        "isMaterialized": false
-                    },
-                    {
-                        "oid": "ac870ee0-33da-415e-82f0-8963da51aa09",
-                        "id": "FACT_GROUP_TENANT_BRANCH_ANCESTRY",
-                        "name": "FACT_GROUP_TENANT_BRANCH_ANCESTRY",
-                        "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
-                        "columns": [
-                            {
-                                "oid": "8df209d0-7ba7-47f1-9843-a8ded923e983",
-                                "id": "TENANT_BRANCH_MEMBERSHIP_ID",
-                                "name": "TENANT_BRANCH_MEMBERSHIP_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "c6b41499-4fc6-483f-abb8-d4d2665474c0",
-                                "id": "TENANT_BRANCH_ID",
-                                "name": "TENANT_BRANCH_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "65f89350-7cd2-4134-b150-3324bc12740c",
-                                "id": "BRANCH_BENCHPREP_ID",
-                                "name": "BRANCH_BENCHPREP_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "37f4bd11-1452-46cb-8b08-1bb947a6339a",
-                                "id": "GROUP_ID",
-                                "name": "GROUP_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "b8cc8a8d-c00c-4340-9bd0-b2f8a9b8dbba",
-                                "id": "GROUP_BENCHPREP_ID",
-                                "name": "GROUP_BENCHPREP_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "67cdaf28-accf-4361-8993-1973b05b93f8",
-                                "id": "TENANT_ID",
-                                "name": "TENANT_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "27fa8376-01f7-4081-8234-45afdcbe8c9a",
-                                "id": "ASSIGNED_GROUP_COUNT",
-                                "name": "ASSIGNED_GROUP_COUNT",
-                                "type": 0,
-                                "size": 1,
-                                "precision": 1,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "b3a3b90f-b188-4089-9ca7-0a356d2fdf20",
-                                "id": "VIA_ANCESTRY_GROUP_COUNT",
-                                "name": "VIA_ANCESTRY_GROUP_COUNT",
-                                "type": 0,
-                                "size": 1,
-                                "precision": 1,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            },
-                            {
-                                "oid": "5c4cf67e-c6b2-42b5-a60a-a11147d07fb7",
-                                "id": "VIA_ANCESTRY_BRANCH_ID",
-                                "name": "VIA_ANCESTRY_BRANCH_ID",
-                                "type": 0,
-                                "size": 38,
-                                "precision": 38,
-                                "scale": 0,
-                                "hidden": false,
-                                "indexed": true,
-                                "isUpsertBy": false,
-                                "description": null
-                            }
-                        ],
-                        "buildBehavior": {
-                            "type": "sync",
-                            "accumulativeConfig": null
-                        },
-                        "tupleTransformations": [],
-                        "hidden": false,
-                        "vTag": "eeab2d19-0043-4d8e-96da-d83d759136da",
                         "isMaterialized": false
                     },
                     {
@@ -3602,7 +3450,7 @@
                         "id": "DIM_CONTINUOUS_LEARNING_CYCLE",
                         "name": "DIM_CONTINUOUS_LEARNING_CYCLE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "0852ae37-6f1a-4fa6-8c55-f2caa2b13e80",
@@ -3689,7 +3537,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "e91dbe1d-9e71-4ed2-acb6-f4802dd7ccbb",
+                        "vTag": "97a8c865-c819-4a7b-94e1-61d32755156c",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -3698,7 +3546,7 @@
                         "id": "FACT_LESSON_CONFIDENCE",
                         "name": "FACT_LESSON_CONFIDENCE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "5d066ed7-c12a-456f-ae60-da39004e1945",
@@ -3824,7 +3672,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "eede29d6-5a76-4185-9398-2488f8ab5b17",
+                        "vTag": "a956b462-0228-43cb-9f10-aec011524b61",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -3833,7 +3681,7 @@
                         "id": "FACT_FLASH_CARD_CONFIDENCE",
                         "name": "FACT_FLASH_CARD_CONFIDENCE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "cd897d0d-5ee6-47fa-b054-44551d91bebf",
@@ -3959,7 +3807,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "f345e281-3e1e-48ae-a0ba-b9f7553e4a52",
+                        "vTag": "ea36079b-3ab7-4a5a-bf05-433bb52b42b5",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -3968,7 +3816,7 @@
                         "id": "FACT_EXAM_RESULT_SUMMARY",
                         "name": "FACT_EXAM_RESULT_SUMMARY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "3a81027c-3bbf-48ff-850a-29cd4042ff38",
@@ -4118,9 +3966,32 @@
                             "type": "sync",
                             "accumulativeConfig": null
                         },
-                        "tupleTransformations": [],
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "New Custom Column",
+                                    "name": "New Custom Column",
+                                    "type": 18,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2024-01-25T06:23:15.920Z",
+                                    "oid": "4dc6ef31-4a9f-491a-8117-529989b7d61f",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2024-01-25T06:23:15.920Z",
+                                        "oid": "35c1219c-8623-4ebb-ad02-5cd415156b6d",
+                                        "expression": "NULL",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
                         "hidden": false,
-                        "vTag": "f46f0f3c-12b6-411b-9f66-9b0756f985a6",
+                        "vTag": "5b4b3fa2-458b-4092-8af1-026477d2eae2",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -4129,7 +4000,7 @@
                         "id": "DIM_SIMULATION",
                         "name": "DIM_SIMULATION",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "e0cd72fe-dd6d-4a8a-9f64-e77351884e55",
@@ -4203,7 +4074,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "ff4b1e99-bd68-40f5-a95d-fdccfbfd44b9",
+                        "vTag": "1a4d3ae2-9e3b-485b-890b-174a2c86b21b",
                         "configOptions": {},
                         "isMaterialized": false
                     }
@@ -4211,10 +4082,10 @@
             },
             "connection": {
                 "oid": "33bbe99d-b7a5-46ed-9efb-0c922e66640d",
-                "id": "668c2ab330f5020038a21343",
+                "id": "66a0134929124e0039fec856",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ0OEhUU201b09vTkRCeXZQOWQzd1piWEZJQkRVOVkwWVllVWxkaHMvWFJ2cUF4Sy9ZdUtaaDJ5YUtDaGFEMVN6eHl3cGN5TzZ0b3hzZ0ZzYTE5dzJHTVJRY3RmcUJjZDF1RExiZWUxWENxMnhSc245MS9vY1FLNWZNZ1hTdjZsNFowcStONTl0RlRQVjRtcHEyZFpkL2l6RjNBSncvc2E1dTN0TzZnV0R6b20vRVhhNUJEc01UK2x1SmNnUXdJR2ZNOTlWK2QxU1JUTk1ZcHlINTd0RlJzUlhkWmtzK25ycTMrNisyall3N1VRZC9pWm95TExnZ2svKytpNmVtQTFLM1JzWko3S0RDWU55ZE43WHpiRDlPdjhIZ0FNblhTM0lUUkt4Rk1NZlI5VnI2VXdqNWpyRHlyMW1PQWNRajVjSldMUlgrakxVUThtRjY4aTR0YlErUjkvaC82TXNNUS9LYWovMXg4SEtRTytlNEQ0ZnhKcGNnUDhlci9TSHdURlp6eTBUS1ErdWg5QjRLbGpMT1JmdHBEamtLLy9YdkVyd2hpTXlxYU5hUHA4b1JEcTBDTG5LUFV1ZjI4MGt2OE5yaFdPSllWdkhBSnhPUzhoV2JIR3o5a0liWWg0eWNOalBLSzZhdUxlYUU0ZDRneEVOWisrUFQrK3BGY1RtZldDVnJ6QVJFWmNSOVJPZHZVNEdYM00zVzVKSFZWNUpua3NzMFRNT3I3UHRxdlN2RjlJZ1hRWi90LzY2eWVKNVVEbkFWQWhrVjR6a3QwWU5DVE1NRU9DZEFCa0ticERsK0pidEhtS0RNVEZHUnlvM2Y0MWZZeW8rZ09oY3JCQWI5NDZodUFBRXowSjQyRXBNN09nWWlHczA1Z3VxY29IZndSYVhGY2JTWHdjZHQvV1VEWkdRclNuTEVpV3R0Yk1pNXRSQ0NVTFdkSkpqaFlwaGhjT3liTGlSdmJONU13RUhUOUdmQzZvVE9RNlFpNlQvRU1IV0xCVFdxZnpXakdKY2pjb0VBdm56SCtEdG5ya1krOEhvSUdrTmFRPT0iLCJub25jZSI6InhONUEzMmlSMmFXbEM2Z2FhTEtqVEE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDEzOjQyOjM2LjQ3MzkwODQ4MVoifX0=",
-                "schema": "DM_ENROLLMENT_SNAPSHOT_RC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI3cEVMU3pYN2RLemJ3RnVzcytzNVhHNVB0R05SclQ4QnJRZTRNczRwSXpSdFEvd1RwYmxYUVViTlpsbFZwWVVtS0hjeGxFcWZFMzI5MFR5VUZ1bzJxWlFWNU5JbFRxQ1lXclpieW8wOENlVGNaUEhZS1ZycVlHenU1QnlZdUpPVjI2bWlZQ0dWNSt1Lys0bzhKWmJZZVJuSnhrREhaT09XZE5VM2YxK24rNHdPTC9qQlFvNnlOOU5oV3dtckJIRkk1dnVQbXNvQTVHNktrSW5nb20vZ0xKNkVCeFJnL1FGMnQvbmk3ZkUxOEVkNndZR0FyUlBPNkpGc0RYcXprM0d4eXlPQjFWT3BFdzMzTEE4akk0cWx4NXgxOVVQdVRDV2FOUG9vWUJlNWFVN01uWklJOTNIQXZIT0RXdG40RVd4L010cnloR1FpVnZwYS9pNWN5MFBYUXlVV1UrWldPVWpCVGdpNklhTGNObGxsd3J5d0NTdDhybXhzZzl3VWkrMGNDd2VlZlFkN1JPYkp1RCtrMU1EbVpwTlg2YzdlaHVxUUU1TDAzQUFCTW5CdXZHdHN2ZUluV0Fpb2JKQ3B3N0M2cG41VUdOQ0Z0S3dWeXc5K1JaSFJBUTJ0NHIreG9lenNteGtjWVhYUTZON21sWmdMdERBMXpxZG84bnhFWXlDWncrT0JHeDZVbG0rTDBtMnFVNUVPaEJNSnFnazZuWkpqWmdDQlUyUTg1YlcxNVJsY2tjWVdhd2liRFRFMXdBcW9PS3FuOGI1U08wZW8wdDJ5RnluWVBkcXk2TzlkM25hT0hSL1lnS2QvSmRObXliOEpHbldtWi9FODNvTzcwcDZCL1NMNmtMclpFcWc3bi9zVWF5bEk2dU1ZZDNWcm05UkRwMkh5aWxwZjJtWWVsVmxJamhaK0hHLzh0b2o1NUZHZjNIeHkrMlI1ejJUWTAxRnMvZWo1bDkwTmNmWmtKR1hKUUc3MFVBMGE0KzhrSnQ3RXFMMjIrT2UrcFVTa3ZmSUdBWTV1dnltV2lqcDB6dmVrZlk3WG5nPT0iLCJub25jZSI6IlB1WjhjTC84SWxZZEI1dHo2NlpPQXc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDEzOjQzOjUxLjc2MjU0OTU2NVoifX0=",
+                "schema": "DM_ENROLLMENT_SNAPSHOT_PROD",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
@@ -4234,8 +4105,8 @@
         "nodesPositions": [
             {
                 "id": "e91dbe1d-9e71-4ed2-acb6-f4802dd7ccbb",
-                "x": -10.612176895141602,
-                "y": -7.950761318206787,
+                "x": -8.802996635437012,
+                "y": -7.01927375793457,
                 "fixed": true
             },
             {
@@ -4246,14 +4117,14 @@
             },
             {
                 "id": "4f809e28-be2f-4867-a2d8-5d0020c75940",
-                "x": -9.358819961547852,
-                "y": 2.4273738861083984,
-                "fixed": true
+                "x": -8.319150924682617,
+                "y": 3.177396059036255,
+                "fixed": false
             },
             {
                 "id": "5d583aee-f138-45fb-a1fc-bc916e58dc4d",
-                "x": 4.554737567901611,
-                "y": -6.508984565734863,
+                "x": 4.269818305969238,
+                "y": -6.05105447769165,
                 "fixed": false
             },
             {
@@ -4264,8 +4135,8 @@
             },
             {
                 "id": "4ec7adef-981f-42b7-becf-c7ea17b2ea52",
-                "x": -3.150289535522461,
-                "y": -5.795622825622559,
+                "x": -3.0769360065460205,
+                "y": -8.392488479614258,
                 "fixed": true
             },
             {
@@ -4294,32 +4165,32 @@
             },
             {
                 "id": "18bf8bb4-e0c3-4789-9f2e-9f4269987f87",
-                "x": 6.529829025268555,
-                "y": -2.9676895141601562,
+                "x": 6.359279632568359,
+                "y": -2.736649513244629,
                 "fixed": false
             },
             {
                 "id": "547d767e-de13-4e80-96f9-8fbb263b4ba0",
-                "x": -2.9898438453674316,
-                "y": -0.9936131834983826,
+                "x": -2.9982614517211914,
+                "y": -0.9991762042045593,
                 "fixed": false
             },
             {
                 "id": "6a9ae83a-f28b-4224-af5b-e4997782c10c",
-                "x": -11.211101531982422,
-                "y": -5.540124416351318,
+                "x": 1.4125169515609741,
+                "y": -8.681107521057129,
                 "fixed": true
             },
             {
                 "id": "8e0e24ac-c679-43c4-8895-604787961c16",
-                "x": -10.611917495727539,
-                "y": -8.732292175292969,
+                "x": -7.979833602905273,
+                "y": -7.695443153381348,
                 "fixed": true
             },
             {
                 "id": "80413824-969d-464c-bbcc-a2a52226e116",
-                "x": -9.817008018493652,
-                "y": -9.13899040222168,
+                "x": -7.362461090087891,
+                "y": -6.637090682983398,
                 "fixed": true
             },
             {
@@ -4330,38 +4201,32 @@
             },
             {
                 "id": "f46f0f3c-12b6-411b-9f66-9b0756f985a6",
-                "x": -6.421390056610107,
-                "y": 1.3076603412628174,
-                "fixed": true
+                "x": -6.1552910804748535,
+                "y": 1.1927025318145752,
+                "fixed": false
             },
             {
                 "id": "6e0890e1-a03f-4eb6-95b2-9c860ec7d0c9",
-                "x": 1.5792502164840698,
-                "y": -4.6882500648498535,
+                "x": 1.22501540184021,
+                "y": -4.365015029907227,
                 "fixed": false
             },
             {
                 "id": "f345e281-3e1e-48ae-a0ba-b9f7553e4a52",
-                "x": 2.743586778640747,
-                "y": 2.2685904502868652,
+                "x": 2.4734396934509277,
+                "y": 2.445098876953125,
                 "fixed": false
             },
             {
                 "id": "94da5d1a-3502-47dd-a47e-5010c16bc7a4",
-                "x": -2.880451202392578,
-                "y": -3.9787111282348633,
-                "fixed": true
-            },
-            {
-                "id": "ac870ee0-33da-415e-82f0-8963da51aa09",
-                "x": -6.030020713806152,
-                "y": -5.711120128631592,
+                "x": -3.0769360065460205,
+                "y": -5.11743688583374,
                 "fixed": true
             },
             {
                 "id": "eede29d6-5a76-4185-9398-2488f8ab5b17",
-                "x": -6.490188121795654,
-                "y": -2.1043732166290283,
+                "x": -6.543797016143799,
+                "y": -2.414621353149414,
                 "fixed": false
             },
             {
@@ -4378,8 +4243,8 @@
             },
             {
                 "id": "4a684afd-8fbf-474a-8eac-5349b5a7ff48",
-                "x": 2.8599319458007812,
-                "y": -2.2181570529937744,
+                "x": 2.679072618484497,
+                "y": -2.0190160274505615,
                 "fixed": false
             },
             {
@@ -4393,15 +4258,14 @@
     "dependencies": {
         "perspectives": [
             {
-                "_id": "668c2ab330f5020038a21345",
+                "_id": "66a0134929124e0039fec858",
                 "oid": "6fef764e-343f-4968-95ac-4ff84f26f161",
                 "datamodelOid": "6fef764e-343f-4968-95ac-4ff84f26f161",
                 "description": "",
                 "tables": [],
                 "parentOid": null,
                 "name": "Default",
-                "isDefault": true,
-                "relationsTables": []
+                "isDefault": true
             }
         ]
     }

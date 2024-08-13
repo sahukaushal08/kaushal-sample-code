@@ -1,5 +1,5 @@
 {
-    "_id": "668c2acd9c7801ac9f6cd10c",
+    "_id": "66a0136f60b2b783e5971a82",
     "oid": "fb146901-bed9-49b5-91ff-3687c06268ce",
     "title": "dm_enrollment_snapshot_filter_tenant",
     "type": "live",
@@ -222,7 +222,7 @@
             "oid": "f6804d65-a0b7-424a-b79f-c94a0d22c2aa",
             "fullname": "SnowflakeJDBC:dm_enrollment_snapshot_filter_tenant",
             "database": "BENCHPREP_DATA_PLATFORM",
-            "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+            "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
             "type": "live",
             "name": "dm_enrollment_snapshot_filter_tenant",
             "modelingTransformations": [],
@@ -233,7 +233,7 @@
                         "id": "DIM_GROUP",
                         "name": "DIM_GROUP",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "6c74372d-51c4-42c1-8fda-18c23a75d0ac",
@@ -473,7 +473,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "19eabb03-8756-465a-8bf0-2ebe5df90335",
+                        "vTag": "f60058b8-62db-45fb-9b64-619cde03c394",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -482,7 +482,7 @@
                         "id": "DIM_COURSE",
                         "name": "DIM_COURSE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "bfd6d0e0-77ec-41f9-b9b8-b92f8254d4cb",
@@ -722,7 +722,7 @@
                             }
                         ],
                         "hidden": false,
-                        "vTag": "251f05e0-1192-47e1-9a73-566be698e7e6",
+                        "vTag": "408916e8-0ed9-44ea-9dab-add63593ec01",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -731,7 +731,7 @@
                         "id": "DIM_EXTERNAL_PACKAGE",
                         "name": "DIM_EXTERNAL_PACKAGE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "86268bf5-3304-4d65-a244-8c14e037c3b4",
@@ -844,7 +844,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "275144f6-3f0d-42b1-b003-1e9c5950478e",
+                        "vTag": "c76f928e-8fc7-4466-a995-a58005e36340",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -853,7 +853,7 @@
                         "id": "DIM_EXAM_RESULT",
                         "name": "DIM_EXAM_RESULT",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "6c920bbc-1075-4182-8e27-3c1a7671e0b5",
@@ -1018,7 +1018,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "374727d2-adce-4fd4-93c7-2adaf0590a82",
+                        "vTag": "69ddc20a-142a-4206-a50d-ac4babbfa0cd",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1027,7 +1027,7 @@
                         "id": "DIM_TENANT",
                         "name": "DIM_TENANT",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "7303a0d0-a952-4bd8-80da-1905949921be",
@@ -1088,7 +1088,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "4d80aafb-26b3-4e95-9ec0-3a4b510976d3",
+                        "vTag": "881ad6d3-a86e-4b0f-b22d-a3262bbff475",
                         "isMaterialized": false
                     },
                     {
@@ -1096,7 +1096,7 @@
                         "id": "DIM_USER",
                         "name": "DIM_USER",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "922aa3e7-4605-4cef-8dbf-38feb392f919",
@@ -1300,7 +1300,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "6b7350e2-7b55-42fd-b475-0e724c34aa15",
+                        "vTag": "6330a21c-2035-4a70-9179-f70f6fa86107",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1309,7 +1309,7 @@
                         "id": "DIM_CONTINUOUS_LEARNING_CYCLE",
                         "name": "DIM_CONTINUOUS_LEARNING_CYCLE",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "15872a31-c2e3-40e3-9b42-891e26db5942",
@@ -1396,7 +1396,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "8d8d7f6b-6810-4a32-bc0b-ed20a480f98a",
+                        "vTag": "ae055560-06fa-486e-8ef3-9687ef99e6d4",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1405,7 +1405,7 @@
                         "id": "DIM_FLASH_CARD",
                         "name": "DIM_FLASH_CARD",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "c8d098ac-5f6c-4b8a-999d-a0843afeca54",
@@ -1544,7 +1544,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "9b0078fc-afe0-4cde-85d9-0375dbbd2c3e",
+                        "vTag": "6d44adfe-f862-44ec-af5f-9a58177c5744",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1553,7 +1553,7 @@
                         "id": "DIM_QUIZ_SESSION",
                         "name": "DIM_QUIZ_SESSION",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "768d9ac5-1aa3-4de6-91ca-b24e4e066cdf",
@@ -1640,7 +1640,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "a40bd931-ab49-41d1-86d3-d288dcb24f20",
+                        "vTag": "9823e679-a67a-4256-b9d8-712e3548e700",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1649,7 +1649,7 @@
                         "id": "DIM_SIMULATION",
                         "name": "DIM_SIMULATION",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "a399f947-8e9f-47bb-a424-ff5f31c89b51",
@@ -1723,7 +1723,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "ad1f256d-403b-4b05-818a-2977c0f232ca",
+                        "vTag": "12252232-e25c-4eb7-86b7-b1875d19e854",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1732,7 +1732,7 @@
                         "id": "DIM_LESSON",
                         "name": "DIM_LESSON",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "5e16a103-043f-484e-9e43-19abd6291e45",
@@ -1897,7 +1897,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "bece8e0d-ea42-41ba-943e-7d7891c6c6dd",
+                        "vTag": "3f7bb293-9308-480e-99bb-8a578957c0cb",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1906,7 +1906,7 @@
                         "id": "ETL_REFRESH",
                         "name": "ETL_REFRESH",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "7fc352f4-1084-4160-a35f-7ceea0289eca",
@@ -1928,7 +1928,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "c556aea4-49cb-48aa-b989-f2685de3e419",
+                        "vTag": "f392505d-e224-4fc3-bd35-2acde5e910b2",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -1937,7 +1937,7 @@
                         "id": "DIM_QUESTION_CATEGORY",
                         "name": "DIM_QUESTION_CATEGORY",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "2352c816-46f0-4777-959c-61527f912354",
@@ -2050,7 +2050,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "d28e6ea3-d5de-4af1-9175-a897591f9ace",
+                        "vTag": "65b2ea06-c11a-4225-aedc-6230aa260ca6",
                         "configOptions": {},
                         "isMaterialized": false
                     },
@@ -2059,7 +2059,7 @@
                         "id": "DIM_TENANT_BRANCH",
                         "name": "DIM_TENANT_BRANCH",
                         "type": "base",
-                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_RC",
+                        "schemaName": "DM_ENROLLMENT_SNAPSHOT_PROD",
                         "columns": [
                             {
                                 "oid": "01fe05ac-914a-4c77-a009-f3e0dd984bdb",
@@ -2224,7 +2224,7 @@
                         },
                         "tupleTransformations": [],
                         "hidden": false,
-                        "vTag": "ed2eb034-619b-4dce-b8cb-22399a445280",
+                        "vTag": "33e3b4a5-1e92-45e9-82b6-bdf0bc753702",
                         "configOptions": {},
                         "isMaterialized": false
                     }
@@ -2232,10 +2232,10 @@
             },
             "connection": {
                 "oid": "93bfb2ba-5549-4a55-a48d-6f0c3c50a345",
-                "id": "668c2acd30f5020038a21352",
+                "id": "66a0136feb5acc0039d70a0b",
                 "provider": "SnowflakeJDBC",
-                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI5cDd1c05zSEcybUxRUUxDaE1SeWNSWHZ3TlJrTEM1WTJoYWFiMmNzNkxlaXR2U0xIUEVPeUZuQzVRNWo2aGhXRkhteFZRT0hJd1htVmo5WVBBM0tMMVp1SkQ2Y01TOHM2N2FSb05HNlozSEswMlBpTGExa2ZQdE9KQW05V2J0UWF5c1hmVTZvM05JV1YrTktSUVhPKzhqU3cveUovTVljWUJvanBwVjZJL08zMTFia1g3K3RBcnhBQUU4bVo0Wm55TlZvNysrc2E2VkxUWStabmdua1l1VnBGZUtPVTY3dUdEMUo0M3E5Ymsya0lFS1FNWjEwTGdQTlZSKzF2UnozdkErS2R3d0NWRFdTdU1jMGYwOXVwaEdJUDZmc2FaNUFMUUcwWjA1eFZSaXVsQ3JDR0tXWkFrMXY2SE5BTitCVFg2VUdQZ1o3VHpFL2VCU09zQkZ6ejU0ZDFwV1dLUElucHp6TzFlZU1HYW80OGh1TDkyUW1xcmdKY2NpTmJsVStxckNSK0tkQzdUWkpNZkh2Wm5kNDh2OXlqaUFXYS9OTkQ4dEZXMEd0Nkt6Q3NHT0ZkcE9VbytnVnBMVEhUZ0pXMzRYU21HTGJodFZyUDNXVWZGSmhVMUhRWm5hdS9sTERPeEJYY0xMMXhTT2dBd29sZ2J6b1JPTzBKUGtPcWEvamQ5WVVwWlpiaEU1N0EyUUxMYWtEdlMyY3ZlRytTVUNBZHlUcCt5QXBxNTdza2RHOFZTcU5mWFVoYmlyd0NRcDcyeXdpdi8ycjBqT3o4cVc2dEpSNldhYWlnVHpnSFVUUjZ6WHZSTGR4QUd5d2pIMDR1MFBqWVBKNjFSdlVFKzdJcDZOaERWQ3BUMnA0Q2NGVVFCSy94WE5vMEdWVWUvaUVBTzJENjF2RzBWZDc0bDBMaC9tUDhGc2ZMc1dhQ2JhQk5Bd2loVDZnb2NvYjVEOFIwT1hZbHI0RUdVOFBhclJXM2FQU0YzUzlPZmpDT3Z4QkVHK013dzI3R2luSVU2c1hHS3FSZ0NLVVo4TU5nSWs0Mmpycml3PT0iLCJub25jZSI6ImRaVWpYakhmYlgrbFFCdE5CSnU4Z3c9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDEzOjQyOjM3LjM1MTI4NTM5OVoifX0=",
-                "schema": "DM_ENROLLMENT_SNAPSHOT_RC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJEV1ZEMXJIeVI1Skwyb3g2QVIrVjRSRTB2YkVBZExkVE11ZGMrRHBFbE53WDI5emp5V016WGV2aTJjVUV1UjVXaTM1UVhsMFdvWmgxMUVUZVJoY1BoSDRnWkUwOTFrTzF2UVg0QTg0RDMwMGpSQnoxQjg2ME1ldnFsRnIzUW1aS0lSSGx4OHIrdWtYRU1uOXIxZXJ0U2xSeEpqL1ZkQjN2c1RidHpUenNvOFFDKzVDTFZrWGE4ajJuYXdRVFc4WXRuT3RGcnhXSS9uQW5BWEg5d3NTYVN2TjBieE9uL1p6emQyRk1BMS8xTFJ2Z2dqRzlXRTJ4US9kOFo3N0hGYkhUbFlqMkhWRFZuVkczdFZlazBOVFoxOHZHUnFFL2hYazNrNk4wVnEvTTBzbVp1b1hBejFLTmNsVThLdnlYSnVycWdTcllxaWJoenlrbDY4WVo1aWhBbDFiT2pKbXdYYkVvTzl0ZzBodDlVUU9PVWlUSGI4MmtoekVaV3Rhc0ZWQlJLYVdiWGtENnNQZmFBRndXRDdkdFpuM3V1a2tTcm5EVHJuZHVMWURxZDEwTTNFTm5IS0ZOUVZqSkRGK0lCZ3llNTVQY3RNKzFvZW1lTnNGTi9iODhhVXU1WHlRQXRRMjUrZWtyaFB4cTFWVlo1RFkzbW9FQXdsejdkMlB4RGZSd1FJai84OHBmV0s2QWJkRjE0dUZXY3g0clhTTFU1UjNiR0VySTZOem1kQU5iRjJKSnIwWVU4VzlFK2NFUnZsVmxIWFlSc1pOSm91WFBmQUhrNEVxSVQvSEVRK0w1RUdFTitmK0ZpNHFrWG43VHo4WlRUOHpmU0MyT0tTTXhOM3VLSVlleHBBaFVUT3BRay9DUDJSdStKYklsd3F2ejZuMmFYUkJNWEYvcEx3UTBqOXVkeGt1UmtQdmpZU1RVbVJGbTlORE5nZ0d0SkRTbFJpdVRtdGplTXYrMFFGQyt1UFlKR3plL1NtaXlienEweFZ2SGNMd0hkbUZyU09BUTY1WG83VDIwUThIYVVnTVNyQ1pGZmZQWDd3PT0iLCJub25jZSI6IkFGTWltekI2UkNuekpXakFIZ1ZSOHc9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDEzOjQzOjUzLjIwNDc0Njc5N1oifX0=",
+                "schema": "DM_ENROLLMENT_SNAPSHOT_PROD",
                 "fileName": null,
                 "protectedParameters": [
                     "password"
@@ -2267,8 +2267,8 @@
             },
             {
                 "id": "374727d2-adce-4fd4-93c7-2adaf0590a82",
-                "x": -5.210324287414551,
-                "y": -1.792384147644043,
+                "x": -4.817797660827637,
+                "y": -2.3102526664733887,
                 "fixed": false
             },
             {
@@ -2303,8 +2303,8 @@
             },
             {
                 "id": "a40bd931-ab49-41d1-86d3-d288dcb24f20",
-                "x": -1.888441562652588,
-                "y": 4.694045543670654,
+                "x": -5.728493690490723,
+                "y": -0.08196473121643066,
                 "fixed": false
             },
             {
@@ -2348,7 +2348,7 @@
     "dependencies": {
         "perspectives": [
             {
-                "_id": "668c2acd30f5020038a21354",
+                "_id": "66a0136feb5acc0039d70a0d",
                 "oid": "fb146901-bed9-49b5-91ff-3687c06268ce",
                 "datamodelOid": "fb146901-bed9-49b5-91ff-3687c06268ce",
                 "description": "",
