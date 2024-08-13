@@ -1,0 +1,252 @@
+{
+    "_id": "664e5c0f9c7801ac9fbc23bc",
+    "oid": "47411820-edc5-4535-aeb5-c9cf1a35fb0b",
+    "title": "sample multi-schema live model 2024-05-22",
+    "type": "live",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [],
+    "datasets": [
+        {
+            "oid": "9673afee-889e-4c20-a2ab-c099eb8e60d8",
+            "fullname": "SnowflakeJDBC:sample multi-schema live model 2024-05-22",
+            "database": "BENCHPREP_DATA_PLATFORM",
+            "schemaName": "DM_PENDO_PAGE_SUMMARY_ETL_WIP",
+            "type": "live",
+            "name": "sample multi-schema live model 2024-05-22",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "01c3898c-bf4e-41a4-8105-65a26fccb17a",
+                        "id": "BENCHPREP_USER",
+                        "name": "BENCHPREP_USER",
+                        "type": "base",
+                        "schemaName": "DM_PENDO_SUMMARY_SHARING",
+                        "columns": [
+                            {
+                                "oid": "e9ba763c-1b7a-449d-aed1-32922195a9fd",
+                                "id": "VISITOR_ID",
+                                "name": "VISITOR_ID",
+                                "type": 18,
+                                "size": 256,
+                                "precision": 256,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "04946c7d-4b65-4851-b12b-42913cc27ec0",
+                                "id": "BENCHPREP_USER_ID",
+                                "name": "BENCHPREP_USER_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3d157f45-23dc-4f00-9cc9-278b6942b713",
+                                "id": "BENCHPREP_USER_NAME",
+                                "name": "BENCHPREP_USER_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2b8730a9-a16d-4a35-96ac-0cd956f71d9a",
+                                "id": "BENCHPREP_USER_EMAIL",
+                                "name": "BENCHPREP_USER_EMAIL",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "376d8834-d009-4a2d-9f6e-65187c95fd46",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3b497ed0-3e62-4323-8385-415d436eaab4",
+                                "id": "BENCHPREP_TENANT_ID",
+                                "name": "BENCHPREP_TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "45a0ff18-b805-4c7b-a3a8-fd89c5fc4539",
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e6f8071d-a8c2-48f2-aa9e-fd49d0bb0e57",
+                        "id": "PENDO_DIM_COURSE",
+                        "name": "PENDO_DIM_COURSE",
+                        "type": "base",
+                        "schemaName": "DM_PENDO_PAGE_SUMMARY_ETL_WIP",
+                        "columns": [
+                            {
+                                "oid": "89a8ac0b-3f30-418b-8ab5-2ade89837d72",
+                                "id": "CONTENT_PACKAGE_BENCHPREP_ID",
+                                "name": "CONTENT_PACKAGE_BENCHPREP_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c8f2a301-5429-46c4-9e26-b10d7b915d70",
+                                "id": "TENANT_BENCHPREP_ID",
+                                "name": "TENANT_BENCHPREP_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ec9918fd-0c08-41d5-8719-ca79faa03751",
+                                "id": "COURSE_SLUG",
+                                "name": "COURSE_SLUG",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "640ef985-00ea-4f67-8d47-643bc1559350",
+                                "id": "COURSE_TITLE",
+                                "name": "COURSE_TITLE",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "055e3841-9ae8-4d94-b595-2b0e59247f41",
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "c3b55cb6-6fff-4371-ba40-831111b79425",
+                "id": "664e5c7a30f5020038a21135",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI1aHNwRHdKVTVvTGl2RmFWRDJhemVRU241M1dvaHJ5SGVGcyt3RmQ1QWNGdkpaQTBxZVJCVTMyUjVram50Q1hqZStpWndiU3J2RllRdnVIcGtSNURuZGI0VlNTQ1VHUlhaUlplZFVWeUhoL0U1OWZUTnBua2Y2SFVEbFBQRmRUSHpSc0IxclRtcnhoM3hZRlVnVWdlUGxBRlVBNkg1MUtlaGJwV0F6RTJvZitxaW1BTW5obHVXUnRWWG5ydXNmVW9Ub2c2SkkzRGdGanViWU9BOTZQNDNBbHNLT0wrRGYvYWhld1VmRVZMbm1EdS9TUStNOUZnVHh2WG9nSURUaFhHdXV4RUdJdmJBaXhOWk13NnF3YXM4VTFmN3poMnpraXdUQXNtckZTd0syUE1wQ01SbmVac0JIak1XWTlOV25ScEV4NUN3QVE4T0FjTEh3VHdxUEZNeUVMWEloNnVPSHhoQTNJSFlhVjNjTk54K3lDenpFaGdIeUpnc3poVHg3aGUxekd6VlJHTC96d3RLdFIzdENpSCtnVlRYYyt5QUN6enIzdGZDd0ZwUUQ2eWFBTDd2SmROYjhHZ2VvS0pqRUVmME8yN0NoTVFvUis3M0V4VGticTcxYkZ4OTdlV3ByNFdRUng5aENMRG55aDR3TUNxZUZWd214cGsvNmQzNjJQYm5FT0M5RGNZaW1zNVVpMTRWRXl5cmhUd2U1QWVndzdnZ3dBcVVHdEI0aENvZlpXNWxmNS9Bc2JvWEdyRDZhWGNBMWxZdk0xREl2bkdqMkpZK0pYUTAwOE9QVS9BUjkwSUFpdWJpbDMxQ0s0ZUdGQmsxU2dvSWFYU0g4MHZYL3JBNDZXM1hZYzk4T3YvRVJ5MHFpSHQzak5xY2hHcjd1c2R1MDBldXQwMTh1bFZ4ZXMvamd4U2RyRlVVYURyM0hVaUxqVHM5T2ZDcWUxY3pOQnd1ZUV5NjNaZDVlVFdINDNRdFFvWDl6RUt2WEE9Iiwibm9uY2UiOiJTTWhuaUVVZ0wyQVJLclN5T091dkpnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0wN1QxMzo0ODoyOS4zNjU1Njc5MjlaIn19",
+                "schema": "DM_PENDO_PAGE_SUMMARY_ETL_WIP",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": {
+                "timeout": 60000,
+                "autoRefresh": false,
+                "refreshRate": 30000,
+                "resultLimit": 5000
+            }
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "01c3898c-bf4e-41a4-8105-65a26fccb17a",
+                "x": 4.97976784627716,
+                "y": 1.2941794185479738,
+                "fixed": true
+            },
+            {
+                "id": "e6f8071d-a8c2-48f2-aa9e-fd49d0bb0e57",
+                "x": 3.7642590547371793,
+                "y": 0.09456351808136687,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "664e5c0f30f5020038a21133",
+                "oid": "47411820-edc5-4535-aeb5-c9cf1a35fb0b",
+                "datamodelOid": "47411820-edc5-4535-aeb5-c9cf1a35fb0b",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true,
+                "relationsTables": []
+            }
+        ]
+    }
+}

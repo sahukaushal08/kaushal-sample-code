@@ -1,0 +1,618 @@
+{
+    "title": "03_Test",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "51AE8-68E5-57",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "706px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "607e5c06a9880d002d652aaa",
+                                        "autoHeight": "706px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 1652.2,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 1652.2,
+                "index": 0
+            }
+        ],
+        "container": {}
+    },
+    "oid": "607e5c06a9880d002d652aa9",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Boost Model v1.1",
+        "id": "live:Boost Model v1.1",
+        "live": true,
+        "title": "Boost Model v1.1"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "CACHED_INSTITUTIONS",
+                "column": "NAME",
+                "dim": "[CACHED_INSTITUTIONS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "NAME",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "51691-841D-0C",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_GROUPS",
+                "column": "NAME",
+                "dim": "[CACHED_GROUPS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Group Name",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "42095-8573-CD",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "GROUP_CONTENT_PACKAGES",
+                "column": "CONTENT_PACKAGE_ID",
+                "dim": "[GROUP_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Course Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "852EA-7292-2E",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "USER_ID",
+                "dim": "[CACHED_USERS.USER_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "User ID",
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "71CB2-32AE-37",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "NAME",
+                "dim": "[CACHED_USERS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Student Name",
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9557C-446F-B7",
+            "isCascading": false
+        }
+    ],
+    "editing": true,
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "filterToDatasourceMapping": {},
+    "parentFolder": "607f1e8ea9880d002d652f35",
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "607e5c06a9880d002d652aa9"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-04-28",
+        "subscribe": false
+    },
+    "previewLayout": null,
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "CACHED_INSTITUTIONS",
+                "column": "NAME",
+                "dim": "[CACHED_INSTITUTIONS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "NAME",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "51691-841D-0C",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_GROUPS",
+                "column": "NAME",
+                "dim": "[CACHED_GROUPS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Group Name",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "42095-8573-CD",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "GROUP_CONTENT_PACKAGES",
+                "column": "CONTENT_PACKAGE_ID",
+                "dim": "[GROUP_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Course Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "852EA-7292-2E",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "USER_ID",
+                "dim": "[CACHED_USERS.USER_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "User ID",
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "71CB2-32AE-37",
+            "isCascading": false
+        },
+        {
+            "jaql": {
+                "table": "CACHED_USERS",
+                "column": "NAME",
+                "dim": "[CACHED_USERS.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Student Name",
+                "datasource": {
+                    "fullname": "live:Boost Model",
+                    "id": "live:Boost Model",
+                    "live": true,
+                    "title": "Boost Model"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9557C-446F-B7",
+            "isCascading": false
+        }
+    ],
+    "widgets": [
+        {
+            "title": "",
+            "subtype": "pivot2",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CACHED_GROUPS",
+                                    "column": "NAME",
+                                    "dim": "[CACHED_GROUPS.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Group Name"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[CACHED_GROUPS.NAME]",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_GROUP_QUESTION_SUMMARIES",
+                                    "column": "QUESTION_ID",
+                                    "dim": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.QUESTION_ID]",
+                                    "datatype": "numeric",
+                                    "title": "Question ID"
+                                },
+                                "field": {
+                                    "id": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.QUESTION_ID]",
+                                    "index": 1
+                                },
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": "auto",
+                                        "number": {
+                                            "separated": false
+                                        }
+                                    }
+                                },
+                                "panel": "rows"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_GROUP_QUESTION_SUMMARIES",
+                                    "column": "PERCENTAGE_CORRECT",
+                                    "dim": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.PERCENTAGE_CORRECT]",
+                                    "datatype": "numeric",
+                                    "title": "% Correct"
+                                },
+                                "field": {
+                                    "id": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.PERCENTAGE_CORRECT]",
+                                    "index": 2
+                                },
+                                "panel": "rows"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_GROUP_QUESTION_SUMMARIES",
+                                    "column": "CORRECT_COUNT",
+                                    "dim": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.CORRECT_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "Correct Answers"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.CORRECT_COUNT]",
+                                    "index": 3
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_COURSE_GROUP_QUESTION_SUMMARIES",
+                                    "column": "ANSWER_COUNT",
+                                    "dim": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.ANSWER_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "Total Answers"
+                                },
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[GROUP_COURSE_GROUP_QUESTION_SUMMARIES.ANSWER_COUNT]",
+                                    "index": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": []
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "CACHED_USERS",
+                                    "column": "NAME",
+                                    "dim": "[CACHED_USERS.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "\t Alicia Luellen",
+                                            "\t Colleen Moore",
+                                            "\t DIAMETRICE PATTERSON",
+                                            "\t Davenia Rutledge",
+                                            "\t Deanna Petty"
+                                        ]
+                                    },
+                                    "title": "NAME",
+                                    "datasource": {
+                                        "fullname": "live:Boost Model v1.1",
+                                        "id": "live:Boost Model v1.1",
+                                        "live": true,
+                                        "title": "Boost Model v1.1"
+                                    },
+                                    "collapsed": true
+                                },
+                                "panel": "scope",
+                                "disabled": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oid": "607e5c06a9880d002d652aaa",
+            "type": "pivot2",
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "group_name",
+                            "title": "Group Name",
+                            "singular": "Group Name",
+                            "plural": "Group Name"
+                        },
+                        {
+                            "id": "question_id",
+                            "title": "QUESTION_ID",
+                            "singular": "QUESTION_ID",
+                            "plural": "QUESTION_ID"
+                        },
+                        {
+                            "id": "%_correct",
+                            "title": "% Correct",
+                            "singular": "% Correct",
+                            "plural": "% Correct"
+                        },
+                        {
+                            "id": "correct_answers",
+                            "title": "Correct Answers",
+                            "singular": "Correct Answers",
+                            "plural": "Correct Answers"
+                        },
+                        {
+                            "id": "total_answers",
+                            "title": "Total Answers",
+                            "singular": "Total Answers",
+                            "plural": "Total Answers"
+                        },
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "0BDAD-704B-A6",
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "selectorLocked": false
+            },
+            "dashboardid": "607e5c06a9880d002d652aa9",
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

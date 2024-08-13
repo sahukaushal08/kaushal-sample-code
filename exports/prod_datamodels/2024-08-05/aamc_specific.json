@@ -1,0 +1,305 @@
+{
+    "_id": "641dbcda71afd091534b548a",
+    "oid": "ad3fc947-a417-43f6-ac72-4cd6e649a404",
+    "title": "aamc_specific",
+    "type": "live",
+    "relationType": "regular",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [],
+    "datasets": [
+        {
+            "oid": "5f9e0339-e672-4aed-9fac-5106672b66fa",
+            "fullname": "SnowflakeJDBC:aamc_specific",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "live",
+            "name": "aamc_specific",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "1f93d3ad-5156-4cad-9fea-1ec3ec151e5c",
+                        "id": "USAGE_AAMC_ALL_LOGINS",
+                        "name": "USAGE_AAMC_ALL_LOGINS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "da61c190-f6b1-47a1-95fb-eb5e66261ec7",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "96059e9f-619d-40d5-a28e-2ea94e33b95b",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 8,
+                                "precision": 8,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6a578fb2-4283-4897-82f0-3c4dadeb7032",
+                                "id": "AAMC_USER_ID",
+                                "name": "AAMC_USER_ID",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 50,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f1b03d68-84fb-41b8-ac75-1c39b0a9caa7",
+                                "id": "USER_TYPE",
+                                "name": "USER_TYPE",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cbac6bab-b61c-4c48-9fce-1f9fe935376b",
+                                "id": "FAP",
+                                "name": "FAP",
+                                "type": 18,
+                                "size": 12,
+                                "precision": 12,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "f921624c-85c1-4dc3-9305-1980b7363d92",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "7661e0ab-1c38-44ab-8bec-7bb4a3d59eb1",
+                        "id": "USAGE_AAMC_EARLIEST_LOGINS",
+                        "name": "USAGE_AAMC_EARLIEST_LOGINS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "2835cf48-eb5f-4dda-850b-75d3f951a604",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 8,
+                                "precision": 8,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "814673f1-7823-4576-92e8-d6aa5b66d2bb",
+                                "id": "AAMC_USER_ID",
+                                "name": "AAMC_USER_ID",
+                                "type": 18,
+                                "size": 256,
+                                "precision": 256,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e3baaa68-ad52-407f-84b8-c8d180538d19",
+                                "id": "USER_TYPE",
+                                "name": "USER_TYPE",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d42be5a0-80de-4bd5-b652-2bc30e3b3761",
+                                "id": "FAP",
+                                "name": "FAP",
+                                "type": 18,
+                                "size": 12,
+                                "precision": 12,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c59e464b-d666-42f4-b8fa-7950f20cd7ca",
+                                "id": "NAME",
+                                "name": "NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b3ec146e-937a-45f3-ac2d-4c0fc3dd803a",
+                                "id": "EMAIL",
+                                "name": "EMAIL",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f1cc6d24-62b5-4710-8dfd-7be870f174bc",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5c7d73a3-5994-4732-87e3-3b67b9ae1cc0",
+                                "id": "IP_ADDRESS_COUNT",
+                                "name": "IP_ADDRESS_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "432365ef-2c7f-4f11-8f1c-8a2044e637e6",
+                                "id": "LOGIN_COUNT",
+                                "name": "LOGIN_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "582eadc8-bbb6-4895-8feb-104df76997f7",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "1fea2007-095c-4a48-ac44-1173b4e96d6b",
+                "id": "6621416c6ae6d3003996c18a",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJhWTdDaVlQeUZCaHpMNm1IV3QyYXhna0dhTnlpd3J2K0g4bThqTVFYRkVTMkdFK2pGSTJQQXc3bml4OXZPWHpTRndKdlpTY2xzUitpOURYSWFMRE1CZUdpVUttV3BoSEQrSVNVUncyYTNMZ1pGajZtWHFyeTJtcGEzeXU3VFhhWSttaHZma3Y1c3A4ejR4WHI1Yk11cjA3QXYxbDdVa0NLOVpxeTdtaFE2Y1ZJSmg0NjVmKzRVQ2VRYyswb2RJa3pmRW16N01JRWtJN0tQTDcxRTRzU25PNlRZa04wYTBJOWFKSzVTQUsyaXhBUnB6Qkt2RnpKV2lrUUFDL2M0aXRKUjZKdFcwZDJDTnpDZzZzc242Q215Rm1Bb1hqTGhRdFV0TjZTbDRETGtlMG1vY2VEeEFWT1FoTEZTakVNS0p2WWM0Mm0vRHhmZjR5K25YaXJuTW1NQWE0bFl3MnYzMUZIYW9KVmhlblVpQzY1T2c5VXBYQjNseTdVOXhCTU9LOWZ2aHZ2K0ZDVDVNQWV5M2N2N3RJS216Y0U5bThQNHZRdThmMXYyMW4vTHFPMkFOb0pPcnRzSjBwNVloTU8xbVp3SG0rTEJXLzF1ZDdaam9pZ00xMzFWQ3F4bmxiNWxRa3pwc0FLb2syMExidEhlYjloeVltNlluRW44Q1lvODJsK1QyKzJoZ1dudjY5UHc3OUl4cm44Wm5ZT2VvOEJ5c0NtQTlUclM0QW9SMzBYcTlCQW92QWdWSzF4bUwxZFM1Smk0U1hJc2N4eFlUejZldklRU0hmL0NGUG5JOUM0M1pZaUVYRGVzVDFoVXJENEsrSXNsKysrczlHOFYyZmlxODc0OVR4U3ErVi8zZWIxVEwrSE1OQ2x1THErbUtDL2dnc1FFekpjNG40OWZFWTZKaEJLTmNHa3hTSnQxRE5wc1Z1YUZoRGQrT2dRM2Zzb0pqREZyOXgzdU5yYitiUWduOWpLN0ZGRnM2dUs2NWRxYlhsRlRLSEJna2tMSnA4VEh6T2ZCWERYMk9qZE11VmN2eWZwQkZuVDJzZERIWmVLWTBsakFqVTZGemNGYnRzPSIsIm5vbmNlIjoiOWkveVRMSHNlaWJ0dGllZlZyNzhVQT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMDVUMTA6NDc6NDIuMjY2MTU4OTMwWiJ9fQ==",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": {
+                "timeout": 60000,
+                "autoRefresh": false,
+                "refreshRate": 30000,
+                "resultLimit": 5000
+            }
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "1f93d3ad-5156-4cad-9fea-1ec3ec151e5c",
+                "x": 0.11605498194694519,
+                "y": -0.39128395915031433,
+                "fixed": true
+            },
+            {
+                "id": "7661e0ab-1c38-44ab-8bec-7bb4a3d59eb1",
+                "x": 0.9828279614448547,
+                "y": 0.7319352626800537,
+                "fixed": false
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "65426e95560f26002d1b725a",
+                "oid": "ad3fc947-a417-43f6-ac72-4cd6e649a404",
+                "datamodelOid": "ad3fc947-a417-43f6-ac72-4cd6e649a404",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,3447 @@
+{
+    "title": "_drill_Students Second",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {
+        "instanceid": "CF775-0F0A-04",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 771,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 87,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6149812ede16de002dceccc5"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 1039.5,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 723,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "56px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6149812ede16de002dcecccc"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 1039.5,
+                                "index": 1
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 771,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "80px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6149812ede16de002dceccc6"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 2079,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 771,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6149812ede16de002dceccc7",
+                                        "height": 39
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 2079,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 771,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6149812ede16de002dceccc9",
+                                        "height": "76px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 2079,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 771,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "144px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "6149812ede16de002dceccc8"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 2079,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 1249,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 157,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6174d19b3c3ea5002d657206"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 2079,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 68,
+                                        "maxHeight": 1249,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "6174d2563c3ea5002d657208",
+                                        "height": 157
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 2079,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 2079,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1639751933526": {
+                "undefined": {
+                    "parentNode": [
+                        236.44102921982412,
+                        25,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "oid": "6149812ede16de002dceccc4",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Boost Model v1.1",
+        "id": "live:Boost Model v1.1",
+        "live": true,
+        "title": "Boost Model v1.1"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "USER_CONTENT_PACKAGES",
+                "column": "NAME",
+                "dim": "[USER_CONTENT_PACKAGES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Name",
+                "filter": {
+                    "explicit": true,
+                    "members": [
+                        ""
+                    ]
+                }
+            },
+            "panel": "rows",
+            "field": {
+                "id": "[USER_CONTENT_PACKAGES.NAME]",
+                "index": 0
+            },
+            "PanelName": "Name"
+        },
+        {
+            "jaql": {
+                "table": "EXAM_SUMMARIES",
+                "column": "NAME",
+                "dim": "[EXAM_SUMMARIES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "Placement Quiz",
+                        "Level 1 Quiz",
+                        "Level 2 Quiz",
+                        "Level 3 Quiz",
+                        "Level 4 Quiz",
+                        "Level 5 Quiz",
+                        "Level 6 Quiz",
+                        "Level 7 Quiz"
+                    ]
+                },
+                "title": "NAME1",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true
+            }
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "NAME",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Institution Name",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "Haynesville Junior Senior High School"
+                    ]
+                },
+                "isDashboardFilter": true
+            }
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "INSTITUTION_ID",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.INSTITUTION_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "Institution ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                },
+                "isDashboardFilter": true
+            }
+        },
+        {
+            "jaql": {
+                "table": "INSTITUTION_CONTENT_PACKAGES",
+                "column": "TITLE",
+                "dim": "[INSTITUTION_CONTENT_PACKAGES.TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Title",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "DIM_USER_GROUP",
+                "column": "TENANT_ID",
+                "dim": "[DIM_USER_GROUP.TENANT_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "collapsed": true,
+                "title": "Tenant ID",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        }
+    ],
+    "editing": true,
+    "parentFolder": "612e5c3ade16de002dce83b6",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "filterToDatasourceMapping": {},
+    "defaultFilters": [
+        {
+            "jaql": {
+                "table": "USER_CONTENT_PACKAGES",
+                "column": "NAME",
+                "dim": "[USER_CONTENT_PACKAGES.NAME]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Student Name",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "C94D2-B6CD-8A",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "USER_CONTENT_PACKAGES",
+                "column": "USER_ID",
+                "dim": "[USER_CONTENT_PACKAGES.USER_ID]",
+                "datatype": "numeric",
+                "merged": true,
+                "title": "User ID",
+                "collapsed": true,
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "58C59-D987-2E",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "USER_CONTENT_PACKAGES",
+                "column": "TITLE",
+                "dim": "[USER_CONTENT_PACKAGES.TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Course Title",
+                "datasource": {
+                    "fullname": "live:Boost Model v1.1",
+                    "id": "live:Boost Model v1.1",
+                    "live": true,
+                    "title": "Boost Model v1.1"
+                },
+                "collapsed": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "D09C8-4ED3-14",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "lastPublish": "2021-10-22T12:44:17.248Z",
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "previewLayout": null,
+    "subscription": {
+        "isDataChange": false,
+        "type": "daily",
+        "schedule": "0 0 0 * * *",
+        "timezone": 300,
+        "tzName": "America/Chicago",
+        "context": {
+            "dashboardid": "6149812ede16de002dceccc4"
+        },
+        "active": false,
+        "executionPerDay": 1,
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "startAt": "2021-10-22",
+        "subscribe": false
+    },
+    "widgets": [
+        {
+            "title": "",
+            "subtype": "BloX",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "oid": "6149812ede16de002dceccc5",
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "type": "JTD",
+                            "title": "< Back to Students",
+                            "data": {
+                                "dashboardId": "6174b5b0d8195b002dc71d1d",
+                                "args": {
+                                    "displayDashboardsPane": false,
+                                    "displayFilterPane": true,
+                                    "displayToolbarRow": false,
+                                    "displayHeaderRow": false,
+                                    "drilledDashboardDisplayType": 3,
+                                    "mergeTargetDashboardFilters": true,
+                                    "excludeFilterDims": [
+                                        "[USER_CONTENT_PACKAGES.NAME]",
+                                        "[USER_CONTENT_PACKAGES.USER_ID]",
+                                        "[USER_CONTENT_PACKAGES.TITLE]"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#000000"
+                                },
+                                "white": {
+                                    "normal": "#000000"
+                                },
+                                "grey": {
+                                    "normal": "#000000"
+                                },
+                                "orange": {
+                                    "normal": "#000000"
+                                },
+                                "yellow": {
+                                    "normal": "#000000"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#000000"
+                                },
+                                "green": {
+                                    "normal": "#000000"
+                                },
+                                "red": {
+                                    "normal": "#000000"
+                                },
+                                "accent": {
+                                    "normal": "#000000"
+                                },
+                                "good": {
+                                    "normal": "#000000"
+                                },
+                                "warning": {
+                                    "normal": "#000000"
+                                },
+                                "attention": {
+                                    "normal": "#000000"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "#ffffff",
+                        "backgroundColor": "",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "left",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 12
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 87
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "99521-F176-6F",
+            "widgetTimingLoged": false,
+            "drawing": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "subtype": "BloX",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [
+                        "[CACHED_CONTENT_PACKAGES.TITLE]",
+                        "[USER_CONTENT_PACKAGES.TITLE]"
+                    ],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "NAME",
+                                    "dim": "[USER_CONTENT_PACKAGES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "PanelName": "NAME"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "USER_ID",
+                                    "dim": "[USER_CONTENT_PACKAGES.USER_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "title": "ID"
+                                },
+                                "PanelName": "ID"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "LAST_ACTIVITY_AT",
+                                    "dim": "[STUDENT_SUMMARIES.LAST_ACTIVITY_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Last Active"
+                                },
+                                "PanelName": "Last Active",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ],
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "AVERAGE_PROGRESS",
+                                    "dim": "[STUDENT_SUMMARIES.AVERAGE_PROGRESS]",
+                                    "datatype": "numeric",
+                                    "title": "AVERAGE_PROGRESS"
+                                },
+                                "PanelName": "AVERAGE_PROGRESS",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "AVERAGE_PRACTICE",
+                                    "dim": "[STUDENT_SUMMARIES.AVERAGE_PRACTICE]",
+                                    "datatype": "numeric",
+                                    "title": "AVERAGE_PRACTICE"
+                                },
+                                "PanelName": "AVERAGE_PRACTICE",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "AVERAGE_EXAM",
+                                    "dim": "[STUDENT_SUMMARIES.AVERAGE_EXAM]",
+                                    "datatype": "numeric",
+                                    "title": "AVERAGE_EXAM"
+                                },
+                                "PanelName": "AVERAGE_EXAM",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "MASTERY_PERCENTAGE",
+                                    "dim": "[STUDENT_SUMMARIES.MASTERY_PERCENTAGE]",
+                                    "datatype": "numeric",
+                                    "title": "MASTERY_PERCENTAGE"
+                                },
+                                "PanelName": "MASTERY_PERCENTAGE",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    }
+                                },
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "TOTAL_TIME_SPENT",
+                                    "dim": "[USER_CONTENT_PACKAGES.TOTAL_TIME_SPENT]",
+                                    "datatype": "numeric",
+                                    "title": "TOTAL_TIME_SPENT"
+                                },
+                                "PanelName": "TOTAL_TIME_SPENT",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": true
+                                        }
+                                    }
+                                },
+                                "disabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "CONTENT_PACKAGE_ID",
+                                    "dim": "[USER_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]",
+                                    "datatype": "numeric",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "-1"
+                                        ]
+                                    },
+                                    "title": "CONTENT_PACKAGE_ID",
+                                    "datasource": {
+                                        "fullname": "live:Boost Model v1.1",
+                                        "id": "live:Boost Model v1.1",
+                                        "live": true,
+                                        "title": "Boost Model v1.1"
+                                    },
+                                    "collapsed": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oid": "6149812ede16de002dceccc6",
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "separator": true,
+                                    "spacing": "large",
+                                    "style": {
+                                        "padding-left": "0px",
+                                        "padding-bottom": "14px"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:NAME}",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "bold",
+                                                        "font-size": "15px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "ID #{panel:ID}",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-size": "15px",
+                                                        "margin": "15px",
+                                                        "padding-left": "25px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 16,
+                        "small": 12,
+                        "medium": 22,
+                        "large": 32,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "white",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#FFF"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#3A4356"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 15
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 140
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        },
+                        {
+                            "id": "id",
+                            "title": "ID",
+                            "singular": "ID",
+                            "plural": "ID"
+                        },
+                        {
+                            "id": "days",
+                            "title": "days",
+                            "singular": "days",
+                            "plural": "days"
+                        },
+                        {
+                            "id": "average_progress",
+                            "title": "AVERAGE_PROGRESS",
+                            "singular": "AVERAGE_PROGRESS",
+                            "plural": "AVERAGE_PROGRESS"
+                        },
+                        {
+                            "id": "average_practice",
+                            "title": "AVERAGE_PRACTICE",
+                            "singular": "AVERAGE_PRACTICE",
+                            "plural": "AVERAGE_PRACTICE"
+                        },
+                        {
+                            "id": "average_exam",
+                            "title": "AVERAGE_EXAM",
+                            "singular": "AVERAGE_EXAM",
+                            "plural": "AVERAGE_EXAM"
+                        },
+                        {
+                            "id": "mastery_percentage",
+                            "title": "MASTERY_PERCENTAGE",
+                            "singular": "MASTERY_PERCENTAGE",
+                            "plural": "MASTERY_PERCENTAGE"
+                        },
+                        {
+                            "id": "total_time_spent",
+                            "title": "TOTAL_TIME_SPENT",
+                            "singular": "TOTAL_TIME_SPENT",
+                            "plural": "TOTAL_TIME_SPENT"
+                        },
+                        {
+                            "id": "content_package_id",
+                            "title": "CONTENT_PACKAGE_ID",
+                            "singular": "CONTENT_PACKAGE_ID",
+                            "plural": "CONTENT_PACKAGE_ID"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "58246-D734-04",
+            "queryStartTime": "2021-10-23T22:10:42",
+            "drawing": true,
+            "widgetTimingLoged": false,
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "maxDate": 1634875200000,
+            "minDate": 1523246400000,
+            "tickLevel": "day",
+            "viewState": {
+                "activeTab": "design"
+            },
+            "canEditFilters": true,
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Institution",
+            "subtype": "BloX",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [
+                        "[USER_CONTENT_PACKAGES.TITLE]"
+                    ],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "INSTITUTION_CONTENT_PACKAGES",
+                                    "column": "NAME",
+                                    "dim": "[INSTITUTION_CONTENT_PACKAGES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "PanelName": "NAME"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "oid": "6149812ede16de002dceccc7",
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "font-weight": "bold"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "carouselAnimation": {
+                        "delay": 0,
+                        "showButtons": false
+                    },
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "wrap": true,
+                                    "separator": false,
+                                    "text": "{panel:NAME}\ufe0f",
+                                    "color": "#2f555e",
+                                    "style": {
+                                        "text-align": "left",
+                                        "font-weight": "bold",
+                                        "font-size": "14px",
+                                        "margin": "0px",
+                                        "padding": "10px"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": []
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#000000"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#5C6372"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 39
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "name1",
+                            "title": "NAME1",
+                            "singular": "NAME1",
+                            "plural": "NAME1"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "E4F13-E511-75",
+            "queryStartTime": "2021-05-14T14:48:59",
+            "widgetTimingLoged": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "drawing": true,
+            "viewState": {
+                "activeTab": "design"
+            },
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Courses",
+            "subtype": "BloX",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [
+                        "[USER_CONTENT_PACKAGES.TITLE]",
+                        "[USER_CONTENT_PACKAGES.CONTENT_PACKAGE_ID]"
+                    ],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "TITLE",
+                                    "dim": "[USER_CONTENT_PACKAGES.TITLE]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "TITLE"
+                                },
+                                "PanelName": "TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "TITLE",
+                                    "dim": "[USER_CONTENT_PACKAGES.TITLE]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "filter": {
+                                        "explicit": false,
+                                        "multiSelection": true,
+                                        "exclude": {
+                                            "members": [
+                                                ""
+                                            ]
+                                        }
+                                    },
+                                    "title": "TITLE",
+                                    "datasource": {
+                                        "fullname": "live:Boost Model v1.1",
+                                        "id": "live:Boost Model v1.1",
+                                        "live": true,
+                                        "title": "Boost Model v1.1"
+                                    },
+                                    "collapsed": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oid": "6149812ede16de002dceccc8",
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "font-weight": "bold"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "carouselAnimation": {
+                        "delay": 0,
+                        "showButtons": false
+                    },
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "wrap": true,
+                                    "separator": false,
+                                    "text": "{panel:TITLE}\ufe0f",
+                                    "color": "#2f555e",
+                                    "style": {
+                                        "text-align": "left",
+                                        "font-weight": "bold",
+                                        "font-size": "14px",
+                                        "margin": "0px",
+                                        "padding": "10px"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": []
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#000000"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#5C6372"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 58.4
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "title",
+                            "title": "TITLE",
+                            "singular": "TITLE",
+                            "plural": "TITLE"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "8EA5C-F7FA-A9",
+            "queryStartTime": "2021-05-25T20:18:38",
+            "widgetTimingLoged": false,
+            "drawing": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "script": "widget.on('processresult', function(a,b){\n\tdebugger\n\tvar dims = b.result.reduce((total, val) => {\n\t\ttotal.push(val[0].Text);\n\t\treturn total;\n\t}, []);\n\tvar csl = dims.join(\" || \")\n\tb.result[0][0].Text = csl\n});\n",
+            "canEditFilters": true,
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Groups",
+            "subtype": "BloX",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [
+                        "[USER_CONTENT_PACKAGES.TITLE]"
+                    ],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "GROUP_CONTENT_PACKAGES",
+                                    "column": "NAME",
+                                    "dim": "[GROUP_CONTENT_PACKAGES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "PanelName": "NAME"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "oid": "6149812ede16de002dceccc9",
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "font-weight": "bold"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "carouselAnimation": {
+                        "delay": 0,
+                        "showButtons": false
+                    },
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "wrap": true,
+                                    "separator": false,
+                                    "text": "{panel:NAME}\ufe0f",
+                                    "color": "#2f555e",
+                                    "style": {
+                                        "text-align": "left",
+                                        "font-weight": "bold",
+                                        "font-size": "14px",
+                                        "margin": "0px",
+                                        "padding": "10px"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": []
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#000000"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#5C6372"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 0
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 39
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "name1",
+                            "title": "NAME1",
+                            "singular": "NAME1",
+                            "plural": "NAME1"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "8EA5C-F7FA-A9",
+            "queryStartTime": "2021-05-14T14:49:22",
+            "widgetTimingLoged": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "continuousDates": false,
+            "nullAsZero": false,
+            "forcedRedraw": false,
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "drawing": true,
+            "viewState": {
+                "activeTab": "design"
+            },
+            "script": "widget.on('processresult', function(a,b){\n\tdebugger\n\tvar dims = b.result.reduce((total, val) => {\n\t\ttotal.push(val[0].Text);\n\t\treturn total;\n\t}, []);\n\tvar csl = dims.join(\" || \")\n\tb.result[0][0].Text = csl\n});\n",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "subtype": "BloX",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true,
+                "title": "Boost Model v1.1"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": []
+                    },
+                    {
+                        "name": "Values",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "oid": "6149812ede16de002dcecccc",
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "type": "Filters",
+                            "title": "Restore Defaults",
+                            "data": {
+                                "filters": [
+                                    {
+                                        "filterName": "Course Title",
+                                        "filterJaql": {
+                                            "explicit": true,
+                                            "members": []
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 14,
+                        "small": 16,
+                        "medium": 20,
+                        "large": 50,
+                        "extraLarge": 32
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "#FFFFFF",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#3a4356"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#9ea2ab"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "white",
+                        "backgroundColor": "",
+                        "maxActions": 5,
+                        "spacing": "none",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "left",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "none": 0,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 30
+                    },
+                    "separator": {
+                        "lineThickness": 3,
+                        "lineColor": "#ffcb05"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "height": 102.882,
+                    "imageBaseUrl": ""
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "instanceid": "F10C2-6052-FE",
+            "widgetTimingLoged": false,
+            "drawing": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "option 1",
+            "subtype": "BloX",
+            "oid": "6174d19b3c3ea5002d657206",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Boost Model v1.1",
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "EXAM_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[EXAM_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "PanelName": "NAME"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "GROUP_SUMMARIES",
+                                    "column": "ACTIVE_STUDENTS_COUNT",
+                                    "dim": "[GROUP_SUMMARIES.ACTIVE_STUDENTS_COUNT]",
+                                    "datatype": "numeric",
+                                    "title": "ACTIVE_STUDENTS_COUNT"
+                                },
+                                "PanelName": "ACTIVE_STUDENTS_COUNT"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "AVERAGE_EXAM",
+                                    "dim": "[STUDENT_SUMMARIES.AVERAGE_EXAM]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "Average AVERAGE_EXAM"
+                                },
+                                "PanelName": "Average AVERAGE_EXAM",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    }
+                                },
+                                "disabled": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "separator": true,
+                                    "spacing": "large",
+                                    "style": {
+                                        "padding-left": "0px",
+                                        "padding-bottom": "14px"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Group Overall Session Summary",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "bold",
+                                                        "font-size": "15px",
+                                                        "margin": "3px",
+                                                        "padding-left": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Aggregate Totals",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Active Course Average",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "style": {
+                                                "padding-left": "20px",
+                                                "padding-top": "20px"
+                                            },
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "size": "medium",
+                                                    "weight": "light",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "style": {
+                                                "padding-left": "20px",
+                                                "padding-top": "20px"
+                                            },
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "size": "medium",
+                                                    "weight": "light",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "padding": "5px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "Active Students",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "5px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "{panel:ACTIVE_STUDENTS_COUNT}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "45px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "style": {
+                                                "padding-left": "20px",
+                                                "padding-top": "20px"
+                                            },
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "size": "medium",
+                                                    "weight": "light",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "padding": "5px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "{panel:NAME}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "{panel:Average AVERAGE_EXAM}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 16,
+                        "small": 12,
+                        "medium": 22,
+                        "large": 32,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "white",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#FFF"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#3A4356"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "white",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 15
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 157
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        },
+                        {
+                            "id": "active_students_count",
+                            "title": "ACTIVE_STUDENTS_COUNT",
+                            "singular": "ACTIVE_STUDENTS_COUNT",
+                            "plural": "ACTIVE_STUDENTS_COUNT"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "E0808-3E22-D4",
+            "queryStartTime": "2021-10-24T01:36:50",
+            "widgetTimingLoged": false,
+            "drawing": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 2,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": false,
+                "drillToDashboardByName": false
+            },
+            "drilledDashboardDisplay": {},
+            "element": {},
+            "continuousDates": false,
+            "nullAsZero": false,
+            "minDate": 1488862800000,
+            "maxDate": 1524369600000,
+            "tickLevel": "day",
+            "forcedRedraw": false,
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "dummy",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "",
+            "subtype": "BloX",
+            "oid": "6174d2563c3ea5002d657208",
+            "desc": null,
+            "source": null,
+            "datasource": {
+                "title": "Boost Model v1.1",
+                "fullname": "live:Boost Model v1.1",
+                "id": "live:Boost Model v1.1",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "all": false,
+                    "ids": []
+                },
+                "panels": [
+                    {
+                        "name": "Items",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "LAST_ACTIVITY_AT",
+                                    "dim": "[USER_CONTENT_PACKAGES.LAST_ACTIVITY_AT (Calendar)]",
+                                    "datatype": "datetime",
+                                    "merged": true,
+                                    "level": "days",
+                                    "title": "Last Active"
+                                },
+                                "PanelName": "Last Active",
+                                "format": {
+                                    "mask": {
+                                        "years": "yyyy",
+                                        "quarters": "yyyy Q",
+                                        "months": "MM/yyyy",
+                                        "weeks": "ww yyyy",
+                                        "days": "shortDate",
+                                        "minutes": "HH:mm",
+                                        "isdefault": true
+                                    }
+                                },
+                                "hierarchies": [
+                                    "calendar",
+                                    "calendar - weeks"
+                                ]
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "TOTAL_TIME_SPENT",
+                                    "dim": "[USER_CONTENT_PACKAGES.TOTAL_TIME_SPENT]",
+                                    "datatype": "numeric",
+                                    "title": "Total Time Spent"
+                                },
+                                "PanelName": "Total Time Spent"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "EXAM_SUMMARIES",
+                                    "column": "NAME",
+                                    "dim": "[EXAM_SUMMARIES.NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "NAME"
+                                },
+                                "PanelName": "NAME"
+                            },
+                            {
+                                "jaql": {
+                                    "table": "USER_CONTENT_PACKAGES",
+                                    "column": "TITLE",
+                                    "dim": "[USER_CONTENT_PACKAGES.TITLE]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "TITLE"
+                                },
+                                "PanelName": "TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "STUDENT_SUMMARIES",
+                                    "column": "AVERAGE_EXAM",
+                                    "dim": "[STUDENT_SUMMARIES.AVERAGE_EXAM]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "AVERAGE_EXAM"
+                                },
+                                "PanelName": "AVERAGE_EXAM",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "decimals": "auto",
+                                        "separated": true,
+                                        "isdefault": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ]
+            },
+            "type": "BloX",
+            "style": {
+                "currentCard": {
+                    "style": "",
+                    "script": "",
+                    "title": "",
+                    "titleStyle": [
+                        {
+                            "display": "none"
+                        }
+                    ],
+                    "showCarousel": true,
+                    "body": [
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "separator": true,
+                                    "spacing": "large",
+                                    "style": {
+                                        "padding-left": "0px",
+                                        "padding-bottom": "14px"
+                                    },
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Courses Breakdown Summary",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "bold",
+                                                        "font-size": "15px",
+                                                        "margin": "3px",
+                                                        "padding-left": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Enrolled Courses",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "15px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "{panel:TITLE}",
+                                                    "color": "black",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "15px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "style": {
+                                                "padding-left": "20px",
+                                                "padding-top": "20px"
+                                            },
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "size": "medium",
+                                                    "weight": "light",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "Last Active",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "{panel:Last Active}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "35px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "style": {
+                                                "padding-left": "20px",
+                                                "padding-top": "20px"
+                                            },
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "size": "medium",
+                                                    "weight": "light",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "padding": "5px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "Student Status",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "Place holder",
+                                                    "color": "black",
+                                                    "text": "- place holder",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "35px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "style": {
+                                                "padding-left": "20px",
+                                                "padding-top": "20px"
+                                            },
+                                            "selectAction": {
+                                                "type": "",
+                                                "url": ""
+                                            },
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "size": "medium",
+                                                    "weight": "light",
+                                                    "text": " ",
+                                                    "style": {
+                                                        "padding": "5px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "{panel:NAME}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px",
+                                                        "padding-top": "15px"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "spacing": "",
+                                                    "color": "black",
+                                                    "text": "{panel:AVERAGE_EXAM}",
+                                                    "style": {
+                                                        "text-align": "left",
+                                                        "font-weight": "light",
+                                                        "font-size": "13px",
+                                                        "margin": "3px",
+                                                        "padding-left": "25px"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ActionSet",
+                                            "style": {
+                                                "padding-left": "30px",
+                                                "padding-top": "25px"
+                                            },
+                                            "actions": [
+                                                {
+                                                    "type": "JTD",
+                                                    "title": "Analyze",
+                                                    "data": {
+                                                        "dashboardId": "6154aca9620043002de76499",
+                                                        "panelsToInclude": [
+                                                            {
+                                                                "panel": "Institution Name",
+                                                                "value": "{panel:Institution Name}"
+                                                            }
+                                                        ],
+                                                        "args": {
+                                                            "displayDashboardsPane": false,
+                                                            "displayFilterPane": true,
+                                                            "mergeTargetDashboardFilters": true,
+                                                            "drilledDashboardDisplayType": 2,
+                                                            "includeFilterDims": [
+                                                                "[CACHED_INSTITUTIONS.NAME]"
+                                                            ],
+                                                            "excludeFilterDims": [
+                                                                "[INSTITUTION_SUMMARIES.CONTENT_PACKAGE_ID]",
+                                                                "[CACHED_CONTENT_PACKAGES.TITLE]"
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "currentConfig": {
+                    "fontFamily": "Open Sans",
+                    "fontSizes": {
+                        "default": 16,
+                        "small": 12,
+                        "medium": 22,
+                        "large": 32,
+                        "extraLarge": 50
+                    },
+                    "fontWeights": {
+                        "default": 500,
+                        "light": 100,
+                        "bold": 1000
+                    },
+                    "containerStyles": {
+                        "default": {
+                            "backgroundColor": "white",
+                            "foregroundColors": {
+                                "default": {
+                                    "normal": "#FFF"
+                                },
+                                "white": {
+                                    "normal": "#ffffff"
+                                },
+                                "grey": {
+                                    "normal": "#FFFFFF"
+                                },
+                                "orange": {
+                                    "normal": "#f2B900"
+                                },
+                                "yellow": {
+                                    "normal": "#ffcb05"
+                                },
+                                "black": {
+                                    "normal": "#000000"
+                                },
+                                "lightGreen": {
+                                    "normal": "#3ADCCA"
+                                },
+                                "green": {
+                                    "normal": "#54a254"
+                                },
+                                "red": {
+                                    "normal": "#dd1111"
+                                },
+                                "accent": {
+                                    "normal": "#2E89FC"
+                                },
+                                "good": {
+                                    "normal": "#54a254"
+                                },
+                                "warning": {
+                                    "normal": "#e69500"
+                                },
+                                "attention": {
+                                    "normal": "#cc3300"
+                                }
+                            }
+                        }
+                    },
+                    "imageSizes": {
+                        "default": 40,
+                        "small": 40,
+                        "medium": 80,
+                        "large": 160
+                    },
+                    "imageSet": {
+                        "imageSize": "medium",
+                        "maxImageHeight": 100
+                    },
+                    "actions": {
+                        "color": "",
+                        "backgroundColor": "normal",
+                        "maxActions": 5,
+                        "spacing": "extraLarge",
+                        "buttonSpacing": 20,
+                        "actionsOrientation": "horizontal",
+                        "actionAlignment": "center",
+                        "showCard": {
+                            "actionMode": "inline",
+                            "inlineTopMargin": 16,
+                            "style": "default"
+                        }
+                    },
+                    "spacing": {
+                        "default": 5,
+                        "small": 20,
+                        "medium": 60,
+                        "large": 20,
+                        "extraLarge": 40,
+                        "padding": 15
+                    },
+                    "separator": {
+                        "lineThickness": 1,
+                        "lineColor": "#eeeeee"
+                    },
+                    "factSet": {
+                        "title": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "bold",
+                            "warp": true
+                        },
+                        "value": {
+                            "size": "default",
+                            "color": "default",
+                            "weight": "default",
+                            "warp": true
+                        },
+                        "spacing": 20
+                    },
+                    "supportsInteractivity": true,
+                    "imageBaseUrl": "",
+                    "height": 157
+                },
+                "currentCardName": "default",
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "days",
+                            "title": "days",
+                            "singular": "days",
+                            "plural": "days"
+                        },
+                        {
+                            "id": "total_time_spent",
+                            "title": "TOTAL_TIME_SPENT",
+                            "singular": "TOTAL_TIME_SPENT",
+                            "plural": "TOTAL_TIME_SPENT"
+                        },
+                        {
+                            "id": "name",
+                            "title": "NAME",
+                            "singular": "NAME",
+                            "plural": "NAME"
+                        },
+                        {
+                            "id": "title",
+                            "title": "TITLE",
+                            "singular": "TITLE",
+                            "plural": "TITLE"
+                        }
+                    ]
+                }
+            },
+            "instanceid": "E0808-3E22-D4",
+            "queryStartTime": "2021-10-24T00:56:41",
+            "widgetTimingLoged": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": false,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 4,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 1,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [
+                    "[INSTITUTION_SUMMARIES.CONTENT_PACKAGE_ID]",
+                    "[CACHED_CONTENT_PACKAGES.TITLE]"
+                ],
+                "includeFilterDims": [
+                    "[CACHED_INSTITUTIONS.NAME]"
+                ],
+                "drilledDashboardDisplayType": 1,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": false,
+                "sameCubeRestriction": false,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "custom": true
+            },
+            "drilledDashboardDisplay": {
+                "self": "_blank"
+            },
+            "element": {},
+            "continuousDates": false,
+            "nullAsZero": false,
+            "minDate": 1488862800000,
+            "maxDate": 1506571200000,
+            "tickLevel": "day",
+            "forcedRedraw": false,
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "title": false,
+                "drillTarget": "6154aca9620043002de76499",
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "6149812ede16de002dceccc4",
+            "drawing": true,
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

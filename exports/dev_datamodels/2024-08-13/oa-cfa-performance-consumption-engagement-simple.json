@@ -1,0 +1,901 @@
+{
+    "_id": "64b8b0af18618f6b512b6db2",
+    "oid": "bfdcad4f-4bdf-4c89-bc8e-9983ee20b7fe",
+    "title": "OA-CFA-performance-consumption-engagement-simple",
+    "type": "live",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": null,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "50e59389-04cd-4dce-a625-e10d8c4ac50c",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "653859ff-d396-4fc2-b335-105fdeb7b050",
+                    "column": "2d0560bb-8de6-4495-ab97-401b5a0062e2",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "2fed1fdd-a699-4ea1-ab62-64080afe3f9d",
+                    "column": "2d20296b-2a81-421c-ad82-6bc6fc9af8d1",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "42f1f1a8-0b02-427c-a4d6-d821db672996",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "38007ba6-0c0d-44ae-a06e-dbdee34a4369",
+                    "column": "50ec50ed-66b0-4522-978d-53efcfc6d9d0",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "653859ff-d396-4fc2-b335-105fdeb7b050",
+                    "column": "e5280529-9093-4a82-a125-f325ef1cf966",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "f0fddb34-f4df-4799-b756-97dd049e7e66",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "30fe7c0d-18bf-43e2-a7cb-8f6a9a31f7fb",
+                    "column": "2ca8052f-8beb-4ea7-9042-c005b43c4c7a",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "2fed1fdd-a699-4ea1-ab62-64080afe3f9d",
+                    "column": "2d20296b-2a81-421c-ad82-6bc6fc9af8d1",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "c6a77fa1-a7ce-4c64-b418-d11332bbfc22",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "1146c6cc-7118-4a11-9b47-304549cd238d",
+                    "column": "f69ad790-9afa-4c3c-9573-c903d59b1aa4",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "2fed1fdd-a699-4ea1-ab62-64080afe3f9d",
+                    "column": "2d20296b-2a81-421c-ad82-6bc6fc9af8d1",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "63a2b87a-3606-4452-8fe9-5f2c96219b10",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "b9d6f01c-7371-4813-9a8e-6c4e3d4a6117",
+                    "column": "a38467cc-a0fd-425d-bb0b-87ce137d332b",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "4c8815c4-858e-433e-985b-0fab7b808862",
+                    "table": "1146c6cc-7118-4a11-9b47-304549cd238d",
+                    "column": "f62b2db4-61ff-4563-afff-1cbdb71dca61",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "4c8815c4-858e-433e-985b-0fab7b808862",
+            "fullname": "SnowflakeJDBC:OA-CFA-performance-consumption-engagement-simple",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "ANALYTICS_EXPERIMENTS",
+            "type": "live",
+            "name": "OA-CFA-performance-consumption-engagement-simple",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "1146c6cc-7118-4a11-9b47-304549cd238d",
+                        "id": "CFA_L1_PRACTICE_ANSWERS_SIMPLE",
+                        "name": "CFA_L1_PRACTICE_ANSWERS_SIMPLE",
+                        "type": "base",
+                        "schemaName": "ANALYTICS_EXPERIMENTS",
+                        "columns": [
+                            {
+                                "oid": "f69ad790-9afa-4c3c-9573-c903d59b1aa4",
+                                "id": "ENROLLMENT_ID",
+                                "name": "ENROLLMENT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8b78581c-de03-44f0-acc0-e37b0ba60401",
+                                "id": "ANSWER_ID",
+                                "name": "ANSWER_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "33825c10-fb06-4b12-86d8-ed627128fcab",
+                                "id": "ANSWER_CREATED_AT",
+                                "name": "ANSWER_CREATED_AT",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "10d0ecbd-ed76-4050-a366-f2e320b070bf",
+                                "id": "ANSWER_CORRECT",
+                                "name": "ANSWER_CORRECT",
+                                "type": 2,
+                                "size": 5,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "65c60da7-fd34-4dc9-85ce-69006a16da03",
+                                "id": "QUESTION_ID",
+                                "name": "QUESTION_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f62b2db4-61ff-4563-afff-1cbdb71dca61",
+                                "id": "QUESTION_CATEGORY_ID",
+                                "name": "QUESTION_CATEGORY_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7faeb1db-3c5c-4cba-94da-b57c0e318c6a",
+                                "id": "TIME_TAKEN",
+                                "name": "TIME_TAKEN",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "953b3a58-e2e8-4b1d-aa42-c1eb2e5a6821",
+                                "id": "CONTENT_PACKAGE_ID",
+                                "name": "CONTENT_PACKAGE_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "1ef36daa-bfc0-4e54-8d19-df2da084b175",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "2fed1fdd-a699-4ea1-ab62-64080afe3f9d",
+                        "id": "ENROLLMENTS_2022_CFA_L1",
+                        "name": "ENROLLMENTS_2022_CFA_L1",
+                        "type": "base",
+                        "schemaName": "ANALYTICS_EXPERIMENTS",
+                        "columns": [
+                            {
+                                "oid": "2d20296b-2a81-421c-ad82-6bc6fc9af8d1",
+                                "id": "ENROLLMENT_ID",
+                                "name": "ENROLLMENT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "86c38c67-ba58-4f2d-9cb7-1c8d391cff2e",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9be468ca-8a3f-4ccb-ba83-e21c6b5b36fa",
+                                "id": "CONTENT_PACKAGE_ID",
+                                "name": "CONTENT_PACKAGE_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "71761abb-60a1-4a1c-b880-e84451043728",
+                                "id": "CREATED_AT",
+                                "name": "CREATED_AT",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a3bd263b-abef-4bca-bf4b-c29ceadcbe0d",
+                                "id": "DAYS_VISITED",
+                                "name": "DAYS_VISITED",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b53b7d9a-98e6-4c7c-8571-382c74b8bfbf",
+                                "id": "TEST_SCORE",
+                                "name": "TEST_SCORE",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cacb3938-919d-40b6-9fda-298d6d73ceec",
+                                "id": "ELO_RANK",
+                                "name": "ELO_RANK",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "59e839b4-3c2c-4b19-90a1-b20f0ba99ccb",
+                                "id": "STUDY_PLAN_TARGETED_AT",
+                                "name": "STUDY_PLAN_TARGETED_AT",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bdd81f22-9009-4ca7-b5ae-39cd38eea5af",
+                                "id": "PROGRESS",
+                                "name": "PROGRESS",
+                                "type": 5,
+                                "size": 7,
+                                "precision": 6,
+                                "scale": 3,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "19a280ee-b60f-4dec-aa8e-94d320da5ea0",
+                                "id": "ELO_RANK_PERCENTILE",
+                                "name": "ELO_RANK_PERCENTILE",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "72281941-da63-4a28-9e06-25021c9db54c",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "30fe7c0d-18bf-43e2-a7cb-8f6a9a31f7fb",
+                        "id": "CFA_L1_CONFIDENCE_SIMPLE",
+                        "name": "CFA_L1_CONFIDENCE_SIMPLE",
+                        "type": "base",
+                        "schemaName": "ANALYTICS_EXPERIMENTS",
+                        "columns": [
+                            {
+                                "oid": "abe1e2e2-89d9-47fb-a005-40503d3eaa48",
+                                "id": "TOTAL_CONFIDENCE_COUNT",
+                                "name": "TOTAL_CONFIDENCE_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "59605aa4-fb6a-4df8-b096-7ac0f79ec8a3",
+                                "id": "CONFIDENCE_CREATED_AT",
+                                "name": "CONFIDENCE_CREATED_AT",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2ca8052f-8beb-4ea7-9042-c005b43c4c7a",
+                                "id": "ENROLLMENT_ID",
+                                "name": "ENROLLMENT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "417159b8-3a0d-42ce-9deb-6bf16a36cd84",
+                                "id": "CONFIDENCE_RATING",
+                                "name": "CONFIDENCE_RATING",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8e3c6c5a-69cf-4ae5-90eb-8075c13871a5",
+                                "id": "ITEM_TYPE",
+                                "name": "ITEM_TYPE",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e81c19de-f222-4ae6-9701-f3b318c54458",
+                                "id": "ITEM_ID",
+                                "name": "ITEM_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0006197d-07ff-4ed7-8d6c-0ff3a2417ab9",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "38007ba6-0c0d-44ae-a06e-dbdee34a4369",
+                        "id": "CFA_L1_EXAMS_SIMPLE",
+                        "name": "CFA_L1_EXAMS_SIMPLE",
+                        "type": "base",
+                        "schemaName": "ANALYTICS_EXPERIMENTS",
+                        "columns": [
+                            {
+                                "oid": "50ec50ed-66b0-4522-978d-53efcfc6d9d0",
+                                "id": "EXAM_ID",
+                                "name": "EXAM_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "024e2e0b-dfb4-40db-b980-31526aa84510",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "06a31e98-be71-40fc-b287-3d5f3e6cf2fa",
+                                "id": "EXAM_TYPE",
+                                "name": "EXAM_TYPE",
+                                "type": 18,
+                                "size": 256,
+                                "precision": 256,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "050da516-7be3-43db-8a7e-bb6250479c24",
+                                "id": "DELETED_AT",
+                                "name": "DELETED_AT",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "66f02dca-ceee-41f9-9d5f-65df9c1666e4",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "653859ff-d396-4fc2-b335-105fdeb7b050",
+                        "id": "CFA_L1_EXAM_RESULTS_SIMPLE",
+                        "name": "CFA_L1_EXAM_RESULTS_SIMPLE",
+                        "type": "base",
+                        "schemaName": "ANALYTICS_EXPERIMENTS",
+                        "columns": [
+                            {
+                                "oid": "2d0560bb-8de6-4495-ab97-401b5a0062e2",
+                                "id": "ENROLLMENT_ID",
+                                "name": "ENROLLMENT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7f88bfba-94d8-4e54-8186-df809d9846bf",
+                                "id": "EXAM_RESULT_ID",
+                                "name": "EXAM_RESULT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "94d44749-843e-4951-94fc-537b03a36955",
+                                "id": "CREATED_AT",
+                                "name": "CREATED_AT",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9e11b87c-58dc-45ad-b1fc-080bcdac7052",
+                                "id": "PERCENTAGE_CORRECT",
+                                "name": "PERCENTAGE_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "185b5f39-b203-4c30-813e-5379dc988e09",
+                                "id": "ANSWERS_COUNT",
+                                "name": "ANSWERS_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1d0b4ee8-58ec-4a93-916e-43ed63fd1b73",
+                                "id": "TOTAL_TIME_TAKEN",
+                                "name": "TOTAL_TIME_TAKEN",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e5280529-9093-4a82-a125-f325ef1cf966",
+                                "id": "CONTENT_REFERENCE_ID",
+                                "name": "CONTENT_REFERENCE_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "f82838c9-3118-4166-865c-a35693afc26f",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "b9d6f01c-7371-4813-9a8e-6c4e3d4a6117",
+                        "id": "CFA_L1_QUESTION_CATEGORIES",
+                        "name": "CFA_L1_QUESTION_CATEGORIES",
+                        "type": "base",
+                        "schemaName": "ANALYTICS_EXPERIMENTS",
+                        "columns": [
+                            {
+                                "oid": "a38467cc-a0fd-425d-bb0b-87ce137d332b",
+                                "id": "QCAT_ID",
+                                "name": "QCAT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9d2675d4-355d-4309-9eff-d79b2d7caab9",
+                                "id": "QCAT_NAME",
+                                "name": "QCAT_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ac493240-1c1f-427a-9af7-2f2e80921b75",
+                                "id": "PARENT_QUESTION_CATEGORY_ID",
+                                "name": "PARENT_QUESTION_CATEGORY_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d5a9fb46-59ac-4e43-8e61-264db166724c",
+                                "id": "FRESH_EXAM_QUESTIONS_COUNT",
+                                "name": "FRESH_EXAM_QUESTIONS_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "993e4c4a-03b3-45d6-9041-32b33c477e55",
+                                "id": "FRESH_QUIZ_QUESTIONS_COUNT",
+                                "name": "FRESH_QUIZ_QUESTIONS_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4d9f7205-4f5f-4db1-ba3e-9e1190f2dbc2",
+                                "id": "MIN_ELO_RANK",
+                                "name": "MIN_ELO_RANK",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "29e87e7a-2494-414b-b631-20c84d1c8bee",
+                                "id": "MAX_ELO_RANK",
+                                "name": "MAX_ELO_RANK",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e140e759-30f4-424c-b7f1-b6c28cb84bdc",
+                                "id": "IMPORTANCE",
+                                "name": "IMPORTANCE",
+                                "type": 5,
+                                "size": 6,
+                                "precision": 5,
+                                "scale": 4,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f20381c9-125e-46b3-badd-56f2e6265632",
+                                "id": "DELETED_AT",
+                                "name": "DELETED_AT",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "81b54f46-7421-4295-9be8-bbed4be42c0b",
+                                "id": "FRESH_CONTINUOUS_LEARNING_QUESTIONS_COUNT",
+                                "name": "FRESH_CONTINUOUS_LEARNING_QUESTIONS_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "9046f3cb-77d8-4bb4-812f-fb49d7308d47",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "653b16ee-ddab-40f4-917c-5e8c32362287",
+                "id": "665012ee30f5020038a21139",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiIraE91Tkh6VFBhZlJNcGVBQVN0WElLTE16NHJMZGRTTllMUTI4QXZQVnlCVnhWaXl0eTRGdjRVeVErdW50MUVVOFJyN2Z5R24vN1hrV1crL3dCeGhqMnV6UkkzZElWODNGOWRyakpmdWpiRGRFMGh5SW1JMmw0RDluNDB3OGhXbHpZS3FzQW41dkdPZ2RqWnRwS2pZYUJ3Qy9seVAvN25oaDBKR1dhR0RzSVNtQlAyY2U0OUV0NHJ1N0Y3ajVYazF5K2dickRXM1VDOFg2eU5DRXJaeFQxRHNnelkyNTdwems2R2xUcVJHVjlsaURBVzJTbW1aTWk5Y3dteTFhSFgxaEdiaU5raUJEWmFBWFZzZC9vcS9nQmgvWGhlUzVsbm9IU2poV0xUV3dEV1dmWDhldHM0dml4RnU5UXhrT2pSMk9qVFloak1EZFpVU0dmQXQycjhOalpWL3l4bmkveWRjMnN1R2NUTmkxQzM2alo1UTY4VHl0dDltYzFpdm5scHhkZ0lnUGVIZlUxeGc5VnpnZlMxbDNRbjB0cGZUZ0FJV1Jjd1grYU9VajViY3VLR0xYTFp2UWFWWGJxaWhBNFJzZVpieGwwSFJ1SWxPNUF6NDBDblFCRlEzK2xXclhHUk1jRTY5aW01WXRtWGxxcnB3dy9RNUR0OEFkMEh4bzh2bkowUUtxTlJwOVlYWDBwQ29tVFBXRjZuYnVkWUxYK0doczcraEk2NEtoTTJCanRYQ0xFUG56UFZROUUyalVKT1RUaER5QUFSMzFQME5BSi9iWm5qejc5Vi9OWnVIdTJiVG01REtZeFdkRGRLQ2ladUFYS0tXdlBSNFl6YVNZRnJzUEVkaWpEQmVuVzFVTUFUaSswc29JNXJaSXhndHRFRDZNc0Y0Q3RYckNleFFRV1NQT0dFcVROakcyUjN6NytpTFVlbnhwS0VZNEVQWE9tTnV0TnUrb3hyRmt2cXZ1ck8yZ1czRlZtTm5Sa2tCa2R3eXp4aWZBdlZZVkFDK3pMcmRvajdUYUNqcTFCZkl6bVdIRmxXdWErTG5GM3NJVlpYZ0VlRUVIM29SSTZRPSIsIm5vbmNlIjoiamY0Rk1mTHQya29tQlcwbyt1M29DUT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTE6MDE6NTIuNDUzNjM4ODc2WiJ9fQ==",
+                "schema": "ANALYTICS_EXPERIMENTS",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": {
+                "timeout": 60000,
+                "autoRefresh": false,
+                "refreshRate": 30000,
+                "resultLimit": 5000
+            }
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "30fe7c0d-18bf-43e2-a7cb-8f6a9a31f7fb",
+                "x": 1.5718668699264526,
+                "y": 0.3793109059333801,
+                "fixed": true
+            },
+            {
+                "id": "653859ff-d396-4fc2-b335-105fdeb7b050",
+                "x": -0.5066483616828918,
+                "y": 3.1827809810638428,
+                "fixed": true
+            },
+            {
+                "id": "38007ba6-0c0d-44ae-a06e-dbdee34a4369",
+                "x": 1.9065144062042236,
+                "y": 3.580940008163452,
+                "fixed": true
+            },
+            {
+                "id": "1146c6cc-7118-4a11-9b47-304549cd238d",
+                "x": -0.48173972964286804,
+                "y": -2.3387792110443115,
+                "fixed": true
+            },
+            {
+                "id": "b9d6f01c-7371-4813-9a8e-6c4e3d4a6117",
+                "x": -2.661189317703247,
+                "y": -2.232584238052368,
+                "fixed": true
+            },
+            {
+                "id": "2fed1fdd-a699-4ea1-ab62-64080afe3f9d",
+                "x": -0.684665322303772,
+                "y": 0.3419768214225769,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -1,
+                "y": 1,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "64b94d8ecf9d63002c4e2c18",
+                "oid": "bfdcad4f-4bdf-4c89-bc8e-9983ee20b7fe",
+                "datamodelOid": "bfdcad4f-4bdf-4c89-bc8e-9983ee20b7fe",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}

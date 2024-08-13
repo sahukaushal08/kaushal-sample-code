@@ -1,0 +1,890 @@
+{
+    "title": "AAMC Dashboard",
+    "oid": "64148d6902e8b50035da5c65",
+    "desc": "",
+    "source": "64148d6902e8b50035da5c66",
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Urban",
+            "colors": [
+                "#60C2BB",
+                "#94A1A8",
+                "#6E798D",
+                "#FA7240",
+                "#E2BA50"
+            ]
+        }
+    },
+    "layout": {
+        "instanceid": "7AA04-B818-FF",
+        "type": "columnar",
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": 192,
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "64148e9702e8b50035da5c67"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 773.994,
+                                "index": 0
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 64,
+                                        "maxHeight": 1028,
+                                        "height": 192,
+                                        "minWidth": 48,
+                                        "maxWidth": 1028,
+                                        "defaultWidth": 512,
+                                        "widgetid": "64148f4202e8b50035da5c69"
+                                    }
+                                ],
+                                "width": 50,
+                                "stretchable": false,
+                                "pxlWidth": 773.994,
+                                "index": 1
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 0,
+                "index": 0
+            }
+        ],
+        "container": {
+            "sizzle1679066866755": {
+                "undefined": {
+                    "legend": [
+                        192,
+                        0,
+                        false
+                    ],
+                    "parentNode": [
+                        248.86356024955026,
+                        31,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:aamc_specific",
+        "id": "live:aamc_specific",
+        "live": true,
+        "title": "aamc_specific"
+    },
+    "filters": [
+        {
+            "instanceid": "D32B1-00EC-FA",
+            "isCascading": false,
+            "disabled": false,
+            "jaql": {
+                "table": "USAGE_AAMC_ALL_LOGINS",
+                "column": "FAP",
+                "dim": "[USAGE_AAMC_ALL_LOGINS.FAP]",
+                "datatype": "text",
+                "merged": true,
+                "collapsed": true,
+                "title": "FAP For Logged In",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "isDashboardFilter": true,
+                "panel": "scope",
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                "column": "FAP",
+                "dim": "[USAGE_AAMC_EARLIEST_LOGINS.FAP]",
+                "datatype": "text",
+                "merged": true,
+                "title": "FAP For Unique",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "4CAE0-37DB-D9",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "instanceid": "547E3-4B00-7C",
+            "isCascading": false,
+            "disabled": false,
+            "jaql": {
+                "table": "USAGE_AAMC_ALL_LOGINS",
+                "column": "DATE",
+                "dim": "[USAGE_AAMC_ALL_LOGINS.DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "months",
+                "title": "Date For Logged In",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "panel": "scope",
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                "column": "DATE",
+                "dim": "[USAGE_AAMC_EARLIEST_LOGINS.DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "months",
+                "title": "Date For Unique",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "1FC42-F0EE-7A",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "instanceid": "C87C6-BDAE-2E",
+            "isCascading": false,
+            "disabled": false,
+            "jaql": {
+                "table": "USAGE_AAMC_ALL_LOGINS",
+                "column": "USER_TYPE",
+                "dim": "[USAGE_AAMC_ALL_LOGINS.USER_TYPE]",
+                "datatype": "text",
+                "merged": true,
+                "collapsed": true,
+                "title": "User Type For Logged In",
+                "isDashboardFilter": true,
+                "panel": "scope",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                "column": "USER_TYPE",
+                "dim": "[USAGE_AAMC_EARLIEST_LOGINS.USER_TYPE]",
+                "datatype": "text",
+                "merged": true,
+                "collapsed": true,
+                "title": "User Type For Unique",
+                "isDashboardFilter": true,
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "1FEE6-4DFA-FB",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "editing": false,
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "filterRelations": [],
+    "filterToDatasourceMapping": {},
+    "lastPublish": "2023-03-20T14:03:46.954Z",
+    "allowChangeSubscription": false,
+    "subscription": {
+        "subscribe": false,
+        "executionPerDay": 1,
+        "schedule": "0 0 0 * * *",
+        "isDataChange": false,
+        "type": "daily",
+        "reportType": {
+            "inline": true
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "context": {
+            "dashboardid": "64148d6902e8b50035da5c65"
+        },
+        "startAt": "2023-03-17",
+        "tzName": "America/Chicago",
+        "timezone": 360,
+        "active": false
+    },
+    "isPublic": null,
+    "previewLayout": [],
+    "defaultFilters": [
+        {
+            "instanceid": "D32B1-00EC-FA",
+            "isCascading": false,
+            "disabled": false,
+            "jaql": {
+                "table": "USAGE_AAMC_ALL_LOGINS",
+                "column": "FAP",
+                "dim": "[USAGE_AAMC_ALL_LOGINS.FAP]",
+                "datatype": "text",
+                "merged": true,
+                "collapsed": true,
+                "title": "FAP For Logged In",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "isDashboardFilter": true,
+                "panel": "scope",
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                "column": "FAP",
+                "dim": "[USAGE_AAMC_EARLIEST_LOGINS.FAP]",
+                "datatype": "text",
+                "merged": true,
+                "title": "FAP For Unique",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "4CAE0-37DB-D9",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "instanceid": "547E3-4B00-7C",
+            "isCascading": false,
+            "disabled": false,
+            "jaql": {
+                "table": "USAGE_AAMC_ALL_LOGINS",
+                "column": "DATE",
+                "dim": "[USAGE_AAMC_ALL_LOGINS.DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "Date For Logged In",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "panel": "scope",
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                "column": "DATE",
+                "dim": "[USAGE_AAMC_EARLIEST_LOGINS.DATE (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "level": "years",
+                "title": "Date For Unique",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "1FC42-F0EE-7A",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "instanceid": "C87C6-BDAE-2E",
+            "isCascading": false,
+            "disabled": false,
+            "jaql": {
+                "table": "USAGE_AAMC_ALL_LOGINS",
+                "column": "USER_TYPE",
+                "dim": "[USAGE_AAMC_ALL_LOGINS.USER_TYPE]",
+                "datatype": "text",
+                "merged": true,
+                "collapsed": true,
+                "title": "User Type For Logged In",
+                "isDashboardFilter": true,
+                "panel": "scope",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            }
+        },
+        {
+            "jaql": {
+                "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                "column": "USER_TYPE",
+                "dim": "[USAGE_AAMC_EARLIEST_LOGINS.USER_TYPE]",
+                "datatype": "text",
+                "merged": true,
+                "collapsed": true,
+                "title": "User Type For Unique",
+                "datasource": {
+                    "fullname": "live:aamc_specific",
+                    "id": "live:aamc_specific",
+                    "live": true,
+                    "title": "aamc_specific"
+                },
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "1FEE6-4DFA-FB",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "parentFolder": "63f4e1c602e8b50035da2f45",
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "widgets": [
+        {
+            "title": "How many learners have logged in?",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "64148e9702e8b50035da5c67",
+            "desc": "This chart displays the number of unique users who have logged in during your selected time period.",
+            "source": "64148e9702e8b50035da5c68",
+            "datasource": {
+                "fullname": "live:aamc_specific",
+                "id": "live:aamc_specific",
+                "live": true,
+                "title": "aamc_specific"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USAGE_AAMC_ALL_LOGINS",
+                                    "column": "USER_ID",
+                                    "dim": "[USAGE_AAMC_ALL_LOGINS.USER_ID]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "agg": "count",
+                                    "title": "# of users"
+                                },
+                                "instanceid": "B8EA2-BF86-DE",
+                                "panel": "measures",
+                                "field": {
+                                    "id": "[USAGE_AAMC_ALL_LOGINS.USER_ID]_count",
+                                    "index": 0
+                                },
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#00407a",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                }
+            },
+            "instanceid": "6A504-DF7F-BF",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "indicator",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "64148d6902e8b50035da5c65",
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('ready', function(){\n  let desc = widget.desc;\n  let $wrapper = $(`widget[widgetid='${widget.oid}']`);\n  var $container = $wrapper.find('.widget-desc');\n  if ($container.length == 0){\n\t$(\"<div class='widget-desc' style='margin: 10px;'></div>\").insertAfter($wrapper.find('widget-header'));\n\t$container = $wrapper.find('.widget-desc');\n\t$container.html(`<div class='narration-wrapper resizable loaded' style='padding-bottom: 10px;'><div class='resize-holder ui-resizable text-holder narration-text'>${desc}</div><div class='ui-resizable-handle ui-resizable-s'></div></div>`);\n\t$wrapper.height(parseInt($wrapper.height())+$container.height());\n\tvar newHeightCalc = `calc(100% - ${$container.height()}px)`;\n\t$wrapper.find('.dataTables_scroll,.sisense-pivot__multi-grid').css(\"height\",newHeightCalc);\n  }\n});",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "How many unique users have gained access?",
+            "type": "indicator",
+            "subtype": "indicator/numeric",
+            "oid": "64148f4202e8b50035da5c69",
+            "desc": "This chart displays the number of unique users whose FIRST login to the platform occurred during your selected time period.",
+            "source": "64148f4202e8b50035da5c6a",
+            "datasource": {
+                "title": "aamc_specific",
+                "fullname": "live:aamc_specific",
+                "id": "live:aamc_specific",
+                "live": true
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "value",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "USAGE_AAMC_EARLIEST_LOGINS",
+                                    "column": "USER_ID",
+                                    "dim": "[USAGE_AAMC_EARLIEST_LOGINS.USER_ID]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "agg": "count",
+                                    "title": "# of unique users"
+                                },
+                                "instanceid": "56659-A514-26",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": false
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#00407a",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "secondary",
+                        "items": []
+                    },
+                    {
+                        "name": "min",
+                        "items": []
+                    },
+                    {
+                        "name": "max",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": []
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "style": {
+                "subtype": "simple",
+                "skin": "vertical",
+                "components": {
+                    "title": {
+                        "inactive": false,
+                        "enabled": true
+                    },
+                    "icon": {
+                        "inactive": true,
+                        "enabled": true
+                    },
+                    "secondaryTitle": {
+                        "inactive": true,
+                        "enabled": true
+                    }
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                },
+                "indicator/numeric": {
+                    "subtype": "simple",
+                    "skin": "vertical",
+                    "components": {
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "icon": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                },
+                "indicator/gauge": {
+                    "subtype": "round",
+                    "skin": "1",
+                    "components": {
+                        "ticks": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "labels": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "title": {
+                            "inactive": false,
+                            "enabled": true
+                        },
+                        "secondaryTitle": {
+                            "inactive": true,
+                            "enabled": true
+                        }
+                    }
+                }
+            },
+            "instanceid": "54656-5B6C-F9",
+            "custom": {
+                "barcolumnchart": {
+                    "type": "indicator",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": false,
+                "displayToolbarRow": true,
+                "displayHeaderRow": false,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "saveDisabledTargetFilters": false,
+                "drillToDashboardByName": false,
+                "drillToDashboardPivotLinkCellType": "value"
+            },
+            "realTimeRefreshing": false,
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "disallowSelector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "supportsHierarchies": false
+            },
+            "dashboardid": "64148d6902e8b50035da5c65",
+            "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at https://sisense.dev/guides/js/extensions\n*/\n\nwidget.on('ready', function(){\n  let desc = widget.desc;\n  let $wrapper = $(`widget[widgetid='${widget.oid}']`);\n  var $container = $wrapper.find('.widget-desc');\n  if ($container.length == 0){\n\t$(\"<div class='widget-desc' style='margin: 10px;'></div>\").insertAfter($wrapper.find('widget-header'));\n\t$container = $wrapper.find('.widget-desc');\n\t$container.html(`<div class='narration-wrapper resizable loaded' style='padding-bottom: 10px;'><div class='resize-holder ui-resizable text-holder narration-text'>${desc}</div><div class='ui-resizable-handle ui-resizable-s'></div></div>`);\n\t$wrapper.height(parseInt($wrapper.height())+$container.height());\n\tvar newHeightCalc = `calc(100% - ${$container.height()}px)`;\n\t$wrapper.find('.dataTables_scroll,.sisense-pivot__multi-grid').css(\"height\",newHeightCalc);\n  }\n});",
+            "_dataSourcePermission": "owner",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}

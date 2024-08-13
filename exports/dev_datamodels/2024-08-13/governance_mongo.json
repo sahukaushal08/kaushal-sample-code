@@ -1,0 +1,3251 @@
+{
+    "_id": "6673e6389c7801ac9fff6ebe",
+    "oid": "99798faa-4574-4653-aa2a-b56f54e7a30b",
+    "title": "Governance_Mongo",
+    "type": "extract",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "elasticube",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "c32401d5-9202-4295-9ff0-ba7d75cdeede",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "9c43710f-1574-4c50-a3d0-28ab843197e9",
+                    "table": "84b04035-3fe9-49ad-a578-e779fe3a6abe",
+                    "column": "71243127-e458-4078-8dd2-3a8c0fb91366",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "f99a9617-d61d-4258-9b1f-56c16127c74d",
+                    "table": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                    "column": "939cf20b-9ccf-462b-be4b-34ec0e93f4a9",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "39bf5874-65ae-40ad-818e-084e30c9106a",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "dfb7e359-c047-417b-a501-6f4a3245c1cb",
+                    "table": "e81b03e6-7af6-4c73-a855-348fb8bf7bd5",
+                    "column": "4557ff76-7075-427d-ad44-9a23430d541d",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "f99a9617-d61d-4258-9b1f-56c16127c74d",
+                    "table": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                    "column": "67456e5a-555b-40a7-8925-c284445a5b4a",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "02128300-98a7-4a08-9d31-5ecff295bd6d",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "c85df04d-6aee-4e89-98f1-271ff852c584",
+                    "table": "256c6d93-58ca-49a9-92bb-0521784323cc",
+                    "column": "01b2af13-986c-4195-9ec4-a07657873340",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "f99a9617-d61d-4258-9b1f-56c16127c74d",
+                    "table": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                    "column": "67456e5a-555b-40a7-8925-c284445a5b4a",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "9f4ada58-0b50-4168-bdb4-1b01c9389eec",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+                    "table": "09442cf9-5e90-43ac-9b06-19ec0dfe9ed9",
+                    "column": "c659b525-c3e0-404e-b921-abdee5d0f04c",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "f99a9617-d61d-4258-9b1f-56c16127c74d",
+                    "table": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                    "column": "feb537ba-b9fa-4ea1-a541-038c8da9dc49",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "83fbeecb-ee72-4300-b2c0-c1303f5c48a6",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+                    "table": "16ad3390-6e78-4775-bf6a-f0ccc69e3374",
+                    "column": "35d50a3e-134a-4c50-ab11-d29ee90401f7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "f99a9617-d61d-4258-9b1f-56c16127c74d",
+                    "table": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                    "column": "1bc7b614-f4ab-41ca-ae1c-59428c72b498",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "68d1100d-bbef-4659-aafa-34f8e9eb46c3",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+                    "table": "09442cf9-5e90-43ac-9b06-19ec0dfe9ed9",
+                    "column": "c659b525-c3e0-404e-b921-abdee5d0f04c",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "db05dcf6-3ec9-42f5-b984-b463dc2c4510",
+                    "table": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                    "column": "f8adf6ee-2ca9-4b29-a77f-b1694c987dd4",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "d79e6013-e104-48ae-b643-cefeb3a1b52f",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "9c43710f-1574-4c50-a3d0-28ab843197e9",
+                    "table": "84b04035-3fe9-49ad-a578-e779fe3a6abe",
+                    "column": "71243127-e458-4078-8dd2-3a8c0fb91366",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "db05dcf6-3ec9-42f5-b984-b463dc2c4510",
+                    "table": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                    "column": "ab277653-0928-48d0-b18a-9ac693e59c3d",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "628b7eb7-f6d6-4718-a39c-67965289adfc",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "dfb7e359-c047-417b-a501-6f4a3245c1cb",
+                    "table": "e81b03e6-7af6-4c73-a855-348fb8bf7bd5",
+                    "column": "4557ff76-7075-427d-ad44-9a23430d541d",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "db05dcf6-3ec9-42f5-b984-b463dc2c4510",
+                    "table": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                    "column": "9e5020a3-d3ab-4702-8ebb-a673b1bff01a",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "f1cf1324-1fc4-4e1e-aa86-1b5a0f27c3d5",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "c85df04d-6aee-4e89-98f1-271ff852c584",
+                    "table": "256c6d93-58ca-49a9-92bb-0521784323cc",
+                    "column": "01b2af13-986c-4195-9ec4-a07657873340",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "db05dcf6-3ec9-42f5-b984-b463dc2c4510",
+                    "table": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                    "column": "9e5020a3-d3ab-4702-8ebb-a673b1bff01a",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "ce30b589-6894-440c-a501-1322717f510b",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+                    "table": "16ad3390-6e78-4775-bf6a-f0ccc69e3374",
+                    "column": "35d50a3e-134a-4c50-ab11-d29ee90401f7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "db05dcf6-3ec9-42f5-b984-b463dc2c4510",
+                    "table": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                    "column": "d9a62fcb-ebe1-40a9-83cd-2a52dbe5a89b",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "ceffe6fa-97a0-41bd-8f25-4898c05772b1",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "9c43710f-1574-4c50-a3d0-28ab843197e9",
+                    "table": "84b04035-3fe9-49ad-a578-e779fe3a6abe",
+                    "column": "71243127-e458-4078-8dd2-3a8c0fb91366",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "ad5f5ba4-4948-41bd-a340-e4d8ece553c0",
+                    "table": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                    "column": "cdda8cb8-c369-42f7-aab3-f4b851e4edb5",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "4b220cb3-2adb-4fe3-a8f4-c168e06ce659",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "dfb7e359-c047-417b-a501-6f4a3245c1cb",
+                    "table": "e81b03e6-7af6-4c73-a855-348fb8bf7bd5",
+                    "column": "4557ff76-7075-427d-ad44-9a23430d541d",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "ad5f5ba4-4948-41bd-a340-e4d8ece553c0",
+                    "table": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                    "column": "9c48b889-7876-4246-b7b8-7eea35b432ff",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "d5766fde-93c0-43ff-9125-6a5458e52112",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "c85df04d-6aee-4e89-98f1-271ff852c584",
+                    "table": "256c6d93-58ca-49a9-92bb-0521784323cc",
+                    "column": "01b2af13-986c-4195-9ec4-a07657873340",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "ad5f5ba4-4948-41bd-a340-e4d8ece553c0",
+                    "table": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                    "column": "9c48b889-7876-4246-b7b8-7eea35b432ff",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "a715ff21-6abf-4d92-8403-79f7be4f9245",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+                    "table": "09442cf9-5e90-43ac-9b06-19ec0dfe9ed9",
+                    "column": "c659b525-c3e0-404e-b921-abdee5d0f04c",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "ad5f5ba4-4948-41bd-a340-e4d8ece553c0",
+                    "table": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                    "column": "45fdfd08-ada7-4d73-a819-88fdef52c899",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "9850bbc6-e270-435a-bb79-bf0e054ac9a5",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+                    "table": "16ad3390-6e78-4775-bf6a-f0ccc69e3374",
+                    "column": "35d50a3e-134a-4c50-ab11-d29ee90401f7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "ad5f5ba4-4948-41bd-a340-e4d8ece553c0",
+                    "table": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                    "column": "ecc3f2ae-9178-4cba-a78e-1f5875f368f4",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "03b49ac5-8faa-4d26-8d65-b506110e0e67",
+            "fullname": "mongodb:bf95ec76-7375-4edf-ae68-5b817cf850cd",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "bf95ec76-7375-4edf-ae68-5b817cf850cd",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "d7af39ff-5d51-4c05-bffb-ac248e539db1",
+                "id": "6673e63930f5020038a21191",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJIbjZHYVZSSGJFdUpWRjJ5djJ1cmRFT3Q2Q2VrSlE0OG1kU1ZSYi82ZDh4bzNDRjg3Y1g4ZW1wV2NnN1IzTlFQNUdhdHFLU2ducFpRZE1YaVFncEh6S2paeFUrVVlXV3VHckVsQS9MU05RK3czdFlwc1o1eXRuNTZ4UFRoaW5tOEJXTkFwMUx5QjdIRGFaOG1mMEpQNW9aSHVWT29xV0ExV3VtS0pwYjVBSFpCZUNQOFpwcEFOSWpDMkJJRTFRUXZiUzZoSkc5Z0E1QzBqdEU0Z2loNE5nM2tsWm1GRk5CVEJqSWFaeGhUWXE1eXhFclhFWGpuUWhrVG5Pa0RTR0FZQWpjdkRqUmw2dEQyV2IyM2VoL0V3NFJqemZxZUtjUFRZNUdQWkZLamRRY0I5U3dQVWt3TkNwWkx1b3M4VDdSMkk3Q01NN0RTZWxIdnYxV2RtbHd6WjRnUEI0T3p1TXlmQWcxSitNbnZCZlo1NUl5MEtWeS9PYW9heThEQTdvV3lyUUFuOUNGNXgvZTU2NVZzbVRnanRPVEJ3SlJndGxkdE5jbmJJZnB5R3ZPdkxVa2NtTFNYU3YrSEJwMUVSb1dLc0NEMGQvd25yMTBvQTNoU2hzbWgwUT09Iiwibm9uY2UiOiJzTUNmMms4dERGZXd0V0hPUUJGVXVnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDgwNzgzMDNaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "1a34143a-2256-48aa-9f16-3a55364ee4b7",
+            "fullname": "mongodb:345623c6-f153-42a3-aafb-c76913c6e316",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "345623c6-f153-42a3-aafb-c76913c6e316",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "0c6eb940-30ed-4157-8250-7ff62ab71f92",
+                "id": "6673e63930f5020038a21193",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ5MGJtYlV5dG9BVmYxNGVwVFA5bWVucmt0RHYrUFZqWjZoaE4vWEJ0MlNBUnFoQ2N6blc5YUI4MWFjLzZBaXhZS2NIVnJSUHdxa2lzd1VJTDdraVE3a3VVMkxBM0hHbytCOCt3ZFBuTEs1OUlzWDFRTDlxR2RVZEZlOGZxSmlUeVZyN1h4eVBScTZjYmpwOUIybklKWkpCM2M5UjhuQ0UwajJIWEJiV3BYTG9wTG1jRXZxMWFnQklHNzVVVHlYaXkwbnNxQjY0TGJ0Z0h3bjVqWDY5T1RaWFUyQnR6Nk9oTDN0Z3o1L2JPR2MwWmcxTWhqWjBrLzJpc0ZPWTAvOWExclpFYmI5Y0sybiszcHNNb29kWXFTQ2tZNkZXQ1BIWVRhY25GbG9NRDRlSjh2WS8wZTk1U2drRlRRZ2RGWFdPVU5JamtPcVU1Q0JWYWdNWWgwZ1VUcmhCYTZNeVE0bkszeWxRRURJUEcrZCtSSUU4Q2p4OVdtZGZHL0pJTnpuQXNURGZsUktMMFFwT29TUU51eFZSZkx0WFI2c2FIK3ZFdVBIQmRCSXU1cWJIQ3FldFMyQjNQaDdtUnJNMHhYZVExa0FjQjNjZXY0Vm9rWkRKbDh4LzJXZz09Iiwibm9uY2UiOiJqOUgzQzNMWjQ0blMzbUZGS0VYZ0FRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDgwNzc5NTNaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "1cda5a2f-1724-4a7a-9450-8f03203f9982",
+            "fullname": "mongodb:cf2c9dd9-6332-4b61-bb05-5d2bc67ad74d",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "cf2c9dd9-6332-4b61-bb05-5d2bc67ad74d",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "1f4a7df0-f220-4845-a165-197119f186e6",
+                "id": "6673e63930f5020038a21195",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJqNDBGbXZFVVVQeHFCcjBYd0gzNzR3WEU1Z2ZnQVNOcFA1YWdDQ3RBanNxRUM4bmxCMzhZT2tvc1JZek44Ym5xM09xeHNBTWFneW80aEN3ZVdmMlJjcUpKWU0wYVpTb3ZMcXpZeVRSUldlRlBIeWtXWWdzYUs0SVlSQ1Vla09wcW5FakhhNTgwaG12Uzc5Szd1T3pxWm9SanpzRDdBSDQ0RGk3UTBTM2R6SHByVXlYb0hXanJUNko5djhPWkN4U01tcXZrUm40eno4QlhRdjk2MEU1M1dWdjZoc2lwV1dpQThxb1pubit6ZGEreG9MWkdXcU84d0pFYTRtbXpEVEg3a0lld3VJd0U3Tm94bzRndzQrZ3VLVmIxZXhPemIyc3poYkVNNmZabW5zenVzM1JpTEc4VU9ESWg2SU8zeC9XUlBhck1WZWdXQUZoSHA2Ykw1NDh3SS9pcjRMbHJyY1huU3pRUW1NWlhBS2Rnc0tzaDZUNGdGOUxTdE9QNzBaM1FQcnlMVU9wTjBTYTh0clBPdkJ6Vlgxb3h3MDdMZVV3R2gvNWlib2tGZ1g1VlU0d1ZKL3hkRXVwT0w1RGdoYWZrOHFEcUkxVms3aUJKam9CUy8zWEE5dz09Iiwibm9uY2UiOiJEVGVYZkRMM0ZrZllVZXdOVmJ1K0NRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDgwNzgwNTNaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "2a578c70-efcc-43a8-a850-7a78d76fb9fe",
+            "fullname": "mongodb:5d49a31b-ffc3-416c-9466-3cda7831b972",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "5d49a31b-ffc3-416c-9466-3cda7831b972",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "21022962-b256-45b0-9ccd-6fcfbaa8754b",
+                "id": "6673e63a30f5020038a21197",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJqd0R2bUZGUDRtWWoxZ1pTanFYNGE1VGRDNTN6aW9Vbm90b3B0cDlWZDdUSmY1Q0VNamNqZUVjTVBLMWt6ZzY3YlVXU3hxaGlVZ2Fzc3l3eXJVVXJwaEFvNURXQklZWUIreUYxZXhGbmwrTDkySndjU1BnRGRMK0NjNVhmbDBYeUxkZGR6RVpKYTJRWkxTVjc1T1Fla2xOZ3JXTU1IeXpZbmlvVTJxcUNXTDB5VlZrcHBzOFNQWUhKbk1ZQlZpejV3ZWRINEN4ZGJCRUlrOUxUN1FicjBSUER4UW1RTzI3Sm5Oc2pBZC9xU3N1c2VVbjZGTUlCTUtHTU5lWXp1TVFiaWJtbWs2VGJGajBzb0RwQmRIaEhnM0dnZTJKZDJzNWJhSTJqM0Vub214YWhMR1V5MzYvZWFTalRQemZuVXc1cG1BME0vSS9tYnowR1p6WGRuWnRLSDFlZkJvUDFTWDFUek83WjhiVlgwS0k1OXlYYVJiWVZqWVRyaEo5L25ETGhhbmdhSkZBYlFjRVhMaDVwbDAxbWwzVDd4VUUwOTE1N2VlL3RpMFhwc1IvREMwc0dNa0tOMWgzNWo3K0RPbmlEM0JCWEdNb1FHY1hjbzJacXJyMnpvUT09Iiwibm9uY2UiOiJJQytmeldmbUpGQlpESkgrWU1UNE13PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDgxMjI4MTRaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "2be88e5c-b327-4486-a898-15c21aaa89a1",
+            "fullname": "mongodb:864a847d-b2de-4718-9778-655901e78788",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "864a847d-b2de-4718-9778-655901e78788",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "40f26a21-1f74-400d-ae1b-f1300d56e055",
+                "id": "6673e63a30f5020038a21199",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJlWjAzV2R1VC9WR1dmeTF5N2F3WXFJcjBJUlVrNVRDeUM4dXZJT2RiVGtIWVBFQytpZG9JTnptRHg2aDcxckE3SGY4eHZvWVVLN3BMcWxUSFdVQTBHV295Q05qcC9IdEJaZWw1bGxYWm1UYnFQWjVybWMySnFmVUNFZzVrTk0vR1EwSkFiZS9nZUlTZ2NpY3paUzJlZ3lUTGMvT3FiOG1ZVUgzWGoxVWR0TWFmd0tJMW9Cb3Nhb1BhMnlWMXZ4S2ZlcncrUFBwZ0lvdGFmandKWWQyNU9FMVNQTEp1YnRWd3EzdjF2SndUZGU0SW1CeXJYMWxjMW9SZGtZU2RRaEl3MFRKZXMxVm9lTGZjQVBBbnhSRTIzVUdzcTdXaDI2UnlTYTk3ZGdMY3I1Rm43TzF0NnoxMktRWnVWNU5MRWN1ODJrZG90Rk9oSW5ieUZYQ0ROT0lGbDBWaXZGK3I2WVNQYm5DTVc5Nlc2VEI3WlhUdjhkeG41Vyt6RnkwSVJ0R0VHd1ZId2E3bUFhdllPVVdxSTB3N0d0bVV2bzZNUWRLMXdGenFYcFBKaFVoR3Y3bnNUUXQvMWdIdDRtY3dkbmNCeU1sWDdySGthNERqVWRxRmFQeWt5dz09Iiwibm9uY2UiOiIzK2piK2VmZFQ5eVM2bStRR2lVUW1BPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDgzMTM1MDhaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "2e384f3a-5e6c-441d-8d0e-3b271dea6701",
+            "fullname": "mongodb:ffe30a4c-c15c-4e43-83a1-760efea733ab",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "ffe30a4c-c15c-4e43-83a1-760efea733ab",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "6783a648-e14e-41c2-97a0-f6d053aa37e0",
+                "id": "6673e63a30f5020038a2119b",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJQSmg2UTUyY0Z1ODNlV1EzVXYxTnVGRnhRQXpkdzdJWElndE9UbXhsbERSWjlLeGZBaTRNaW5rSmFKT2VVdlQ0YkFqZVBEUU12d3FHYU9zdXhQTWNQVmd2MWRuZUg0a1B3Rm1DTVVla0h1MVdrekx1QUhYTGpCNllIYThsNEJwdng2MlVkU0tZRnRvckJIMEJUYWVWS2hoS0RUNmd2RmlBZU9XZVQwZ3hXVGdodloreW9sV1NTVkQvY05pSFV6Ri9EcDdNN1czUThIcWRJVCtzQk5CZU5ia0twUVFodWl3bUxRV0dRQzlVSlNoMlQ4VzFFbWhpTVRyL1FCOFVlTGhGODdNRy9rYUFkMXp2OEQwODA5dlh1WFFkZkRNOWl1Mk5admdwbkpxWFVSREdlQ0dOc3B1WGRSaEl6QzJZYnlyclBPNzdhYkhxajlxeWdXWUZXaDh2UC9hdWsvdS9ITWNpV3BYY2JtU05FTDdXWHEyN1N0TGcyelBySjMxbW5NOFc5SVo1aVVnbkRwRmFOZElrOEd6UWl2WWtjd0M0NS8wVUtDajl4a3Y3SllNdEg5SEMzazROSkg4TVhyTFYvL0JEcVhvL0VweTVvWlAxWkxSc2pwdTlMZz09Iiwibm9uY2UiOiIxYUc4cnpWNjh0OHZyMFZENjVueEJBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDg3NDE2MjZaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "3584b2ff-405e-4ffc-8456-9c31ab3849fa",
+            "fullname": "mongodb:fbe421db-ef67-487e-983b-64f4aec9b275",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "fbe421db-ef67-487e-983b-64f4aec9b275",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "04c83400-326c-4eb2-98f4-c55900277b3f",
+                "id": "6673e63a30f5020038a2119d",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJXckY1M003cWlPVmdZWlhHRHdjUlVXRmhjRVFWalFiZnpRd3lXNlcyYmdEdThobVJCbSs2V1VOR3E3dXJWNE4rYUFlOHN6VTFNS0VrQXIyeW9xRzJCL0QxN2htbk11alNLeS96bGxJRzk1Y0huUTVBK2dIaW5VempEckxRalVCRmwyVlJBUmc0Q1BzWC9KTUYrODNyY1pCSGYwcTFTUzA0SlZYc1AycmhCUnI1UFBPZk1XTWx6T2RUc29JZ2RuWnllSmVwcmpqM0JpTDZRczFFaDZUTGdiSUVhck8rMFUrUWp3ajFPOUtNTXR4dVRaUTFJY25obUxyaVNDckNSMHYwWUhoSWkxbjM1VWdyc3ZRTjN4R0Z1bDdhT0h2SmhTdC9BdlRKYkhld3RzLy82b1BYYXJ6MWJvVXhZclpiSHZHTExmNDFsdlhJdS9Ed0tJU245a3MvRmhmaUxKTDNMTGF4MnVYL0M5c0hvQUVIT0pvN1VoWTlrTm1NS1M3QlNZSi9CWHM5ZHFtYS9QOWYzK29KSEFGTmo0VHFkSmpTcFBoeTQweGYvR3JZdjNXZXc0d3RqYmRPUEd0R3EyVWwzSS82QmpPdVgvQWllWEVXY0xpSlo1cHlEUT09Iiwibm9uY2UiOiJNRjFOMDJTbXFYQ3NLQVFiZ3dyUFFnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDkzMjMyNThaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "36a771ef-50c6-4e6d-a698-42f801b1c24c",
+            "fullname": "mongodb:91223442-1b47-4b8d-8837-a6e7ee23bca8",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "91223442-1b47-4b8d-8837-a6e7ee23bca8",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "58b19304-92a0-4128-a021-4f4d4b903f0a",
+                "id": "6673e63a30f5020038a2119f",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJoSjZuMXJ5cFZISlZoODA4WG56MlRiM2U2ajVqdXh3YmdVTjNEck1MQkhKWVJWcHlGc010bWNyOWZXNVgwQzE0WGthOFVEVmNVSE9zcWRFejIwbHd2OVJ6QmsxT3RHVVhPL2tSQ1VOUDFWMFJEMmd2azJnTEx6RlpzS1Y4Vll3M2EyWU01VHN6SG5LZFdBRjRxRlo2SXptQ3pvbG5RMWF5NXVIODRJQWZ3eTJwWUo4UmVycEJvR0M3eEVVY0l6NWtPMUJqdVgzUmE5NWJTdjFYZFY0b2hJa3N3eHZNWU1EUnM0NXdlcXQrc2hGeHdDUWxxaGdEa1J6blJjbXpjNXAwWEIrMmNwcm11cGJqTWV1ZzEyZ2NFQXdqZGZ5Nm94akk4TnJNSnRZQnZkSlRheG82dy9NOHhDUVpERmFkTW1GNkE1WWpvU1F4VTR3T3k5NGNIRG9vUjFPSFozcWlLeG5kUjkyWnVOa1ZLMnVTdWh3Tm84QTliallKcitDd01wbk9NZ3AwbWhUVmtZb1pTSTZhc3lrclFvbDF3d1pibllGckRnSHFHWGRtR0JvNmd4RFpHZHZTK3BNZW1UaTN1RGF6bzRkNm55ZGNFa0Qwc2daRi9URFFyZz09Iiwibm9uY2UiOiJudmVDVGxCTjJsRytJelREM2Y0VmNnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDg3ODY4NjdaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "4baa0759-e345-4963-a7bd-7a5a765874a1",
+            "fullname": "mongodb:d164d39d-0304-4fe5-9383-3acfbd2fad1d",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "d164d39d-0304-4fe5-9383-3acfbd2fad1d",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "5e53e2ce-b534-4962-b542-32ae3dffe675",
+                "id": "6673e63b30f5020038a211a1",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJhclFTb0ZHYzhHV091R0ZtNkRqeWlQTzh0MXdaOGZhR2RKYlFTcGVraVFNWm9Ka0tMMGxuYXBTQjBsbU16cFN1TndNREdGM3NqMmt3NU55TkdtN3NuS1JJYUQzRVVwRWRTdGcxa0RFcnI4WWRaUm1pL1pVN0x6Z0ZIL2p6N1ArSWNkc1ZGL1J5RmNiU0ZDUVpqY2RMUDdhdWh4cmlBTXo0VlJadTkyWnQvd0hRbmRBekxHZzM2c0ZqMjEwTjFXYUJ3dnZ6ZVBnbldnQkM1dmJwcmlKMnVrUndtSlhXTXY5azZyMFdNbThYNTkvNDBlNXpPRlF1WXdTWWNEekV4R09ZZFY2KzlzUkQwY2VyMUtaNmx3ZEduRFZLMmlyTFVvdEFtM2VlVWk1SkNpZ2hQK2RiVG42VzBwcDhaZkVCVUVHamd4b1UxVWRXditFS2VSdGkxWmpHblJQMldOYnVvZVBOUDYwVWpYdXdMV3Z2ZXRnZk5scmgyMkxiTUNhQ3oySWxoVmNZZDFIdDhGTkVxREx2ZlV6VDZXNitGcHQ4b2ZPeVJrdW9wL2NUYm1iYVpLTEx4L3poMElBZUdKYW9SR0NHOWxXSHdrT3QxWkFPZ3BGKy9EUFBNdz09Iiwibm9uY2UiOiI0c3U2NDRwOUtZaFI4OEErMExaRnhRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDg5MzY3MzBaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "4c46ee7b-b451-4aea-a852-54d7524264d9",
+            "fullname": "mongodb:dc694994-1e3b-413d-9dcc-d0003356eb98",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "dc694994-1e3b-413d-9dcc-d0003356eb98",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "650f60e8-2bbd-452d-a1a0-c875b4761607",
+                "id": "6673e63b30f5020038a211a3",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJOeHl0R3dGK0hMRE1sL3FkMkZOWGJqeUVTdXpkUzZrTG1pazg3Z0RMdTYxTEU2eUc1NTdFdmJyY2Q4SDVndlRmZ2g5NTE2OUtoR1pIQk5nNy96RXJ5ai9wbkpIYmdqVU5rdnV0bnRpdHBUcXFxYXg5dDFOMnM4VzloMmI3ZzVBbTM1eUF3V1NRVzd2d1M1eGQxZDZpdmdOUzBNeTlwSVJMMUM4ZVF1a3lvZjR1TlBwNExqTG5wK0dPbTZJcnZ6aXpXejFtVUlnSC83MGl5TVV0ckE1dVFETW8reGgvajVXdEl0ZHdXZTkyQ0NOeUpiNkpQUGdpTHQ2VUdmRWttK0ZTOGR4RGNScTl0emNFNGM3TmYrWlVEK2xnbi9laU53VkpIL1hwWUh1UVVTQVU0Rkw5ekFkT1N5QzZmRVBzdnZaOGozN05saGQ1S2NNTDJOeitjenMrSEdJenZoWDZWUmxPV25MQXd3ZjBJRW9hQ2x0OG9acWdOYlhJajdyaFdkUmlCN2J2cnVUM3hGSXVVUlFLaWlaY0l6NmlSNnlFWHRyZ1ZIQkVDQlNSUWJvbkVFMTZjblNKOUJ3bmxVVnVzTU14R3Q2UkZSc296L24yZmFHdVJiMTlhQT09Iiwibm9uY2UiOiJ3MmNjNjVQZmR5VzlucVJ4WWREWE5RPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDg5MjYwNDBaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "55ce56e2-a053-4cc0-9c7d-57036fd10027",
+            "fullname": "mongodb:fcf411f9-cf0b-406b-a1e3-384b0ef595ab",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "fcf411f9-cf0b-406b-a1e3-384b0ef595ab",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "c0c9027d-ac5c-4c01-80dd-b624c3714f9e",
+                "id": "6673e63b30f5020038a211a5",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ2R1BpcjJRL1lINEdPRXQ5OFY0dkd5cU5qVUc4MG5PaHQ3SFM2bFd3ejRiSWwzbzBuUVNzbUhHaUR0Mk5zRjRISytxQXZTdExZdVJBMFhKaFNqWm9uMmJoYUsySmNUQ3BRNWkzMmNSQW5NZWFUYk9MSjhiRlhhZmJXaEFqdnpNMHZISDBkTnk1NG9mWUFFTnlBMUQzd3Zma0VpUGRxQ3NKcnJHdzA3eXBBZVo4TGpDRnliUkE4NDl4RlY4TlNzeUJFMko4K3dLK0xXNXdObktKVG05cHkyWXRkVkJnVlJQN1U0cll5L3ZFYWhId0lUMjRxaEZPWmNHQVNzcWNrOG9hR3FzQmRUem5DTmRWSlI2STdSVEFpdWRYSUVnZ0ZZbXQyRXpmSUlSQWZkUHdLbmdsSmN1c3AyUVBXV2Q0d3hDZWRIbUEwRElQOHVEbktzMWgyTFVSRTFMdFNiSmphV3V2T21qaFFMWDlJV255azBNeUtUdkhjak5MdDVWK0dCaFVNOFU3YVZTblo2dy9aRjZjYk92Y1NYRGFySURwMDNWQUF0dUdvcGZlczV0d1l4WVI1V3oxYWh5aEVCME1UaUc1R3BROXMrRmdCeVBnangxazV3c3RtUT09Iiwibm9uY2UiOiJWSURrWW1sNXRPRE84L0IyaDBKb25RPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDkwOTY1NTNaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "55e82f6e-7f40-4fe3-81a9-5e1df97e4d45",
+            "fullname": "mongodb:9e79bc40-03b5-44ce-a66a-63f8d64c6114",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "9e79bc40-03b5-44ce-a66a-63f8d64c6114",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "49e5cbc9-391e-4272-bf3b-cacf763cee15",
+                "id": "6673e63b30f5020038a211a7",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJXQkhiNndZcDRnTHp2TVp4N2JmZzVrZDR5R1FvWGgxbC9aVWFxaUl4YjdRNGtJejUzdHB1dkNmVEpGRDlDVFVOSy9mSHpjV2dPTVFmYTg1QlhldmJvcXZodjRuWWdYRXhmalFlYnZxb3VTY2ZqM3U4VmhOUmtRem5DQUo4a0J0UUNqNGJvOXlRTktJL0NrOGdNbWh5VUkyenFGUXVDUWRQMHBMV01Sb0liaUY1dmY2UG5RYWswanR4QndsQ2xNQlhhU3JHZEdEVXpxZWpmaXV6UGhOTU02WG5zOFRvMWlMTmxPRnl3ZGNucVR4eENETkVYK2JhUDk4dHEwOFdlQlh3R3VuNnlvYm9yL2VTT1l0TGxPUEpQcThEeUJNRXlPOHdZSUpkRlBuYnQvNGhUMTlhR3U3aVNhSU5sTzNRdFVmS3dlOGxUMG1saWh6b1BRT3Q1QjdmTDh4WFNLdHRpSXJEaE1zMXlxUFhFdDI0Y2FhSmwrSEFMYm1QdUdVa2tKUVhwY1VDSVJHMlhSK3oyRkRpbkgzOFlNVit1SHlxaFJlcElHajNielpDeXN3eXZDRFNnSDBrUjd3VHpvTDFudWR1N0tzc21TSkNtUk9kOUYrcWswU0c2UT09Iiwibm9uY2UiOiJySFhpblhCSDNpKzBrVEdES0xzQ0VnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDkzMzgyMThaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "5a81b4c1-7b24-48bb-be2a-f8642c2e010c",
+            "fullname": "mongodb:18ede7d3-3032-4213-ba17-479fa917ec0b",
+            "database": "prismWebDB",
+            "schemaName": "TempTableQuerySchema",
+            "type": "extract",
+            "name": "18ede7d3-3032-4213-ba17-479fa917ec0b",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "d9565b0b-3215-44b7-b022-2fddac62acd2",
+                "id": "6673e63b30f5020038a211a9",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJrNk4yclNpekh3c3B0VThQWkN2SlRwd2NrN1VwUjRvR3l6ZFRlV05DMk5vOGVrdXlFWmRzUDl1ZU9uM09yT2wrMERFOHJSQlhaN2RJSmVpSUxtNTdUa3JTTkJCblVpMThYVTJVMm1uUnl1SElESmdkWHZzb0MwT09qdHZ4eHFtSmxwbmxwckNaK1FRV2tCajlBQXJJaWhBZVRhaGJPd3d5MHh4OEVMdS94bWFHcWFndktab0JCNXhPMHV5TEc1R2xTN3RHMlB1Z0NWTDNLcXlGcUhRTlcrUzM0Z2Vxd2plUm9VVndWb3hXdjJaWEpOVDZJWWRVc0pwc2tidFRONTdWZzlqMy82YnNOc1U4d0tNTEU2MUFxcG5EZjk5aUVCakR4Y0hRbmtTUjQ3TW83Y3ZaL2pGdk5Uc2M1eDFBYzlSczlXQXBBWmFSMkljM0dBR042bkJEa2tGQTMwRnlETTVYWXZnUnlrNzFnUUM3aWxOdkRCbW8ySms5c2pxV1dKT205YU54T2IrS0NTNHpmcmhQZVgzU3c2U1BQdHZQWlh2akNmK2tQQkQ1Um1XUHA3OVZpOEJJQk52YS9nRStlSlVXSlVYaFJyY2FySVNIZm9VdWZJSkZ6Zz09Iiwibm9uY2UiOiJUZGlkN2FNVW9veVNiWVBmYU9qdTZBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NDkzMzAzOThaIn19",
+                "schema": "TempTableQuerySchema",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "65f059d3-ac1e-4780-bc00-4995dda44447",
+            "fullname": "mongodb:0b7ee705-064e-4135-8e12-c31b1e833f07",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "0b7ee705-064e-4135-8e12-c31b1e833f07",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "e748dc9e-34dd-44ad-838d-fa9494ba94fd",
+                "id": "6673e63c30f5020038a211ab",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ6SG5VbFFjM0dhZThHT2NDbjQrdDRhVC9DVm16blJEaStadHhkWVdDWEZ5WDZMM0o5NTFMd3R0bHQ2aytpaHRBMkxYS0pQTk96RFNEYzRPSzJLaUpjTjIwUHdIYmJBd1puZXVQNWFUekYwc0lGREF2TEx5cDhKZkJiWGhPZU5MeGNaREU4dDBYaGxQOWFrWGNUMW9OUERTbFRRbU1iWjYzTFJTNHVFMHp2TFF0cVpFU3AxOVlyZ3QrZk5QYVlPeXpSN0t6emxnSGVRcjZRYXdIanViZ0xaNWVvTm1QYUxkM3laWnhTTHJCRmVuSVBZZnhpcmg4dWN4T1IvUWNWak40L05aQzRjeFNVanR0YmJyNlJvUlFFYkxoMG9nQ0lMTVV4dHhhZGFRaERBOUwzYUU2eTI2MUNnd09ZV0dOaVlIODZNWGhYY212TjJUU0FhYlozZStZTFBhQzFSV2MvTzBWa0p1cnBYQkRiakt4bXZlUngrM0Y2TW93cnU3Q1JybWE4dDNyK215QU1vUnZIS1Zud3lSVVhnKzJpd0NqSklVYmRCaFZWL3lpVEpGRU9nOUFFWDhyZTdla2pWZnhOTUlUemN3YzBxMlUvdXRYMnlDUXlDalVWZz09Iiwibm9uY2UiOiJhWXZhbXBSeW1VdW1ReVpCMEl5M2VRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTQxNjkzNzVaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "694c318f-f5ed-46a4-b58d-73432298831a",
+            "fullname": "CSV:bda42f61-7250-4dd5-9234-b6fac3a92796",
+            "database": "",
+            "schemaName": "/opt/sisense/storage/usage/usage-2024-5-22.csv",
+            "type": "extract",
+            "name": "bda42f61-7250-4dd5-9234-b6fac3a92796",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "ff62f1bc-3d8f-4e6b-aea4-4b778b121059",
+                        "id": "usage-2024-5-22.csv",
+                        "name": "usage",
+                        "type": "base",
+                        "schemaName": "/opt/sisense/storage/usage/usage-2024-5-22.csv",
+                        "columns": [
+                            {
+                                "oid": "25bd5db2-7b71-44cf-b0e6-01ccd6b705ac",
+                                "id": "trackingId",
+                                "name": "trackingId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cd5fc1d0-a011-4d88-b932-42bc820d3dee",
+                                "id": "timeStamp",
+                                "name": "timeStamp",
+                                "type": 4,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "61ec2800-f512-4186-b181-4e4e070afc53",
+                                "id": "userId",
+                                "name": "userId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c93574cc-5dc6-4033-b8af-30a9260e2ce5",
+                                "id": "email",
+                                "name": "email",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "31fe21c8-8c94-4c54-9fbb-b1ac21d156c3",
+                                "id": "userRole",
+                                "name": "userRole",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "17aa8d6b-6c2c-42d7-a02f-a65b65a0b433",
+                                "id": "emailDomain",
+                                "name": "emailDomain",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d5600211-fc33-4ff2-8382-d6e16967ed63",
+                                "id": "userGroups",
+                                "name": "userGroups",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8ff168f1-90e1-401c-af0e-93e76ac401b0",
+                                "id": "dashboardTitle",
+                                "name": "dashboardTitle",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ab382b93-c225-4b3e-bc63-6c8cf4e18089",
+                                "id": "dashboardId",
+                                "name": "dashboardId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "29fb806b-c3d8-495e-a31b-9e4550f10f4d",
+                                "id": "dashboardPath",
+                                "name": "dashboardPath",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b1749f2f-3c39-4e4e-99aa-980bf884f4af",
+                                "id": "action",
+                                "name": "action",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a87e4f97-2bc6-4c62-868e-1d05a5741adb",
+                                "id": "loadTime",
+                                "name": "loadTime",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "029a07d1-ce69-49d4-b03b-707de3715ced",
+                                "id": "category",
+                                "name": "category",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a93f4187-91c4-468f-bd9f-d6bbc6fcd1f9",
+                                "id": "str1",
+                                "name": "str1",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8cd84a20-ce59-405f-89c8-2d821f90206d",
+                                "id": "str2",
+                                "name": "str2",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bb3d6bff-894b-47a7-a33c-3ada6b718be4",
+                                "id": "int1",
+                                "name": "int1",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a0a1592b-355b-4e31-8b61-bb7800e4fc58",
+                                "id": "int2",
+                                "name": "int2",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "eaa2445c-2d8b-4bd7-b472-735eda7baf2a",
+                                "id": "tenantId",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "1e01ff76-457d-4343-a32f-81f6fee6b1db",
+                        "configOptions": {
+                            "delimiter": ",",
+                            "hasHeader": true,
+                            "ignoreMissingColumns": false,
+                            "excludeIfBegins": "",
+                            "excludeIfContains": "",
+                            "stringQuote": "'",
+                            "ignoreFirstRows": "",
+                            "culture": "en-US",
+                            "columnsDateTimePatterns": "{}"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "1508f754-dd1f-4903-a41e-f340c762c560",
+                "id": "6673e6d530f5020038a211d2",
+                "provider": "CSV",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJOWkFJYWlNbXMvQ1ZWRjBZR21rdklGdjlNenZNREtYblNyM1EvT2sxVHZ3NjFFV3UxZGJwbFVmaFk3Mi9uQjY1RC9mMnNJM3pWQXlkMGRjWDVxMG9yZjkranQyTTIxSzBUOExoUEhFVUV3cz0iLCJub25jZSI6IndrZ2xralRkWG96bVRnSkJwbnIzR1E9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTEzVDExOjAyOjAwLjU1NDIzODU0N1oifX0=",
+                "schema": "/opt/sisense/storage/usage/usage-2024-5-22.csv",
+                "fileName": "usage-2024-5-22.csv",
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "6bc9731d-91ea-4c1a-aae8-6c9453cda1c6",
+            "fullname": "mongodb:67976ac8-4939-41ed-86e8-4000c2a39371",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "67976ac8-4939-41ed-86e8-4000c2a39371",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "4d50a5dd-9cac-44d4-a9b9-0e2d6b5325c3",
+                "id": "6673e63c30f5020038a211af",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJHNmNqQmxURHNtWDQzWGRoemFXOEk3YjArYktza0ZVTGNzdU9OZkZ1Z3hSSk13MHpnTHNjU0pYZmF5Wlh1UVM4V2dWVm9kcGNYMkhKZHNiOW15SS95ZWlER2FFcHJEMTVvU25xV1pLaTY1dmthZEJBeGRlcXVQM1dJQ2RJY3Z0VXYrMk1sYWNlUFVZY3psQVdqRGxabG9jR25PRWZXZUgzcFJJbzB1dldza2pJTUt1WTZPRjgwZnJYTS9OWS9oQ25VOVNpNXQ2N0l6L1FzRVJRdXVhdkpKTWxyc24wQVYyaW03WUloZzAvb0ppZWZnM0liSkFyQUtSZnJ5Y3hWMlF2Qk5rdktNVUNpV1p6U01WeTZsZHl6VC8zNUJXOHF3L0lVOWhEa0lhSDcrdnNFeVpZUHJuMERmdXY1ZkxaTDNGVVpSVEN5Qm1ULzFJQ2s5cFhvZm82Q3FjYzJCZnNFMlpqaW41YUo5emlFbDFnaWpFQ1BuVWxMRDkzZUNqampjd2VhcUpraDBaRXNYSGUxUDhBQTh3ZFB1WE0vNW4zOTk0dmVyYWRvUll4S281d1NKWGc5cy9zSzNLdmhabDU0RlhsOTYzSWM0S0JkNDgwcmgwNTRYWXZqZz09Iiwibm9uY2UiOiJsbDBuL2Q3QldKai81RnlxcnlVNEN3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTQzMzEzNzhaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "6cec1264-8bfc-4026-b59e-f8a9b8884c0a",
+            "fullname": "mongodb:a68eedf1-a192-43d1-a628-a41f51f6a273",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "a68eedf1-a192-43d1-a628-a41f51f6a273",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "85a9f3e6-7f55-4583-afad-ac5ab42fdbf8",
+                "id": "6673e63c30f5020038a211b1",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJSR2s2bWcwUEdBY1RvNjZvSkdpNytDbmtuNU41U0w3OWhsa0VRME8yUHI4eU9qYmxQTW9VQW9BZHgxSlhnOCtua2N4NWVPMVM0VUo0djhVWkx0SFlXSkFQUnIrZlA0alM5MHRja1lxQ2ZxTXZBdUxLQWR4UnhBOTdQczg0ai9BRU0vZ3ZEZzhEMVBMNldmb0RDdVNkUGlyR2pvMWRIdHl3eW1PVE01am9iKzhmQ1F3emVJZWhHWWtwS1lwTzNtdmEwWlg5cE41NWFpK01WVUZUcUh1OTdaUzhMUWZTVGdFUFV6K3Q4Tm1XRzY3U2VzZlAxenZCVlRmMEdreUpHQjdCUDlRVEJhMXFNZndlWG83b0MrT2haYm9Gcit3KytUMzFMRnFwUk0xN25BREovSy9TMUREdmp1elBrWEs0WWRGb1FSVDNpQnFIdjVvVFBIczBPYXN4N0tBbWNFd3JYZkE1V1EwUVBuYm5rVDlHQUNCdmt6Y3MzQ0JMZGJISW5KVzJFUUxFR2g5ekxuMENidkZDT2JiZjFEMis1UzJlVjVVMkRyZTRrSjdIN2pUMXdTVXBEMFRiS2hWdlA0N3lVTlRaQmpqeUttUGZuN0lIMkhQb295TXdVQT09Iiwibm9uY2UiOiJEdDNobkVIb0J5WjkwdU10N2JsOEFBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTQ0MTg4MjBaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "7314c0d3-732e-4217-87a7-2eea28ebeafa",
+            "fullname": "mongodb:ec9f8770-38e3-4bd7-a309-cdd96d3f438c",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "ec9f8770-38e3-4bd7-a309-cdd96d3f438c",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "e88fceed-80b0-46d2-9074-1649ed252e1e",
+                "id": "6673e63c30f5020038a211b3",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI1QUtucXpKckd6L0RQWWRyQVVDMDdKVnhibWhpaDVEOXVLalQrQ21QcjdlRHd1N0lGSXNZZ2FZV1ZNQWxJc09ONHlGMXlxKzYySWlDd2FYU3pCeExMd3pBMDVNbWh4Wi9rY1NHSFZjRldidktHa0taL3ZLZ25ZbmlqNWMrQmY0SGo1cVI5ZFJsdFdqcm5wMDF1UU9OazRYVzhHcXl0Y0o5cjRybmtiOVlPNk1ubTBNRC82L0dqNUtpVUI3VUtYdCtSdE1NelU2cFZIOXhzZCtiYUhIeVBkQ0V4Z0hTMTV0UisxdDdtdXhpN3Vjd3Brd2FvZXY5bCtmQnpTd0ZuYzhVZ1Evby9OU09CQVVSVWRTRlc1SzFVbDdCTzB6WDJUSkthS2ZhQUJzSjgrUzFOYUlvaUM3c1RWdXlzbUVUS1pXZ0JvUG5sL2dndHBQUTEyalFNSUVaMUVOVHBHNzBwSVRhaGNaZzNrWnZVbmJLb1U0dkM0ZmlGNkpGWDBrSE5BVDdYZUpndmJJdUFTSGg0MDExdkFLYkx4VEpwWUxSNGdDK2c5ZHYwbDIzelZjPSIsIm5vbmNlIjoiV0tHNVpNb3JQRWxiTWhubmF3TGluUT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTE6MDI6MDAuNTU0NjQxMTY0WiJ9fQ==",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "8c8360bf-ff2a-439e-aabb-d7b060153074",
+            "fullname": "mongodb:0b68857d-e055-42f0-95e3-d5f32cc205a9",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "0b68857d-e055-42f0-95e3-d5f32cc205a9",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "8360ca09-d71d-41e5-a4f5-4e40cb64908c",
+                "id": "6673e63d30f5020038a211b5",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJLc2cyRGd6SmhUQ0preGs0MWJrRSs3M2IwblBOT0xJQll1Tm5FRUtNYVlJNFFtVERlSXFxUEhQQWJLWnorRlVDZ0JSaUhYSEdQZHQrdlVyNlNlWkZUSzgzZG55NGVLUWZiMVBIWTBLSE91a2dJOGs1dE9CNzIzNGJZdnJUWHBCbHpWa09IdHh2cklqWHBSSmk4OFNBNWphZTJkZ3o1L3VqUFo3Z0RKSHYwbFhIZ0ZSdTNXek5yTkhHSTZ4ZHUyN3hBbzJrVjFwbWdrU3R0TFFkaU9Ya0g1OHV0SzZqcEdhVWQ0TGg0Lyt5QnBFRE9WYUQrMFpITFpGQWJkSHZsT0FBWW53eUt2MWR3bjBLOXRTd2RKTVVlWVQyUUF0bWRSZGlDWUVTM1FIeFBJcnJMbXVHVkdjd0dBcFl6Y1VUVkVkemFuN2ZRYXlLV1BWd01ZcFFETHFTdUdXRy8rYTllMU03NGpTMWJrS2dQdytWNHdJMC9lTmU1Y3hqeWg4M0pjQm1lQVpxbUFKQURJUmdWZnlBMDhkVGZKVlN0UHNPNmNvVUY1L2YyRXdaNy9BNUpBL04vZHNPY2hhc2NPNWdOWENrSEcza1hMNk1VL1REZ0kxOGxmeCtoQT09Iiwibm9uY2UiOiJDOFFheWVKSmxGYnNPQnVTMkNYbXlBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTQ4MDg3ODhaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "95da22f8-09d1-4c06-b82a-29dc13b7bc63",
+            "fullname": "mongodb:27e0d04e-6ac4-470e-b19e-2ed057b6d262",
+            "database": "prismConfig",
+            "schemaName": "prismConfig",
+            "type": "extract",
+            "name": "27e0d04e-6ac4-470e-b19e-2ed057b6d262",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "c7370139-b8b4-474b-ac26-193b2464693b",
+                        "id": "tq_C8VplCc7t",
+                        "name": "Dim_roles",
+                        "type": "base",
+                        "schemaName": "prismConfig",
+                        "columns": [
+                            {
+                                "oid": "a9e6ef3d-0eab-42b3-b58a-5f8077f9007b",
+                                "id": "id",
+                                "name": "id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7ec0f536-abe5-4191-903f-d345aa6e546e",
+                                "id": "role",
+                                "name": "role",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ca5193ad-dc3e-491d-a74b-e52d59fc192d",
+                                "id": "role_name",
+                                "name": "role_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "be5fe0ed-b8ca-42d7-9d4c-bb3a8377faf4",
+                        "configOptions": {
+                            "importQuery": "select\n    _id as id,\n    displayName as role,\n    name as role_name\nfrom roles"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "35fa94ec-a38b-4bef-ab9b-beb1e4c87c1b",
+                "id": "6673e65a30f5020038a211cf",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiI5WHVHZjBVRldaM1I2bWh5TjVpcExCanVab2xBUnhZbU5hekFrRmlQbGNzYWJGbThaekljUmtZQ3h5REJrWWJOMVQwMEtVRS9rdnJYMmg4eEZFVTN4a25adGN6YjFwUlA2OExjNkJ2UXhGR21TMk11R1BxM2tUMDZCY0FVc1cwT3FsQW5YSjVBVjJwY002VUp0VU5WSkFkcnNEN1kxWlZWYXZyWFFLdTk2TlBpYXh6Q3duNE0zSjFRSjlkaW9SVjEzQmF2T2RiN0lHcTU2TWlTN24yUjJrdExqMTIvMnBncGhWVTBTMXBTcmc1SlJwZ2gzMHluZk1relQ5SXEvVlhlQStqUk5oRWhJRk0vZVRBalJmS3ZqR0JLdGR3QmsrWTFaMWxSbzFlYUlhUGRtcUlpL3Q5K0pKSWdXRk1kbTBmMzIvSFVWTHNkcU5MaWR6RjNpVHZ5WlFMZXMzSmVvR3EvU3NtbFNUc0VOcTFFdTB4UGVkbnFaUHBtTDFpS0JGc3dGUUN3V1VNVDlNcjg1Y3RzSFl1ZmhFOVRBdnI1SHBDdDJLYWplSVhZekFZPSIsIm5vbmNlIjoiZ2p1aEVqTjY2QVBaVFNRMU5YYW9xZz09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTE6MDI6MDAuNTU1MjcyMjI3WiJ9fQ==",
+                "schema": "prismConfig",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "9c43710f-1574-4c50-a3d0-28ab843197e9",
+            "fullname": "a6e08eef-5241-46bd-a7cb-ebeff24b9fc1",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "a6e08eef-5241-46bd-a7cb-ebeff24b9fc1",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "84b04035-3fe9-49ad-a578-e779fe3a6abe",
+                        "id": "Dim_Dashboards",
+                        "name": "Dim_Dashboards",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "70d14e45-879d-4068-b236-27998a28bf9e",
+                            "expression": "select\n    [Dashboard_ids].[dashboard_external_id],\n    lookup(dashboards, dashboards.[dashboard_name], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) as dashboard_name,\n    lookup(dashboards, dashboards.[Owner], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) as Owner,\n    lookup(dashboards, dashboards.[datasource_title], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) as datasource_title,\n    lookup(Last_usage_date_dashboard, Last_usage_date_dashboard.[last_usage_dashbaord], [Dashboard_ids].[dashboard_external_id], Last_usage_date_dashboard.[dashboardId]) as Last_usage_date_dashboard,\n    lookup(dashboards, dashboards.[folder_name], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) as folder_name,\n    lookup(dashboards, dashboards.[tenant_id], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) as tenant_id,\n    lookup(dashboards, dashboards.[LastUpdated], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) as LastUpdated,\n    '<a href=\"https://benchprep-dev.sisense.com/app/main#/dashboards/'+[Dashboard_ids].[dashboard_external_id]+'/adminAccess?filters=all'+'\"target=\"_blank\">'+  [Dashboard_ids].[dashboard_external_id] + '</a>'as dash_url,\n    '<a href=\"https://benchprep-dev.sisense.com/app/main#/dashboards/'+[Dashboard_ids].[dashboard_external_id]+'/adminAccess?filters=all'+'\"target=\"_blank\">'+  lookup(dashboards, dashboards.[dashboard_name], [Dashboard_ids].[dashboard_external_id], dashboards.[dashboard_external_id]) + '</a>'as dashboard_url_link,\n    1 as is_dashboard_exist\nfrom \n    [Dashboard_ids] \n\n",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "71243127-e458-4078-8dd2-3a8c0fb91366",
+                                "id": "ee6bf50a-16e6-46ee-a11a-5f993a14d1dc",
+                                "name": "dashboard_external_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e640ea12-af9f-48e5-bfd0-50f3bfd2654b",
+                                "id": "f8bee02b-53f7-4fb4-8bcb-0903bbcc4189",
+                                "name": "dashboard_name",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "350a77c4-b462-4000-a713-7ba8c01ff553",
+                                "id": "d08e8328-5ef7-4f44-b352-5d1c5c3120cc",
+                                "name": "Owner",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "10f23d76-18de-4c71-9c03-269df3b7c6ab",
+                                "id": "99fc3e5a-efa6-4dd5-bdaf-a05c39b0dac5",
+                                "name": "datasource_title",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "657e7161-fb70-404e-b9cd-4c1b257fe5f6",
+                                "id": "01275d20-7323-4bdc-be2c-097cc84ddd5f",
+                                "name": "Last_usage_date_dashboard",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "74f98938-42db-4483-b825-756e972de8fb",
+                                "id": "7ef95396-ba62-4d5c-b1a5-dfbc8fcf99d5",
+                                "name": "folder_name",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "633cb602-f4e8-4183-a970-65bd3ac74ca2",
+                                "id": "5beb0604-8d8b-4038-aab6-7c05b4deda44",
+                                "name": "tenant_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2e817dcd-4894-4f44-be43-30f65ab3cef5",
+                                "id": "9cea02b9-1b8c-4272-8417-f2ae802882f0",
+                                "name": "LastUpdated",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6e45412e-5d26-4ea6-a821-90c9a9dc6c54",
+                                "id": "e191bf29-af31-45fb-bb2f-b07f2138900e",
+                                "name": "dash_url",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5ff472ee-f64f-4c3d-b360-8d91820b41fb",
+                                "id": "16e4c94c-b7a8-402c-81cf-99fd89a99b27",
+                                "name": "dashboard_url_link",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7a7912d6-b820-47ff-84b7-48e66e03bc4b",
+                                "id": "41386a8e-e1aa-4fb0-961d-187324a6c4b3",
+                                "name": "is_dashboard_exist",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "8ef0419b-1a91-4189-a68f-91933321e55d",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "9d7c6be8-f404-4083-988c-b4e6122a59d8",
+            "fullname": "mongodb:b906a4c0-079f-4a5e-acc1-f5904e83a009",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "b906a4c0-079f-4a5e-acc1-f5904e83a009",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "b55a8e8b-0baa-4454-b154-6144e730f80e",
+                "id": "6673e63d30f5020038a211ba",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiIwL2Y1Q01Yd09TVlNSdUZIT0dyT05mdC9DMmpmRzRYOGhneEIvVlNZU0ZkaGhic0JUdDZzUlJ3SDBwRXBwc3paUXNKVUJWREVoRFpJaHA4Z09Zeno2UnNka29zWmRiY0xQaU1jY1BtMERxVHNrdTNVZmdZVy96bTJDQnpvL1Jzb2hkVzV4Yi9kQW16OE9OL1dHRERwZFJwQWNUbkRuVmgwNExySTJNd1c2MWdSazAzdVVvdlJGTmdCY1YrNlAwQmQxYWNGcFRkZUdoMGQxR0hGVzBvSFdtZ1dxMU0yZXB3Rms2alY1MFZ3a1NGZ01ZSU5xYzVIRnh1cEU2OTJvcFlLTnYyTGdsQy9VZjJFbFdzZXJJYUc0L1B4MDc5Q0dhYmJEaVdiM1U4c2Fzd1BnblIvMlJUcUppWnNEWFo1U1A5aUZSbjRoNmlHVVRLanYzaFdoTmhDdUpYdlhLWkVja21HYnltb3h2ZENxVFllb3BERzA3b01oUklqMUdWbEw1bStVaVRGTGR3V2h1V1RmUFlDakdjLzVwbGNmc01wTHZJaGJGbmRoR0VET0drPSIsIm5vbmNlIjoiVWNJUWFUcWtQd2JRYWV1WU5uT0cvQT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTE6MDI6MDAuNTU1MTM4ODM0WiJ9fQ==",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "a1e408dd-07a3-4fae-afe6-adfda88eedcb",
+            "fullname": "e52bdbc2-a984-4ff7-8cf2-45b7b998bea0",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "e52bdbc2-a984-4ff7-8cf2-45b7b998bea0",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "6d36ce1d-c1f5-48e2-b540-07cb10bcd69f",
+                        "id": "Dim_dup_check",
+                        "name": "Dim_dup_check",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "1ffcfe8c-ec45-470b-832b-0a887d2c7337",
+                            "expression": "select \n    final.*, total_count - unique_count + total_nulls as is_duplicate\nfrom\n(\nselect \n    'Dim_Dashboards' as table_name,\n    count(d.[dashboard_external_id]) as total_count,\n    count(distinct  d.[dashboard_external_id]) as unique_count,\n    sum(case when d.[dashboard_external_id] is null then 1 else 0 end) as total_nulls\nfrom [Dim_Dashboards] d\nunion all\nselect \n    'Dim_user_group' as table_name,\n    count(d.[user_id]) as total_count,\n    count(distinct  d.[user_id]) as unique_count,\n    sum(case when d.[user_id] is null then 1 else 0 end) as total_nulls\nfrom [Dim_user_group] d\nunion all\nselect \n    'Dim_users' as table_name,\n    count(d.[user_id]) as total_count,\n    count(distinct  d.[user_id]) as unique_count,\n    sum(case when d.[user_id] is null then 1 else 0 end) as total_nulls\nfrom [Dim_users] d\nunion all\nselect \n    'Dim_Groups' as table_name,\n    count(d.[group_id]) as total_count,\n    count(distinct  d.[group_id]) as unique_count,\n    sum(case when d.[group_id] is null then 1 else 0 end) as total_nulls\nfrom [Dim_Groups] d\nunion all\nselect \n    'Dim_Tenants' as table_name,\n    count(d.[tenant_id]) as total_count,\n    count(distinct  d.[tenant_id]) as unique_count,\n    sum(case when d.[tenant_id] is null then 1 else 0 end) as total_nulls\nfrom [Dim_Tenants] d\n) final",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "7d72791d-2b82-4917-bba3-765da8077687",
+                                "id": "b8d65f09-1f06-4679-bc8d-95489f9daecc",
+                                "name": "table_name",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3df8c3cc-dd47-4993-ac03-32eee8929be5",
+                                "id": "678191cd-85e6-4a06-9f2b-0cf80a8b82f2",
+                                "name": "total_count",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7e5e1a9a-08f3-46cf-a83c-1bcfcc860c9c",
+                                "id": "94d3e268-56bf-4b2e-8fd4-0cc9f467ff62",
+                                "name": "unique_count",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bc7081b2-11b0-4cf3-9eba-215026a9b1f5",
+                                "id": "9a03c1cf-9407-45d6-9a8a-856c885e9f75",
+                                "name": "total_nulls",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5f8178b9-dd38-43f1-a585-2a80e2d45a54",
+                                "id": "21153533-8ed5-43b9-aa89-0edd73317933",
+                                "name": "is_duplicate",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "b773b4dc-e276-40b7-b8fd-da3e4798d195",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "ad5f5ba4-4948-41bd-a340-e4d8ece553c0",
+            "fullname": "94633888-6caa-489c-820e-12076ac0b3a3",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "94633888-6caa-489c-820e-12076ac0b3a3",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                        "id": "Fact_users_groups_",
+                        "name": "Fact_users_groups",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "619496ce-4f26-41c0-9bf0-34cd7de92c67",
+                            "expression": "-- list of Users per Groups, taken directly from MongoDB.\n-- Exclude Everyone, Admins, All Users in System. those groups handled in the SQL below\nselect \n    fu.[user_id],\n    fu.[group_id],\n    fu.[tenantId],\n    fu.[fake_dashboard_oid],\n    fu.[fake_date_num]\nfrom [Users_groups_without_admins_and_everyone] fu\n\nunion all\n-- list of Everyone group by tenant\n-- Each tenant has Default everyone group, which include all the Users within the tenant\nselect \n    u.[user_id],\n    g.[GroupID] as group_id,\n    u.[tenantId],\n    '-1',\n    -1\nfrom [Users] u\nleft join [groups] g on u.[tenantId] = g.[tenantId]\nwhere g.[GroupName] = 'Everyone'\n\nunion all\n-- list of Admins group by tenant\n-- Each tenant has Default Admins group, which include all the Users that has the following roles ['Sys. Admin' , 'Admin', 'Data Admin']\nselect \n    u.[user_id],\n    g.[GroupID] as group_id,\n    u.[tenantId],\n    '-1',\n    -1\nfrom [Dim_users] u\nleft join [groups] g on u.[tenantId] = g.[tenantId]\nwhere g.[GroupName] = 'Admins' \nand u.[role] in ('Sys. Admin' , 'Admin', 'Data Admin')\n/* Removed as it's return all users and \nunion all\n-- list of All users in system\n-- with this query All users in system from all tenants, assign on the system tenant only \nselect \n    u.[user_id],\n    g.[GroupID] as group_id,\n    dt.[tenant_id],\n    '-1',\n    -1\nfrom [Dim_tenants] dt\nleft join [groups] g on dt.[tenant_id] = g.[tenantId]\nleft join [Dim_users] u on 1=1 \nwhere dt.[tenant_name] = 'system' and g.[GroupName] = 'All users in system'\n*/",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "9c48b889-7876-4246-b7b8-7eea35b432ff",
+                                "id": "9813d3ed-67e4-4929-8524-1b2494e367cc",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "45fdfd08-ada7-4d73-a819-88fdef52c899",
+                                "id": "e5f180a1-2e65-42a5-99fd-636c4a9cd4a4",
+                                "name": "group_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ecc3f2ae-9178-4cba-a78e-1f5875f368f4",
+                                "id": "7d8e4afc-e83c-4edb-a64d-42d29c2fb5eb",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cdda8cb8-c369-42f7-aab3-f4b851e4edb5",
+                                "id": "3d1a8d2a-8934-44b8-9c9e-0660fb12bc93",
+                                "name": "fake_dashboard_oid",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f1f47af8-fc57-40a2-bc52-6e02842491b6",
+                                "id": "a4881ee0-a0d9-4752-b6d5-2ce07a920d7f",
+                                "name": "fake_date_num",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "deb7e38f-a673-44bd-b709-805da0ec8ebc",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "bd28e1ee-fb2f-4152-bff5-6bfbb42a4658",
+            "fullname": "mongodb:baee5bb0-1fa6-47fa-9f5f-d0bdf9e412e9",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "baee5bb0-1fa6-47fa-9f5f-d0bdf9e412e9",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "de149553-87b0-4b73-9e4c-ba7ad02a5788",
+                "id": "6673e63d30f5020038a211be",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJxSWZrdW00dFZramlPNTd5bkRJYnIwN0Z5VmVkZjJPUDBGaWt5YjR6U25zZGcxVEVqOHFHOGJRUFdFME1mQUFzTTVlSEE1aWNiY3pJVmE4NG5oZnhpdm5KL2tnSjhvWGRYbHp4NlcycXdOMzh2eEEyc0ZLZFNtb1RpWFFsczcrU05MTUdCQ0EwdUlWekdtSFNBSWk0bVlsWkVkeTAraHEvY0kvVElWUzVYbSttelVmZDgxVEh6aWF5cmRQdjJpU05HY0hCblo2QVNXcHRINGVRQWpmcTZTNXNQc1RwZFBvVS81NE80ZUJxdmZOQ01lM0c0T0tZYjl5YTdJd2ZiMDBTeFpTd01lc2lGVVFxUURkZG9uUXRhcDQ2a3FNZ3pvMGx4eTJzdGZ6NDNaZmx3VHdDTE5qZHRiWnEyb2hReGM0cis4cVZhMm5oZlRNakNJeEczVG1NWGQvK1FPeXFzckNOZmx0TE12NVdjYUpzM1VhdGJIZFQ2RVRwdTJ6L0EzZkx0OTVTTjVqdTQrRFhnZ2tTSnZRc0pOREtObFc5N2hGd0FYdW1oSHdveGFoc3JVWUxIYTY4ZE5Lem95b1Nla1Jrc3BpRk5LSFUrVDBVZXZFcHA5UWxkQT09Iiwibm9uY2UiOiJnN0pqQnd3RTBMYy9SY3R4ZFNCUkh3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTUwMDc0MDJaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "c03c6f96-8b9d-443e-b0a0-fe49b0d3b8da",
+            "fullname": "d9cfa731-7f54-4fb3-b07a-4b982fcbb418",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "d9cfa731-7f54-4fb3-b07a-4b982fcbb418",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "b1fb6dee-f4c2-482f-833a-929c0f63866d",
+                        "id": "Dashboard_ids",
+                        "name": "Dashboard_ids",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "d4c4c988-0455-40b2-a28f-8119e4307275",
+                            "expression": "select\n    distinct d.[dashboard_external_id]\nfrom [Dashboards] d",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "145fcc3b-ea2f-4b98-bf83-0a73c10c3c8b",
+                                "id": "66075b11-e54e-4da1-b957-cf018411b7d6",
+                                "name": "dashboard_external_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "61b06ac2-8d7d-4ad7-bbe1-81054d193582",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "c85df04d-6aee-4e89-98f1-271ff852c584",
+            "fullname": "8b3fb5d0-7c28-4cc4-9d95-bfbaa4b1b8ca",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "8b3fb5d0-7c28-4cc4-9d95-bfbaa4b1b8ca",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "256c6d93-58ca-49a9-92bb-0521784323cc",
+                        "id": "Dim_users",
+                        "name": "Dim_users",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "d8b27988-e294-4281-8e64-f20f6cb9569e",
+                            "expression": "select \n    du.[user_id],\n    du.[user_name],\n    du.[user_create_date] as created_date,\n    du.[last_login],\n    du.[last_activity],\n    du.[email],\n    du.[tenantId],\n    dr.[role],\n    case \n        when dr.[role] in ('Sys. Admin','Admin','Data Admin','Tenant Admin') then 1 \n        when dr.[role] in ('Data Designer','Designer') then 2 \n        else 3 \n    end as role_id,\n    case \n        when dr.[role] in ('Sys. Admin','Admin','Data Admin','Tenant Admin') then 'Admins' \n        when dr.[role] in ('Data Designer','Designer') then 'Designers'\n        else 'Viewers'\n    end as role_license_group,\n    case when DayDiff(currenttime(),du.[last_activity]) < 30 then 'Yes' else 'No' end as is_active,\n    DayDiff(currenttime(),du.[last_login]) as Days_since_last_login,\n    case when du.[email] not in ('SisenseSystem5W9mp','SupportAdmin') then 1 else 0 end as is_real_users\nfrom\n    [Users] du\nleft join \n    Dim_roles dr on dr.[id] = du.[role_id]",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "01b2af13-986c-4195-9ec4-a07657873340",
+                                "id": "fec32cbd-4386-4cbb-a107-bc7298064a45",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "baf37533-b4dd-4d39-ae34-39616d8f564a",
+                                "id": "ca2596a0-848e-4059-8dca-d1d8ef67eb52",
+                                "name": "user_name",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d7be07df-37c1-4aa4-a69f-adf969dfe684",
+                                "id": "6ce733e0-e58e-46fb-ba2e-d6bc1d39eea9",
+                                "name": "created_date",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b44bb57c-13aa-45f1-b0b2-2f5fc307c16e",
+                                "id": "38352aa0-0e9d-4fc5-b30d-d5cf36211301",
+                                "name": "last_login",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "11ea6363-5b02-449c-9c16-bd5fcb6af822",
+                                "id": "46c34bdc-0003-4862-aa0b-cbc25c3b8fa2",
+                                "name": "last_activity",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f45a04e7-1ea4-4481-a4cd-98e29595dd62",
+                                "id": "0cd31820-5d30-4fc4-a460-b110aa82f754",
+                                "name": "email",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e69d926b-5c4f-4cc0-98a2-acf9f6d3e6a1",
+                                "id": "dafaf502-c4b0-4fca-b13d-a73d9f116928",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0df2dee5-2011-4677-bde7-9f0a57d4e489",
+                                "id": "3a3db4dc-aedd-4bbb-a2a6-6b22a183ee34",
+                                "name": "role",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "028abed0-1601-4cba-b6f8-cde3441cbc70",
+                                "id": "dbcb69f8-f158-48c1-9204-808e48e5c656",
+                                "name": "role_id",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0c854120-c67f-43ab-9af2-80884c5c1d3b",
+                                "id": "12d6da0e-90d8-4d57-9541-e09fa9ee58b9",
+                                "name": "role_license_group",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "867f2d9f-9837-4329-8399-2808f7838a99",
+                                "id": "1cb28980-501a-4cd2-8cf0-ba41fd790b8a",
+                                "name": "is_active",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ee8deda4-cd09-4ae2-83a3-e5e13bdd3ccd",
+                                "id": "ac5e1920-3f3a-4fe0-9182-accd8eb2dfeb",
+                                "name": "Days_since_last_login",
+                                "type": 6,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "804aa876-e1cb-4b1f-9603-630796d5700d",
+                                "id": "32e82224-4560-451c-840d-fadcc60e0c3e",
+                                "name": "is_real_users",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "52ef4df7-6f01-4dd6-896a-538450918d49",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "dac75252-3a60-4c1c-9f8a-b2f59219682a",
+            "fullname": "mongodb:cd5c7057-4f4d-474d-aa32-23fccaf3d024",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "cd5c7057-4f4d-474d-aa32-23fccaf3d024",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "27e5a2a1-870e-441d-8d00-bfaed805f70b",
+                "id": "6673e63d30f5020038a211c2",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJvbUd1ZmxIZndKMldmVHBwWHg0RE1jVXRMTG9zODRKRFJha2U3K0NUME9qcENrSVhXQUxNL0o4V1JyZDMwNlQzWUk5WDEycENRWnNFeTJ2dVB5K1VFSnpVTjdhazRaU000dlFUS3U1QXFzTUhrQlV4U2NKRkMrM1E1VUFqL2MxT3BiK0tLb1BLQUxtWlExeVpRTjFsUzhBSnVFZnJTZnRRaUwrNVpETzQ0VkVJdndXL3J1U3o4R29qSmlERGxQekNZZklidDJPbFhTZHF0UFZyTWdOUitUcllSM2FJY25KcXFiTzBSNGdKVHptNUI2cy92Z1QrM0haQjdkR1JzQ1hCbFlpMmVKVmhOdzE5ZWtVdTZkVWRXdmNaSXV4UUE5S1grdENkWUoyVDZmc1pSZU1sZVNGSHpWaFpCdnJCMklEQy9ObUY0RGtzRUh0NDVpOUgzTXYrNWhhR0pralJCQnFSRGdEd3BtUmx5ZitGTGlxM0VNR04zRkUyY0tsanFwVW52UEVKRDRtUWUwK0NMOUNnLzRzOHBib29ib0swU2dQbDNUaW9pZ2c3UHY0WGNJN0V2QStqZmZFQ1NNWno3MTV0VDdVSm5TRG9qamR5c2dRNGxrWlhuZz09Iiwibm9uY2UiOiJwdTN4Wi9LU0tuMVFsTG9PWUc0MUtBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTU2NjM4ODVaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "db05dcf6-3ec9-42f5-b984-b463dc2c4510",
+            "fullname": "1caf27ea-06ce-4b9c-b947-feb832f2c326",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "1caf27ea-06ce-4b9c-b947-feb832f2c326",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                        "id": "Fact_Shared_Dashboards (1)",
+                        "name": "Fact_Shared_Dashboards",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "71f043a2-b488-47bc-8fba-b1da834689a0",
+                            "expression": "-- List of all dashboards shared by user and Groups \nselect\n    distinct d.[dashboard_external_id],\n    d.[tenant_id],\n    ds.[object_type],\n    ds.[user_group_id],\n    ds.[user_group_id] as group_id,\n    ds.[shared_counter],\n    ds.[fake_date_num]\nfrom \n    [Dashboards_shared] ds\nleft join \n    [Dashboards] d \non d.[dashboard_id] = ds.[dashboard_id]\nunion\n-- This query retrieves a list of all dashboards shared by a specific group, generating rows for each user within that group.\n-- fact_users_groups is a table which mapped users to groups \nselect\n    distinct d.[dashboard_external_id],\n    d.[tenant_id],\n    'user' as object_type,\n    g.[user_id],\n    g.[user_id],\n    ds.[shared_counter],\n    ds.[fake_date_num]\nfrom \n    [Dashboards_shared] ds\nleft join \n    [Dashboards] d \n    on d.[dashboard_id] = ds.[dashboard_id]\nleft join \n    [fact_users_groups] g on g.[group_id]= ds.[user_group_id]\nwhere ds.[object_type] = 'group'\n\n",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "ab277653-0928-48d0-b18a-9ac693e59c3d",
+                                "id": "ea260a41-31a3-4122-9b77-f3d3c5bff4c7",
+                                "name": "dashboard_external_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d9a62fcb-ebe1-40a9-83cd-2a52dbe5a89b",
+                                "id": "c4cb2116-0325-48e4-a043-87e929b84de3",
+                                "name": "tenant_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6c2e0156-b297-4126-963f-3d87c3ab4221",
+                                "id": "b50b5ced-4b54-4e31-9c18-473c5d2fce8e",
+                                "name": "object_type",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9e5020a3-d3ab-4702-8ebb-a673b1bff01a",
+                                "id": "99963581-cbdb-41b1-9fbb-4fc91681686e",
+                                "name": "user_group_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f8adf6ee-2ca9-4b29-a77f-b1694c987dd4",
+                                "id": "ae6cee94-1e4e-4a9f-a411-12078ab5c40c",
+                                "name": "group_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "923f8615-16d3-4219-8276-0b15652f984f",
+                                "id": "56f39153-c880-4141-bf1d-0a8ad4f5e9eb",
+                                "name": "shared_counter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a5835098-13c9-4639-b4f3-8f10cbecea58",
+                                "id": "8f3b9076-5b4e-4d2b-8951-9167fa168c8c",
+                                "name": "fake_date_num",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "51a911b4-6eab-48a7-ba2f-84bf0d64e4f9",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "dfb7e359-c047-417b-a501-6f4a3245c1cb",
+            "fullname": "84d1dbe2-fede-425b-83b3-7f636c7224cb",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "84d1dbe2-fede-425b-83b3-7f636c7224cb",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "e81b03e6-7af6-4c73-a855-348fb8bf7bd5",
+                        "id": "Dim_user_group",
+                        "name": "Dim_user_group",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "43869086-0590-40bd-a722-ff7440d43daa",
+                            "expression": "select \n    du.[user_id],\n    du.[user_name],\n    du.[last_activity],\n    du.[role_id],\n    dr.[role],\n    'Users' as Source,\n    case when du.[last_activity] is not null then 1 else 0 end as is_active\nfrom\n    [Users] du\nleft join \n    Dim_roles dr on dr.[id] = du.[role_id]\nunion all\nselect \n    g.[GroupID],\n    g.[GroupName],\n    g.[last_update],\n    g.[roleId],\n    'Group' as role,\n    'Groups' as Source,\n    case when g.[last_update] is not null then 1 else 0 end\nfrom \n    Groups g",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "4557ff76-7075-427d-ad44-9a23430d541d",
+                                "id": "b66dd1d4-e7b8-4c24-803b-94ae2f4e58f9",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "59c99766-9787-4a6a-94e8-80a31f0692f9",
+                                "id": "2ba9123a-9eb1-456b-b59f-a346b51355a4",
+                                "name": "user_name",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f771b216-1349-4e93-9346-97ab501ddbc3",
+                                "id": "b9b287a2-a4aa-4d03-9762-e79b73f297a8",
+                                "name": "last_activity",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c6ca2848-d4a7-4918-9448-a1b6c6c40b4f",
+                                "id": "5e2c4f95-a370-4c60-a1a0-404154389f64",
+                                "name": "role_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3737bc07-8a0e-4e0a-ba17-7dba8ba8c40c",
+                                "id": "0e3c600b-c28e-422f-ae83-518d6cad0501",
+                                "name": "role",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "327a4a24-6ebb-4ffe-a372-c0858829f9a0",
+                                "id": "19e04052-c8b2-4bcd-acc5-2aeb9b70d605",
+                                "name": "Source",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bb07e461-e436-4537-997a-d380486944b3",
+                                "id": "51423b27-2887-4776-99dd-f8d87d7fca77",
+                                "name": "is_active",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "cedf98a0-8142-49be-adc1-bc9f4c3baec6",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "ecbaa63e-c902-4ebe-b2f8-9a612fff6dd8",
+            "fullname": "mongodb:ef4c687f-9b2d-4f37-9f82-5be14d5175a7",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "ef4c687f-9b2d-4f37-9f82-5be14d5175a7",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "318852f9-ad2e-4b0e-94d5-6bf9d3797b76",
+                "id": "6673e63e30f5020038a211c6",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJhMGE5cjZrOHRES2Q1VGgwT3o0NlNZTytVTkFVNVJuU252VnhmQnNVck1ieWltY2NJZlNLd2FpWlBSd0xEUGVKWklCcjcxOVh1MVkxU0ZoN0xCZ0k2V09tSXkxYW1hZUhiVTgrMWhRZ0lOb0ZhZTAyMEJsZXVTR3JyMWx2UGgzRnJ0OXprNVI3NkJ5dExVN2hyb2NBZ0kxT0RVTFI0eDJrNzhvNFJocisvdDZ3dGN2SEQvME0wWHFxRW5vdFBpaktwczFERWh6bDZRWFpHYmt4ZkRiNndLNUlld2pXZ3prTE5vWllINjhmbi9iVEtYRmovV29aR3BOT0Rrci9GZldGeUJwR3NacmJLZEFLNmlKSzl1dFJqQ1dEMkhhZ1pUNW1XK0FJODdTbG9IdUloalNKZlJuMTZvRmZ0UFpTK3czYXVLckNxWEx4anFPTXJ3dXZpWGwwbHRpTEZzSXlqZ2VRSVlydmVKRmhMTXI2UXArbFVLUlhJVDF1SE9aUnp1ZHRkVU5zRmhHVTErZXFpQUpvc3BnMW1QM2lvbElBR29ZZHYrZnJGVTBOQUlWMWQ2OUV0ODBmczJmZXc1SmRjalFXc3Uxd3FCa2NUanBzczgvWXBIcVRQdz09Iiwibm9uY2UiOiJVVXoxMFMyWDQyY0pLSjI0WUV6UHVBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTUzMTY1MzhaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "f343025e-0713-4aee-9bbf-325cf0b4d837",
+            "fullname": "mongodb:e4d9100f-58a2-4c23-b4f9-3b43470ee9f2",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "e4d9100f-58a2-4c23-b4f9-3b43470ee9f2",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "1ee52c18-ec42-48a5-98a5-8e5af1aefbe8",
+                "id": "6673e63e30f5020038a211c8",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ0bWZudDBEb1JSTFprdVhXSjc3WnZ0RTJzV1Qwc1dUVkhvVkNuRlhmMnFOLzlkNmRrZDJEcjhCY1Y0OFZaZzEvRU5JUENMWkRTdlF6WEI5VFpiNmd4M0lTN21tZEhYa2dCYjd5cnUzbnJoSUFWckVpekVDMEpRTWxacTlzODZhdTdtbVhTUVNYUGFqMFlPRENnN2xwbDJQcHE0Q2Q4OWluZE1UTW9pMGptNkxQS0tSSUw1czZTTEJGRWZRdDdGUWg0aFRkQ2Z1b1UrOE5scVNpbFc2b2haK1RJODhvSUF3Z2ZMSGRiWmdOeGQrVXFZOTRIWTAxeVVxRGNEMkNURE1PblMxN0p5S2RmejN6Z2w0UGZ0d2hkWVJ1bG14VVJ0ZkdhQmR5MWdTeW00Njhkek1wS05GQm1hLzJvZ25RZ1FTMkhLNjhESkJ4VmEzNlNyVjIzS3dRRFAvemFoWHpKblF6ZHlRNWFrMkF3WC92eXJYVFZLNnlDRXo4ak0ydlFGNmxrMXhIY2JGU0Uzb3pEaUd3dWJGMDJiVkl1U0VNRG1oQndtRlhLNy9kVndjNWlBYkxCNjZsZU1zUGc4M3dlaFpaeTk3TkI2V29MbXovRVY1WDVNNGNJdz09Iiwibm9uY2UiOiJBaUZTaGVxQzZESlZsNE5YOGRTNmpnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTU0Mjc1ODBaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "f4fbcf5d-9e97-445d-ae63-133a94dcbe40",
+            "fullname": "47ea750f-2ea2-4530-8424-e4344beadcae",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "47ea750f-2ea2-4530-8424-e4344beadcae",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "8c76f07f-ea55-4f40-8ace-ce2b661337e4",
+                        "id": "Last_usage_date_dashboard",
+                        "name": "Last_usage_date_dashboard",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "6c05bd53-f2fc-48f9-8266-954cbf3e6359",
+                            "expression": "select  \n    u.[dashboardId],\n    max(u.timestamp) as last_usage_dashbaord\nfrom \n    Usage u\ngroup by u.[dashboardId]",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "d30ff8f9-facb-48e9-b41e-02ee67913899",
+                                "id": "7fe72b9a-b22f-40b3-baa8-812f882f7911",
+                                "name": "dashboardId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4788a75d-7819-4b4e-ac44-f2aea59b6ed5",
+                                "id": "aca52481-cfb1-4c7e-8c6f-b32fb4b25ec6",
+                                "name": "last_usage_dashbaord",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "6667d432-e678-4ed3-b47c-7c3ab3535323",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "f99a9617-d61d-4258-9b1f-56c16127c74d",
+            "fullname": "26e3e98e-6d00-4875-97ea-5d979d5cd4e8",
+            "database": "",
+            "schemaName": "",
+            "type": "custom",
+            "name": "26e3e98e-6d00-4875-97ea-5d979d5cd4e8",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                        "id": "fact_usage",
+                        "name": "fact_usage",
+                        "type": "custom",
+                        "schemaName": null,
+                        "expression": {
+                            "oid": "c2884a44-1295-4225-b60a-ef69dbe5520f",
+                            "expression": "select\n    u.[userId] as user_id,\n    u.[dashboardId] as dashboard_external_id,\n    dd.[tenant_id], -- May contain Null values as dashboards might have been deleted but still appear in the Usage CSV\n    u.[userId],\n    '-1' as fake_group_id,\n    --u.[timeStamp],\n    (GetYear(u.[timeStamp]) * 10000 + GetMonth(u.[timeStamp]) * 100 + GetDay(u.[timeStamp])) as datenum,\n    1 as counter,\n    case when du.[role_license_group] in ('Viewers') then 1 else 0 end as is_viewer_usage\nfrom\n    [Usage] u\nleft join [Dim_Dashboards] dd on dd.[dashboard_external_id] = u.[dashboardId]\nleft join [Dim_users] du on du.[user_id] = u.[userId]\nwhere \n    u.[dashboardId] is not null",
+                            "isDatabaseDialect": false
+                        },
+                        "columns": [
+                            {
+                                "oid": "67456e5a-555b-40a7-8925-c284445a5b4a",
+                                "id": "d125202c-17c7-41c0-adc3-73370db3ca44",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "939cf20b-9ccf-462b-be4b-34ec0e93f4a9",
+                                "id": "63589c29-4ae6-4852-902d-ddc5d67cf7e9",
+                                "name": "dashboard_external_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1bc7b614-f4ab-41ca-ae1c-59428c72b498",
+                                "id": "751f38f3-a95a-47dd-ace8-ad8c92b832c3",
+                                "name": "tenant_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9cd15171-aa41-4278-87a7-c353ef4dd3c0",
+                                "id": "8b45a8b9-9553-48af-b026-bc17f9434b3a",
+                                "name": "userId",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "feb537ba-b9fa-4ea1-a541-038c8da9dc49",
+                                "id": "74864c72-7d8f-4d3b-9487-f220aaaa5b42",
+                                "name": "fake_group_id",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "520eff7c-d70c-4e45-b69a-45de3b4e385e",
+                                "id": "4daff853-3bcf-4946-8ce1-5acfa61c97e7",
+                                "name": "datenum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fdf7ff6f-daec-4e53-802c-1f9f4b8e5214",
+                                "id": "a8315a6f-82fd-434d-8dd2-68ac53c174ff",
+                                "name": "counter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "00fd2998-f8b4-4049-bf89-a8dcdf0df0ae",
+                                "id": "6151a1a1-d768-41cc-be40-5945b2b6e73b",
+                                "name": "is_viewer_usage",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "1e87426b-fdc0-4405-9707-ffb20f9ad1eb",
+                        "isMaterialized": null
+                    }
+                ]
+            },
+            "connection": null,
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "fa753c61-11fd-4863-8805-f8367686ad49",
+            "fullname": "mongodb:1722409d-e067-48fd-93a6-c0dd84600ccb",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "1722409d-e067-48fd-93a6-c0dd84600ccb",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "eb631e7b-230a-4d0d-8aab-13761c62a885",
+                "id": "6673e63e30f5020038a211cc",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJUbXhpdTJiWFJDTUpLeEt1dGUwYlVQTVBtcW41RzBhNzNTeEhEY05jVWtWK1FUVWVCMHVONEJ2YUtVL3hCMmxlcHJRV0kvMTBXUlVySGJoamN5eHhXVENWcEY5WjF3azJiNjVQT2xzQVFYbnRFUk1PMmRpeWt2L2x2MUxzN00zSllpNjB0K040UmlTNDNpRHNVN0syajV6aWxGL05ZVS9HQVlJZi82OGhRVmtUdHpuNW94Qy9mSVc5UFM4SWs1SjlPZEFTa3BDN3V3eFN2bG4zbEgwYmVqdERPamszSi82c1d1VmNqN2t2eExralNybEVyUUEvRWVrU1ZJemtXWmZINjl2aGtweWd4aWhmZkhkTFBONG9hcGU0UXF5Z0RYRXdxdXZGY2xDTFhqYlIvOFpjMUM2WlpCVHZRVytDZGdaVTFFSE9nbTcwZ3RGY2RDd2dhQng1NzBkc1Rpa2YxcGtiblJrSnNqdUxiMU9LVlZNb2dvN3pnVzVzY0F2dlNuaEN5ZklxaHhGL252SlhGUW5xaUR0NkZMNkJ5MXpNQXg4RU5rQkxrNC92cnMrS1dUQ3kxREV2V0o0Y3Eyd2xlRGN5eUFHcGkvUENvLy9zNFRCRkNWYnlhdz09Iiwibm9uY2UiOiJTTHRPMWEyL1lUdlpQaDFhVXg1TlZnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xM1QxMTowMjowMC41NTYwMDEwMDJaIn19",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "99854093-4cde-4f2c-bbbc-a0b94eaa46db",
+            "fullname": "mongodb:4af300e0-e323-490b-b948-54ffc192ff3f",
+            "database": "prismWebDB",
+            "schemaName": "prismWebDB",
+            "type": "extract",
+            "name": "4af300e0-e323-490b-b948-54ffc192ff3f",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "09442cf9-5e90-43ac-9b06-19ec0dfe9ed9",
+                        "id": "tq_J1oSlv7le",
+                        "name": "Dim_Groups",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "c659b525-c3e0-404e-b921-abdee5d0f04c",
+                                "id": "group_id",
+                                "name": "group_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5c3c9bbb-b67d-40e1-9058-8c05fd0c3401",
+                                "id": "group_name",
+                                "name": "group_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "3b9df63e-0d1a-4455-aebb-b6e689f9aeee",
+                        "configOptions": {
+                            "importQuery": "SELECT\n    GRP.\"_id\" AS group_id,\n    GRP.\"name\" AS group_name\nFROM\n    \"prismWebDB\".\"groups\" GRP\n"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "16ad3390-6e78-4775-bf6a-f0ccc69e3374",
+                        "id": "tq_LKdMYbaaM",
+                        "name": "Dim_tenants",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "35d50a3e-134a-4c50-ab11-d29ee90401f7",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9d455371-a536-4323-94b8-cb321932bec7",
+                                "id": "tenant_name",
+                                "name": "tenant_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8607be77-a937-4a76-a534-d7a9310868ba",
+                                "id": "tenant_default",
+                                "name": "tenant_default",
+                                "type": 2,
+                                "size": 1,
+                                "precision": 1,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d337e8ce-9a37-4db4-8425-992a9fe3386d",
+                                "id": "is_system_management",
+                                "name": "is_system_management",
+                                "type": 2,
+                                "size": 1,
+                                "precision": 1,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "ef3af2d0-e55a-410b-984c-10bb910e9704",
+                        "configOptions": {
+                            "importQuery": "SELECT \n    t.\"_id\" as tenant_id, \n    t.\"name\" as tenant_name,\n    t.\"default\" as tenant_default, \n    t.\"systemManagement\" as is_system_management\nFROM \"prismWebDB\".\"tenants\" t"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "29aa4e14-6006-4689-b50c-f58cb0beb926",
+                        "id": "tq_JlCn2QARM",
+                        "name": "groups",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "63955911-565b-4fb5-972e-53348002d7f8",
+                                "id": "GroupID",
+                                "name": "GroupID",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "427b0d73-0bdd-4e4f-8632-af033bd1f8a1",
+                                "id": "GroupName",
+                                "name": "GroupName",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6b441717-1e08-4554-8210-922a0fd20fa5",
+                                "id": "last_update",
+                                "name": "last_update",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0b5f5cc5-8f1e-4a67-8342-0c8cd4833a03",
+                                "id": "roleId",
+                                "name": "roleId",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c9f190c6-40a0-4b5b-813d-46c69a4952df",
+                                "id": "tenantId",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "d2fd6917-3774-4ede-ad21-a6c5dec2289b",
+                        "configOptions": {
+                            "importQuery": "SELECT\n    GRP.\"_id\" AS GroupID,\n    GRP.\"name\" AS GroupName,\n    GRP.lastUpdated as last_update,\n    GRP.roleId,\n    GRP.tenantid\nFROM\n    \"prismWebDB\".\"groups\" GRP"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "389d8340-afc4-48aa-8ba4-2f2c1a1f2efa",
+                        "id": "tq_pCPxc2WwL",
+                        "name": "Users",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "8f37bed1-376c-43b4-98ee-081b1e7adf92",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "31eb125c-8ea7-44d5-9514-1f1fff958cd2",
+                                "id": "user_name",
+                                "name": "user_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "651c4223-061d-4ae0-8b49-86e2a665234d",
+                                "id": "last_login",
+                                "name": "last_login",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "11d099af-17b3-496c-8bf6-d776350e1b0f",
+                                "id": "last_activity",
+                                "name": "last_activity",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ffaf6f27-58e3-420a-bc00-ca7674f90ac4",
+                                "id": "role_id",
+                                "name": "role_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "dd7e6dbd-cf9d-4ff2-9c9a-f5ebbef6d67b",
+                                "id": "user_create_date",
+                                "name": "user_create_date",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fd253c90-7ac7-4cd1-8009-b8488dd21a28",
+                                "id": "email",
+                                "name": "email",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "de5c5856-c0b2-4fb4-b693-5bdc2c6f3816",
+                                "id": "tenantId",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "column": "dd7e6dbd-cf9d-4ff2-9c9a-f5ebbef6d67b",
+                                    "type": 19
+                                },
+                                "type": "change-data-type"
+                            },
+                            {
+                                "arguments": {
+                                    "column": "651c4223-061d-4ae0-8b49-86e2a665234d",
+                                    "type": 19
+                                },
+                                "type": "change-data-type"
+                            }
+                        ],
+                        "hidden": true,
+                        "vTag": "a2f20d7c-4133-4b3e-a4eb-6de9a19bbb3b",
+                        "configOptions": {
+                            "importQuery": "SELECT\n    U._id AS user_id,\n    U.\"userName\" AS user_name,\n    U.\"lastLogin\" as last_login,\n    U.\"lastActivity\" AS last_activity,\n    U.\"roleId\" AS role_id,\n    U.\"created\" as user_create_date,\n    U.\"email\",\n    U.\"tenantid\"\nFROM\n    \"prismWebDB\".\"users\" U"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "471a0e69-6213-4352-9a34-efbfe57941c3",
+                        "id": "tq_AXQksdySN",
+                        "name": "dashboards_shared",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "d1e6aa2f-eb6f-448b-a227-6429d2a58861",
+                                "id": "dashboard_id",
+                                "name": "dashboard_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a5f97292-17f3-45a3-b9ba-ef626c18b25d",
+                                "id": "object_type",
+                                "name": "object_type",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "80d2857d-7cca-4ede-8f18-00bb918122a8",
+                                "id": "user_group_id",
+                                "name": "user_group_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "146d21dd-8ccf-4144-a1ec-93a66f7e86a9",
+                                "id": "shared_counter",
+                                "name": "shared_counter",
+                                "type": 20,
+                                "size": 4,
+                                "precision": 3,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e03a86d0-93aa-4990-8b99-c4ed85d46c6f",
+                                "id": "fake_date_num",
+                                "name": "fake_date_num",
+                                "type": 16,
+                                "size": 6,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "6a1a2278-82fb-4370-b555-a27d8d72b8e4",
+                        "configOptions": {
+                            "importQuery": "SELECT \n    ds._id as dashboard_id,\n    ds.type as object_type,\n    ds.shareid as user_group_id,\n    1 as shared_counter,\n    -1 as fake_date_num\nFROM \"prismWebDB\".\"dashboards_shares\" ds"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "51a277fa-fa47-4b99-86b9-e5aa517f5bf2",
+                        "id": "tq_3cnA0ueA7",
+                        "name": "dashboards",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "ccf01774-d61e-4215-b04d-4dd6e86e5ee0",
+                                "id": "dashboard_id",
+                                "name": "dashboard_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "10cbaaec-f13f-471d-8198-a4c3510bd55a",
+                                "id": "dashboard_external_id",
+                                "name": "dashboard_external_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4ef9941f-842a-4f2b-83e8-807323fd3eb5",
+                                "id": "dashboard_name",
+                                "name": "dashboard_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e5a5d9cd-c527-42d3-9dba-0acf1bbfbe7f",
+                                "id": "datasource_title",
+                                "name": "datasource_title",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c0a2585a-db3f-4768-ac5a-a3343fa50007",
+                                "id": "Owner",
+                                "name": "Owner",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cb0d63e5-c91b-4785-85a5-ba3234098ce8",
+                                "id": "folder_name",
+                                "name": "folder_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0639f819-8789-484b-8276-7dfd01f2c116",
+                                "id": "dashboard_create_date",
+                                "name": "dashboard_create_date",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bea479de-cf81-4cbd-a460-c9d16eecb8ce",
+                                "id": "lastUpdated",
+                                "name": "lastUpdated",
+                                "type": 4,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 6,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6be5630e-e60a-4336-80b5-bd73d35225ee",
+                                "id": "tenant_id",
+                                "name": "tenant_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "97380a68-77fa-4b22-ab7b-6f5006302769",
+                        "configOptions": {
+                            "importQuery": "SELECT     \r\n    D._id AS dashboard_id,\r\n    D.oid AS dashboard_external_id,\r\n    D.\"title\" AS dashboard_name,\r\n    D.datasource_title,\r\n    U.\"userName\" AS Owner,\r\n    T.name as folder_name,\r\n    D.created as dashboard_create_date,\r\n    D.LastUpdated,\r\n    D.tenantId as tenant_id\r\nFROM \"prismWebDB\".\"dashboards\" D\r\nJOIN \"prismWebDB\".\"users\" U ON D.Owner = U._id\r\nLEFT JOIN \"prismWebDB\".\"tags\" T ON D.\"parentFolder\" = T.oid"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "c505ee1f-5171-4c9c-be2b-860525891781",
+                        "id": "tq_HkKGvRDdW",
+                        "name": "Users_groups_without_admins_and_everyone",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "55a75183-941d-4db7-928d-5e5d2d8b6a3c",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "22a63791-1e01-49d1-a55a-88dde43d4f5d",
+                                "id": "user_group",
+                                "name": "user_group",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bf38836d-ec0a-4ccb-9161-3cb32290a787",
+                                "id": "group_name",
+                                "name": "group_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f586ed70-fbef-4190-9bdd-7432e36377c1",
+                                "id": "group_id",
+                                "name": "group_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f17dafd0-20ea-4973-b3ca-c7cedd242991",
+                                "id": "tenantId",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d7f0f6d5-35c3-45de-a88c-e7352144e0f5",
+                                "id": "fake_dashboard_oid",
+                                "name": "fake_dashboard_oid",
+                                "type": 3,
+                                "size": 2,
+                                "precision": 2,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "80f0d875-79d2-4016-b696-c778d1c4dbb7",
+                                "id": "fake_date_num",
+                                "name": "fake_date_num",
+                                "type": 16,
+                                "size": 6,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "516e709e-c10d-438e-9271-2f604f12ec9d",
+                        "configOptions": {
+                            "importQuery": "select\n    ug._id as user_id,\n    ug.users_groups as user_group,\n    g.name as group_name,\n    g._id as group_id,\n    g.\"tenantId\",\n    '-1' as fake_dashboard_oid,\n\t-1 as fake_date_num\nfrom\n    users_groups ug\nleft join\n    groups g\non g._id = ug.users_groups\nwhere g.name not in ('Everyone','Admin')"
+                        },
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e880e585-ae62-4917-9805-fc5d752798b7",
+                        "id": "tq_z89Eh42aQ",
+                        "name": "user_group",
+                        "type": "base",
+                        "schemaName": "prismWebDB",
+                        "columns": [
+                            {
+                                "oid": "ca57c527-bf50-4434-8320-98c10e8d342b",
+                                "id": "user_id",
+                                "name": "user_id",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9668134b-0961-44aa-8eab-1e2d16d55f5b",
+                                "id": "user_group",
+                                "name": "user_group",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fb4c2510-5464-4083-ae74-ab2d98ef0b10",
+                                "id": "group_name",
+                                "name": "group_name",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2fc1d9c7-05e4-41f5-b466-c26d50e713fa",
+                                "id": "tenantId",
+                                "name": "tenantId",
+                                "type": 18,
+                                "size": 255,
+                                "precision": 255,
+                                "scale": 0,
+                                "hidden": true,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": true,
+                        "vTag": "159c6504-ea02-436e-b2eb-9bfa2707f797",
+                        "configOptions": {
+                            "importQuery": "select\n    ug._id as user_id,\n    ug.users_groups as user_group,\n    g.name as group_name,\n    g.\"tenantId\"\nfrom\n    users_groups ug\nleft join\n    groups g\non g._id = ug.users_groups\nwhere g.name not in ('Everyone','Admins')"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "92c1eb91-214f-4c0d-a5f5-887d434f2c02",
+                "id": "6673e66c30f5020038a211d0",
+                "provider": "mongodb",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJuTHZQcFdXR3QycTBBOXRhZVpDZFdBb1hlUklxbC9VRkIxY05tTWlNMVFDUFRRM3ptbjRncHRGaUFmeEdTcmV3Qzg0OGM0dlAyU1JhSHRVOVlUTWFmSFg4VnVoaEZmSU12V3czWi8ycEIrZlFQalJwWklDYlFQb3pUR09JQjRmNWNJeG9aVFZIWUxrTDlRL0Q2UjJ3Nyt4Q04wM2FEcTBEV1JWbFZIeEx5MUZVSFVDRHIvcU01bmZqTnhWWWprcGhVNkc3UHVuNnRxT0MydU9yQ1o5ZEwra2ZXcDJHYTNCSHJJdGZUdTV5bHpGS1NpaGk5RkJCSmhqWThCWHd0Z3Axck1JSzlpRGppa3JNbkpwa2NRcUJIUE5NNXNFbmJQNisrakRRMXhkZXhka0w2NDhocmdSSWNFdWs4dVBpRXhFOFV0dDRsNit4ZjhRazJtOG0yam40ZXJBcjhURFdQVDFIbjBsL01mdTlNS1pzNzh1TUtXdFI4V1pEU2RrRFJZakhnN2dEWE9BMWJRdE9OWVlRMTBwMHdjUW1kaWhtY1l5NDNESXVrOEp4SXowPSIsIm5vbmNlIjoiY0VJYWx2NjhnaUhFV2V3SzYrdWtZQT09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTNUMTE6MDI6MDAuNTU1ODIwNjA4WiJ9fQ==",
+                "schema": "prismWebDB",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "b1fb6dee-f4c2-482f-833a-929c0f63866d",
+                "x": -4.308014869689941,
+                "y": 10.24853515625,
+                "fixed": true
+            },
+            {
+                "id": "51a277fa-fa47-4b99-86b9-e5aa517f5bf2",
+                "x": -9.677465438842773,
+                "y": 9.122593879699707,
+                "fixed": true
+            },
+            {
+                "id": "471a0e69-6213-4352-9a34-efbfe57941c3",
+                "x": -11.555093765258789,
+                "y": 9.245450019836426,
+                "fixed": true
+            },
+            {
+                "id": "84b04035-3fe9-49ad-a578-e779fe3a6abe",
+                "x": -1.536017656326294,
+                "y": -3.748077392578125,
+                "fixed": true
+            },
+            {
+                "id": "6d36ce1d-c1f5-48e2-b540-07cb10bcd69f",
+                "x": -7.876145839691162,
+                "y": 6.640361785888672,
+                "fixed": false
+            },
+            {
+                "id": "09442cf9-5e90-43ac-9b06-19ec0dfe9ed9",
+                "x": -1.5609614849090576,
+                "y": 0.8871468305587769,
+                "fixed": true
+            },
+            {
+                "id": "c7370139-b8b4-474b-ac26-193b2464693b",
+                "x": -8.472837448120117,
+                "y": 9.11004638671875,
+                "fixed": true
+            },
+            {
+                "id": "16ad3390-6e78-4775-bf6a-f0ccc69e3374",
+                "x": -1.5227125883102417,
+                "y": 2.506349802017212,
+                "fixed": true
+            },
+            {
+                "id": "e81b03e6-7af6-4c73-a855-348fb8bf7bd5",
+                "x": -1.5004827976226807,
+                "y": -0.7407475709915161,
+                "fixed": true
+            },
+            {
+                "id": "256c6d93-58ca-49a9-92bb-0521784323cc",
+                "x": -1.5915606021881104,
+                "y": -2.106914758682251,
+                "fixed": true
+            },
+            {
+                "id": "463f2c37-2405-4f3c-978d-d9e99db328bf",
+                "x": -7.394712448120117,
+                "y": -0.23200099170207977,
+                "fixed": true
+            },
+            {
+                "id": "bd7e26b4-6f28-41ea-9d49-e5b8eed4e9d1",
+                "x": -7.342325210571289,
+                "y": -2.4584696292877197,
+                "fixed": true
+            },
+            {
+                "id": "e987f7e9-8bbc-4a47-a53f-4c2bdc5d0ab9",
+                "x": -7.342325210571289,
+                "y": 1.915886402130127,
+                "fixed": true
+            },
+            {
+                "id": "29aa4e14-6006-4689-b50c-f58cb0beb926",
+                "x": -10.946734428405762,
+                "y": 10.11743450164795,
+                "fixed": true
+            },
+            {
+                "id": "8c76f07f-ea55-4f40-8ace-ce2b661337e4",
+                "x": -5.055545330047607,
+                "y": 9.265480995178223,
+                "fixed": true
+            },
+            {
+                "id": "ff62f1bc-3d8f-4e6b-aea4-4b778b121059",
+                "x": -5.356564044952393,
+                "y": 10.123401641845703,
+                "fixed": true
+            },
+            {
+                "id": "e880e585-ae62-4917-9805-fc5d752798b7",
+                "x": -6.71302604675293,
+                "y": 7.184067726135254,
+                "fixed": false
+            },
+            {
+                "id": "389d8340-afc4-48aa-8ba4-2f2c1a1f2efa",
+                "x": -9.675651550292969,
+                "y": 10.163695335388184,
+                "fixed": true
+            },
+            {
+                "id": "c505ee1f-5171-4c9c-be2b-860525891781",
+                "x": -7.615581035614014,
+                "y": 10.221738815307617,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -8.25,
+                "y": 8.25,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "6673e63e30f5020038a211ce",
+                "oid": "99798faa-4574-4653-aa2a-b56f54e7a30b",
+                "datamodelOid": "99798faa-4574-4653-aa2a-b56f54e7a30b",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true
+            }
+        ]
+    }
+}

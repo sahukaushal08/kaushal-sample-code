@@ -1,0 +1,3876 @@
+{
+    "title": "backup MOCKUP - Practice Mastery & Elo Rank by Category - User Course Detail",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "palette": {
+            "name": "Urban",
+            "colors": [
+                "#60C2BB",
+                "#94A1A8",
+                "#6E798D",
+                "#FA7240",
+                "#E2BA50"
+            ]
+        }
+    },
+    "layout": {
+        "columns": [
+            {
+                "width": 100,
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": "52px",
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f18276"
+                                    }
+                                ],
+                                "index": 0,
+                                "stretchable": false,
+                                "width": 100,
+                                "pxlWidth": 709
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f1827b",
+                                        "height": 512
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 709,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 512,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f18277"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 706.5,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f1827a",
+                                        "height": 512
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 709,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 102,
+                                        "maxHeight": 1024,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "height": 512,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f18278"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 706.5,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f1827c",
+                                        "height": 512
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 374.033,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f1827d",
+                                        "height": 512
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 706.5,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 128,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f1827e",
+                                        "height": "158px",
+                                        "autoHeight": "158px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 706.5,
+                                "index": 0
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "minHeight": 96,
+                                        "maxHeight": 2048,
+                                        "minWidth": 128,
+                                        "maxWidth": 2048,
+                                        "defaultWidth": 512,
+                                        "widgetid": "667980aa7529970040f18279",
+                                        "height": "739px",
+                                        "autoHeight": "739px"
+                                    }
+                                ],
+                                "width": 100,
+                                "stretchable": false,
+                                "pxlWidth": 362.033,
+                                "index": 0
+                            }
+                        ]
+                    }
+                ],
+                "pxlWidth": 709,
+                "index": 0
+            }
+        ],
+        "instanceid": "0D5B5-3F15-47",
+        "type": "columnar",
+        "container": {
+            "sizzle1719005735957": {
+                "undefined": {
+                    "parentNode": [
+                        1212.742437529317,
+                        37,
+                        true
+                    ]
+                }
+            }
+        }
+    },
+    "previewLayout": [],
+    "oid": "667980aa7529970040f18275",
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:dm_enrollment_snapshot",
+        "id": "live:dm_enrollment_snapshot",
+        "live": true,
+        "title": "dm_enrollment_snapshot"
+    },
+    "filters": [
+        {
+            "jaql": {
+                "table": "DIM_USER",
+                "column": "USER_EMAIL",
+                "dim": "[DIM_USER.USER_EMAIL]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "User Email",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                        "kelly.ameno@pnc.com"
+                    ]
+                }
+            },
+            "instanceid": "2E9CB-7A07-81",
+            "isCascading": false,
+            "disabled": false
+        },
+        {
+            "jaql": {
+                "table": "DIM_COURSE",
+                "column": "COURSE_TITLE",
+                "dim": "[DIM_COURSE.COURSE_TITLE]",
+                "datatype": "text",
+                "merged": true,
+                "datasource": {
+                    "fullname": "live:dm_enrollment_snapshot",
+                    "id": "live:dm_enrollment_snapshot",
+                    "live": true,
+                    "title": "dm_enrollment_snapshot"
+                },
+                "firstday": "mon",
+                "locale": "en-us",
+                "title": "Course Name",
+                "collapsed": true,
+                "isDashboardFilter": true,
+                "filter": {
+                    "explicit": false,
+                    "multiSelection": true,
+                    "all": true
+                }
+            },
+            "instanceid": "9A10E-C964-2D",
+            "isCascading": false,
+            "disabled": false
+        }
+    ],
+    "editing": true,
+    "parentFolder": "63f784be02e8b50035da36ca",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "autoUpdateOnFiltersChange": true,
+    "useAcceleration": false,
+    "filterRelations": [],
+    "filterToDatasourceMapping": {},
+    "allowChangeSubscription": false,
+    "isPublic": null,
+    "widgets": [
+        {
+            "title": "Strengths & Weaknesses",
+            "type": "WidgetsTabber",
+            "subtype": "WidgetsTabber",
+            "oid": "667980aa7529970040f18276",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b4",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "WidgetsTabber",
+                    "isTypeValid": false,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": false,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "instanceid": "30326-CBFA-38",
+            "realTimeRefreshing": false,
+            "script": "\nwidget.on(\"render\", function (w, e) {\n  e.prefixText = \"\";\n  e.suffixText = \"\";\n  e.selectedColor = \"#0E788F\"; /*The color of the chosen title*/\n  e.fontColor = \"#828282\"; /*The color of the unchosen titles*/\n  e.elementWidth = \"103%\";\n  e.descColor = \"#a5a5a5\";\n  e.parentMarginLeft = \"-15px\";\n  e.height = 32; /* affects the tabber widget default high*/\n});\n\ncategoryIds = [\n  \"660dde4d7529970040f126f8\",\n  \"660dde547529970040f126fa\",\n  \"666b2b097529970040f1799b\",\n  \"667980aa7529970040f18277\",\n  \"667980aa7529970040f1827b\"\n\t\n];\n\n\nsubcategoryIds = [\n  \"660dde5a7529970040f126fc\",\n  \"660dde617529970040f126fe\",\n  \"666b2b157529970040f1799f\",\n  \"667980aa7529970040f18278\",\n  \"667980aa7529970040f1827a\"\n];\n\n\nallIds = [\n  ...categoryIds,\n  ...subcategoryIds,\n]\n\n\nwidget.tabs = [\n  {\n    title: \"Categories\",\n    displayWidgetIds: categoryIds,\n    hideWidgetIds: allIds.filter(n => !categoryIds.includes(n)),\n  },\n\n  {\n    title: \"Sub-categories\",\n    displayWidgetIds: subcategoryIds,\n    hideWidgetIds: allIds.filter(n => !subcategoryIds.includes(n)),\n  },\n\n];\n",
+            "style": {
+                "activeTab": "1",
+                "showTitle": false,
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": []
+                }
+            },
+            "tabs": [
+                {
+                    "title": "Categories",
+                    "displayWidgetIds": [
+                        "660dde4d7529970040f126f8",
+                        "660dde547529970040f126fa",
+                        "666b2b097529970040f1799b",
+                        "667980aa7529970040f18277"
+                    ],
+                    "hideWidgetIds": [
+                        "660dde5a7529970040f126fc",
+                        "660dde617529970040f126fe",
+                        "666b2b157529970040f1799f",
+                        "667980aa7529970040f18278"
+                    ]
+                },
+                {
+                    "title": "Sub-categories",
+                    "displayWidgetIds": [
+                        "660dde5a7529970040f126fc",
+                        "660dde617529970040f126fe",
+                        "666b2b157529970040f1799f",
+                        "667980aa7529970040f18278"
+                    ],
+                    "hideWidgetIds": [
+                        "660dde4d7529970040f126f8",
+                        "660dde547529970040f126fa",
+                        "666b2b097529970040f1799b",
+                        "667980aa7529970040f18277"
+                    ]
+                }
+            ],
+            "options": {
+                "dashboardFiltersMode": "filter",
+                "selector": false,
+                "autoUpdateOnEveryChange": true
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Elo Rank by Category",
+            "type": "chart/bar",
+            "subtype": "bar/classic",
+            "oid": "667980aa7529970040f18277",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b6",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Parent Question Category"
+                                },
+                                "instanceid": "4838A-E547-1C",
+                                "panel": "rows",
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "(Parent) Question Category"
+                                },
+                                "instanceid": "1EF78-0419-CB",
+                                "panel": "rows",
+                                "disabled": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                    "column": "ELO_RANK",
+                                    "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.ELO_RANK]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "Avg Elo Rank"
+                                },
+                                "instanceid": "1B1FA-D7B1-FF",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": false
+                                        }
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#353535",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "panel": "measures"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "true"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "A4D09-0F10-00",
+                                "panel": "scope",
+                                "disabled": false
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/bar",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "drillToDashboardPivotLinkCellType": "value",
+                "drillToDashboardPivotLinkAllowedCellTitles": []
+            },
+            "instanceid": "BE57C-8635-1A",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": true,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "stacked": false,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": false,
+                            "percentage": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "max": 1600
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "parent_question_category",
+                            "title": "Parent Question Category",
+                            "singular": "Parent Question Category",
+                            "plural": "Parent Question Category"
+                        },
+                        {
+                            "id": "(parent)_question_category",
+                            "title": "(Parent) Question Category",
+                            "singular": "(Parent) Question Category",
+                            "plural": "(Parent) Question Category"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                },
+                "selectorLocked": false
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "Elo Rank by Sub-Category",
+            "type": "chart/bar",
+            "subtype": "bar/classic",
+            "oid": "667980aa7529970040f18278",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b8",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Question Category Name"
+                                },
+                                "instanceid": "3DAE6-0D64-B8",
+                                "panel": "rows"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                    "column": "ELO_RANK",
+                                    "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.ELO_RANK]",
+                                    "datatype": "numeric",
+                                    "agg": "avg",
+                                    "title": "Avg Elo Rank"
+                                },
+                                "instanceid": "1B1FA-D7B1-FF",
+                                "format": {
+                                    "mask": {
+                                        "abbreviations": {
+                                            "t": false,
+                                            "b": false,
+                                            "m": false,
+                                            "k": false
+                                        },
+                                        "decimals": 0,
+                                        "number": {
+                                            "separated": false
+                                        }
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#353535",
+                                        "isHandPickedColor": true
+                                    }
+                                },
+                                "panel": "measures"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "C3645-77A6-25",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "false"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "14CAC-A9C4-28",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/bar",
+                    "isTypeValid": true,
+                    "customMenuEnabled": false,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Default",
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "drillToDashboardPivotLinkCellType": "value",
+                "drillToDashboardPivotLinkAllowedCellTitles": []
+            },
+            "instanceid": "1AA97-78C4-86",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": true,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "stacked": false,
+                        "stackedPercentage": false,
+                        "types": {
+                            "count": false,
+                            "relative": false,
+                            "percentage": false,
+                            "totals": false
+                        }
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "max": 1600
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "logarithmic": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "lineWidth": {
+                    "width": "bold"
+                },
+                "markers": {
+                    "enabled": false,
+                    "fill": "filled",
+                    "size": "small"
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_category_name",
+                            "title": "QUESTION_CATEGORY_NAME",
+                            "singular": "QUESTION_CATEGORY_NAME",
+                            "plural": "QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "design"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 44
+                }
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "C. Practice Mastery by Sub-Category",
+            "type": "pivot2",
+            "subtype": "pivot2",
+            "oid": "667980aa7529970040f18279",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b7",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Question Category"
+                                },
+                                "instanceid": "DAB52-4C68-E2",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                    "column": "PROFICIENCY_LABEL",
+                                    "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Mastery Level"
+                                },
+                                "instanceid": "C7371-1F49-C1",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                    "index": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([D991E-C80])",
+                                    "context": {
+                                        "[D991E-C80]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Proficiency Percentage"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                },
+                                "field": {
+                                    "id": "avg([D991E-C80])",
+                                    "index": 2
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "0B008-7E4B-02",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "false"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "89022-244D-AD",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": true,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Custom",
+                    "customCategoryConfiguration": [
+                        "Arboreal Travel",
+                        "Basic Entish Greetings"
+                    ],
+                    "customBreakbyConfiguration": [
+                        "Expert",
+                        "Advanced",
+                        "Proficient",
+                        "Intermediate",
+                        "Basic",
+                        "Beginner"
+                    ],
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "instanceid": "192F6-2D99-94",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_category",
+                            "title": "Question Category",
+                            "singular": "Question Category",
+                            "plural": "Question Category"
+                        },
+                        {
+                            "id": "proficiency_label",
+                            "title": "PROFICIENCY_LABEL",
+                            "singular": "PROFICIENCY_LABEL",
+                            "plural": "PROFICIENCY_LABEL"
+                        },
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "imageColumns": []
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "A. Proficiency and Mastery by Sub-Category",
+            "type": "chart/bar",
+            "subtype": "bar/classic",
+            "oid": "667980aa7529970040f1827a",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b7",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Question Sub-Category"
+                                },
+                                "instanceid": "DAB52-4C68-E2",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "index": 0
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([E14D8-926]),[53D67-461])",
+                                    "context": {
+                                        "[E14D8-926]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[53D67-461]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "N\\A"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - N/A"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#bfbfbf",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([6E7F2-8D1]),[E8D87-1DE])",
+                                    "context": {
+                                        "[6E7F2-8D1]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[E8D87-1DE]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Beginner"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Beginner"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#DC3235",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([F7ED8-F5B]),[BEFC5-0FB])",
+                                    "context": {
+                                        "[F7ED8-F5B]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[BEFC5-0FB]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Basic"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Basic"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#EA8486",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([C7DC6-83C]),[3DF19-03A])",
+                                    "context": {
+                                        "[C7DC6-83C]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[3DF19-03A]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Intermediate"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Intermediate"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#EDC21C",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([9A08C-B5C]),[C6981-779])",
+                                    "context": {
+                                        "[9A08C-B5C]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[C6981-779]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Proficient"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Proficient"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#CCE6DD",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([8B3B4-B45]),[34A66-370])",
+                                    "context": {
+                                        "[8B3B4-B45]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[34A66-370]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Advanced"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Advanced"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#66B398",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([0BC00-727]),[02A45-73D])",
+                                    "context": {
+                                        "[0BC00-727]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[02A45-73D]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Expert"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Expert"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#008153",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "0B008-7E4B-02",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "false"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "89022-244D-AD",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": true,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Custom",
+                    "customCategoryConfiguration": [
+                        "Arboreal Travel",
+                        "Basic Entish Greetings"
+                    ],
+                    "customBreakbyConfiguration": [
+                        "Expert",
+                        "Advanced",
+                        "Proficient",
+                        "Intermediate",
+                        "Basic",
+                        "Beginner"
+                    ],
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "drillToDashboardPivotLinkCellType": "value",
+                "drillToDashboardPivotLinkAllowedCellTitles": []
+            },
+            "instanceid": "071C0-5B67-42",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": false,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true,
+                        "text": "Proficiency Percentage"
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_sub-category",
+                            "title": "Question Sub-Category",
+                            "singular": "Question Sub-Category",
+                            "plural": "Question Sub-Category"
+                        },
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "design"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 44
+                }
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "A. Proficiency and Mastery by Category",
+            "type": "chart/bar",
+            "subtype": "bar/classic",
+            "oid": "667980aa7529970040f1827b",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b7",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME"
+                                },
+                                "instanceid": "87BB7-5B3F-C2",
+                                "panel": "rows",
+                                "disabled": true
+                            },
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "QUESTION_CATEGORY_NAME"
+                                },
+                                "instanceid": "F75A3-D69E-93",
+                                "panel": "rows"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([E14D8-926]),[53D67-461])",
+                                    "context": {
+                                        "[E14D8-926]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[53D67-461]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "N\\A"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - N/A"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#bfbfbf",
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([6E7F2-8D1]),[E8D87-1DE])",
+                                    "context": {
+                                        "[6E7F2-8D1]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[E8D87-1DE]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Beginner"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Beginner"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#DC3235",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([F7ED8-F5B]),[BEFC5-0FB])",
+                                    "context": {
+                                        "[F7ED8-F5B]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[BEFC5-0FB]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Basic"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Basic"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#EA8486",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([C7DC6-83C]),[3DF19-03A])",
+                                    "context": {
+                                        "[C7DC6-83C]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[3DF19-03A]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Intermediate"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Intermediate"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#EDC21C",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([9A08C-B5C]),[C6981-779])",
+                                    "context": {
+                                        "[9A08C-B5C]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[C6981-779]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Proficient"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Proficient"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#CCE6DD",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([8B3B4-B45]),[34A66-370])",
+                                    "context": {
+                                        "[8B3B4-B45]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[34A66-370]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Advanced"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Advanced"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#66B398",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "(avg([0BC00-727]),[02A45-73D])",
+                                    "context": {
+                                        "[0BC00-727]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        },
+                                        "[02A45-73D]": {
+                                            "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_LABEL",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                            "datatype": "text",
+                                            "merged": true,
+                                            "title": "PROFICIENCY_LABEL",
+                                            "datasource": {
+                                                "fullname": "live:dm_enrollment_snapshot",
+                                                "id": "live:dm_enrollment_snapshot",
+                                                "live": true,
+                                                "title": "dm_enrollment_snapshot"
+                                            },
+                                            "firstday": "mon",
+                                            "locale": "en-us",
+                                            "filter": {
+                                                "explicit": true,
+                                                "multiSelection": true,
+                                                "members": [
+                                                    "Expert"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage - Expert"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color",
+                                        "color": "#008153",
+                                        "colorIndex": 0,
+                                        "isHandPickedColor": true
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "0B008-7E4B-02",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "true"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "89022-244D-AD",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": true,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Custom",
+                    "customCategoryConfiguration": [
+                        "Arboreal Travel",
+                        "Basic Entish Greetings"
+                    ],
+                    "customBreakbyConfiguration": [
+                        "Expert",
+                        "Advanced",
+                        "Proficient",
+                        "Intermediate",
+                        "Basic",
+                        "Beginner"
+                    ],
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false,
+                "drillToDashboardPivotLinkCellType": "value",
+                "drillToDashboardPivotLinkAllowedCellTitles": []
+            },
+            "instanceid": "071C0-5B67-42",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": false,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": true,
+                        "text": "Proficiency Percentage"
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "question_category_name",
+                            "title": "QUESTION_CATEGORY_NAME",
+                            "singular": "QUESTION_CATEGORY_NAME",
+                            "plural": "QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "B. Proficiency Percentage by Category",
+            "type": "chart/bar",
+            "subtype": "bar/classic",
+            "oid": "667980aa7529970040f1827c",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b7",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "(Parent) Question Category"
+                                },
+                                "instanceid": "DAB52-4C68-E2",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "index": 0
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([D991E-C80])",
+                                    "context": {
+                                        "[D991E-C80]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage (%)"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "condition",
+                                        "conditions": [
+                                            {
+                                                "color": "#DC3235",
+                                                "operator": "\u2264",
+                                                "expression": "50"
+                                            },
+                                            {
+                                                "color": "#008153",
+                                                "operator": "\u2265",
+                                                "expression": "90"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "0B008-7E4B-02",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "true"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "89022-244D-AD",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": true,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Custom",
+                    "customCategoryConfiguration": [
+                        "Arboreal Travel",
+                        "Basic Entish Greetings"
+                    ],
+                    "customBreakbyConfiguration": [
+                        "Expert",
+                        "Advanced",
+                        "Proficient",
+                        "Intermediate",
+                        "Basic",
+                        "Beginner"
+                    ],
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "instanceid": "071C0-5B67-42",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "(parent)_question_category",
+                            "title": "(Parent) Question Category",
+                            "singular": "(Parent) Question Category",
+                            "plural": "(Parent) Question Category"
+                        },
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": null,
+                    "max": null
+                }
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "B. Proficiency Percentage by Sub-Category",
+            "type": "chart/bar",
+            "subtype": "bar/classic",
+            "oid": "667980aa7529970040f1827d",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b7",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "categories",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Question Category"
+                                },
+                                "instanceid": "DAB52-4C68-E2",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "index": 0
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([D991E-C80])",
+                                    "context": {
+                                        "[D991E-C80]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        }
+                                    },
+                                    "title": "Proficiency Percentage (%)"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "abbreviations": {
+                                            "t": true,
+                                            "b": true,
+                                            "m": true,
+                                            "k": true
+                                        },
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "abbreviateAll": false,
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "steps": 5,
+                                        "min": "#dc3235",
+                                        "max": "#008153",
+                                        "minvalue": null,
+                                        "midvalue": null,
+                                        "maxvalue": null,
+                                        "minValueValid": true,
+                                        "midValueValid": true,
+                                        "maxValueValid": true,
+                                        "isHandPickedColor": true,
+                                        "type": "range",
+                                        "rangeMode": "both"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "break by",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "0B008-7E4B-02",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "false"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "89022-244D-AD",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": true,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Custom",
+                    "customCategoryConfiguration": [
+                        "Arboreal Travel",
+                        "Basic Entish Greetings"
+                    ],
+                    "customBreakbyConfiguration": [
+                        "Expert",
+                        "Advanced",
+                        "Proficient",
+                        "Intermediate",
+                        "Basic",
+                        "Beginner"
+                    ],
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 3,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "instanceid": "071C0-5B67-42",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "legend": {
+                    "enabled": true,
+                    "position": "bottom"
+                },
+                "seriesLabels": {
+                    "enabled": false,
+                    "rotation": 0,
+                    "labels": {
+                        "enabled": false,
+                        "types": {
+                            "count": false,
+                            "percentage": false,
+                            "relative": false,
+                            "totals": false
+                        },
+                        "stacked": false,
+                        "stackedPercentage": false
+                    }
+                },
+                "xAxis": {
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "x2Title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": false
+                },
+                "yAxis": {
+                    "inactive": false,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": true,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "y2Axis": {
+                    "inactive": true,
+                    "enabled": true,
+                    "ticks": true,
+                    "labels": {
+                        "enabled": true,
+                        "rotation": 0
+                    },
+                    "title": {
+                        "enabled": false
+                    },
+                    "gridLines": false,
+                    "isIntervalEnabled": true,
+                    "hideMinMax": false,
+                    "logarithmic": false
+                },
+                "dataLimits": {
+                    "seriesCapacity": 50,
+                    "categoriesCapacity": 100000
+                },
+                "navigator": {
+                    "enabled": true
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "(parent)_question_category",
+                            "title": "(Parent) Question Category",
+                            "singular": "(Parent) Question Category",
+                            "plural": "(Parent) Question Category"
+                        },
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": true,
+                "triggersDomready": true,
+                "autoUpdateOnEveryChange": true,
+                "drillToAnywhere": true,
+                "previousScrollerLocation": {
+                    "min": 0,
+                    "max": 44
+                }
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        },
+        {
+            "title": "C. Practice Mastery by Category",
+            "type": "pivot2",
+            "subtype": "pivot2",
+            "oid": "667980aa7529970040f1827e",
+            "desc": null,
+            "source": "6627adbf9c7801ac9f4907b7",
+            "datasource": {
+                "fullname": "live:dm_enrollment_snapshot",
+                "id": "live:dm_enrollment_snapshot",
+                "live": true,
+                "title": "dm_enrollment_snapshot"
+            },
+            "selection": null,
+            "metadata": {
+                "ignore": {
+                    "dimensions": [],
+                    "ids": [],
+                    "all": false
+                },
+                "panels": [
+                    {
+                        "name": "rows",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Question Category"
+                                },
+                                "instanceid": "DAB52-4C68-E2",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "jaql": {
+                                    "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                    "column": "PROFICIENCY_LABEL",
+                                    "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "title": "Mastery Level"
+                                },
+                                "instanceid": "C7371-1F49-C1",
+                                "panel": "rows",
+                                "field": {
+                                    "id": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_LABEL]",
+                                    "index": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "values",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "type": "measure",
+                                    "formula": "avg([D991E-C80])",
+                                    "context": {
+                                        "[D991E-C80]": {
+                                            "table": "FACT_QUESTION_CATEGORY_PROFICIENCY",
+                                            "column": "PROFICIENCY_PERCENTAGE",
+                                            "dim": "[FACT_QUESTION_CATEGORY_PROFICIENCY.PROFICIENCY_PERCENTAGE]",
+                                            "datatype": "numeric",
+                                            "title": "PROFICIENCY PERCENTAGE"
+                                        }
+                                    },
+                                    "datatype": "numeric",
+                                    "title": "Proficiency Percentage"
+                                },
+                                "instanceid": "58783-13FE-73",
+                                "panel": "measures",
+                                "format": {
+                                    "mask": {
+                                        "type": "number",
+                                        "t": true,
+                                        "b": true,
+                                        "separated": true,
+                                        "decimals": "auto",
+                                        "isdefault": true
+                                    },
+                                    "color": {
+                                        "type": "color"
+                                    }
+                                },
+                                "field": {
+                                    "id": "avg([D991E-C80])",
+                                    "index": 2
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "columns",
+                        "items": []
+                    },
+                    {
+                        "name": "filters",
+                        "items": [
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_QUESTION_CATEGORY_NAME]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "doesntEqual": "",
+                                        "isBetween": false,
+                                        "isEmpty": true
+                                    },
+                                    "title": "PARENT_QUESTION_CATEGORY_NAME",
+                                    "collapsed": false
+                                },
+                                "instanceid": "0B008-7E4B-02",
+                                "panel": "scope"
+                            },
+                            {
+                                "jaql": {
+                                    "dimension": "[DIM_QUESTION_CATEGORY.QUESTION_CATEGORY_NAME]",
+                                    "table": "DIM_QUESTION_CATEGORY",
+                                    "column": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "dim": "[DIM_QUESTION_CATEGORY.PARENT_CATEGORY_EQUALS_SELF]",
+                                    "datatype": "text",
+                                    "merged": true,
+                                    "datasource": {
+                                        "fullname": "live:dm_enrollment_snapshot",
+                                        "id": "live:dm_enrollment_snapshot",
+                                        "live": true,
+                                        "title": "dm_enrollment_snapshot"
+                                    },
+                                    "firstday": "mon",
+                                    "locale": "en-us",
+                                    "filter": {
+                                        "explicit": true,
+                                        "multiSelection": true,
+                                        "members": [
+                                            "true"
+                                        ]
+                                    },
+                                    "title": "PARENT_CATEGORY_EQUALS_SELF",
+                                    "collapsed": true
+                                },
+                                "instanceid": "89022-244D-AD",
+                                "panel": "scope"
+                            }
+                        ]
+                    }
+                ],
+                "usedFormulasMapping": {}
+            },
+            "custom": {
+                "barcolumnchart": {
+                    "type": "chart/column",
+                    "isTypeValid": true,
+                    "customMenuEnabled": true,
+                    "updateOnEveryChange": true,
+                    "addTotalOption": "No",
+                    "sortCategoriesOption": "Default",
+                    "sortBreakByOption": "Custom",
+                    "customCategoryConfiguration": [
+                        "Arboreal Travel",
+                        "Basic Entish Greetings"
+                    ],
+                    "customBreakbyConfiguration": [
+                        "Expert",
+                        "Advanced",
+                        "Proficient",
+                        "Intermediate",
+                        "Basic",
+                        "Beginner"
+                    ],
+                    "currModalOpened": "None",
+                    "totalSeriesName": "Total"
+                }
+            },
+            "displayMenu": true,
+            "drillToDashboardConfig": {
+                "drilledDashboardPrefix": "_drill",
+                "drilledDashboardsFolderPrefix": "",
+                "displayFilterPane": true,
+                "displayDashboardsPane": true,
+                "displayToolbarRow": true,
+                "displayHeaderRow": true,
+                "volatile": false,
+                "hideDrilledDashboards": true,
+                "hideSharedDashboardsForNonOwner": true,
+                "drillToDashboardMenuCaption": "Jump to dashboard",
+                "drillToDashboardRightMenuCaption": "Jump to ",
+                "drillToDashboardNavigateType": 2,
+                "drillToDashboardNavigateTypePivot": 2,
+                "drillToDashboardNavigateTypeCharts": 3,
+                "drillToDashboardNavigateTypeOthers": 3,
+                "excludeFilterDims": [],
+                "includeFilterDims": [],
+                "drilledDashboardDisplayType": 3,
+                "dashboardIds": [],
+                "modalWindowResize": false,
+                "showFolderNameOnMenuSelection": false,
+                "resetDashFiltersAfterJTD": true,
+                "sameCubeRestriction": true,
+                "showJTDIcon": true,
+                "sendPieChartMeasureFiltersOnClick": true,
+                "forceZeroInsteadNull": false,
+                "mergeTargetDashboardFilters": true,
+                "drillToDashboardByName": false,
+                "sendBreakByValueFilter": true,
+                "ignoreFiltersSource": false
+            },
+            "instanceid": "192F6-2D99-94",
+            "prevSortObjects": [],
+            "realTimeRefreshing": false,
+            "style": {
+                "scroll": false,
+                "pageSize": 25,
+                "automaticHeight": true,
+                "colors": {
+                    "rows": true,
+                    "columns": false,
+                    "headers": false,
+                    "members": false,
+                    "totals": false
+                },
+                "narration": {
+                    "enabled": false,
+                    "display": "above",
+                    "format": "bullets",
+                    "verbosity": "medium",
+                    "up_sentiment": "good",
+                    "aggregation": "sum",
+                    "labels": [
+                        {
+                            "id": "question_category",
+                            "title": "Question Category",
+                            "singular": "Question Category",
+                            "plural": "Question Category"
+                        },
+                        {
+                            "id": "mastery_level",
+                            "title": "Mastery Level",
+                            "singular": "Mastery Level",
+                            "plural": "Mastery Level"
+                        },
+                        {
+                            "id": "parent_question_category_name",
+                            "title": "PARENT_QUESTION_CATEGORY_NAME",
+                            "singular": "PARENT_QUESTION_CATEGORY_NAME",
+                            "plural": "PARENT_QUESTION_CATEGORY_NAME"
+                        },
+                        {
+                            "id": "parent_category_equals_self",
+                            "title": "PARENT_CATEGORY_EQUALS_SELF",
+                            "singular": "PARENT_CATEGORY_EQUALS_SELF",
+                            "plural": "PARENT_CATEGORY_EQUALS_SELF"
+                        }
+                    ]
+                }
+            },
+            "viewState": {
+                "activeTab": "filters"
+            },
+            "options": {
+                "dashboardFiltersMode": "select",
+                "selector": false,
+                "triggersDomready": true,
+                "drillToAnywhere": true,
+                "autoUpdateOnEveryChange": true,
+                "imageColumns": []
+            },
+            "dashboardid": "667980aa7529970040f18275",
+            "_dataSourcePermission": "edit",
+            "_toDisableOptionsList": {
+                "widgets": {
+                    "duplicate": false
+                }
+            }
+        }
+    ],
+    "hierarchies": []
+}
