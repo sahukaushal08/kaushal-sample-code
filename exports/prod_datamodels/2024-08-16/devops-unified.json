@@ -1,0 +1,853 @@
+{
+    "_id": "66428b94089da8fda12a9cc1",
+    "oid": "0baf6823-0932-42aa-807e-b7fac0423254",
+    "title": "Devops-Unified",
+    "type": "live",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "8b11358e-9a26-4ffc-8ba4-b28d668f4029",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                    "column": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                    "column": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "903850a6-2afc-4890-af33-2f21691f9746",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                    "column": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                    "column": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "0f9780dd-1427-441c-9d86-17faf0a1f6cf",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                    "column": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                    "column": "e3ac3577-728f-4f33-a68e-bdf7d75bc1f8",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "a219417a-a1ce-47aa-87e9-ae056bb0b5c9",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                    "column": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "25915871-5ea5-4019-b1db-538f34a6f281",
+                    "column": "f709a62f-0cb2-4c4e-b7f9-99c6739df055",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "d63cd5f2-5e57-4c16-b1c7-ba2aef3b9001",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                    "column": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                    "column": "38fca215-12ac-4e5a-828a-0b53ca6881bf",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "82819403-39a9-493f-abd9-bb78fc7dc7e5",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                    "column": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                    "column": "0ab1dfc5-dcde-4585-a74e-d3618a7417be",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "a7387d31-17b3-40a3-a7b0-0e14e4ffdc9c",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                    "column": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                    "column": "e3ac3577-728f-4f33-a68e-bdf7d75bc1f8",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "e93804ad-5842-4d32-8d42-26b0577daaf6",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                    "column": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "25915871-5ea5-4019-b1db-538f34a6f281",
+                    "column": "f709a62f-0cb2-4c4e-b7f9-99c6739df055",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "d1270caf-607a-4e82-80b5-81c3fd919343",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                    "column": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                    "column": "38fca215-12ac-4e5a-828a-0b53ca6881bf",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "42743459-9301-4eeb-8fdd-89d89c11fe57",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                    "column": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                    "column": "0ab1dfc5-dcde-4585-a74e-d3618a7417be",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "3bcb52a6-8282-4bdd-9f95-0538efb9199b",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                    "column": "e3ac3577-728f-4f33-a68e-bdf7d75bc1f8",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "25915871-5ea5-4019-b1db-538f34a6f281",
+                    "column": "f709a62f-0cb2-4c4e-b7f9-99c6739df055",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "3282817d-20ab-490c-954e-3cf2ea505f61",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                    "column": "e3ac3577-728f-4f33-a68e-bdf7d75bc1f8",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                    "column": "38fca215-12ac-4e5a-828a-0b53ca6881bf",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "3cfd975e-1ccb-4e6a-b97b-ce8a64cb997a",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                    "column": "e3ac3577-728f-4f33-a68e-bdf7d75bc1f8",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                    "column": "0ab1dfc5-dcde-4585-a74e-d3618a7417be",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "6fcbfc70-7724-4450-a9e5-cbd2e4e828fc",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "25915871-5ea5-4019-b1db-538f34a6f281",
+                    "column": "f709a62f-0cb2-4c4e-b7f9-99c6739df055",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                    "column": "38fca215-12ac-4e5a-828a-0b53ca6881bf",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "8f3d1cb8-f47d-4d1e-a23b-d6eb28646bd4",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "25915871-5ea5-4019-b1db-538f34a6f281",
+                    "column": "f709a62f-0cb2-4c4e-b7f9-99c6739df055",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                    "column": "0ab1dfc5-dcde-4585-a74e-d3618a7417be",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "6b4594ff-2461-409e-91ef-a072b5284a21",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                    "column": "0ab1dfc5-dcde-4585-a74e-d3618a7417be",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+                    "table": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                    "column": "38fca215-12ac-4e5a-828a-0b53ca6881bf",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "36bb99e2-2a84-4b33-bc8d-dd78e261ed42",
+            "fullname": "SnowflakeJDBC:Devops-Unified",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "DEVOPS_NEW_RELIC",
+            "type": "live",
+            "name": "Devops-Unified",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                        "id": "AVG_DURATION_BY_TENANT",
+                        "name": "AVG_DURATION_BY_TENANT",
+                        "type": "base",
+                        "schemaName": "DEVOPS_NEW_RELIC",
+                        "columns": [
+                            {
+                                "oid": "df3040e2-d805-4712-8d73-ed14e8b6b2d7",
+                                "id": "REPORT_DATE",
+                                "name": "REPORT_DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "91e9061e-c4f4-4d67-9963-865f3d993ec1",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1c79061b-aae5-48f9-bcfc-ff85c645bbf3",
+                                "id": "AVG_DURATION_SECONDS",
+                                "name": "AVG_DURATION_SECONDS",
+                                "type": 5,
+                                "size": 21,
+                                "precision": 20,
+                                "scale": 15,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "33392965-9b9e-4ce2-a374-49b95d8461dd",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0e1e82c0-9468-43eb-a236-c5ab021c8200",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "25915871-5ea5-4019-b1db-538f34a6f281",
+                        "id": "SUMMARY_AVERAGE_BY_CHECK",
+                        "name": "SUMMARY_AVERAGE_BY_CHECK",
+                        "type": "base",
+                        "schemaName": "DEVOPS_PINGDOM",
+                        "columns": [
+                            {
+                                "oid": "f709a62f-0cb2-4c4e-b7f9-99c6739df055",
+                                "id": "SUMMARY_DATE",
+                                "name": "SUMMARY_DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "00dca27b-9049-478e-92cf-73bc1e719ce1",
+                                "id": "CHECK_ID",
+                                "name": "CHECK_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f199adfd-1c94-46d3-9c07-fc7b80f50e01",
+                                "id": "AVG_RESPONSE_MS",
+                                "name": "AVG_RESPONSE_MS",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ae0a7510-4d6d-4840-b005-28ea639903d3",
+                                "id": "TOTAL_DOWNTIME_SECONDS",
+                                "name": "TOTAL_DOWNTIME_SECONDS",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4fde7c4e-3f41-4933-bcd7-2d4f03bf1311",
+                                "id": "TOTAL_UNKNOWN_SECONDS",
+                                "name": "TOTAL_UNKNOWN_SECONDS",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8ada4fd4-54c1-49a9-870f-18cda0578749",
+                                "id": "TOTAL_UPTIME_SECONDS",
+                                "name": "TOTAL_UPTIME_SECONDS",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0304f53b-3c3b-4634-93b7-2c8141feb2e5",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "e96911ae-497f-4b6d-b177-6f411533eb4e",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                        "id": "OVER_2_SEC_TRANSACTIONS_BY_TENANT",
+                        "name": "OVER_2_SEC_TRANSACTIONS_BY_TENANT",
+                        "type": "base",
+                        "schemaName": "DEVOPS_NEW_RELIC",
+                        "columns": [
+                            {
+                                "oid": "e3ac3577-728f-4f33-a68e-bdf7d75bc1f8",
+                                "id": "REPORT_DATE",
+                                "name": "REPORT_DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "10740d37-7401-4b1e-a873-b0e398cce0ad",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "af7bef3b-4275-4b0b-8c38-812d9c163c5b",
+                                "id": "OVER_2_SEC_TRANSACTION_COUNT",
+                                "name": "OVER_2_SEC_TRANSACTION_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0c431b86-d8ca-4887-a977-4077812bdfe8",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "d798b9b8-41ab-420b-81b6-33e558ab8fe1",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                        "id": "AVG_SERVER_RESPONSE_TIME_BY_MONTH",
+                        "name": "AVG_SERVER_RESPONSE_TIME_BY_MONTH",
+                        "type": "base",
+                        "schemaName": "DEVOPS_GA",
+                        "columns": [
+                            {
+                                "oid": "d5c55b6b-7195-4974-837e-39582de3e5b7",
+                                "id": "MONTH",
+                                "name": "MONTH",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fe5e4b83-f475-4b87-a63c-5a01a27b09c0",
+                                "id": "HOSTNAME",
+                                "name": "HOSTNAME",
+                                "type": 18,
+                                "size": 256,
+                                "precision": 256,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e4649532-597b-47a9-8549-96f7e46c49f6",
+                                "id": "AVG_SERVER_RESPONSE_TIME",
+                                "name": "AVG_SERVER_RESPONSE_TIME",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0d0fcd95-66b5-422b-8b57-7659be9d54b8",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                        "id": "WEBAPP_TRANSACTIONS_BY_TENANT",
+                        "name": "WEBAPP_TRANSACTIONS_BY_TENANT",
+                        "type": "base",
+                        "schemaName": "DEVOPS_NEW_RELIC",
+                        "columns": [
+                            {
+                                "oid": "0ab1dfc5-dcde-4585-a74e-d3618a7417be",
+                                "id": "REPORT_DATE",
+                                "name": "REPORT_DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "edd58748-2c96-40aa-8550-76ce4dc9461f",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b27e1c4d-abff-4308-818f-294138c8661f",
+                                "id": "TOTAL_TRANSACTION_COUNT",
+                                "name": "TOTAL_TRANSACTION_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0c75e138-3e05-465b-88de-9d2524129d5a",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "955a56f3-2205-43ad-be34-a6510df9dfd6",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                        "id": "WEBAPP_ERRORS_BY_TENANT",
+                        "name": "WEBAPP_ERRORS_BY_TENANT",
+                        "type": "base",
+                        "schemaName": "DEVOPS_NEW_RELIC",
+                        "columns": [
+                            {
+                                "oid": "38fca215-12ac-4e5a-828a-0b53ca6881bf",
+                                "id": "REPORT_DATE",
+                                "name": "REPORT_DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "8eabbf29-d9d9-4e8e-8986-d77f5d63776e",
+                                "id": "TENANT_SLUG",
+                                "name": "TENANT_SLUG",
+                                "type": 18,
+                                "size": 16777216,
+                                "precision": 16777216,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4efbdcfe-c885-4849-a3ce-86d9458058ce",
+                                "id": "ERROR_TIMESTAMP",
+                                "name": "ERROR_TIMESTAMP",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4fadca80-731b-4913-a1aa-3886b3863204",
+                                "id": "_ETL_LOADED",
+                                "name": "_ETL_LOADED",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "65e0d33a-9b07-4ba9-b14b-46286ef00499",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "933aec7b-a376-438f-af95-c2a792bb40ba",
+                "id": "66450c746ae6d3003996c19a",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ4K3RtMHZCbmRVMzYxQmtjMjlxWkVPYjliYjZiRUt4UFQxR3k2YmQzTmpaUm1ITEZCc05CYnJOSHdrMzBlSUE3dUlNcVMwMnNyQzI1bzMwOTI4UElhS1g3OUdQZEkrS0RzcFUzNmZwV2lGU2lxNUZ6cGhTRDVHMzlkOFdwb002M0VmOGZFM0hNQjd4QS9qWnFsbld1aDAyamFjWU1Lekh6ZGdxT2o3VXlQNDFJbi9YQTVzRGJZN2VWeTBicGFqN3ZseG5BSTRiZmwxUXh2NTltYmNlbnFsWFVkSE9rTkFkUEY3bDhwZGFkYVpRV3VzRkpYMEZDd0dmdXpIVTByOUpNRm9kWm9vSWxQZDY2RG9ESzdQaFo4ck1teFEwSUl3UVJnVHRTVVcyYWtINCtuSGNEcnhHVkpXZEEzSERiTGNzZFl4VWRkU1hrNWdSVnBFRFBZZEFia3FEWWFCNk1iNlpIRHZObFZpR0lxVzVYMkVqQ1lZS2YycjlwU3JaVHc1MWJzMWJlYjUra2VQZWwxdjNPVXBSUFYyOTJxRXRXcTg1OXAzZ0QrSXJiMXd2QW9ZQ2NMUU01TDNMakZZR0VhT2p2bnloODM1QlR6U2dxSHc0Wnd0c0ZWTlhDaEpVdHBaeVVrOFFWdGUvTnFDOHBJODJocVNUYXhFQVVyWTdHSWJSRHlBcGtNTGRITFZEbE41K2g4Nm9ldmZBWVdhN3lTOUlaVDl1MzMvbUVCZ1h2dE5VT3BkVGhybjVCU3RJVFgzdUtKV3BVaW0veHZKSGV5T2F3RFlJVitWMC9DUFMyQVBGbGNZcDVTdGJSZ1MvR1NvTlhPVXllYXVPdTZBalRLZFhaZDRXR2FvS2JmOXQxZWRBYy9VWEZleUhNb2h6NDFJNVJTaUxTNHZWd3hlNzFSTG9wR1BuS3dFNEpieEg3V1A2Y3NFNjlpakdsZGJuSXVqOG1mSlRNSTVQQ0hKaVNLbW9jMlpQWTY4K0dWRjFQVjFzRmJsdDJxZkFLajZFSnZYNTEiLCJub25jZSI6Ijg2VFZXV1g3RkdUU3pLTE5Cd3VROEE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTE2VDEwOjMxOjM5Ljk0MzYwNzAxOFoifX0=",
+                "schema": "DEVOPS_NEW_RELIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": {
+                "timeout": 60000,
+                "autoRefresh": false,
+                "refreshRate": 30000,
+                "resultLimit": 5000
+            }
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "02cf7b5c-6279-4d0d-a7c3-8d2df95c5099",
+                "x": -2.7714836597442627,
+                "y": -2.8026769161224365,
+                "fixed": true
+            },
+            {
+                "id": "3ee6cede-3d3d-48d7-9a79-761d4d2ea8dc",
+                "x": -4.129843235015869,
+                "y": -0.5402809381484985,
+                "fixed": true
+            },
+            {
+                "id": "36dbf077-f8dd-4632-b733-42642ff150cc",
+                "x": 2.5758228302001953,
+                "y": -1.4406377077102661,
+                "fixed": true
+            },
+            {
+                "id": "25915871-5ea5-4019-b1db-538f34a6f281",
+                "x": 0.6452071070671082,
+                "y": -3.8605735301971436,
+                "fixed": true
+            },
+            {
+                "id": "cb2904bd-28f2-4dcc-b0c0-0bf57b42422a",
+                "x": 1.3091870546340942,
+                "y": 0.9929601550102234,
+                "fixed": true
+            },
+            {
+                "id": "79a10b84-e55f-4f76-983c-84dc4e2371b9",
+                "x": -2.646829605102539,
+                "y": 1.6021482944488525,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -6.25,
+                "y": 6.25,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "66428b9499fe64003a793d81",
+                "oid": "0baf6823-0932-42aa-807e-b7fac0423254",
+                "datamodelOid": "0baf6823-0932-42aa-807e-b7fac0423254",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true,
+                "relationsTables": []
+            }
+        ]
+    }
+}

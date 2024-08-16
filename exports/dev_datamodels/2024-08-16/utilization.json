@@ -1,0 +1,3564 @@
+{
+    "_id": "6553b8272427d2f3b6cdba02",
+    "oid": "598ce0a7-a968-4ca5-8eaa-a3c1fbf5f150",
+    "title": "Utilization",
+    "type": "extract",
+    "relationType": "regular",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "elasticube",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "allTablesPerCollection": null,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [
+        {
+            "oid": "a9d6158a-2eb9-445e-90bb-7499cef0e8e8",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "6d231b48-2d9c-484f-8eb9-9f25774e494d",
+                    "table": "3e7b48d9-c1b0-4e68-afeb-631224197de9",
+                    "column": "ba98b4b3-55c1-40ad-aa6e-b303cd32b1b8",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "e2637ec7-dd03-4081-a945-a5095cd21ac4",
+                    "column": "028fdd27-bce5-46ab-bdbf-aac189983d11",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "b908555e-b616-4f0c-8a21-4da49c3b2d32",
+                    "column": "f427799d-ebb8-4c06-af1a-8bbd9f0d6e6f",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "9bd826e5-6c68-4236-aadf-bdf9829c2420",
+                    "column": "2499f7e4-3df7-45fe-8d0e-294fbb3873fa",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
+                    "column": "07e209df-026c-4275-9bbb-45f9452cb868",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "83b7f30d-a54e-4bdf-83e2-1aeff88b25b3",
+                    "column": "ff95f4a4-65d9-47b8-8bf5-7e32f3e1391b",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                    "column": "4c4fd1ee-2fec-4ae7-91a1-8afdf6518cf8",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "df435871-cfef-48be-9d99-19aaed7c39f5",
+                    "column": "d7bb4962-e553-4c4e-bf70-831b31ed46d8",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "41e32c69-92d4-4671-aac5-294dd72bb09b",
+                    "column": "a4308313-ccb2-4e5b-b05f-b3c2aaee19f7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "21d6eb23-3580-4825-9152-70adeaa58833",
+                    "column": "a68d80ee-4380-4760-b6ac-87baa8a4f4b7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "8c3f2715-859d-4ad7-9aec-5c963c1e84a4",
+                    "column": "d5adfbe3-4c20-4b05-8563-3d1a5ddbc313",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "1380da17-c653-4cec-b768-e0f655e68e96",
+                    "column": "862b34f9-551a-41d7-8951-fb34732d6a18",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
+                    "column": "43aff6f7-517c-46e3-832f-cfd042e2b0ea",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "a3cd15c7-dff1-4f70-90ac-9f72d66bb747",
+                    "column": "47ce1837-9be4-4b3c-bfcd-cfaefd4c63e0",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "2755ffff-0b76-4532-a739-123b5fc39347",
+                    "column": "43681d14-159b-4b85-8257-22b5694cdb11",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "8a595be7-823c-46b7-a2e0-61388b1e6248",
+                    "column": "372d43ee-9f7e-437c-bff2-f82c702b8de0",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "695dcd42-db1d-4f53-8cfa-4c93c1f1ae3f",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "74405707-2144-404b-83f1-0d357d30b244",
+                    "table": "e325346d-70fd-4045-acdc-aade200ab91a",
+                    "column": "0a24a16c-2fb5-43b1-986f-e4262e60d137",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "9bd826e5-6c68-4236-aadf-bdf9829c2420",
+                    "column": "42a7984e-5dda-424e-9fdc-1c5392042ad3",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "74405707-2144-404b-83f1-0d357d30b244",
+                    "table": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
+                    "column": "2fc0b827-3ab0-4870-9c01-95d0004a4737",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "74405707-2144-404b-83f1-0d357d30b244",
+                    "table": "0b2df946-0fe3-44be-bb50-c4811a821adb",
+                    "column": "6b215398-8781-442e-b6ca-2644ab5a8b44",
+                    "isDropped": null
+                }
+            ]
+        },
+        {
+            "oid": "6ca9e50a-3ee9-4ac7-95fa-12b8b7b6fd67",
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "2191eab2-d419-4072-999d-305daf6e26bd",
+                    "table": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
+                    "column": "cd5270bb-9556-4680-897b-671b53dcbaa7",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "8a595be7-823c-46b7-a2e0-61388b1e6248",
+                    "column": "07dff4ca-f526-40fb-8582-a7b67d6cb43a",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "e2637ec7-dd03-4081-a945-a5095cd21ac4",
+                    "column": "489ed876-186f-4da6-a5aa-ab573ca95326",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "2755ffff-0b76-4532-a739-123b5fc39347",
+                    "column": "273b1e30-34de-4685-a823-faf655f70cdf",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
+                    "column": "84abf16d-7c0a-4446-a8d6-8e6ed439af87",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                    "column": "d22f559d-da56-4856-90a6-39c9ef86d58c",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "74405707-2144-404b-83f1-0d357d30b244",
+                    "table": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
+                    "column": "0fac7d94-6883-4cf9-9d97-6decf3ddf194",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "74405707-2144-404b-83f1-0d357d30b244",
+                    "table": "0b2df946-0fe3-44be-bb50-c4811a821adb",
+                    "column": "8440b5be-e66e-42fb-9fbc-c683dd050d0c",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
+                    "column": "e7925ff6-7eaa-4434-abbe-00bfb9b2391e",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "74405707-2144-404b-83f1-0d357d30b244",
+                    "table": "e325346d-70fd-4045-acdc-aade200ab91a",
+                    "column": "c1d60d66-fea7-4ed1-8650-4f0270c1eab5",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "83b7f30d-a54e-4bdf-83e2-1aeff88b25b3",
+                    "column": "4cb83061-bc54-4912-a386-fcedabbe4eba",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "df435871-cfef-48be-9d99-19aaed7c39f5",
+                    "column": "6fcfaf73-13df-4831-b5b9-a3be2a3eb486",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "a3cd15c7-dff1-4f70-90ac-9f72d66bb747",
+                    "column": "b6da3c0c-71fb-4a8a-8978-e37181afc2d0",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "8c3f2715-859d-4ad7-9aec-5c963c1e84a4",
+                    "column": "d24016bd-5fe5-491b-9daf-73191f325d90",
+                    "isDropped": null
+                },
+                {
+                    "dataset": "361a458a-1544-4697-947a-c927df94acb7",
+                    "table": "1380da17-c653-4cec-b768-e0f655e68e96",
+                    "column": "15851d9e-161d-40bc-9ff9-df59d9d718bd",
+                    "isDropped": null
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "3348dd33-2a10-46db-b2fc-5e50a3172c92",
+            "fullname": "SnowflakeJDBC:d2a1f13c-b0b8-410f-881b-832ddd306800",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "d2a1f13c-b0b8-410f-881b-832ddd306800",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "49e412da-6ac2-47b9-a843-ce3a2c6e22c6",
+                "id": "6553b82807357d002dd323bc",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJjc2ExY0o3bU1iWmlUMElaYVRSem14amZIc1RRK3lNUXg1Vll6aUhyKzc2SGkzaCtRRHZ2ZVFPRVd0RHg4NEtZWXF5d2dFdFBKZ09vcHA0ZGtwN25QT1FudU9vTE9hSDBSRU1UbVBsUU9NR3VjRjQ0NStJeEVaRnB5TUJTa3M3YmpJVkhxNlk2Y3VqUjlZTHVlWXJaSTlMY2dWM2R5elFDb2VDMlFKT1RxRzV5YXkvRE5PbERIcURqcFBaQ2hBcXlYTEs3djFnQ0NpZndkQi8vM2Zmd3l4c1o4bWEwODkraXpKcEZxUmxCZXNtb21oRk14NDB1bVJQYXpVZWNGMTNNR1p5K3hLM2NUSnJXWjFicVNhZzJvbVNDVyt5TjErQ1J1U2R2WEh4ZHJTeXBUYzcxWDhvd0lXbUZPMHphMkk1cVBpZTVyeFhlcUxHMWFVRFMxaUZZNlFJK082Q1I2N1M0RC85OXJDeC9kNnQyUVFDdEhqTWo3aWVLQWVETTZHSjVJWjc5clhxekhOb1dPMVNKZ25rbGZrTCt2bG5XMzJGOE9jOWxpZllIdldhZ3VMdms3Nm5mYlF2QzFJd2ZhenBYa1RVRGFjNVlWL3dRdTJtTzY0dmdyUWpUVDE1TitudlB4OHNDLys3Nk1Hb1c2ejVSN21VZnU4aDFUZFdmODFpZmlwTGdCby9hS05Sb3RtY29JOXpQMlEvQXFJOC9TR1gwZXUxZnNaOGYzaVFFZFEwT3pEaEtKUkwrbVJPbkRBRmhjMEVOajdaNXRHNFJhSGZ1ZlZHTVV2MzRLWCtZSVlaajRDWGlPMEJqNEYzVzBEM2JRK1hvTHNlKzJ0OGQrbjVYNEp5WXBVaFpPVEh6MkoxZVp4UHRYamxTRmcxQmV3b3Fod0oybDBpTHVubzhid3FNcTNDL2ZvcVN2ZVIxaUJwNEJoZDNYeTc5UmI0VllWV1ZEUndyaWtCbS8reGRnYy9ITUh6N1NjWHl2ekhuMkdmQkVVM0lHUExNc05NTHpLVlRxb2d3cDBHWldPTGJGVjFUZmtpdW5ab2o5TVhpQ0xiekhpRFREYnVFa05ZOW9pZlo2TkZUL2FEWmI0bzVUQ0tBSzQvZnJBSlZmRGtSbk5Baks1YytrZz09Iiwibm9uY2UiOiJmaWxUcmhWYUZNaUFHUVpTZ2x4K2tnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NDU2ODU1MTNaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "02fd40bf-1c11-4393-b4d0-41399f580727",
+            "fullname": "SnowflakeJDBC:a7984315-ce87-49dd-9e81-8b9b182152fd",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "a7984315-ce87-49dd-9e81-8b9b182152fd",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "c2f4460d-1d95-4da2-aa9d-41fab6c2faf8",
+                "id": "6553b82807357d002dd323be",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiIrMkpOeW95WE9HNk8yQXZCUVd1QjBBSnhqR20vOXg5aFZBdXZhSENwM2RCYU5DQ25aLzByQmxSZm9pOUJQbTAyUDJRWnhmQTVuOFlWeXB4TzduL3JjSCtTVDhuZTEvcE1iVE9iUCs1d0JQdzExNVIwU2NnaUJMN21ndDgvbWxmMituektXYUNaTE4vTTdWTTN6bVlaVWtYSjBmb0JPRkJPV1lvSllvMnFjU1ZYTmlyWXpqemMrYmJudm43Tmp1OFBiQjl2aWUxUXA3eGpsdGNCVDJPczc3QmZnQ3hwZnRFMHd0V0RzeUFrSGd4MW5xZGFObEx4OEVJNmdRbHkrdy9JOFp6VDdBREFCdlNkUWhUWklhcnlsc2NEUjViYmtRM0dWYldoY0E5NUhVaUYwWU10SEVmb2I5WkdHZlllTUtSczY5UW5rVDZHY2tOeTQrM3BtbWg2SFhlbmQ0S0NyMFZSUWhzaGtxZXo5OS9sTWJVVEc2b1VEeTZzdmVDeTMzYzh2YVdEZ29MWHArbnhaM0hTQ1AxdEw2eUdNTWU3K1l2TFlWWmxBUFgrQWhVVEw0RlZ5RUx6K000UGUzUURoSVFNWGNEMVFFOGdhVldBeG9TWGp2d1FrMTZjYjY0Nk5UK0FhWGU2T0JFVEdxUmRyY3hHNHB6ZnlFZU10RVo3V0J3ZFFENkt4TkVxaURPME5YYzJLV2dYdGVwWDNLTVhZVFJsK0RWVDR1aVIwdW5GV1p6OHRIcG9FcjcxVisxRnNDdVlCdCtxT0tDRG9HaGxQV3dhU0M5b2xWTlFwQkFkRFF0REdFQ1JUWXBQN2FZTFQ0ZjJBU2NwbEJGck95TWVnMVJhcWpQN0w5eFZjMm0vdjNZZWc0UFo0QXdMeVdoOGVWeDZJRGNMRVArb253YXA0QTRLU2JISmlwa0NrRlFTK3cyMExKeitWWUhQRi9SZlZkNGsxekc4TDRNMy90RTdtYlhNNUhGRzQzUmI3UVNBVGVNaDY0bVpkNXRuVm1BaitabFU3Y2ZTZ2pLVWhlclVOZmhyMHE1R0dRPT0iLCJub25jZSI6Ik90TlBNVDRDcDhFNEVBbTdSMnRTcEE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTE2VDEwOjMwOjM0Ljc0NTk4MTE2MFoifX0=",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "8b355db3-975a-47cb-8cc4-5410fcb83ce3",
+            "fullname": "SnowflakeJDBC:17f68eea-f90c-4864-a077-433f6acce518",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "17f68eea-f90c-4864-a077-433f6acce518",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "a3a5d0f5-2a7d-486c-8bdf-e0b95bff0c52",
+                "id": "6553b82807357d002dd323c0",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJGNllHWk52SHVpc3I1L2sxS2VjbFplRERZT1d3VUtvVFUvY0M4TlpDR05nTjRqR3pRM01XS0NMNEpUSkF5eDJPZzVMOXEwdUIwMTVYN2MvMzJ0OWY0VXVCK0lIVXB0SFpwUUUzcEgxMFBVWVE2UDZIS1FwZW11b2kzZVlOa1ZXQmM3TXNaWFp2cUZhVk16RldwU1BYakdPaXNWQ3FUa0N0SzlkL3N1MlpOcEZQVnBZdUllREdnY2ZHOEt4M1ZMczgzYS9uOTFDMjRFVVgzTzVsaER5TU4rTGM1M3ZpUTZtNU1pd2pYSXlzVmNnV0pUbTZSVUZDZ05DOEdHRUtjL3djazd5T1hmU2VCR3FMdmFjSGZVWFNIM2dIT0loZW9WeUVENFJTYW9IeXZqNFFTOWwrQlFsT1VBaW56SCtxVUFHWUdheFJNTHNBVjRvWkFpZGtsZDV3WDNyQXRWaENQc29TcUdSSnlwRE9xNlBqeEFkV1V3M2RRR1VNT3VwZ2EwcmMzclJRcUNiMkJ1QlM5UUZYelFoTjQ4SUwyNVBsZjVubmxEUG1mV3lYVXVYVGcrdlhJSjdGOVhpdWwyMEw0UHVITG1GMjN1Q2NNWG9PQ0VwaXoxM2F0ZXhOVG9OVlZQY3kwcjdjZjM4SEFYSGNGWSt3aEErOXdFRHBRN0psOXRrV0JsZkZEek9udzhTVGRaL0llYy9iZDRoN2NZc095djE1dnRXNndvRUVGR09FbmNHSUJOKytJbDF6bXl2ZzZOYVQ5ejRwRlQ1eGZMRDhQUUdBY0hZSDdiamZOc1U3NVd4R3JoSGJoUWdtNHIvZGN6WnkvVTlGQldMQ3BJRCtCTk9nOGJreHVGK1dHSFlKdVNoTXV0VFhRVnRKakQvbVlERkJSNkE5NnhmTWJHTjQyYlF6VGswMUlKcWlDM0Jwd2tzNzBTemFVYU5NVUNIZU9qbGVtT3QzSVJ3MmZJYm5nRkFELysyeWRpYUJLdGl4K3Nwc1VXdEcvY2g5cVZCSW41VVJYY1FyWnlZVTVUK3hUTFY5c2VvMHd6VThUdVU0QmkzNTVhOFQzTnYvb3VBZ3NqbmxoZ1ZiYjNIWDh2RFIzKzkwQTZ1WWYrcXV0YmNRYUhPVGgra3luUT09Iiwibm9uY2UiOiI2TEdkR3RZOGl6OXk2ak1WUDJQalNBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NDU4NDU1NzdaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "361a458a-1544-4697-947a-c927df94acb7",
+            "fullname": "SnowflakeJDBC:87ba95b9-84f6-432f-a2f5-622542b41a5c",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "87ba95b9-84f6-432f-a2f5-622542b41a5c",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "1380da17-c653-4cec-b768-e0f655e68e96",
+                        "id": "PSYCH_EXAM_STATISTICS",
+                        "name": "PSYCH_EXAM_STATISTICS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "862b34f9-551a-41d7-8951-fb34732d6a18",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3fc43d3c-57b5-4353-a712-56bdbbc4a3ce",
+                                "id": "EXAM_ID",
+                                "name": "EXAM_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c1ad4b79-823a-4261-b518-1ff428db41da",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c496e913-bab1-42d8-8264-a47ba52f588e",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1496f4c1-cc60-4c53-9fa9-fd6f5a9ad13a",
+                                "id": "EXAMS_ATTEMPTED",
+                                "name": "EXAMS_ATTEMPTED",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bb53e590-1106-43a9-bd24-a024be65fb71",
+                                "id": "NUMBER_OF_QUESTIONS",
+                                "name": "NUMBER_OF_QUESTIONS",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cfddbb50-c45d-43b6-9f45-982d08665c8b",
+                                "id": "LOWEST_EXAM_SCORE",
+                                "name": "LOWEST_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9fee61c3-c548-4c98-a4ed-fd4ccfde4120",
+                                "id": "MEAN_EXAM_SCORE",
+                                "name": "MEAN_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a795b458-c7a7-4b1a-a073-f36c24b86a9c",
+                                "id": "HIGHEST_EXAM_SCORE",
+                                "name": "HIGHEST_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "393225ef-4b40-4726-be86-e598b715d5f4",
+                                "id": "STD_DEV_EXAM_SCORE",
+                                "name": "STD_DEV_EXAM_SCORE",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "94fd6c87-66ac-4951-9df0-b67930bc82cf",
+                                "id": "LOWEST_PCT_CORRECT",
+                                "name": "LOWEST_PCT_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e873fced-5d71-4fc7-b1b3-29827f421cff",
+                                "id": "MEAN_PCT_CORRECT",
+                                "name": "MEAN_PCT_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d03674bb-8b33-4aac-95fb-293be57370e6",
+                                "id": "HIGHEST_PCT_CORRECT",
+                                "name": "HIGHEST_PCT_CORRECT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:04:45.096Z",
+                                    "oid": "15851d9e-161d-40bc-9ff9-df59d9d718bd",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:04:45.097Z",
+                                        "oid": "557e45ea-d24e-40bf-ad89-daa8835d99c2",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "1380da17-c653-4cec-b768-e0f655e68e96",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
+                        "id": "USAGE_LESSON_TOPICS",
+                        "name": "USAGE_LESSON_TOPICS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "07e209df-026c-4275-9bbb-45f9452cb868",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4fdf8637-e60f-4faf-bdce-b5caf9e5555f",
+                                "id": "ACTIVITY_DATE",
+                                "name": "ACTIVITY_DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "56440429-6cf7-45ec-a9dc-9a7182143c0d",
+                                "id": "LESSON_CATEGORY_NAME",
+                                "name": "LESSON_CATEGORY_NAME",
+                                "type": 18,
+                                "size": 256,
+                                "precision": 256,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7cc87806-8350-43b1-96c0-84fca97fbb31",
+                                "id": "LESSON_CATEGORY_SORT_ORDER",
+                                "name": "LESSON_CATEGORY_SORT_ORDER",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "66500d13-aef9-488d-84fe-6a7e9913c5d0",
+                                "id": "LESSON_COUNT",
+                                "name": "LESSON_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "16279944-f396-4a09-a7a2-db916181ba91",
+                                "id": "LOW_CONFIDENCE",
+                                "name": "LOW_CONFIDENCE",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e2af1303-5569-4cb0-8c38-6a9b61224233",
+                                "id": "MEDIUM_CONFIDENCE",
+                                "name": "MEDIUM_CONFIDENCE",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d7ad6834-8c4c-41ea-a745-8ab8c4a50fd1",
+                                "id": "HIGH_CONFIDENCE",
+                                "name": "HIGH_CONFIDENCE",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:09:05.569Z",
+                                    "oid": "e7925ff6-7eaa-4434-abbe-00bfb9b2391e",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:09:05.569Z",
+                                        "oid": "023e4e95-ad69-45ff-8ed1-9864497e07f5",
+                                        "expression": "createdate(getyear([ACTIVITY_DATE]),getmonth([ACTIVITY_DATE]),getday([ACTIVITY_DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
+                        "id": "USAGE_PRODUCT_REVIEWS",
+                        "name": "USAGE_PRODUCT_REVIEWS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "43aff6f7-517c-46e3-832f-cfd042e2b0ea",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9c81be38-b8b3-4336-aae7-3447a762e777",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "72528422-fb44-44d9-b23e-bf29c915fd13",
+                                "id": "REVIEW_TEXT",
+                                "name": "REVIEW_TEXT",
+                                "type": 18,
+                                "size": 2000,
+                                "precision": 2000,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e5b8a234-1bc7-46bc-a8f5-7922be9811d4",
+                                "id": "REVIEW_SCORE",
+                                "name": "REVIEW_SCORE",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:03:08.787Z",
+                                    "oid": "84abf16d-7c0a-4446-a8d6-8e6ed439af87",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:03:08.787Z",
+                                        "oid": "272dff7a-3a39-4294-bd87-a63f381a5768",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "21d6eb23-3580-4825-9152-70adeaa58833",
+                        "id": "USAGE_USER_RETENTION",
+                        "name": "USAGE_USER_RETENTION",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "a68d80ee-4380-4760-b6ac-87baa8a4f4b7",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "251c392b-143d-4799-96e7-1ddc0d65bc04",
+                                "id": "MONTH_OF_FIRST_ACTIVITY",
+                                "name": "MONTH_OF_FIRST_ACTIVITY",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fda058ec-33ad-48be-be2c-5105c5f02e0b",
+                                "id": "0-1_count",
+                                "name": "0-1_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "380108ac-f76e-4972-ad1d-c12cd0085b98",
+                                "id": "1-2_count",
+                                "name": "1-2_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7309967d-5cfa-43cd-ba9b-4e2bf46f1c3c",
+                                "id": "2-3_count",
+                                "name": "2-3_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c60ed7f8-1502-4d92-bbea-45d397d850f7",
+                                "id": "3-4_count",
+                                "name": "3-4_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e4539a11-2def-4190-9c11-3d4f44e63dd7",
+                                "id": "4-5_count",
+                                "name": "4-5_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "60ef77ae-4225-47d4-8c4d-b98b4ceb9a20",
+                                "id": "5-6_count",
+                                "name": "5-6_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a047f624-d346-4993-b9f1-795d54c926be",
+                                "id": "6+_count",
+                                "name": "6+_count",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "21d6eb23-3580-4825-9152-70adeaa58833",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "2755ffff-0b76-4532-a739-123b5fc39347",
+                        "id": "USAGE_QUESTION_CATEGORY",
+                        "name": "USAGE_QUESTION_CATEGORY",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "43681d14-159b-4b85-8257-22b5694cdb11",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6e06c0b3-2d42-443e-a821-f480dde7b7a6",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e75e261e-c2e7-431f-8438-9cfca662cd6c",
+                                "id": "QUESTION_CATEGORY_ID",
+                                "name": "QUESTION_CATEGORY_ID",
+                                "type": 18,
+                                "size": 15,
+                                "precision": 15,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ca54e1a0-e4ab-4f94-ba4a-626323e9bf14",
+                                "id": "QUESTION_CATEGORY_NAME",
+                                "name": "QUESTION_CATEGORY_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0cd0430f-2aa7-47b7-9fa3-85aee671e65b",
+                                "id": "PRACTICE_QUESTION_COUNT",
+                                "name": "PRACTICE_QUESTION_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b85de622-536c-4b24-948d-df725e8bd144",
+                                "id": "EXAM_QUESTION_COUNT",
+                                "name": "EXAM_QUESTION_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f747046f-7ad9-4683-b8c2-9a8902db6802",
+                                "id": "PRACTICE_CORRECT_ANSWER_TOTAL",
+                                "name": "PRACTICE_CORRECT_ANSWER_TOTAL",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e555dc8c-1440-4899-bcc9-8a727bf83d31",
+                                "id": "PRACTICE_INCORRECT_ANSWER_TOTAL",
+                                "name": "PRACTICE_INCORRECT_ANSWER_TOTAL",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7d3ed227-0d82-4157-a9b2-e681092d016f",
+                                "id": "EXAM_CORRECT_ANSWER_TOTAL",
+                                "name": "EXAM_CORRECT_ANSWER_TOTAL",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1b51bf76-5bf2-4df0-bb6d-642f066cfa10",
+                                "id": "EXAM_INCORRECT_ANSWER_TOTAL",
+                                "name": "EXAM_INCORRECT_ANSWER_TOTAL",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:07:58.167Z",
+                                    "oid": "273b1e30-34de-4685-a823-faf655f70cdf",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:07:58.167Z",
+                                        "oid": "ee1ec5dd-6db3-47b7-a2de-f7c7b655b35f",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "2755ffff-0b76-4532-a739-123b5fc39347",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "41e32c69-92d4-4671-aac5-294dd72bb09b",
+                        "id": "USAGE_QUESTION_TAKEN",
+                        "name": "USAGE_QUESTION_TAKEN",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "a4308313-ccb2-4e5b-b05f-b3c2aaee19f7",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "74280bb0-5f2e-4600-92c2-2f3043a63e3b",
+                                "id": "QUESTION_ID",
+                                "name": "QUESTION_ID",
+                                "type": 18,
+                                "size": 15,
+                                "precision": 15,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b06fb711-ae1d-4f5c-9c39-dfde2387787e",
+                                "id": "QUESTION_CATEGORY_ID",
+                                "name": "QUESTION_CATEGORY_ID",
+                                "type": 18,
+                                "size": 15,
+                                "precision": 15,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d0a64023-516f-4340-9d7f-741f629ac144",
+                                "id": "EXAM_ID",
+                                "name": "EXAM_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6eca4ffa-20e2-47f7-8119-8cc12ad5a157",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "205c2838-c3f9-4629-a2bd-dfa112a55dac",
+                                "id": "QUESTION_CATEGORY_NAME",
+                                "name": "QUESTION_CATEGORY_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "f90d3dfc-ef73-47fb-8342-191de07a840d",
+                                "id": "CORRECT",
+                                "name": "CORRECT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4cfff82b-ceb5-4926-9e05-a98a2d509ec5",
+                                "id": "TOTAL_ANSWERED",
+                                "name": "TOTAL_ANSWERED",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "96d11722-9b9d-412f-b7c1-6b89fde09456",
+                                "id": "TIME_TAKEN_MINUTES",
+                                "name": "TIME_TAKEN_MINUTES",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "41e32c69-92d4-4671-aac5-294dd72bb09b",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "83b7f30d-a54e-4bdf-83e2-1aeff88b25b3",
+                        "id": "USAGE_LEARNERS_BY_MONTH_COURSE",
+                        "name": "USAGE_LEARNERS_BY_MONTH_COURSE",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "dc7fb2d8-d3a3-40e3-80ce-d78549c3ed90",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ff95f4a4-65d9-47b8-8bf5-7e32f3e1391b",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "94d44df2-0453-49b7-8520-7f8b9e6e811c",
+                                "id": "ACTIVE_USERS",
+                                "name": "ACTIVE_USERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c39bc4be-dc34-49f9-a09a-4e033de3e6ff",
+                                "id": "NEW_ENROLLMENTS",
+                                "name": "NEW_ENROLLMENTS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:05:21.160Z",
+                                    "oid": "4cb83061-bc54-4912-a386-fcedabbe4eba",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:05:21.160Z",
+                                        "oid": "5c5fac3a-ee06-4983-9761-1d5523255000",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "83b7f30d-a54e-4bdf-83e2-1aeff88b25b3",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "8a595be7-823c-46b7-a2e0-61388b1e6248",
+                        "id": "USAGE_SESSION_LIST",
+                        "name": "USAGE_SESSION_LIST",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "372d43ee-9f7e-437c-bff2-f82c702b8de0",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4d878c88-39b0-4979-8f40-ad5f2ff7d6da",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "55bd5a7f-1754-4e25-b531-35e683f6ac52",
+                                "id": "SESSION_USER",
+                                "name": "SESSION_USER",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3aeab960-0be3-4d19-bd4a-442dd3304cb1",
+                                "id": "USER_NAME",
+                                "name": "USER_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c7ae962f-2933-495b-82ea-cda0b512bbb1",
+                                "id": "USER_EMAIL",
+                                "name": "USER_EMAIL",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "077f0b86-5cde-46d9-bda4-7093ae34f615",
+                                "id": "SESSION_DURATION_SECONDS",
+                                "name": "SESSION_DURATION_SECONDS",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:08:21.796Z",
+                                    "oid": "07dff4ca-f526-40fb-8582-a7b67d6cb43a",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:08:21.796Z",
+                                        "oid": "eb4bec56-a899-4558-925e-ea12134a9b9b",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "8a595be7-823c-46b7-a2e0-61388b1e6248",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "8c3f2715-859d-4ad7-9aec-5c963c1e84a4",
+                        "id": "PSYCH_EXAM_STATUS",
+                        "name": "PSYCH_EXAM_STATUS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "d5adfbe3-4c20-4b05-8563-3d1a5ddbc313",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e8279b55-f104-43fb-a577-2cc2d29256e4",
+                                "id": "EXAM_NAME",
+                                "name": "EXAM_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b63ed91f-3e1e-4e98-96a3-a5316e312da6",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "bb7eaf3a-14e1-4a9e-a260-698eba78fecd",
+                                "id": "COMPLETION_STATUS",
+                                "name": "COMPLETION_STATUS",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b14686ed-58cc-4c73-8d18-55ef91ea62fb",
+                                "id": "RESET_STATUS",
+                                "name": "RESET_STATUS",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4f6aa83b-501a-47d9-8553-0797de81806a",
+                                "id": "EXAM_SCORE_GROUPING",
+                                "name": "EXAM_SCORE_GROUPING",
+                                "type": 18,
+                                "size": 7,
+                                "precision": 7,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4c348aff-fdc8-4bb4-aa5a-ea2bd6d7dfc6",
+                                "id": "EXAM_COUNT",
+                                "name": "EXAM_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "00de79b2-0b82-4265-95d7-eadac023d58c",
+                                "id": "CORRECT_ANSWERS_COUNT",
+                                "name": "CORRECT_ANSWERS_COUNT",
+                                "type": 40,
+                                "size": 1,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "279d527a-b83d-4884-b20b-0302da42cbaa",
+                                "id": "TOTAL_ANSWERS_COUNT",
+                                "name": "TOTAL_ANSWERS_COUNT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:06:08.573Z",
+                                    "oid": "d24016bd-5fe5-491b-9daf-73191f325d90",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:06:08.573Z",
+                                        "oid": "8f684dc5-2568-44a6-99a3-e402680bc085",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "8c3f2715-859d-4ad7-9aec-5c963c1e84a4",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "9bd826e5-6c68-4236-aadf-bdf9829c2420",
+                        "id": "USAGE_PSYCH_COURSE_TENANT",
+                        "name": "DIM_USAGE_PSYCH_COURSE_TENANT",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "2499f7e4-3df7-45fe-8d0e-294fbb3873fa",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3fb1cd69-3c9f-4484-a0d8-e334cb2c76bb",
+                                "id": "COURSE_NAME",
+                                "name": "COURSE_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c4e99a79-c902-4f61-ad76-eb4a80cdd929",
+                                "id": "COURSE",
+                                "name": "COURSE",
+                                "type": 18,
+                                "size": 1027,
+                                "precision": 1027,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7149f723-1865-4a2a-bb72-e3d2de6fe2d5",
+                                "id": "COURSE_ID_AS_INT",
+                                "name": "COURSE_ID_AS_INT",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "42a7984e-5dda-424e-9fdc-1c5392042ad3",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "9bd826e5-6c68-4236-aadf-bdf9829c2420",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "a3cd15c7-dff1-4f70-90ac-9f72d66bb747",
+                        "id": "USAGE_ENGAGEMENT_BY_DEVICE",
+                        "name": "USAGE_ENGAGEMENT_BY_DEVICE",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "47ce1837-9be4-4b3c-bfcd-cfaefd4c63e0",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "fee3b39b-dcd3-4376-97b0-3ce02625a3d5",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ef96943e-3b8f-4ce3-bcad-55666fcab96a",
+                                "id": "PLATFORM",
+                                "name": "PLATFORM",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cb2530c6-e498-4a95-8baf-080852c140c1",
+                                "id": "ACTIVITY_TYPE",
+                                "name": "ACTIVITY_TYPE",
+                                "type": 18,
+                                "size": 256,
+                                "precision": 256,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4fd9e048-66e7-43bc-9576-f617d98d2279",
+                                "id": "ACTIVITY_DURATION_SECONDS",
+                                "name": "ACTIVITY_DURATION_SECONDS",
+                                "type": 5,
+                                "size": 39,
+                                "precision": 38,
+                                "scale": 6,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "lastUpdated": "2023-02-09T18:27:58.629Z",
+                                    "id": "activity_type_description",
+                                    "name": "activity_type_description",
+                                    "type": 18,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "oid": "eba58c5a-9504-4260-808c-4c5000fe7bb0",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2024-04-04T20:23:38.431Z",
+                                        "oid": "42b9a2a2-ba3a-4005-92ad-8cf03bc2a08b",
+                                        "expression": "case \nwhen activity_type = 'essays_section' then 'Essays'\nwhen activity_type = 'simulations_section' then 'PBQs'\nwhen activity_type = 'score_reports_section' then 'Score Reports'\nwhen activity_type = 'game_center' then 'Game Center'\nwhen activity_type = 'live_classes' then 'Live Classes'\nwhen activity_type = 'achievements' then 'Achievements'\nwhen activity_type = 'inbox_section' then 'Messages'\nwhen activity_type = 'search' then 'Search'\nwhen activity_type = 'custom_quiz_section' then 'Custom Practice'\nwhen activity_type = 'quiz_section' then 'Practice'\nwhen activity_type = 'milestones_section' then 'Milestones'\nwhen activity_type = 'reading_section' then 'Lessons'\nwhen activity_type = 'flash_cards_section' then 'Flashcards' \nwhen activity_type = 'labs_section' then 'Labs'\nwhen activity_type = 'lti' then 'LTI'\nwhen activity_type = 'pages_section' then 'Home Page'\nwhen activity_type = 'exams_section' then 'Tests'\nwhen activity_type = 'study_plan_section' then 'Study Plan'\nwhen activity_type = 'resources' then 'Resources'\nwhen activity_type = 'discussions_section' then 'Discussions'\nwhen activity_type = 'scorm_section' then 'SCORM'\nend",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:06:33.919Z",
+                                    "oid": "b6da3c0c-71fb-4a8a-8978-e37181afc2d0",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:06:33.919Z",
+                                        "oid": "224e836f-ca64-4a53-abd4-9e942565a2d9",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "a3cd15c7-dff1-4f70-90ac-9f72d66bb747",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "b908555e-b616-4f0c-8a21-4da49c3b2d32",
+                        "id": "USAGE_SCORES_AND_CONFIDENCES",
+                        "name": "USAGE_SCORES_AND_CONFIDENCES",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "f427799d-ebb8-4c06-af1a-8bbd9f0d6e6f",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "786586dd-3701-493f-8271-e5578e2e0e47",
+                                "id": "QUESTION_CATEGORY",
+                                "name": "QUESTION_CATEGORY",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "70e3d24c-9d7e-4e83-bfb5-162baca4af3b",
+                                "id": "ANSWER_COUNT",
+                                "name": "ANSWER_COUNT",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0f5c606e-d878-4f85-8c26-ab5847cac931",
+                                "id": "CORRECT_COUNT",
+                                "name": "CORRECT_COUNT",
+                                "type": 0,
+                                "size": 25,
+                                "precision": 25,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7fb20854-fccb-4700-a43a-bbea598d7889",
+                                "id": "TOTAL_CONFIDENCE_COUNT",
+                                "name": "TOTAL_CONFIDENCE_COUNT",
+                                "type": 0,
+                                "size": 30,
+                                "precision": 30,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a1c033bd-7f16-45cd-814b-e61e86df179a",
+                                "id": "HIGH_CONFIDENCE_COUNT",
+                                "name": "HIGH_CONFIDENCE_COUNT",
+                                "type": 0,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6aa2e5df-d360-431e-bdec-37ca2d2cb7b0",
+                                "id": "MEDIUM_CONFIDENCE_COUNT",
+                                "name": "MEDIUM_CONFIDENCE_COUNT",
+                                "type": 0,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "5306c14f-42b9-468a-94a0-f4bf46253bac",
+                                "id": "LOW_CONFIDENCE_COUNT",
+                                "name": "LOW_CONFIDENCE_COUNT",
+                                "type": 0,
+                                "size": 26,
+                                "precision": 26,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "b908555e-b616-4f0c-8a21-4da49c3b2d32",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "df435871-cfef-48be-9d99-19aaed7c39f5",
+                        "id": "USAGE_FEATURE_SUMMARY",
+                        "name": "USAGE_FEATURE_SUMMARY",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "2ee70d4b-2c21-4611-bbda-346802cca27e",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 11,
+                                "precision": 11,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d7bb4962-e553-4c4e-bf70-831b31ed46d8",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b0e9bbb3-3ba9-468f-b0a6-1bd05c9a95d6",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2773b346-7d69-43f0-982d-22a8704f2986",
+                                "id": "HIGHLIGHT_USAGE",
+                                "name": "HIGHLIGHT_USAGE",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c4103e82-8683-49c7-9762-2a00cbcf7880",
+                                "id": "BOOKMARK_USAGE",
+                                "name": "BOOKMARK_USAGE",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c2b4f8d2-4a4e-4ed4-b87a-2198ad775345",
+                                "id": "NOTES_USAGE",
+                                "name": "NOTES_USAGE",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1811c215-ac3c-4a2b-a86e-0aee6d3a9e13",
+                                "id": "HIGH_CONFIDENCE_USAGE",
+                                "name": "HIGH_CONFIDENCE_USAGE",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "60875a6f-d9fc-4586-a0f0-c3be9b5b6828",
+                                "id": "MEDIUM_CONFIDENCE_USAGE",
+                                "name": "MEDIUM_CONFIDENCE_USAGE",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "20d573d6-4181-4b42-9cd2-23ffc1c00628",
+                                "id": "LOW_CONFIDENCE_USAGE",
+                                "name": "LOW_CONFIDENCE_USAGE",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:05:00.633Z",
+                                    "oid": "6fcfaf73-13df-4831-b5b9-a3be2a3eb486",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:05:00.633Z",
+                                        "oid": "cfb542b3-9aca-4eb3-8b47-92eb533ad5fa",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "df435871-cfef-48be-9d99-19aaed7c39f5",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e2637ec7-dd03-4081-a945-a5095cd21ac4",
+                        "id": "USAGE_QUESTIONS_ANSWERED",
+                        "name": "USAGE_QUESTIONS_ANSWERED",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "028fdd27-bce5-46ab-bdbf-aac189983d11",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "17c7aa48-07d9-4ac3-9e2c-e053f60bd8fb",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "10f653d2-bec1-4c38-a2f1-e5334fb6fd6b",
+                                "id": "DISTINCT_USERS",
+                                "name": "DISTINCT_USERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2ff87ff4-adb6-4843-b996-4cd78bebef39",
+                                "id": "PQS_ANSWERED",
+                                "name": "PQS_ANSWERED",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2b8a961e-67e1-4b93-8b34-083a1e773f70",
+                                "id": "EQS_ANSWERED",
+                                "name": "EQS_ANSWERED",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:02:11.807Z",
+                                    "oid": "489ed876-186f-4da6-a5aa-ab573ca95326",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:02:11.807Z",
+                                        "oid": "5656b82a-28aa-4825-b071-7f1ddb0a7e52",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "e2637ec7-dd03-4081-a945-a5095cd21ac4",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                        "id": "USAGE_NET_PROMOTER_SCORE",
+                        "name": "USAGE_NET_PROMOTER_SCORE",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "4c4fd1ee-2fec-4ae7-91a1-8afdf6518cf8",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 5,
+                                "precision": 5,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6a75180d-a201-4e13-aa95-6ff3a251a77d",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a772b3e3-e564-433e-ade6-23cfbeaf6673",
+                                "id": "SURVEYS_TAKEN",
+                                "name": "SURVEYS_TAKEN",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "71d548e3-e721-4229-b721-bf008fe2824f",
+                                "id": "PROMOTER_COUNT",
+                                "name": "PROMOTER_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1a86e2d7-52c5-4637-9a61-c35a94bdf097",
+                                "id": "PASSIVE_COUNT",
+                                "name": "PASSIVE_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "12464a83-3156-4b41-a2ba-755574e85792",
+                                "id": "DETRACTOR_COUNT",
+                                "name": "DETRACTOR_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "nps",
+                                    "name": "nps",
+                                    "type": 0,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-02-22T14:27:52.798Z",
+                                    "oid": "21efaa49-f025-4cf7-9252-0cd8fdd442ed",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-02-22T14:27:52.798Z",
+                                        "oid": "2ee88438-0606-4848-9e3b-ab51b491948a",
+                                        "expression": "([PROMOTER_COUNT]/[SURVEYS_TAKEN])-([DETRACTOR_COUNT]/[SURVEYS_TAKEN])",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            },
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:05:48.880Z",
+                                    "oid": "d22f559d-da56-4856-90a6-39c9ef86d58c",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:05:48.880Z",
+                                        "oid": "f4bf994a-ab08-4f1b-945e-e15bf90be91e",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "42967f8f-c22a-4b5e-8d70-7baa8ef44a35",
+                "id": "66213c0c30f5020038a210dc",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ2YVRGeDJuQ3l6OEdraUlJTDN1TUVKL0FwdCtEdmFtbVZrbVpuU3RCSTZjS1JtdGZyRytoeFg0a2JYa1RGeFNkWmRzMU4zZ2JVLzZDUXJ3cGduakorbjIxVWRmOExMKzFLdm5zeENyaVpNK1Qxd0VWSy8vS3VXakw1Z29HYm00QXlDY3EzYkZGeDhJUkNNUU1ZaXFISGhkNWg2RjJTT3NkQmw2bk5IbjU4WW0rLzVjeHpXWWNOR213S0xUdERESERJSXBMMFdKNytEK3RCNG5jd1oweS8zMEVBSVBCdm9HOWkxOXdUcWRUcm5sSEIrb2QxaEFsQmJZeWtZYVM5Q1J6QkVDRFpKZnBMdXpHUEhBMEx3YUQvVEpiSTFNbEtJZFNqdTQvb2p1RnJ2YmlDYTZBUE1rVFFtL0ptMDhwclJJQjJKUEZzUWVWTjFMSW5mOGkyRTRrbmpYeUVGT0Frd05QOTlhRnFWbEs0dlQ3VWtoT2FFQzI0ZE44d3hCelJkL0t1RjdSbFdvTDF1TDNsbnJaN2czWmdsU3V5cWZMeDRIcFBFcU02eHZRcWZPTWV0T0dKS1lFcFFqRUI1YUtGNGNpSmw1RjQvRDBGbytBb3VzR0tmbFVjMGY4OXJpN0EyOC8zK1NRdzVoVWZ0K1JNVm1sU1l4S3lxVG83VmRXSGMzZ3J5MWxQKy8zVVJkb3BSNm1vajhqVk5GaWxhd2tlNVRkc09Ia00rNkxrQm5TZ3IzbU8vYnBYRHlTNDBPUzdCRUdlY0poVmVZci83MkJtM2w2NG82WDdDdVlDbFVtZk1YRnFSYVE0TGphbmFUdktCVjBRTWtKVlFGRGx1SDYzYzkvSWs3Ryt5S29rQ0xHVis4dTh0ZVNsZklxSXloeFJsQ0NkTkkvdGQvT0NpQ25HbGpiRTltd1g2RlA3STlBTWJyWFMrQ0NTZUg0WjVweHVveDRibE12eGhnRnRKUEpIdzEwbmpPNWtHWTVqbHRjZkVXMzFZTVNxN3NzdnUvK0x6K2F2SXhVTk9iYTN3U2puV0VuK1NPcmY3UmtBQklpUXVaWTUrTGFnUUxqaUNVPSIsIm5vbmNlIjoiU1A4OXBMMmwvWmtXQmFmSnlodzdBZz09In0sImVuY3J5cHRpb25NZXRhZGF0YSI6eyJwcm92aWRlciI6IkxPQ0FMIiwia2V5SWQiOiIxMjMiLCJlbmNyeXB0aW9uVGltZSI6IjIwMjQtMDgtMTZUMTA6MzA6MzQuNzQ1OTU1MjE5WiJ9fQ==",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "2191eab2-d419-4072-999d-305daf6e26bd",
+            "fullname": "Excel:83d15659-1c94-4dc4-b0cd-4756df923e01",
+            "database": "",
+            "schemaName": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+            "type": "extract",
+            "name": "83d15659-1c94-4dc4-b0cd-4756df923e01",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
+                        "id": "DimDates",
+                        "name": "DimDates",
+                        "type": "base",
+                        "schemaName": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+                        "columns": [
+                            {
+                                "oid": "d2361383-0ece-4541-8c8d-c97ef6b7885d",
+                                "id": "DateNum",
+                                "name": "DateNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cd5270bb-9556-4680-897b-671b53dcbaa7",
+                                "id": "Date",
+                                "name": "Date",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1c59359e-2777-4afb-84b0-0f680ec239ca",
+                                "id": "YearMonthNum",
+                                "name": "YearMonthNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "513e0580-efcb-4dd3-9017-5b86216f4951",
+                                "id": "Calendar_Quarter",
+                                "name": "Calendar_Quarter",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6bef8002-5b4c-4456-98b4-49fd9711bc85",
+                                "id": "MonthNum",
+                                "name": "MonthNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "c73fe18f-bdc3-419d-b996-733c2609d8ac",
+                                "id": "MonthName",
+                                "name": "MonthName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "301eec3a-961d-4391-a20f-f7d3e75dd9e2",
+                                "id": "MonthShortName",
+                                "name": "MonthShortName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "118ed407-1385-4af9-9477-a3f786ea06e1",
+                                "id": "WeekNum",
+                                "name": "WeekNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6cc05160-145a-498f-8f32-b098c4ae0a02",
+                                "id": "DayNumOfYear",
+                                "name": "DayNumOfYear",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "1a3127f5-111f-4163-9f33-8442a408a05e",
+                                "id": "DayNumOfMonth",
+                                "name": "DayNumOfMonth",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0c55b1e5-e516-443a-9e4a-1444e81a6782",
+                                "id": "DayNumOfWeek",
+                                "name": "DayNumOfWeek",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4c71328c-ba50-41e3-9561-6b3b81a6ddd5",
+                                "id": "DayName",
+                                "name": "DayName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3934c59f-2f91-47da-a8bf-3f42d7b0251e",
+                                "id": "DayShortName",
+                                "name": "DayShortName",
+                                "type": 18,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "890e59c2-4771-43ad-8e8e-713d8820c891",
+                                "id": "Quarter",
+                                "name": "Quarter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "79a73ea9-3708-41fd-8d2d-e6bb40b6da7a",
+                                "id": "YearQuarterNum",
+                                "name": "YearQuarterNum",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "320e8038-fef9-4464-ad1d-196341e030f9",
+                                "id": "DayNumOfQuarter",
+                                "name": "DayNumOfQuarter",
+                                "type": 8,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
+                        "configOptions": {
+                            "fieldsInFirstRow": true,
+                            "culture": "en-US",
+                            "staticRange": "",
+                            "columnsDateTimePatterns": "{}"
+                        },
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "a0cb0725-eb0e-48e7-b444-4ad4d813411d",
+                "id": "6553b82807357d002dd323c4",
+                "provider": "Excel",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJCc1g5c1RUVFpINGdQaFhxMHhhb05hUDc1SjlMblpGcmxCTHJJSlBuSEhpVWRySFhqcjJCaTFTMEtxTENwQWt4eEpHQUV5TTBFUFlZblgveHpwKzJJZ1NZNklBZXVSak5tR0FxUVl5RUtjanlacmU1WkRkUUExZWtPT3FJZ09hUWJTcFdReGQrTWkrUUpqN2J3UzlWeHViZGZPY1JZaGkxMEV0R2c3QS90SlpVNktuUDNkRmFUdzdmVSsyWlZhb20iLCJub25jZSI6IkR3RFNqSUM5RDdnbGwrSEFaM1NXR2c9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTE2VDEwOjMwOjM0Ljc0NjIxMTE2NFoifX0=",
+                "schema": "/opt/sisense/storage/datasets/storage/63/634747da-7a24-4df5-89e7-9e1d658c6008.xlsx",
+                "fileName": null,
+                "protectedParameters": [],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "c526d13c-f260-4328-a0d6-404fc0a055bd",
+            "fullname": "SnowflakeJDBC:4e996ee6-be23-4758-8160-10761da14b64",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "4e996ee6-be23-4758-8160-10761da14b64",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "76754302-ce92-4073-b622-aadc9d35d73c",
+                "id": "6553b82907357d002dd323c6",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiIxTGg5TWx1Y3g4ckNQY2J4bnd4bjZXR09wdVBaK2RYL0ppaFl5eHBpdzJWV093YTdoVGdVem03RWtDZGVGcE5KMDhLT1B3VHFtenJxWU9lTy9maGpWQnl3NHdVcWVsYWY0WElqaVV0ZmhXZVJPTThBby9STFIwOW4wTWV2YXpwMDhSU2pYWllHWVJneG1mU3E0QURCYkxoUjA1OUk0aWF3SU5jbmsxcW9RV1BhM2czYTlyTUc3VnlIbS8xZExVM0lJYXdxVDNFZzVNS2dkNUxpVGdka0M2ZU5md0l1emtqZnJiMWVtdFZrZVFzTytiUVV2QTdCakRSdC9hSkRTUWxYK1hzSXJZdmNlQ2JaazRURytXWVdaQ1BXN1EvWCtpeDZZV011R3lPSDJKdml1aXlVakRlYmllU3ZCTFlVYWpEYjJra0NicFJZSGJuaGllVVBCdm9FL0JaZ1ZwbVJxamdQYmlkUjkyeDhXU0MzWlRURis0REh0MkdzekZkc2VVSjU5L1pXV0FCMEMrZ3dneDQ1Q0ZieDdEM2tGdXRQTURsUEY5TlhqWmM2SEdCSVpBamhBano2T1NUczNOUFNvRXlUdU5pTUlKdXo4QXNWR24wSW5GN2hJQmd2MXFFQW5VOCtlTGJFZFI1bHUvMDZtMjVCd0RjNFdlNjhRZzdGLy9wUW8xYy9MK084cTVCZzBqZkZmZXhaVVlHUzF4aWJPdGNIelkzL1A2WitUcDE1TWNLQWdDaDliSXV0YVBzdlVHczBjcmF6a25kYmIwZVBUb0RtUWM4cFZtaGRiekQvMjJQQ3laR1RFTFAySkNGUWNiTWdyOVBjZi80dXRpM1JyeGZ6ZVVySjFIYXpudGZjM3B6OXBncmhOUEhtbmRRbjh2MVMzOWxteG1pRHFnVzdvNXZRTkhDUnZGOTgyL3BzQ3hZaW5MNXdTaFNHRmRObHdIYnEzUlQ4bFdoSlR5MWpock1FSG93a3E4VnRnSDdIcksyZnVLVHFBUTVON2hZRHdkY0JENS9zalVMRU40ekpHTGF1aDUzZmJRPT0iLCJub25jZSI6Imlya0swQWxMODhlWWRIQ2ZIdG44U3c9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTE2VDEwOjMwOjM0Ljc0NjE3Njk2NFoifX0=",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "5a5bc866-ad07-434e-b30f-a57e8ba33a93",
+            "fullname": "SnowflakeJDBC:d814b8a0-9f6b-4ff0-a02f-acb57bd84d1e",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "d814b8a0-9f6b-4ff0-a02f-acb57bd84d1e",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "6fc72164-0d69-40e5-8c5f-27d8f3f8f1b0",
+                "id": "6553b82907357d002dd323c8",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJvdVRKY1ZEbjFaYWhvM2pydlM2ajdXT2FWZXUyaEJyQ2ZxV1JybnF3MEcrQXdxNERYZzZjdG1KdzU1cDFtdExaaCtPUXkwUGZOcTd6OUF2UDBpTExsYk9hOHM1VUdWaWF6enFzcDg4VTRvUlRmNkRKQWdJQmJzZ1NmMlI4MXU4L0szTWZXWi8xb1poSkxhU1BFRFIwZ2dJaW1naHI2bUtnMDFzOFRVd3ZWdWZJbGwvcnA3YUU0NEhOc0ppajJOWUZDeG5mRU1WcGlKWnRHVjh0Y3pwK2c2akF4UXhEblBianNkN0E4dVRlWVcydUQxemppa1dQMmw4S2V3QzJORWVmZTlJN0ZPeFRsdWFpcEd5a1pMdXliMXlsc3dhb21KODg1b0NhdjlQeGswdzJnT0dodm1jd3ljMUhBdmtYOVdZS0x4c0ljZVRMUDh0OVpSS3BQN3p6MnE5K0l4RTRtZlFabnFhazhNa2o3Sk5ZOFY4d08zVXRoRldOb2tnR3Z4b09PRnFwc3JJczRVcE1nK1Z1USs1cC9FTUVZaXVqN0xtNUw0M01aeEtHa3kwbk1DQUk2WUl0SEhYZGRyM3Jyb2lWTmowSHJQRXlJMDBWWmZiZ0gveW9CTkNxa2tPZmZIVEtVUmZwdnBhb2Y3ZG5nL2JGaVVPMWZrRmpZQ1IxWWZkRllyM0MxbmpDajg2ZkZjWkVqVEExNk9jUzRyV2xpZTZYTTl4amsySDZ5Z0dJekp6V2Q5WGs0L2ZMbE9Ed200R05CQTdnREY4Wk5vYUV5WVV4ajJvdURuSjh1UXVNOHVuc212TlhTMUd2VGIrSlpCYm9qQ2syTUJxRUlManFJRFZjR1ZCcWVLaEJNVElYUGw4dXV3a00wY0lkbEZ4WWJmVCtra2pQc0Z6R212K1FrUXYrT1ZUWHZCOVl5YVhjbUg2enUwVzZLK25Ua1hSdXRKcG5DRW1zdkhJOEFhWUxzWkdSd2ZadWRsNFhvKzFBQmhaaXRYYkNOYzkrSEpIQnZRMkVIbVF0M0kxT0kyYm5Xbk5BNGlJd0I4SEJwV0d3UFZYTExpdWRod1Yxa1l2ZXhlV0l3dWpoZkVrbDFRYkR5WTZwL25lb1hxY1RPOTYrYXBYV2xvdHNJZz09Iiwibm9uY2UiOiJXU0xrYVlCVURjRk4vQjUyczg3WGd3PT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NTA4NTUyNDlaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "7c9bf429-cbee-45af-a5ff-b3205d61c70e",
+            "fullname": "SnowflakeJDBC:f1a5cef2-fbee-46e7-bc4f-579b23ec6360",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "f1a5cef2-fbee-46e7-bc4f-579b23ec6360",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "b5c2488e-a1e4-40ce-aecc-fac6a23bf132",
+                "id": "6553b82907357d002dd323ca",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJSbG9Od2ptQmdoM1o0cGdzNmJ4SEJBMVJuWjZFNTlHVFBwTml3T3lEYWw5eUNOUk53N2ZPczZnU2FwelJvNFY4akswWUpYMXA5KzVzbldMSUF6YTVqUjVjMmpFT3p2TmVwWmJOdjd6QkRpWjBCTmJNU29vcDRicXVyNFBEYUxWelM0SEFoRFNtZzJHbllFOGcycUhuL2owaUtUd3lUNGI0dFpMeGdZV3p5d2puNWNSMENZRGNOb204eS9lbUx5dzBBS3V2TG8wNnYzWm94aXNnQlZBVXA5Qkt0YjdlTHdxNkQ1WnU2aXNJZTBRd2VVSFNFS3FZcUdJNmdsNVlFcHBiWUZPRjlwSFdhdVFTR3h1Q0RmZDZ3enlwbXlrUUtqWThFT2U3ZkhuVTJsNkZtUXpNMTh1SkxWVVVqZGE0eWpRUFhSNTdOeFRNS0tUL1VoYUszcnRvRyt1cXpPNmVKdnJpVXZvaFNUaHRNSkNLRjVUN3ZTZHE3RFJhWXEzbGg3eU96WFlvZzhKdHF1V1huK3FSNi9saUZiWVRZTGZBQmVzMytTaU9hQWRORVlkYzl6MGh4SjhsdjNRYXB6WDJJOFNmT3liVnNPa0w3ZVJSNnlPOXBPZW1jZXg0Sk8vYWJUSkRPbHV2T3NTSVZUVHEwZVdKMTNoOThlYzBxVWtXa2ZOUXd2cUVsSlowOEZGaS9UNW45RnhXYmdlT2x3VUhTb2kxdHd2S1NyZUJkVnRTOFdpQXo1TzJYS2lQcTFrRkhZMGQvOWN0bGtmblBDaE93U3ZUSjhYMHROWXZKOGUwbW9Nb2sxYmVGNEZHUHp4bzZRRXJzK1VxWmxkUmxzVktZSmdhWkpVL1VHTFA1TzJENU1kMWxpWmlpWm9pVzJIT2JlbkFsSFZua214dGdJeDgya1FJL3JBWlE1ZnUrSEpTQVVYaGl5UjY5ZGRjSUZuK0ZRUmdyM1MveVdJdVNjQnRGeUIxSFpscFFENU1oQ3poTlpidGhWK0FBd0FOUnJiOXV1dnkyOEJMeTJNZG5PcTN0QVoyRWhqcGl3PT0iLCJub25jZSI6InM5Y0xncnI4WVUxZ3FTZEQ0SXB4WVE9PSJ9LCJlbmNyeXB0aW9uTWV0YWRhdGEiOnsicHJvdmlkZXIiOiJMT0NBTCIsImtleUlkIjoiMTIzIiwiZW5jcnlwdGlvblRpbWUiOiIyMDI0LTA4LTE2VDEwOjMwOjM0Ljc1MDk2MjkyMloifX0=",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "e9a37281-a814-4ca0-908f-55cce85e4cdc",
+            "fullname": "SnowflakeJDBC:7d291067-427c-4bf7-9ba1-6cafa9deb0bd",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "7d291067-427c-4bf7-9ba1-6cafa9deb0bd",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "b7fc19bc-ab22-42ea-8f96-af33569abf8e",
+                "id": "6553b82907357d002dd323cc",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ0UTRMTXBWR0kzdGtzTzFzVnAvbnBXSUJaRUNOMVVwU2JjVlUzMSs0c3Vadlg5Y3ZlNXdnUEpIZEdGV3RTd3VKOEVSZVhvYnJaa1d6enFRSkpSa1VKWnpGL1ZKUG1hQ0lYZlg0LzgyNkhjSjlOcTgvR0J0Ly9MVFFNMTZvd3p5blM2Wlo0WDFKbDFCd3V5THRsWGprSmYxMVJGUjJCUm5tUElDV2NNZ0k2UndtT3RCQmk4SGJITFNjcS90bFAvaU1kZ3VkdjRSMUhrdE5TeUU0c0lOQ2Q0WmsyME9Ba29kNmdsS1JUekt0ZytIaDdZZjdCUFZlQ3RsMG1HMEl1V2M1WTJQRCtibzFaVGhNQ3M2Qm1HVTJRMTZ0aDhtR1JoWjZvWWJYb0hIU3RYbml4L0F2RjFyTk8vNjNoYXUyV0tkZjJWTU4wejlxNm5Cd2I5QVIrT1o2dnViUUM3OHlNMGxkMFdzTTJpN3RDNTJqOXhqNEY3REpzOWhobFkrMTlVUkxQRHhLdzdqL3duTkFyekpNbjlld25QSHNoaklqTndyMHU5c1pGeGdiQ3YzaE95RTFsRWExdENJVlByTTFMZXFkSFljNlFFelhrc1hXNW5hR1BLRHpIOFQwMzRlU3RCZXZDYS8yb2JIT1ZnbDZkQVQyRk1MZllOd21IT1QzYVJyalBjMzFoWjhaaUpiVjVRaTg4L1RsOW0wVlV6eUN4dnBzUms3azRub25tbm9nQWwvd0ZCZVZ6ZjU4VmN0azFiRDUyU2VSNDQ0dUlySUlhbm1SQ1J6eEdSVWZHdEtuaGlhQXJXdzhsT0FJWUlOTXdPb3VCOTJPZktVeElOSlR0VS9ZbHROUkloekxrTTUzdnVJYm1nVnlSRTZ0azh4dTByUU1PTk1CRElJQzAvOHVCRGJLU2dGRUxtcXVZTC9VUk9rcEE4Zk1rMlB2NWJVaWdXZEtyaVVzRFo2SXZuWE1raWtneXNZQ04zMHRhOERtblpibjk3MlE1amMzYnhTUnRteXQxWlVWK1FpU2xTdTAyRnIwT3UxbjBCNmczdDNzbU03dUNBeTFBcy96UXJuVDdmeW5tMU5nM0cwcVNYRHF0WXVtVHpjNHVtZEE3bm1MWVhzeC8yZGJmZz09Iiwibm9uY2UiOiJ0Vk5BQWFDYmdoazZoTHMrVlVhMEtnPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NTEwNzcwNTRaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "69f6a580-d59f-4493-80c7-0a80971e976b",
+            "fullname": "SnowflakeJDBC:5562fcd4-0438-4789-8e0d-97d552cf30fd",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "5562fcd4-0438-4789-8e0d-97d552cf30fd",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "7d549453-39fd-47ca-87e8-1566766ed7f1",
+                "id": "6553b82907357d002dd323ce",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ1Q0swK0hQUjBiZEk4bFlDQnBwR2V2WlQvcHBGczNxd2RWOThqOWtNenprazFybTJsQlByMDNQcVAvL2hhdllmMGlMVlgvWndJRDZSSytzYXFmL0pwL0ZidCtkWGlZcGQwR0pnYTBmSVJ4VWEzOUxzY2xIeFpCZDNwWG83ZllDMEpmK2UzOUZoZEZUMVkxK0ZMZEJ3TkpLdmFUdWcyZ3lqbmlSZlpuaE5hdExSQkpvVzZBUGtWVHFtQ0o0STJzc09ud3VUUXBmdE5wRDFQRlcvSnIzYmFsWnVNN0FPWDlTendyMnBhVGFtYnJ0MERGZzdQTTdTOUhhUWsrVkFjTWFSQ01UdUdhYUNwSUZ0NnNyajNvcGNpeVV6TUt6eUl4aDNhNU13OENRNDEvb3RldVRWR3M3a2pweU5CSjNNQjdRUE55dzBWV3U0ZXRpUDFqWGoraGpZblVpWjBQdnJTaDV3SHRaQ29XRzBLZGwwMnp4V2g3SjJwdjJDaWpvN0h0Z0QxODdtRkdqK0ladndnSVhYcW9YTjF0d0kxSk04cExHSjNzVGI4eTE4MStCRVZMV2JYajB6dVEzTlRyR29ZaE9PMk1SMTdhRzhHNXArT09pbG9QSG1CSVJsUkFOU3p3a0ppL2twajhUKytwaGg1YWhCeTVQMG9nZVJVMks5YUpGOHBHRGhqTEN5T3kxWERaMm0zVXlVa0RIWWFodmloMkFwbFIvRVZ1TzNTaHpmc01EVzB2K3FwZWp4ZW9KbE42VHRRdlJLdXJRQ04wRnYyYy9UM2ViZXpFdTNjZWcrSG5LbzY0VmMyRks4MmRaeW41WjRZSS9LNHNhZUxRSytxOWhhSTYxdmk4TlJQWGRRNytzTjJPWW1oK2NFeFc2aXQvcVN5emNwZXVRc0pXeEVpMS9uY1FoQW9ENldIMnVmT0NFK2NSRUpxUkpUbmRRSTJhc1ZnVWFna3FMb1BJVTRPVnlZbXVSU0pPZDEydGxGZGVjbUV2cXZxSERTcmcxMXdyaXFCbTNKQ0l1ZDRaRVhsNWZuMWlMbEQ4VzJzOThPbHB0WXRnT2hYdTJzSWY0OUhWRVpuM0FWbEFmRlI0S3U3QVZGRDV5RVBCNmN5eVRkMzZ5QkhibG9kUT09Iiwibm9uY2UiOiJWcTB1ZnpYZUhYUnBKb1pmNEU4bVBBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NTExNzAxMDZaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "a111868d-786a-4795-9627-164ad7915921",
+            "fullname": "SnowflakeJDBC:ce59d6ce-5905-4bf2-ad51-394c64d07759",
+            "database": "PC_FIVETRAN_DB",
+            "schemaName": "PG_WMX_API_APP_SWAP_PUBLIC",
+            "type": "extract",
+            "name": "ce59d6ce-5905-4bf2-ad51-394c64d07759",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": []
+            },
+            "connection": {
+                "oid": "81c4c34b-60b8-44b3-acb5-bb29cbfb2da2",
+                "id": "6553b82a07357d002dd323d0",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJ6WEx0K3pwVlJIQy9vWm5UcFMrY2ZJdDlqZEVVbjNlaE81YXkyNW1wbXNsUW5IWWlWNm14Y3craG1TTTJURi9nTWFLbmdwdStFK2czQnV4ZVhoaG9RVGF5SUYxcExrak9odW9qRmhHejFCN0pDY3pYV0k3WGF3aWJhQTVUSzllMllETURJNWlTY0pRcm4wbExkQXAxYVZOZXFwSmh4Q09yWGI1U0xtZnIxUDJVTzErcVZFbGFkTy9DWnZadStWS1lhekxUdlpuV1JPZkQxbzFxOTV4RzFiVWJTZ2RjNG5wZGlETm9GbVdJSTJuNysrVTRQTEU5bTVVM2lXZXRSVjFiUTNvVDI2dXg1Vk91Tmx6eGZsbUNydHdnSTZHVnlUSDlZYmtuczY0YkFVOXNrRlhETzhoY05nbUhlYkxZa2FjWHE3QWFsaVdmOE1UVFhJMkRocndNZlpMRS9taSs5bDA2ZVlDbmhwTWMxZVgrR0N5N1lTV21BT0QvZ0ZLeGd4c1l1a1duQ2NhbXliUWFwekxKMkhtNFlPTEhRYUJlaWVvblBCS2NZZEpPTWNqOXpmanRwd2ZVMFZWQnFlMnIwaGlkaUp3cVBkdW16Y0dsY1ppbWxwcFR1U2JQTWlUM2RnS3A0U2d1aGNMaFBqSDNHOGpVR1pHb2hiWmx2NTh5VWlzU1BFYWo5YUtMQ0pNOXp2djF4S2gzejQ1bWJQYUs3N2pvdHdxQWxaM3JpU0tWVHkycHNkQTVXUkFvOGovWjdlWnNVaEl3RnRWYVpNYTV1VlRhQktITVBURC9zWGJnT3pnbS85d253N1BEMUVlZG9XdTRHYnZBMmQ1b2ZwYmpSSGU5emZ0bytmQTJtVVdTTlF2RXFQVkRNcTRpUDhZNkRvTWVBUmkyYnBwUUJXN1V2M05FN2UycUFqbWRNaTlpWEF2ZUNEU2MrUkFBcjA4aHorSTF0REtEaVJoaUdyOGpKUWxESE15RWZVUjJRNW5SOUI2MjZsZy95akFhK0ZIMkxVa2o3NEdRWTFkcElBbit2MklLWVRyaENJVi80TmFud3pBTURKTVpNK2lZY2VuUElGRlZUVGdvUmJHYTVrVmZsbmhydXA2emRGcWEwSEcrWTVMUzFkcmN3Zz09Iiwibm9uY2UiOiI0dldrQmhZNUN3NXJZVVVDQTF0QU5BPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NTEzNzk2MzBaIn19",
+                "schema": "PG_WMX_API_APP_SWAP_PUBLIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": null,
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "74405707-2144-404b-83f1-0d357d30b244",
+            "fullname": "SnowflakeJDBC:618e930b-33de-43bd-ad39-952f791b2368",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "618e930b-33de-43bd-ad39-952f791b2368",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "0b2df946-0fe3-44be-bb50-c4811a821adb",
+                        "id": "USAGE_LICENSES",
+                        "name": "USAGE_LICENSES",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "6b215398-8781-442e-b6ca-2644ab5a8b44",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7e999bf8-31a3-4355-8378-b890bf3d767a",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 9,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3d64d6ec-11f9-4558-8071-a9a1bb814695",
+                                "id": "USER_NAME",
+                                "name": "USER_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "cb2588bd-6db4-4705-81dd-19b31aca7259",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e21a18b9-34e9-4250-b30a-ef6b3a3387a3",
+                                "id": "TOTAL_LICENSE_COUNT",
+                                "name": "TOTAL_LICENSE_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:16:11.744Z",
+                                    "oid": "8440b5be-e66e-42fb-9fbc-c683dd050d0c",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:16:11.744Z",
+                                        "oid": "3ab4fdac-dd1e-481b-9210-68f871317eae",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "0b2df946-0fe3-44be-bb50-c4811a821adb",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "6972f9a6-0a44-4c87-ab36-5082a2107ad3",
+                        "id": "CUBE_REFRESH",
+                        "name": "CUBE_REFRESH",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "b25fe782-6e86-4c91-9dd5-75da62721dab",
+                                "id": "LAST_REFRESHED_AT",
+                                "name": "LAST_REFRESHED_AT",
+                                "type": 43,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "6972f9a6-0a44-4c87-ab36-5082a2107ad3",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "e325346d-70fd-4045-acdc-aade200ab91a",
+                        "id": "USAGE_LEARNERS_BY_MONTH_AGGREGATE",
+                        "name": "USAGE_LEARNERS_BY_MONTH_AGGREGATE",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "ac8067b2-6716-4ed2-8a30-873335b71512",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 31,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "0a24a16c-2fb5-43b1-986f-e4262e60d137",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "044deac0-f026-4431-a40a-537a416a9d64",
+                                "id": "ACTIVE_USERS",
+                                "name": "ACTIVE_USERS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9e2cda98-aa11-41f6-a94f-1a7770235d15",
+                                "id": "NEW_ENROLLMENTS",
+                                "name": "NEW_ENROLLMENTS",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:15:57.672Z",
+                                    "oid": "c1d60d66-fea7-4ed1-8650-4f0270c1eab5",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:15:57.672Z",
+                                        "oid": "71f3a944-6fba-4a82-8e21-c159973087c8",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "e325346d-70fd-4045-acdc-aade200ab91a",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    },
+                    {
+                        "oid": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
+                        "id": "USAGE_LOGINS",
+                        "name": "USAGE_LOGINS",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "2fc0b827-3ab0-4870-9c01-95d0004a4737",
+                                "id": "TENANT_ID",
+                                "name": "TENANT_ID",
+                                "type": 0,
+                                "size": 38,
+                                "precision": 38,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "220d3bd2-c913-488d-9671-48894a85bb98",
+                                "id": "USER_ID",
+                                "name": "USER_ID",
+                                "type": 18,
+                                "size": 9,
+                                "precision": 9,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6610a5df-e057-4420-9993-567b5541ec9e",
+                                "id": "USER_NAME",
+                                "name": "USER_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "4f584948-8932-4b5d-b9ef-34e7a70a0bfe",
+                                "id": "DATE",
+                                "name": "DATE",
+                                "type": 4,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 9,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "3322e2ef-28a8-41f2-9b6a-dae1daacf4cf",
+                                "id": "TOTAL_LOGIN_COUNT",
+                                "name": "TOTAL_LOGIN_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [
+                            {
+                                "arguments": {
+                                    "id": "mdy_date",
+                                    "name": "mdy_date",
+                                    "type": 19,
+                                    "size": 0,
+                                    "scale": 0,
+                                    "precision": 0,
+                                    "lastUpdated": "2023-03-08T23:16:25.277Z",
+                                    "oid": "0fac7d94-6883-4cf9-9d97-6decf3ddf194",
+                                    "hidden": false,
+                                    "indexed": true,
+                                    "isUpsertBy": false,
+                                    "expression": {
+                                        "lastUpdated": "2023-03-08T23:16:25.277Z",
+                                        "oid": "5a727c1b-8ce0-4dbd-a4cb-e32b88c369bc",
+                                        "expression": "createdate(getyear([DATE]),getmonth([DATE]),getday([DATE]))",
+                                        "isDatabaseDialect": false
+                                    }
+                                },
+                                "type": "add-column"
+                            }
+                        ],
+                        "hidden": false,
+                        "vTag": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
+                        "configOptions": {},
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "d58929b5-3510-4e72-8691-0de11af10a3b",
+                "id": "66213c5e30f5020038a210df",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJoSU5JZTVMendCMno3RzZMNkhheDllZlRvMkM5UFRPNlo1TXY0TjE4ZGxpeVRVMmw0MTc3ZktWTmQ4ZlkwLzdiTVc0NHFvTlFnVDcvdEUwWVhmbTVyVmV2L1lSNTJuVmdMV2xSOEJnS0RwYXppNGJ1MTJZa2VaNDY2TG5rYzQ2TGx2MWdjb211bWtCdVpHR0I5eFgrUGhWeEZKcGhYandUVHNzU0daUDk2dmlKM29PK1lwNWRZbzFnVlNDdTFwdjZBdDhvb0pubEpHbXhzTkY1cmpjN2wrRW84ZTNPVTZKVU1CYVNNV1EzUW0yMVdjd1d5OEJtdWovZHc1aUpOT1ZQOHA4V3AvSHZvNXpJVWVjS0ZES2NDSzdPRys3L1NSUVJ5SW5MVkZuR2U1b0w2MFpnNm96SnYyNkdmUkpXMmVsblFWNkhCSUFGWTRjU0d4a09WbURVbWNxWkUyTks0T2hkYWFDRzVQQ1BpdSsxTGhVV1lBazI5cDdVRHM4QTNpb3RydmF5eDhZSmtRaHQybUlmMjZWL0oxSHZCTWt1Q1B4emlWejNCVzJSaXU0anBuS21vRGpSNXBJaDhJSGY2blBkbUNBeGhXdGs4MkZUTTVQTFFOK0hDZFFnbmxlSytCZ2tqWUMzMjNFQ2lPa3Qyc1FkbWd3b1M0OHFScjBKMVd6dFFRcUpJT1Z3S24zNEVkZTBmbXJhMGtKV0NsQ1VaRjkzeEtmYmlJTENZOCs5bkphb3VPTk8yejhXdjAvNmQ3dHRxS0hCd054dHM4WUptZFBackoxOG9ONktudkNPWWI3RnRxQ3lGN1lCTFNBZUtEcmE2SmJEVmxsM3Fkb0FRQkpOMXVQM0lqUm5YcUpseFVTMzk4dGw4U3N6cmJ3UWpxQ1YxcnRwdTZ4MXZ0eG8wbWR4VkNaMGJ4cDF4WW9yaEI2V3Jic2dmYU41VDFjQmVhbitBbzBGWURvVFN0RGQyQk9vZ1c2ZGVGc0QxR0E9Iiwibm9uY2UiOiJDeTZuOEtLbkZsRXpzSEdCYklJVDJRPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NTE0NjgyOTJaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        },
+        {
+            "oid": "6d231b48-2d9c-484f-8eb9-9f25774e494d",
+            "fullname": "SnowflakeJDBC:cec97e5c-c06b-4135-879f-fa643409eb37",
+            "database": "RAW_DATA_LANDING",
+            "schemaName": "UTILIZATION_PSYCHOMETRIC",
+            "type": "extract",
+            "name": "cec97e5c-c06b-4135-879f-fa643409eb37",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "3e7b48d9-c1b0-4e68-afeb-631224197de9",
+                        "id": "USAGE_CATEGORY_ANSWERS_CONFIDENCES",
+                        "name": "USAGE_CATEGORY_ANSWERS_CONFIDENCES",
+                        "type": "base",
+                        "schemaName": "UTILIZATION_PSYCHOMETRIC",
+                        "columns": [
+                            {
+                                "oid": "ba98b4b3-55c1-40ad-aa6e-b303cd32b1b8",
+                                "id": "COURSE_ID",
+                                "name": "COURSE_ID",
+                                "type": 18,
+                                "size": 10,
+                                "precision": 10,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "ef44902d-a502-4e1a-aaa9-19d108e18590",
+                                "id": "CATEGORY_NAME",
+                                "name": "CATEGORY_NAME",
+                                "type": 18,
+                                "size": 1020,
+                                "precision": 1020,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "2c07be86-6e98-43c9-8da8-347434bf14d4",
+                                "id": "EXAM_HIGH_COUNT",
+                                "name": "EXAM_HIGH_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "b018dfc2-ad2b-4bc5-a14c-b185b3cfc32d",
+                                "id": "EXAM_MEDIUM_COUNT",
+                                "name": "EXAM_MEDIUM_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d986d995-2eba-4e47-9eb7-f0adf2e0cbfb",
+                                "id": "EXAM_LOW_COUNT",
+                                "name": "EXAM_LOW_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6dc9539f-1647-4c7a-a1f3-cac1f16c5aae",
+                                "id": "PRACTICE_HIGH_COUNT",
+                                "name": "PRACTICE_HIGH_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9917d56f-7482-45e6-9c8e-fda19344874e",
+                                "id": "PRACTICE_MEDIUM_COUNT",
+                                "name": "PRACTICE_MEDIUM_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "9a079e14-239f-411c-81eb-3816d6846a25",
+                                "id": "PRACTICE_LOW_COUNT",
+                                "name": "PRACTICE_LOW_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "e8c4056d-c607-4c8b-9f25-c5046420e5cd",
+                                "id": "FLASHCARD_HIGH_COUNT",
+                                "name": "FLASHCARD_HIGH_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "efd62405-b174-49c9-bd33-846716bf3791",
+                                "id": "FLASHCARD_MEDIUM_COUNT",
+                                "name": "FLASHCARD_MEDIUM_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "7f59ddc1-5027-4136-a796-25c8e57c94bf",
+                                "id": "FLASHCARD_LOW_COUNT",
+                                "name": "FLASHCARD_LOW_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "6ddc1db8-99ff-4ac0-935f-10403c84dc7e",
+                                "id": "LESSON_HIGH_COUNT",
+                                "name": "LESSON_HIGH_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "214e6114-2417-413e-b613-e2cd25ddd827",
+                                "id": "LESSON_MEDIUM_COUNT",
+                                "name": "LESSON_MEDIUM_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "a80100f5-9601-41d9-98ae-519d127d5e0e",
+                                "id": "LESSON_LOW_COUNT",
+                                "name": "LESSON_LOW_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "aff3f47d-70a9-41cd-833f-d9341a2f73c7",
+                                "id": "EXAM_ANSWER_COUNT",
+                                "name": "EXAM_ANSWER_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "24acc389-b909-44d1-bc6c-43c314fb7530",
+                                "id": "EXAM_CORRECT_COUNT",
+                                "name": "EXAM_CORRECT_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d9cea16b-1c9d-415c-9fbd-fe5987f560ca",
+                                "id": "PRACTICE_ANSWER_COUNT",
+                                "name": "PRACTICE_ANSWER_COUNT",
+                                "type": 0,
+                                "size": 18,
+                                "precision": 18,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "feabb0e2-1252-479e-be10-e67226e0953d",
+                                "id": "PRACTICE_CORRECT_COUNT",
+                                "name": "PRACTICE_CORRECT_COUNT",
+                                "type": 0,
+                                "size": 13,
+                                "precision": 13,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "isUpsertBy": false,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "bf4359f3-9199-4171-bb41-d1274c78921d",
+                        "isMaterialized": false
+                    }
+                ]
+            },
+            "connection": {
+                "oid": "5f8ef855-a090-4990-96a3-289bbbeb829b",
+                "id": "663c2b1730f5020038a21119",
+                "provider": "SnowflakeJDBC",
+                "parameters": "eyJlbmNyeXB0ZWREYXRhIjp7ImNpcGhlcnRleHQiOiJqNDgvbTd6Mlk2MWd5dnVLMEZOcm5xbjhVdEF0MzBuNldaQWZFSENqeG1qV1hOMitVSSt6bjhqdGpFNTJTbmcreCtuUlRyNUd5clNBeTNLZTRYaHpZenpaUSswOG9OQkJvQnVYTkh4UERsRzJzbkRYNnlWckNGdXdmK09ndklkb1JKdXRjUHVpSk55NjdWUmJnZFR1bWVKQm1Zd01SbS9aMWZWM1p0TFRqK0xwelRaZ2NscnZtMUw3Ny91c2FRamZuRzdDZUFjbTBucCtIMHZReDVoWDZEWmlNdVVFVTNjcGRnRzk5YUdyT0Y4RWZWVlJjcDBUVFRBUWpYZUw4UGZrNDR3Z1l2S01NYXlKVytJb1FvWllUSDZHSktWOXZiMm0zZnBJTEg4Wjg0T0JOZjd2K3ExdkhnM2RPT2liSGNrdHNmZzJTVDlmTytPMXlyOGc3R0VVa0lKMTgrK1pkeFYwL2NiNVgwQ0trV3psd3VSTXJoVzhWVWRud3MrMlVoQTkvTHNPejZVSkszMEp3bld3dkQ5ZVBubTBHdVFTWk5FVGFIejdUV1pob0YrV0Q2WTdKQUxSL25qS3NhYndPclNuaUJEd3Fjc1BzdTF3cEh1Z1diNVFqa1dpRTZvTGs5SlZMMHErYUVYbGliM20zWlAzR1AyUFgycGl3cjlUK2dWME5QNURpTDhYampVYWtta0lkdFUzS0pDRDB6L1FsZWxoK2NMVFpqeVVQZ1ViZXRJUzF3cGErR1JnMWlDQi94amx3ckYrbjNBVG5uMjFqZzZCTWczZzc1MlV1TnlOY21hcVN4Vm5pME9uNGt5VHhIY0VYMVpLNkRpN1lIN3djOE00a3ZHSU1hclRpb2dYcHMrSEZwNDVheU9PQU1DclJ2bHJPL20xQ3ZyZDA1MFEwN2IvS3dCMzMrenhhV1oyZ1lMeWFkNmhiTmExa0JRdElKY1o5Nks5Q0o3K1BMaUVhNzFvZzErM0gyb0ZGTUE9Iiwibm9uY2UiOiJ1OGJsZW40K2NaRzNxSzg2Yi82cnFBPT0ifSwiZW5jcnlwdGlvbk1ldGFkYXRhIjp7InByb3ZpZGVyIjoiTE9DQUwiLCJrZXlJZCI6IjEyMyIsImVuY3J5cHRpb25UaW1lIjoiMjAyNC0wOC0xNlQxMDozMDozNC43NTE1MDI3NTNaIn19",
+                "schema": "UTILIZATION_PSYCHOMETRIC",
+                "fileName": null,
+                "protectedParameters": [
+                    "password"
+                ],
+                "uiParams": {
+                    "passwordAuth": true
+                },
+                "globalTableConfigOptions": null
+            },
+            "liveQuerySettings": null
+        }
+    ],
+    "modelsLayouts": {
+        "nodesPositions": [
+            {
+                "id": "6972f9a6-0a44-4c87-ab36-5082a2107ad3",
+                "x": -10.616050720214844,
+                "y": 7.878250598907471,
+                "fixed": true
+            },
+            {
+                "id": "9bd826e5-6c68-4236-aadf-bdf9829c2420",
+                "x": -6.984401702880859,
+                "y": -3.771073341369629,
+                "fixed": true
+            },
+            {
+                "id": "0da23f98-1ccc-4bb4-a2eb-072600ef7e0a",
+                "x": -1.0089266300201416,
+                "y": 9.247833251953125,
+                "fixed": true
+            },
+            {
+                "id": "1380da17-c653-4cec-b768-e0f655e68e96",
+                "x": 2.4672372341156006,
+                "y": -3.644566535949707,
+                "fixed": true
+            },
+            {
+                "id": "8c3f2715-859d-4ad7-9aec-5c963c1e84a4",
+                "x": 4.686845302581787,
+                "y": -2.1182823181152344,
+                "fixed": true
+            },
+            {
+                "id": "3e7b48d9-c1b0-4e68-afeb-631224197de9",
+                "x": -7.237644195556641,
+                "y": 6.915992259979248,
+                "fixed": true
+            },
+            {
+                "id": "a3cd15c7-dff1-4f70-90ac-9f72d66bb747",
+                "x": 5.169968605041504,
+                "y": 0.06848714500665665,
+                "fixed": true
+            },
+            {
+                "id": "df435871-cfef-48be-9d99-19aaed7c39f5",
+                "x": 6.5600152015686035,
+                "y": 2.102691411972046,
+                "fixed": true
+            },
+            {
+                "id": "e325346d-70fd-4045-acdc-aade200ab91a",
+                "x": 3.432854413986206,
+                "y": 6.12024450302124,
+                "fixed": true
+            },
+            {
+                "id": "83b7f30d-a54e-4bdf-83e2-1aeff88b25b3",
+                "x": 4.611440181732178,
+                "y": 3.92147159576416,
+                "fixed": true
+            },
+            {
+                "id": "1c3ec11f-169e-4b2e-96f1-a36524fefe29",
+                "x": -4.8970794677734375,
+                "y": 0.4997420310974121,
+                "fixed": false
+            },
+            {
+                "id": "0b2df946-0fe3-44be-bb50-c4811a821adb",
+                "x": 1.482973575592041,
+                "y": 6.577940464019775,
+                "fixed": true
+            },
+            {
+                "id": "f8caf70f-e9a3-4840-848b-c1d01d751fa0",
+                "x": -6.722776889801025,
+                "y": -0.06911442428827286,
+                "fixed": false
+            },
+            {
+                "id": "fc44f500-7f2d-461f-9c78-66e48ac37552",
+                "x": -4.268087387084961,
+                "y": 8.861181259155273,
+                "fixed": true
+            },
+            {
+                "id": "1ec47f5f-3e29-46c1-8603-0d739a179c0c",
+                "x": -7.176107883453369,
+                "y": 4.9964776039123535,
+                "fixed": true
+            },
+            {
+                "id": "2755ffff-0b76-4532-a739-123b5fc39347",
+                "x": -7.979470729827881,
+                "y": 2.8541758060455322,
+                "fixed": true
+            },
+            {
+                "id": "41e32c69-92d4-4671-aac5-294dd72bb09b",
+                "x": -2.8093438148498535,
+                "y": -3.5420360565185547,
+                "fixed": true
+            },
+            {
+                "id": "e2637ec7-dd03-4081-a945-a5095cd21ac4",
+                "x": -8.735383033752441,
+                "y": -2.0710065364837646,
+                "fixed": true
+            },
+            {
+                "id": "b908555e-b616-4f0c-8a21-4da49c3b2d32",
+                "x": -4.408021926879883,
+                "y": -4.509891510009766,
+                "fixed": true
+            },
+            {
+                "id": "8a595be7-823c-46b7-a2e0-61388b1e6248",
+                "x": -9.094888687133789,
+                "y": 0.5770382285118103,
+                "fixed": true
+            },
+            {
+                "id": "21d6eb23-3580-4825-9152-70adeaa58833",
+                "x": -1.1393089294433594,
+                "y": -3.1736459732055664,
+                "fixed": true
+            },
+            {
+                "id": "HiddenTablesPin",
+                "x": -15.25,
+                "y": 15.25,
+                "fixed": true
+            }
+        ]
+    },
+    "dependencies": {
+        "perspectives": [
+            {
+                "_id": "6553b82a07357d002dd323d2",
+                "oid": "598ce0a7-a968-4ca5-8eaa-a3c1fbf5f150",
+                "datamodelOid": "598ce0a7-a968-4ca5-8eaa-a3c1fbf5f150",
+                "description": "",
+                "tables": [],
+                "parentOid": null,
+                "name": "Default",
+                "isDefault": true,
+                "relationsTables": []
+            }
+        ]
+    }
+}
