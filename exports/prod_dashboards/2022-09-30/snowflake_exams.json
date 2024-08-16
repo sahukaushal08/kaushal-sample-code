@@ -1,0 +1,43 @@
+{
+    "title": "Snowflake Exams",
+    "oid": "60bf9319f05fe5002d8cd728",
+    "desc": "",
+    "source": null,
+    "type": "dashboard",
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#117899",
+                "#60B8CC",
+                "#5CA793",
+                "#A2B86C",
+                "#EBC844",
+                "#ECAA38",
+                "#EF8B2C",
+                "#F16C20",
+                "#D94E1F",
+                "#C02E1D",
+                "#893B32",
+                "#0D3C55",
+                "#0F5B78"
+            ],
+            "name": "Midnight Light",
+            "sortOrder": 30
+        }
+    },
+    "layout": {},
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:Snowflake Model",
+        "id": "live:Snowflake Model",
+        "live": true,
+        "title": "Snowflake Model"
+    },
+    "filters": [],
+    "editing": true,
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "widgets": []
+}

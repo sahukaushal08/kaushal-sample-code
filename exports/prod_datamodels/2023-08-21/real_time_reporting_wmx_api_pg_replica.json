@@ -1,0 +1,22 @@
+{
+    "_id": "64baaae8bc2eaf2829b693ff",
+    "oid": "7ad54367-c41f-4b1a-82b1-29ba04b5589b",
+    "title": "real time reporting WMX API PG replica",
+    "type": "live",
+    "relationType": "direct",
+    "server": "LocalHost",
+    "buildDestination": {
+        "destination": "live",
+        "database": null,
+        "schema": null
+    },
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "fiscal": "system",
+    "relations": [],
+    "datasets": [],
+    "dependencies": {}
+}
